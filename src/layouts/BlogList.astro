@@ -3,19 +3,18 @@ import type { CollectionEntry } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
-import { MIN_POSTS_FOR_BLOG_INDEX } from '../lib/site';
 
 interface Props {
+  /** <title> (SEO title, brand once, <= ~58 chars) */
   title: string;
+  /** Visible H1. Defaults to `title`; keep it descriptive (25+ chars). */
+  heading?: string;
   description: string;
   posts: CollectionEntry<'blog'>[];
   basePath?: string;
 }
 
-const { title, description, posts, basePath = '/blog/' } = Astro.props;
-
-// Keep the blog index out of search results until there are several real posts in this language.
-const noindex = posts.length < MIN_POSTS_FOR_BLOG_INDEX;
+const { title, heading = title, description, posts, basePath = '/blog/' } = Astro.props;
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
@@ -24,13 +23,14 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 });
 ---
 
-<BaseLayout title={title} description={description} noindex={noindex}>
+<!-- No noindex prop: blog index pages are indexable (index, follow) -->
+<BaseLayout title={title} description={description}>
   <Header slot="header" />
 
   <div class="mx-auto max-w-7xl px-6 py-20 md:py-32">
     <header class="mx-auto max-w-2xl text-center md:mb-20">
       <h1 class="font-display text-4xl font-extrabold tracking-tight text-[var(--text-primary)] md:text-5xl lg:text-6xl">
-        {title}
+        {heading}
       </h1>
       <p class="mt-6 text-lg text-[var(--text-secondary)] md:text-xl">{description}</p>
     </header>
