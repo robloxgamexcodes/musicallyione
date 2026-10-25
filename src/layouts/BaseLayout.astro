@@ -210,7 +210,15 @@ const bannerCopy = Object.fromEntries(
     <!-- Slot for page-specific head content (JSON-LD, hreflang, etc.) -->
     <slot name="head" />
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="tVY/t/nGwM/K1XPT1/pq6Q" async></script>
-    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN4NCSQ829"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WN4NCSQ829');
+</script>
   </head>
   <body class="min-h-screen overflow-x-hidden bg-[var(--bg)] text-[var(--text-primary)] antialiased transition-colors duration-200">
     <!-- Skip to main content (a11y) -->
