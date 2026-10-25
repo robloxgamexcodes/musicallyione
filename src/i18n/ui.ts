@@ -267,7 +267,7 @@ export const ui = {
 
     'about.contactTitle': 'Contact',
     'about.contactText':
-      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
+      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
 
     // ───────────── Privacy Page ─────────────
     'privacy.metaTitle': 'Privacy Policy – Musicaldown',
@@ -340,7 +340,7 @@ export const ui = {
 
     'privacy.s9.title': '9. Your rights',
     'privacy.s9.text':
-      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We may need to verify your identity first.',
+      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We may need to verify your identity first.',
 
     'privacy.s10.title': "10. Children's privacy",
     'privacy.s10.text':
@@ -414,7 +414,7 @@ export const ui = {
 
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
-      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
+      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
 
     'terms.s9.title': '9. Advertising and third-party links',
     'terms.s9.text':
@@ -446,7 +446,7 @@ export const ui = {
 
     'terms.s16.title': '16. Contact',
     'terms.s16.text':
-      'Questions about these Terms: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>.',
+      'Questions about these Terms: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>.',
 
     // Misc
     skipToContent: 'Skip to main content',
@@ -604,7 +604,7 @@ export const ui = {
       'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
     'about.contactTitle': 'Contact',
     'about.contactText':
-      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
+      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
     'privacy.metaTitle': 'Privacy Policy – Musicaldown',
     'privacy.metaDescription':
       'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
@@ -666,7 +666,7 @@ export const ui = {
       'Our providers may process data in countries other than your own, including the United States. Where required, we rely on appropriate safeguards for those transfers.',
     'privacy.s9.title': '9. Your rights',
     'privacy.s9.text':
-      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We may need to verify your identity first.',
+      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We may need to verify your identity first.',
     'privacy.s10.title': "10. Children's privacy",
     'privacy.s10.text':
       'The Site is not directed to children under 13 (or under 16 where local law requires). We do not knowingly collect personal information from children. If you believe a child has provided us data, contact us and we will delete it.',
@@ -725,7 +725,7 @@ export const ui = {
       "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
-      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
+      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
     'terms.s9.title': '9. Advertising and third-party links',
     'terms.s9.text':
       'The Site displays advertisements and may link to third-party websites. We are not responsible for third-party ads, sites, products or services, and your dealings with them are your own responsibility. Please be careful with downloads or offers that appear outside our tool.',
@@ -749,7 +749,7 @@ export const ui = {
       'These Terms are governed by the laws of the Islamic Republic of Pakistan, without regard to conflict-of-law rules. Disputes will be resolved in the courts of [city, jurisdiction], unless mandatory consumer law in your country says otherwise.',
     'terms.s16.title': '16. Contact',
     'terms.s16.text':
-      'Questions about these Terms: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>.',
+      'Questions about these Terms: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>.',
     'highlights.ariaLabel': 'Ventajas del servicio',
     'highlights.item1.title': 'En el navegador',
     'highlights.item1.text': 'Sin aplicación dedicada',
@@ -966,7 +966,7 @@ export const ui = {
       'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
     'about.contactTitle': 'Contact',
     'about.contactText':
-      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
+      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
     'privacy.metaTitle': 'Privacy Policy – Musicaldown',
     'privacy.metaDescription':
       'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
@@ -1028,7 +1028,7 @@ export const ui = {
       'Our providers may process data in countries other than your own, including the United States. Where required, we rely on appropriate safeguards for those transfers.',
     'privacy.s9.title': '9. Your rights',
     'privacy.s9.text':
-      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We may need to verify your identity first.',
+      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We may need to verify your identity first.',
     'privacy.s10.title': "10. Children's privacy",
     'privacy.s10.text':
       'The Site is not directed to children under 13 (or under 16 where local law requires). We do not knowingly collect personal information from children. If you believe a child has provided us data, contact us and we will delete it.',
@@ -1087,7 +1087,7 @@ export const ui = {
       "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
-      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
+      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
     'terms.s9.title': '9. Advertising and third-party links',
     'terms.s9.text':
       'The Site displays advertisements and may link to third-party websites. We are not responsible for third-party ads, sites, products or services, and your dealings with them are your own responsibility. Please be careful with downloads or offers that appear outside our tool.',
@@ -1111,7 +1111,7 @@ export const ui = {
       'These Terms are governed by the laws of the Islamic Republic of Pakistan, without regard to conflict-of-law rules. Disputes will be resolved in the courts of [city, jurisdiction], unless mandatory consumer law in your country says otherwise.',
     'terms.s16.title': '16. Contact',
     'terms.s16.text':
-      'Questions about these Terms: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>.',
+      'Questions about these Terms: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>.',
     'highlights.ariaLabel': 'Keunggulan layanan',
     'highlights.item1.title': 'Berbasis browser',
     'highlights.item1.text': 'Tanpa aplikasi khusus',
@@ -1328,7 +1328,7 @@ export const ui = {
       'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
     'about.contactTitle': 'Contact',
     'about.contactText':
-      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
+      'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
     'privacy.metaTitle': 'Privacy Policy – Musicaldown',
     'privacy.metaDescription':
       'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
@@ -1390,7 +1390,7 @@ export const ui = {
       'Our providers may process data in countries other than your own, including the United States. Where required, we rely on appropriate safeguards for those transfers.',
     'privacy.s9.title': '9. Your rights',
     'privacy.s9.text':
-      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>. We may need to verify your identity first.',
+      'Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data, to object to processing, to withdraw consent and to complain to your local data protection authority. California residents may also have the right to know what is collected and to opt out of the “sale” or “sharing” of personal information for cross-context advertising. To make a request, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We may need to verify your identity first.',
     'privacy.s10.title': "10. Children's privacy",
     'privacy.s10.text':
       'The Site is not directed to children under 13 (or under 16 where local law requires). We do not knowingly collect personal information from children. If you believe a child has provided us data, contact us and we will delete it.',
@@ -1449,7 +1449,7 @@ export const ui = {
       "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
-      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
+      'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
     'terms.s9.title': '9. Advertising and third-party links',
     'terms.s9.text':
       'The Site displays advertisements and may link to third-party websites. We are not responsible for third-party ads, sites, products or services, and your dealings with them are your own responsibility. Please be careful with downloads or offers that appear outside our tool.',
@@ -1473,7 +1473,7 @@ export const ui = {
       'These Terms are governed by the laws of the Islamic Republic of Pakistan, without regard to conflict-of-law rules. Disputes will be resolved in the courts of [city, jurisdiction], unless mandatory consumer law in your country says otherwise.',
     'terms.s16.title': '16. Contact',
     'terms.s16.text':
-      'Questions about these Terms: <a href="mailto:support@Musicaldown.se">support@Musicaldown.se</a>.',
+      'Questions about these Terms: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>.',
     'highlights.ariaLabel': 'Điểm nổi bật của dịch vụ',
     'highlights.item1.title': 'Dùng trên trình duyệt',
     'highlights.item1.text': 'Không cần ứng dụng riêng',
@@ -1620,7 +1620,6 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
     intro: [
       'An online TikTok story viewer and downloader gets around all three annoyances from an ordinary browser tab. You paste a story link, the public story loads, and you either watch it there or save it as an MP4, JPG or PNG file. There’s no app to install, no login and no fee.',
       'A TikTok story disappears after 24 hours, and the app gives you very little control over what happens in that window. You can watch it, but only inside TikTok. If you’re logged in, the creator may see your name on the viewer list. And if you hit save, the clip comes out with a TikTok logo and a username stamped across it.',
-      
     ],
     tocTitle: 'In this guide',
     sections: [
@@ -1628,13 +1627,15 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'what-is',
         title: 'What Is a TikTok Story Viewer and Downloader?',
         blocks: [
-          p('It’s a web tool that fetches a public TikTok story and lets you watch or save it outside the app. It only reads what any visitor could already see on a public account, which is also why it can’t open private profiles.'),
+          p(
+            'It’s a web tool that fetches a public TikTok story and lets you watch or save it outside the app. It only reads what any visitor could already see on a public account, which is also why it can’t open private profiles.'
+          ),
           p('People look for one for a handful of very ordinary reasons:'),
           ul(
             'Stories expire after 24 hours, so anything worth keeping has to be saved quickly.',
             'Watching inside the app while signed in can put your name on the creator’s viewer list.',
             'TikTok’s own save option adds a logo and a username to the video.',
-            'Plenty of people don’t have a TikTok account, or don’t want one just to look at a story.',
+            'Plenty of people don’t have a TikTok account, or don’t want one just to look at a story.'
           ),
           p('MusicallyDown was built around exactly those problems.'),
         ],
@@ -1645,9 +1646,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           p('The whole process takes under a minute, and it’s the same on every device.'),
           steps(
-            ['Copy the story link.', 'In TikTok, open the story and copy its link. Make sure the account is public and that you copy the story itself, not a regular video.'],
-            ['Paste it and press Download.', 'Paste the link into the box at the top of this page and submit. Wait a few seconds. If nothing appears, see the troubleshooting section below.'],
-            ['Watch or save.', 'Play the story in your browser, or use the download button. Videos arrive as MP4 and photos as JPG or PNG, and you can pick the no-watermark option.'],
+            [
+              'Copy the story link.',
+              'In TikTok, open the story and copy its link. Make sure the account is public and that you copy the story itself, not a regular video.',
+            ],
+            [
+              'Paste it and press Download.',
+              'Paste the link into the box at the top of this page and submit. Wait a few seconds. If nothing appears, see the troubleshooting section below.',
+            ],
+            [
+              'Watch or save.',
+              'Play the story in your browser, or use the download button. Videos arrive as MP4 and photos as JPG or PNG, and you can pick the no-watermark option.',
+            ]
           ),
         ],
       },
@@ -1656,15 +1666,25 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         title: 'Why Use an Online TikTok Story Viewer and Downloader?',
         blocks: [
           h3('View TikTok stories anonymously'),
-          p('TikTok can show a creator who has watched their story, so watching while logged in may put your name on that list. This tool loads public story content outside the TikTok app, so your own account isn’t used to view it and shouldn’t appear as a viewer. You can also check TikTok’s own [support center](https://support.tiktok.com) for its current rules on story views.'),
+          p(
+            'TikTok can show a creator who has watched their story, so watching while logged in may put your name on that list. This tool loads public story content outside the TikTok app, so your own account isn’t used to view it and shouldn’t appear as a viewer. You can also check TikTok’s own [support center](https://support.tiktok.com) for its current rules on story views.'
+          ),
           h3('Download TikTok stories without a watermark'),
-          p('The in-app save button burns the TikTok logo and the creator’s username into the file. This tool fetches the story file from the source instead, so when you choose the no-watermark option, nothing is added on top.'),
+          p(
+            'The in-app save button burns the TikTok logo and the creator’s username into the file. This tool fetches the story file from the source instead, so when you choose the no-watermark option, nothing is added on top.'
+          ),
           h3('Save stories in HD, in their original quality'),
-          p('The tool aims to hand over the file without extra compression or re-encoding. The result still depends on the upload: a story shot in HD saves in HD, while a low-resolution one can’t be improved after the fact.'),
+          p(
+            'The tool aims to hand over the file without extra compression or re-encoding. The result still depends on the upload: a story shot in HD saves in HD, while a low-resolution one can’t be improved after the fact.'
+          ),
           h3('Use it online, with no account and no installation'),
-          p('A TikTok story viewer online needs nothing but a browser. Open the site, paste a link, and start. It works on Android, iPhone, Windows, Mac and tablets.'),
+          p(
+            'A TikTok story viewer online needs nothing but a browser. Open the site, paste a link, and start. It works on Android, iPhone, Windows, Mac and tablets.'
+          ),
           h3('Searches stay private'),
-          p('Check the [privacy policy](/privacy) for exactly what is and isn’t logged. As with any online tool, read it yourself before relying on it.'),
+          p(
+            'Check the [privacy policy](/privacy) for exactly what is and isn’t logged. As with any online tool, read it yourself before relying on it.'
+          ),
         ],
       },
       {
@@ -1675,7 +1695,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
             'Watch any public TikTok story in your browser, no sign-in needed.',
             'Save stories you like before the 24-hour clock runs out.',
             'Back up your own stories as standard MP4 files.',
-            'Check a creator’s stories without opening TikTok.',
+            'Check a creator’s stories without opening TikTok.'
           ),
         ],
       },
@@ -1685,9 +1705,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           cards(
             3,
-            ['Creators & social managers', 'Keep an eye on what rivals, brands and influencers in your niche are posting, without your own account showing up as a viewer.'],
-            ['Marketers & brand teams', 'Track public accounts for competitor analysis or campaign research without a spare TikTok account just for that job.'],
-            ['Everyday viewers', 'Spot a tutorial, product drop or post from a favourite creator and save it in seconds, long before it expires.'],
+            [
+              'Creators & social managers',
+              'Keep an eye on what rivals, brands and influencers in your niche are posting, without your own account showing up as a viewer.',
+            ],
+            [
+              'Marketers & brand teams',
+              'Track public accounts for competitor analysis or campaign research without a spare TikTok account just for that job.',
+            ],
+            [
+              'Everyday viewers',
+              'Spot a tutorial, product drop or post from a favourite creator and save it in seconds, long before it expires.',
+            ]
           ),
         ],
       },
@@ -1695,31 +1724,69 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'devices',
         title: 'TikTok Story Viewer and Downloader for iPhone, Android, PC and Mac',
         blocks: [
-          p('A browser is all you need. There’s no APK to hunt down, no extension to add and no app to keep updated.'),
+          p(
+            'A browser is all you need. There’s no APK to hunt down, no extension to add and no app to keep updated.'
+          ),
           cards(
             2,
-            ['iPhone', 'Open the site in Safari, paste the story link, and it loads on the page. Saved files usually land in the Files app or your Downloads list, depending on your iOS version and browser settings.'],
-            ['Android', 'Use Chrome, Firefox or whichever browser you already have. No APK and no side-loading. After downloading, look in your browser’s Downloads section or your file manager.'],
-            ['PC (Windows)', 'Open the site in Chrome or Edge. Viewing and downloading happen on the same page, and files go to your Downloads folder unless you’ve chosen another location.'],
-            ['Mac', 'Safari and Chrome both work. Paste the link, open the story and save it straight to your Mac. The process is identical to Windows.'],
+            [
+              'iPhone',
+              'Open the site in Safari, paste the story link, and it loads on the page. Saved files usually land in the Files app or your Downloads list, depending on your iOS version and browser settings.',
+            ],
+            [
+              'Android',
+              'Use Chrome, Firefox or whichever browser you already have. No APK and no side-loading. After downloading, look in your browser’s Downloads section or your file manager.',
+            ],
+            [
+              'PC (Windows)',
+              'Open the site in Chrome or Edge. Viewing and downloading happen on the same page, and files go to your Downloads folder unless you’ve chosen another location.',
+            ],
+            [
+              'Mac',
+              'Safari and Chrome both work. Paste the link, open the story and save it straight to your Mac. The process is identical to Windows.',
+            ]
           ),
-          p('Whatever the device, you need an internet connection to fetch a story; downloaded files can then be opened offline in any media or image app.'),
+          p(
+            'Whatever the device, you need an internet connection to fetch a story; downloaded files can then be opened offline in any media or image app.'
+          ),
         ],
       },
       {
         id: 'troubleshooting',
         title: 'TikTok Story Not Loading? Troubleshooting',
         blocks: [
-          p('No downloader is magic. If a result comes back empty or a download fails, work through these causes in order:'),
-          ol(
-            ['The link is wrong.', 'Check for missing characters. Copying it straight from the app is the safest fix.'],
-            ['The account is private.', 'Only public stories are reachable. No tool can legitimately get around TikTok’s private-account restrictions.'],
-            ['The story has expired.', 'Stories vanish after 24 hours, and once one is gone it can’t be fetched.'],
-            ['You pasted the wrong kind of link.', 'A regular TikTok video URL isn’t a story link and may not be recognised. Copy the link to the story itself.'],
-            ['The connection is unstable.', 'Refresh the page, check your internet, wait a moment and try again.'],
-            ['The browser blocked the download.', 'Check your browser’s download permissions and your Downloads folder. Don’t disable security protections or install unknown files to force a download.'],
+          p(
+            'No downloader is magic. If a result comes back empty or a download fails, work through these causes in order:'
           ),
-          p('If it still fails, try a different browser, or confirm the story is still visible on the original profile.'),
+          ol(
+            [
+              'The link is wrong.',
+              'Check for missing characters. Copying it straight from the app is the safest fix.',
+            ],
+            [
+              'The account is private.',
+              'Only public stories are reachable. No tool can legitimately get around TikTok’s private-account restrictions.',
+            ],
+            [
+              'The story has expired.',
+              'Stories vanish after 24 hours, and once one is gone it can’t be fetched.',
+            ],
+            [
+              'You pasted the wrong kind of link.',
+              'A regular TikTok video URL isn’t a story link and may not be recognised. Copy the link to the story itself.',
+            ],
+            [
+              'The connection is unstable.',
+              'Refresh the page, check your internet, wait a moment and try again.',
+            ],
+            [
+              'The browser blocked the download.',
+              'Check your browser’s download permissions and your Downloads folder. Don’t disable security protections or install unknown files to force a download.',
+            ]
+          ),
+          p(
+            'If it still fails, try a different browser, or confirm the story is still visible on the original profile.'
+          ),
         ],
       },
       {
@@ -1729,31 +1796,76 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
           ul(
             '**Private accounts stay private.** Public stories only.',
             '**Quality is capped by the upload.** The tool doesn’t upscale anything.',
-            '**Availability can change.** The tool depends on TikTok, so results can vary if TikTok changes how stories are served.',
+            '**Availability can change.** The tool depends on TikTok, so results can vary if TikTok changes how stories are served.'
           ),
-          callout('Stories belong to the people who made them. Saving a clip for personal reference, a backup of your own posts or competitor research is one thing; reposting someone else’s content without asking is another. Never enter your TikTok password or verification codes into any downloader, and avoid suspicious pop-ups or unexpected downloads. Read the [terms of service](/terms), and keep in mind that this site isn’t affiliated with TikTok or ByteDance.'),
+          callout(
+            'Stories belong to the people who made them. Saving a clip for personal reference, a backup of your own posts or competitor research is one thing; reposting someone else’s content without asking is another. Never enter your TikTok password or verification codes into any downloader, and avoid suspicious pop-ups or unexpected downloads. Read the [terms of service](/terms), and keep in mind that this site isn’t affiliated with TikTok or ByteDance.'
+          ),
         ],
       },
     ],
     faqTitle: 'Frequently Asked Questions',
     faq: [
-      { question: 'Will the account owner know I viewed their story?', answer: 'No, it shouldn’t. The tool reads public story content outside the TikTok app, so your account isn’t used to view the story and shouldn’t appear on the creator’s viewer list.' },
-      { question: 'Can I download TikTok stories without a watermark?', answer: 'Yes. The story file is fetched at the source rather than through TikTok’s save button, so no logo is added when you choose the no-watermark option. A watermark-free file still doesn’t give you the right to repost it.' },
-      { question: 'What file formats do the downloads use?', answer: 'Video stories save as MP4, which plays on practically any phone, tablet or computer. Photo stories save as JPG or PNG, depending on the original.' },
-      { question: 'Can I view stories from a private account?', answer: 'No. Private accounts share content with approved followers only, and this tool works with public accounts alone.' },
-      { question: 'Do I need a TikTok account?', answer: 'No. Paste a story link and it loads without any login.' },
-      { question: 'Is it free?', answer: 'Yes, it’s free with no sign-up. Check the site for any changes.' },
-      { question: 'Why is nothing loading after I paste a link?', answer: 'Most often the link is wrong, the account is private, or the story has expired. The troubleshooting section above lists every common cause.' },
-      { question: 'Does it work on mobile browsers?', answer: 'Yes. It runs in any standard browser on Android and iPhone and behaves the same as on a laptop or desktop.' },
-      { question: 'Can I save someone else’s TikTok story?', answer: 'Technically you may be able to, but being able to and being allowed to are different things. Keep saved clips for personal reference, and ask the creator before reposting or using their content elsewhere.' },
-      { question: 'Can I download my own TikTok stories?', answer: 'Yes, as long as the story is still live and public. For anything important, also keep the original files or use the save options in your own TikTok account, rather than relying on a single third-party site as your only backup.' },
-      { question: 'Is it safe to use an online TikTok story downloader?', answer: 'It’s safe when you use common sense. Never share passwords or codes, read the privacy policy, and ignore any prompt to install an app or extension. No online service can promise perfect anonymity, so stick to public content.' },
+      {
+        question: 'Will the account owner know I viewed their story?',
+        answer:
+          'No, it shouldn’t. The tool reads public story content outside the TikTok app, so your account isn’t used to view the story and shouldn’t appear on the creator’s viewer list.',
+      },
+      {
+        question: 'Can I download TikTok stories without a watermark?',
+        answer:
+          'Yes. The story file is fetched at the source rather than through TikTok’s save button, so no logo is added when you choose the no-watermark option. A watermark-free file still doesn’t give you the right to repost it.',
+      },
+      {
+        question: 'What file formats do the downloads use?',
+        answer:
+          'Video stories save as MP4, which plays on practically any phone, tablet or computer. Photo stories save as JPG or PNG, depending on the original.',
+      },
+      {
+        question: 'Can I view stories from a private account?',
+        answer:
+          'No. Private accounts share content with approved followers only, and this tool works with public accounts alone.',
+      },
+      {
+        question: 'Do I need a TikTok account?',
+        answer: 'No. Paste a story link and it loads without any login.',
+      },
+      {
+        question: 'Is it free?',
+        answer: 'Yes, it’s free with no sign-up. Check the site for any changes.',
+      },
+      {
+        question: 'Why is nothing loading after I paste a link?',
+        answer:
+          'Most often the link is wrong, the account is private, or the story has expired. The troubleshooting section above lists every common cause.',
+      },
+      {
+        question: 'Does it work on mobile browsers?',
+        answer:
+          'Yes. It runs in any standard browser on Android and iPhone and behaves the same as on a laptop or desktop.',
+      },
+      {
+        question: 'Can I save someone else’s TikTok story?',
+        answer:
+          'Technically you may be able to, but being able to and being allowed to are different things. Keep saved clips for personal reference, and ask the creator before reposting or using their content elsewhere.',
+      },
+      {
+        question: 'Can I download my own TikTok stories?',
+        answer:
+          'Yes, as long as the story is still live and public. For anything important, also keep the original files or use the save options in your own TikTok account, rather than relying on a single third-party site as your only backup.',
+      },
+      {
+        question: 'Is it safe to use an online TikTok story downloader?',
+        answer:
+          'It’s safe when you use common sense. Never share passwords or codes, read the privacy policy, and ignore any prompt to install an app or extension. No online service can promise perfect anonymity, so stick to public content.',
+      },
     ],
     finalTitle: 'Final Thoughts',
     finalText:
       'Stories are built to be temporary, but your need to watch or keep them often isn’t. A browser-based viewer and downloader lets you check public stories without logging in, keeps your account off the viewer list, and saves clean files without a logo on top. Just remember its limits: public accounts only, and quality that depends on the original upload.',
     ctaLabel: 'Paste a story link and try it',
-    moreText: 'Need more than stories? Try the [TikTok video downloader](/) or [TikTok to MP3](/tiktok-mp3).',
+    moreText:
+      'Need more than stories? Try the [TikTok video downloader](/) or [TikTok to MP3](/tiktok-mp3).',
   },
 
   /* ------------------------------------------------------------------ ES */
@@ -1777,13 +1889,15 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'que-es',
         title: '¿Qué es un visor y descargador de historias de TikTok?',
         blocks: [
-          p('Es una herramienta web que obtiene una historia pública de TikTok y te permite verla o guardarla fuera de la app. Solo lee lo que cualquier visitante ya podría ver en una cuenta pública, y por eso no puede abrir perfiles privados.'),
+          p(
+            'Es una herramienta web que obtiene una historia pública de TikTok y te permite verla o guardarla fuera de la app. Solo lee lo que cualquier visitante ya podría ver en una cuenta pública, y por eso no puede abrir perfiles privados.'
+          ),
           p('La gente la busca por motivos muy corrientes:'),
           ul(
             'Las historias caducan a las 24 horas, así que lo que merece la pena conservar hay que guardarlo rápido.',
             'Verlas dentro de la app con la sesión iniciada puede poner tu nombre en la lista de espectadores del creador.',
             'La opción de guardar de TikTok añade un logo y un nombre de usuario al vídeo.',
-            'Mucha gente no tiene cuenta de TikTok, o no quiere crear una solo para ver una historia.',
+            'Mucha gente no tiene cuenta de TikTok, o no quiere crear una solo para ver una historia.'
           ),
           p('MusicallyDown nació precisamente para resolver esos problemas.'),
         ],
@@ -1794,9 +1908,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           p('Todo el proceso lleva menos de un minuto y es igual en cualquier dispositivo.'),
           steps(
-            ['Copia el enlace de la historia.', 'En TikTok, abre la historia y copia su enlace. Comprueba que la cuenta sea pública y que copias la historia en sí, no un vídeo normal.'],
-            ['Pégalo y pulsa Descargar.', 'Pega el enlace en el cuadro de la parte superior de esta página y envíalo. Espera unos segundos. Si no aparece nada, consulta la sección de solución de problemas.'],
-            ['Mírala o guárdala.', 'Reproduce la historia en el navegador o usa el botón de descarga. Los vídeos llegan como MP4 y las fotos como JPG o PNG, y puedes elegir la opción sin marca de agua.'],
+            [
+              'Copia el enlace de la historia.',
+              'En TikTok, abre la historia y copia su enlace. Comprueba que la cuenta sea pública y que copias la historia en sí, no un vídeo normal.',
+            ],
+            [
+              'Pégalo y pulsa Descargar.',
+              'Pega el enlace en el cuadro de la parte superior de esta página y envíalo. Espera unos segundos. Si no aparece nada, consulta la sección de solución de problemas.',
+            ],
+            [
+              'Mírala o guárdala.',
+              'Reproduce la historia en el navegador o usa el botón de descarga. Los vídeos llegan como MP4 y las fotos como JPG o PNG, y puedes elegir la opción sin marca de agua.',
+            ]
           ),
         ],
       },
@@ -1805,15 +1928,25 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         title: '¿Por qué usar un visor y descargador de historias de TikTok online?',
         blocks: [
           h3('Ver historias de TikTok de forma anónima'),
-          p('TikTok puede mostrar al creador quién ha visto su historia, así que verla con la sesión iniciada puede poner tu nombre en esa lista. Esta herramienta carga el contenido público fuera de la app de TikTok, por lo que tu cuenta no se usa para verlo y no debería aparecer como espectador. También puedes consultar el [centro de ayuda](https://support.tiktok.com) de TikTok para ver sus normas actuales sobre las visualizaciones de historias.'),
+          p(
+            'TikTok puede mostrar al creador quién ha visto su historia, así que verla con la sesión iniciada puede poner tu nombre en esa lista. Esta herramienta carga el contenido público fuera de la app de TikTok, por lo que tu cuenta no se usa para verlo y no debería aparecer como espectador. También puedes consultar el [centro de ayuda](https://support.tiktok.com) de TikTok para ver sus normas actuales sobre las visualizaciones de historias.'
+          ),
           h3('Descargar historias de TikTok sin marca de agua'),
-          p('El botón de guardar de la app incrusta el logo de TikTok y el nombre del creador en el archivo. Esta herramienta obtiene el archivo de la historia desde el origen, así que al elegir la opción sin marca de agua no se añade nada encima.'),
+          p(
+            'El botón de guardar de la app incrusta el logo de TikTok y el nombre del creador en el archivo. Esta herramienta obtiene el archivo de la historia desde el origen, así que al elegir la opción sin marca de agua no se añade nada encima.'
+          ),
           h3('Guardar historias en HD y en su calidad original'),
-          p('La herramienta intenta entregar el archivo sin compresión ni recodificación adicionales. El resultado depende igualmente de la subida: una historia grabada en HD se guarda en HD, y una de baja resolución no se puede mejorar después.'),
+          p(
+            'La herramienta intenta entregar el archivo sin compresión ni recodificación adicionales. El resultado depende igualmente de la subida: una historia grabada en HD se guarda en HD, y una de baja resolución no se puede mejorar después.'
+          ),
           h3('Úsalo online, sin cuenta y sin instalar nada'),
-          p('Un visor de historias de TikTok online solo necesita un navegador. Abre el sitio, pega un enlace y empieza. Funciona en Android, iPhone, Windows, Mac y tabletas.'),
+          p(
+            'Un visor de historias de TikTok online solo necesita un navegador. Abre el sitio, pega un enlace y empieza. Funciona en Android, iPhone, Windows, Mac y tabletas.'
+          ),
           h3('Tus búsquedas siguen siendo privadas'),
-          p('Consulta la [política de privacidad](/privacy) para saber exactamente qué se registra y qué no. Como con cualquier herramienta online, léela tú mismo antes de fiarte.'),
+          p(
+            'Consulta la [política de privacidad](/privacy) para saber exactamente qué se registra y qué no. Como con cualquier herramienta online, léela tú mismo antes de fiarte.'
+          ),
         ],
       },
       {
@@ -1824,7 +1957,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
             'Ver cualquier historia pública de TikTok en el navegador, sin iniciar sesión.',
             'Guardar las historias que te gusten antes de que se acabe el plazo de 24 horas.',
             'Hacer copia de tus propias historias como archivos MP4 estándar.',
-            'Consultar las historias de un creador sin abrir TikTok.',
+            'Consultar las historias de un creador sin abrir TikTok.'
           ),
         ],
       },
@@ -1834,9 +1967,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           cards(
             3,
-            ['Creadores y community managers', 'Siguen lo que publican competidores, marcas e influencers de su nicho sin que su propia cuenta aparezca como espectador.'],
-            ['Marketing y equipos de marca', 'Vigilan cuentas públicas para analizar a la competencia o investigar campañas sin necesitar una cuenta de TikTok de repuesto.'],
-            ['Usuarios habituales', 'Ven un tutorial, un lanzamiento de producto o una publicación de su creador favorito y lo guardan en segundos, mucho antes de que caduque.'],
+            [
+              'Creadores y community managers',
+              'Siguen lo que publican competidores, marcas e influencers de su nicho sin que su propia cuenta aparezca como espectador.',
+            ],
+            [
+              'Marketing y equipos de marca',
+              'Vigilan cuentas públicas para analizar a la competencia o investigar campañas sin necesitar una cuenta de TikTok de repuesto.',
+            ],
+            [
+              'Usuarios habituales',
+              'Ven un tutorial, un lanzamiento de producto o una publicación de su creador favorito y lo guardan en segundos, mucho antes de que caduque.',
+            ]
           ),
         ],
       },
@@ -1844,31 +1986,69 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'dispositivos',
         title: 'Visor y descargador de historias de TikTok para iPhone, Android, PC y Mac',
         blocks: [
-          p('Solo necesitas un navegador. No hay que buscar ningún APK, ni añadir extensiones, ni mantener una app actualizada.'),
+          p(
+            'Solo necesitas un navegador. No hay que buscar ningún APK, ni añadir extensiones, ni mantener una app actualizada.'
+          ),
           cards(
             2,
-            ['iPhone', 'Abre el sitio en Safari, pega el enlace de la historia y se carga en la página. Los archivos guardados suelen ir a la app Archivos o a la lista de descargas, según tu versión de iOS y los ajustes del navegador.'],
-            ['Android', 'Usa Chrome, Firefox o el navegador que ya tengas. Sin APK ni instalaciones externas. Tras descargar, mira en la sección de descargas del navegador o en tu gestor de archivos.'],
-            ['PC (Windows)', 'Abre el sitio en Chrome o Edge. Ver y descargar se hace en la misma página, y los archivos van a la carpeta Descargas salvo que elijas otra ubicación.'],
-            ['Mac', 'Safari y Chrome funcionan bien. Pega el enlace, abre la historia y guárdala directamente en tu Mac. El proceso es idéntico al de Windows.'],
+            [
+              'iPhone',
+              'Abre el sitio en Safari, pega el enlace de la historia y se carga en la página. Los archivos guardados suelen ir a la app Archivos o a la lista de descargas, según tu versión de iOS y los ajustes del navegador.',
+            ],
+            [
+              'Android',
+              'Usa Chrome, Firefox o el navegador que ya tengas. Sin APK ni instalaciones externas. Tras descargar, mira en la sección de descargas del navegador o en tu gestor de archivos.',
+            ],
+            [
+              'PC (Windows)',
+              'Abre el sitio en Chrome o Edge. Ver y descargar se hace en la misma página, y los archivos van a la carpeta Descargas salvo que elijas otra ubicación.',
+            ],
+            [
+              'Mac',
+              'Safari y Chrome funcionan bien. Pega el enlace, abre la historia y guárdala directamente en tu Mac. El proceso es idéntico al de Windows.',
+            ]
           ),
-          p('Sea cual sea el dispositivo, necesitas conexión a internet para obtener una historia; después, los archivos descargados se pueden abrir sin conexión en cualquier app de vídeo o imagen.'),
+          p(
+            'Sea cual sea el dispositivo, necesitas conexión a internet para obtener una historia; después, los archivos descargados se pueden abrir sin conexión en cualquier app de vídeo o imagen.'
+          ),
         ],
       },
       {
         id: 'solucion-de-problemas',
         title: '¿La historia de TikTok no carga? Solución de problemas',
         blocks: [
-          p('Ningún descargador hace magia. Si el resultado sale vacío o falla la descarga, repasa estas causas en orden:'),
-          ol(
-            ['El enlace es incorrecto.', 'Comprueba que no falten caracteres. Copiarlo directamente desde la app es la solución más segura.'],
-            ['La cuenta es privada.', 'Solo se puede acceder a historias públicas. Ninguna herramienta puede saltarse legítimamente las restricciones de las cuentas privadas de TikTok.'],
-            ['La historia ha caducado.', 'Las historias desaparecen a las 24 horas y, una vez eliminadas, no se pueden obtener.'],
-            ['Has pegado el tipo de enlace equivocado.', 'La URL de un vídeo normal de TikTok no es un enlace de historia y puede que no se reconozca. Copia el enlace de la propia historia.'],
-            ['La conexión es inestable.', 'Actualiza la página, revisa tu conexión a internet, espera un momento y vuelve a intentarlo.'],
-            ['El navegador bloqueó la descarga.', 'Revisa los permisos de descarga del navegador y tu carpeta de Descargas. No desactives protecciones de seguridad ni instales archivos desconocidos para forzar una descarga.'],
+          p(
+            'Ningún descargador hace magia. Si el resultado sale vacío o falla la descarga, repasa estas causas en orden:'
           ),
-          p('Si sigue fallando, prueba con otro navegador o confirma que la historia sigue visible en el perfil original.'),
+          ol(
+            [
+              'El enlace es incorrecto.',
+              'Comprueba que no falten caracteres. Copiarlo directamente desde la app es la solución más segura.',
+            ],
+            [
+              'La cuenta es privada.',
+              'Solo se puede acceder a historias públicas. Ninguna herramienta puede saltarse legítimamente las restricciones de las cuentas privadas de TikTok.',
+            ],
+            [
+              'La historia ha caducado.',
+              'Las historias desaparecen a las 24 horas y, una vez eliminadas, no se pueden obtener.',
+            ],
+            [
+              'Has pegado el tipo de enlace equivocado.',
+              'La URL de un vídeo normal de TikTok no es un enlace de historia y puede que no se reconozca. Copia el enlace de la propia historia.',
+            ],
+            [
+              'La conexión es inestable.',
+              'Actualiza la página, revisa tu conexión a internet, espera un momento y vuelve a intentarlo.',
+            ],
+            [
+              'El navegador bloqueó la descarga.',
+              'Revisa los permisos de descarga del navegador y tu carpeta de Descargas. No desactives protecciones de seguridad ni instales archivos desconocidos para forzar una descarga.',
+            ]
+          ),
+          p(
+            'Si sigue fallando, prueba con otro navegador o confirma que la historia sigue visible en el perfil original.'
+          ),
         ],
       },
       {
@@ -1878,31 +2058,76 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
           ul(
             '**Las cuentas privadas siguen siendo privadas.** Solo historias públicas.',
             '**La calidad depende de la subida.** La herramienta no aumenta la resolución de nada.',
-            '**La disponibilidad puede cambiar.** La herramienta depende de TikTok, así que los resultados pueden variar si TikTok cambia la forma de servir las historias.',
+            '**La disponibilidad puede cambiar.** La herramienta depende de TikTok, así que los resultados pueden variar si TikTok cambia la forma de servir las historias.'
           ),
-          callout('Las historias pertenecen a quienes las crearon. Guardar un clip como referencia personal, como copia de tus propias publicaciones o para investigar a la competencia es una cosa; volver a publicar contenido ajeno sin permiso es otra. Nunca introduzcas tu contraseña de TikTok ni códigos de verificación en ningún descargador, y evita ventanas emergentes sospechosas o descargas inesperadas. Lee las [condiciones del servicio](/terms) y ten en cuenta que este sitio no está afiliado a TikTok ni a ByteDance.'),
+          callout(
+            'Las historias pertenecen a quienes las crearon. Guardar un clip como referencia personal, como copia de tus propias publicaciones o para investigar a la competencia es una cosa; volver a publicar contenido ajeno sin permiso es otra. Nunca introduzcas tu contraseña de TikTok ni códigos de verificación en ningún descargador, y evita ventanas emergentes sospechosas o descargas inesperadas. Lee las [condiciones del servicio](/terms) y ten en cuenta que este sitio no está afiliado a TikTok ni a ByteDance.'
+          ),
         ],
       },
     ],
     faqTitle: 'Preguntas frecuentes',
     faq: [
-      { question: '¿Sabrá el dueño de la cuenta que he visto su historia?', answer: 'No, no debería. La herramienta lee el contenido público fuera de la app de TikTok, así que tu cuenta no se usa para ver la historia y no debería aparecer en la lista de espectadores del creador.' },
-      { question: '¿Puedo descargar historias de TikTok sin marca de agua?', answer: 'Sí. El archivo de la historia se obtiene en el origen y no mediante el botón de guardar de TikTok, así que no se añade ningún logo al elegir la opción sin marca de agua. Un archivo sin marca de agua tampoco te da derecho a volver a publicarlo.' },
-      { question: '¿Qué formatos de archivo usan las descargas?', answer: 'Las historias en vídeo se guardan como MP4, que se reproduce en prácticamente cualquier móvil, tableta u ordenador. Las historias de foto se guardan como JPG o PNG, según el original.' },
-      { question: '¿Puedo ver historias de una cuenta privada?', answer: 'No. Las cuentas privadas comparten su contenido solo con seguidores aprobados, y esta herramienta funciona únicamente con cuentas públicas.' },
-      { question: '¿Necesito una cuenta de TikTok?', answer: 'No. Pega el enlace de una historia y se carga sin iniciar sesión.' },
-      { question: '¿Es gratis?', answer: 'Sí, es gratis y sin registro. Consulta el sitio por si hubiera cambios.' },
-      { question: '¿Por qué no carga nada después de pegar un enlace?', answer: 'Lo más habitual es que el enlace sea incorrecto, la cuenta sea privada o la historia haya caducado. La sección de solución de problemas de arriba recoge todas las causas habituales.' },
-      { question: '¿Funciona en navegadores móviles?', answer: 'Sí. Funciona en cualquier navegador estándar de Android e iPhone y se comporta igual que en un portátil o un ordenador de sobremesa.' },
-      { question: '¿Puedo guardar la historia de TikTok de otra persona?', answer: 'Técnicamente quizá puedas, pero poder y tener permiso son cosas distintas. Usa los clips guardados como referencia personal y pregunta al creador antes de volver a publicar o usar su contenido en otro sitio.' },
-      { question: '¿Puedo descargar mis propias historias de TikTok?', answer: 'Sí, siempre que la historia siga activa y sea pública. Para lo importante, conserva también los archivos originales o usa las opciones de guardado de tu propia cuenta de TikTok, en lugar de depender de un único sitio de terceros como copia de seguridad.' },
-      { question: '¿Es seguro usar un descargador de historias de TikTok online?', answer: 'Lo es si usas el sentido común. No compartas contraseñas ni códigos, lee la política de privacidad e ignora cualquier petición de instalar una app o extensión. Ningún servicio online puede prometer un anonimato perfecto, así que limítate a contenido público.' },
+      {
+        question: '¿Sabrá el dueño de la cuenta que he visto su historia?',
+        answer:
+          'No, no debería. La herramienta lee el contenido público fuera de la app de TikTok, así que tu cuenta no se usa para ver la historia y no debería aparecer en la lista de espectadores del creador.',
+      },
+      {
+        question: '¿Puedo descargar historias de TikTok sin marca de agua?',
+        answer:
+          'Sí. El archivo de la historia se obtiene en el origen y no mediante el botón de guardar de TikTok, así que no se añade ningún logo al elegir la opción sin marca de agua. Un archivo sin marca de agua tampoco te da derecho a volver a publicarlo.',
+      },
+      {
+        question: '¿Qué formatos de archivo usan las descargas?',
+        answer:
+          'Las historias en vídeo se guardan como MP4, que se reproduce en prácticamente cualquier móvil, tableta u ordenador. Las historias de foto se guardan como JPG o PNG, según el original.',
+      },
+      {
+        question: '¿Puedo ver historias de una cuenta privada?',
+        answer:
+          'No. Las cuentas privadas comparten su contenido solo con seguidores aprobados, y esta herramienta funciona únicamente con cuentas públicas.',
+      },
+      {
+        question: '¿Necesito una cuenta de TikTok?',
+        answer: 'No. Pega el enlace de una historia y se carga sin iniciar sesión.',
+      },
+      {
+        question: '¿Es gratis?',
+        answer: 'Sí, es gratis y sin registro. Consulta el sitio por si hubiera cambios.',
+      },
+      {
+        question: '¿Por qué no carga nada después de pegar un enlace?',
+        answer:
+          'Lo más habitual es que el enlace sea incorrecto, la cuenta sea privada o la historia haya caducado. La sección de solución de problemas de arriba recoge todas las causas habituales.',
+      },
+      {
+        question: '¿Funciona en navegadores móviles?',
+        answer:
+          'Sí. Funciona en cualquier navegador estándar de Android e iPhone y se comporta igual que en un portátil o un ordenador de sobremesa.',
+      },
+      {
+        question: '¿Puedo guardar la historia de TikTok de otra persona?',
+        answer:
+          'Técnicamente quizá puedas, pero poder y tener permiso son cosas distintas. Usa los clips guardados como referencia personal y pregunta al creador antes de volver a publicar o usar su contenido en otro sitio.',
+      },
+      {
+        question: '¿Puedo descargar mis propias historias de TikTok?',
+        answer:
+          'Sí, siempre que la historia siga activa y sea pública. Para lo importante, conserva también los archivos originales o usa las opciones de guardado de tu propia cuenta de TikTok, en lugar de depender de un único sitio de terceros como copia de seguridad.',
+      },
+      {
+        question: '¿Es seguro usar un descargador de historias de TikTok online?',
+        answer:
+          'Lo es si usas el sentido común. No compartas contraseñas ni códigos, lee la política de privacidad e ignora cualquier petición de instalar una app o extensión. Ningún servicio online puede prometer un anonimato perfecto, así que limítate a contenido público.',
+      },
     ],
     finalTitle: 'Reflexión final',
     finalText:
       'Las historias están hechas para ser temporales, pero tu necesidad de verlas o conservarlas muchas veces no lo es. Un visor y descargador en el navegador te permite consultar historias públicas sin iniciar sesión, mantiene tu cuenta fuera de la lista de espectadores y guarda archivos limpios sin logo encima. Solo recuerda sus límites: únicamente cuentas públicas y una calidad que depende de la subida original.',
     ctaLabel: 'Pega un enlace de historia y pruébalo',
-    moreText: '¿Necesitas algo más que historias? Prueba el [descargador de vídeos de TikTok](/) o [TikTok a MP3](/tiktok-mp3).',
+    moreText:
+      '¿Necesitas algo más que historias? Prueba el [descargador de vídeos de TikTok](/) o [TikTok a MP3](/tiktok-mp3).',
   },
 
   /* ------------------------------------------------------------------ ID */
@@ -1926,13 +2151,15 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'apa-itu',
         title: 'Apa Itu Penampil dan Pengunduh Story TikTok?',
         blocks: [
-          p('Ini adalah alat web yang mengambil story TikTok publik dan memungkinkan Anda menonton atau menyimpannya di luar aplikasi. Alat ini hanya membaca apa yang bisa dilihat pengunjung mana pun di akun publik, itulah sebabnya alat ini tidak bisa membuka profil privat.'),
+          p(
+            'Ini adalah alat web yang mengambil story TikTok publik dan memungkinkan Anda menonton atau menyimpannya di luar aplikasi. Alat ini hanya membaca apa yang bisa dilihat pengunjung mana pun di akun publik, itulah sebabnya alat ini tidak bisa membuka profil privat.'
+          ),
           p('Orang mencarinya karena beberapa alasan yang sangat umum:'),
           ul(
             'Story kedaluwarsa setelah 24 jam, jadi apa pun yang layak disimpan harus disimpan dengan cepat.',
             'Menonton di dalam aplikasi saat login bisa menempatkan nama Anda di daftar penonton kreator.',
             'Opsi simpan bawaan TikTok menambahkan logo dan nama pengguna ke video.',
-            'Banyak orang tidak punya akun TikTok, atau tidak mau membuatnya hanya untuk melihat sebuah story.',
+            'Banyak orang tidak punya akun TikTok, atau tidak mau membuatnya hanya untuk melihat sebuah story.'
           ),
           p('MusicallyDown dibuat tepat untuk mengatasi masalah-masalah tersebut.'),
         ],
@@ -1943,9 +2170,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           p('Seluruh prosesnya kurang dari satu menit dan sama di setiap perangkat.'),
           steps(
-            ['Salin tautan story.', 'Di TikTok, buka story lalu salin tautannya. Pastikan akunnya publik dan Anda menyalin story itu sendiri, bukan video biasa.'],
-            ['Tempel lalu tekan Unduh.', 'Tempel tautan ke kotak di bagian atas halaman ini lalu kirim. Tunggu beberapa detik. Jika tidak ada yang muncul, lihat bagian pemecahan masalah di bawah.'],
-            ['Tonton atau simpan.', 'Putar story di browser, atau gunakan tombol unduh. Video diterima sebagai MP4 dan foto sebagai JPG atau PNG, dan Anda bisa memilih opsi tanpa watermark.'],
+            [
+              'Salin tautan story.',
+              'Di TikTok, buka story lalu salin tautannya. Pastikan akunnya publik dan Anda menyalin story itu sendiri, bukan video biasa.',
+            ],
+            [
+              'Tempel lalu tekan Unduh.',
+              'Tempel tautan ke kotak di bagian atas halaman ini lalu kirim. Tunggu beberapa detik. Jika tidak ada yang muncul, lihat bagian pemecahan masalah di bawah.',
+            ],
+            [
+              'Tonton atau simpan.',
+              'Putar story di browser, atau gunakan tombol unduh. Video diterima sebagai MP4 dan foto sebagai JPG atau PNG, dan Anda bisa memilih opsi tanpa watermark.',
+            ]
           ),
         ],
       },
@@ -1954,15 +2190,25 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         title: 'Mengapa Menggunakan Penampil dan Pengunduh Story TikTok Online?',
         blocks: [
           h3('Lihat story TikTok secara anonim'),
-          p('TikTok bisa menunjukkan kepada kreator siapa yang menonton story mereka, jadi menonton saat login bisa menempatkan nama Anda di daftar itu. Alat ini memuat konten story publik di luar aplikasi TikTok, sehingga akun Anda tidak digunakan untuk melihatnya dan seharusnya tidak muncul sebagai penonton. Anda juga bisa memeriksa [pusat bantuan](https://support.tiktok.com) TikTok untuk aturan terbaru tentang tayangan story.'),
+          p(
+            'TikTok bisa menunjukkan kepada kreator siapa yang menonton story mereka, jadi menonton saat login bisa menempatkan nama Anda di daftar itu. Alat ini memuat konten story publik di luar aplikasi TikTok, sehingga akun Anda tidak digunakan untuk melihatnya dan seharusnya tidak muncul sebagai penonton. Anda juga bisa memeriksa [pusat bantuan](https://support.tiktok.com) TikTok untuk aturan terbaru tentang tayangan story.'
+          ),
           h3('Unduh story TikTok tanpa watermark'),
-          p('Tombol simpan di aplikasi menanamkan logo TikTok dan nama pengguna kreator ke dalam file. Alat ini mengambil file story dari sumbernya, jadi saat Anda memilih opsi tanpa watermark, tidak ada yang ditambahkan di atasnya.'),
+          p(
+            'Tombol simpan di aplikasi menanamkan logo TikTok dan nama pengguna kreator ke dalam file. Alat ini mengambil file story dari sumbernya, jadi saat Anda memilih opsi tanpa watermark, tidak ada yang ditambahkan di atasnya.'
+          ),
           h3('Simpan story dalam HD, dengan kualitas aslinya'),
-          p('Alat ini berusaha memberikan file tanpa kompresi atau encode ulang tambahan. Hasilnya tetap bergantung pada unggahan: story yang direkam dalam HD tersimpan dalam HD, sedangkan yang beresolusi rendah tidak bisa ditingkatkan setelahnya.'),
+          p(
+            'Alat ini berusaha memberikan file tanpa kompresi atau encode ulang tambahan. Hasilnya tetap bergantung pada unggahan: story yang direkam dalam HD tersimpan dalam HD, sedangkan yang beresolusi rendah tidak bisa ditingkatkan setelahnya.'
+          ),
           h3('Gunakan online, tanpa akun dan tanpa instalasi'),
-          p('Penampil story TikTok online hanya butuh browser. Buka situs, tempel tautan, dan mulai. Berfungsi di Android, iPhone, Windows, Mac, dan tablet.'),
+          p(
+            'Penampil story TikTok online hanya butuh browser. Buka situs, tempel tautan, dan mulai. Berfungsi di Android, iPhone, Windows, Mac, dan tablet.'
+          ),
           h3('Pencarian tetap privat'),
-          p('Periksa [kebijakan privasi](/privacy) untuk mengetahui persis apa yang dicatat dan tidak dicatat. Seperti alat online lainnya, baca sendiri sebelum mengandalkannya.'),
+          p(
+            'Periksa [kebijakan privasi](/privacy) untuk mengetahui persis apa yang dicatat dan tidak dicatat. Seperti alat online lainnya, baca sendiri sebelum mengandalkannya.'
+          ),
         ],
       },
       {
@@ -1973,7 +2219,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
             'Tonton story TikTok publik mana pun di browser, tanpa perlu login.',
             'Simpan story yang Anda suka sebelum batas 24 jam habis.',
             'Cadangkan story Anda sendiri sebagai file MP4 standar.',
-            'Lihat story kreator tanpa membuka TikTok.',
+            'Lihat story kreator tanpa membuka TikTok.'
           ),
         ],
       },
@@ -1983,9 +2229,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           cards(
             3,
-            ['Kreator & pengelola media sosial', 'Memantau apa yang diposting pesaing, merek, dan influencer di niche Anda, tanpa akun Anda sendiri muncul sebagai penonton.'],
-            ['Pemasar & tim merek', 'Melacak akun publik untuk analisis pesaing atau riset kampanye tanpa perlu akun TikTok cadangan khusus untuk pekerjaan itu.'],
-            ['Penonton sehari-hari', 'Menemukan tutorial, peluncuran produk, atau postingan kreator favorit lalu menyimpannya dalam hitungan detik, jauh sebelum kedaluwarsa.'],
+            [
+              'Kreator & pengelola media sosial',
+              'Memantau apa yang diposting pesaing, merek, dan influencer di niche Anda, tanpa akun Anda sendiri muncul sebagai penonton.',
+            ],
+            [
+              'Pemasar & tim merek',
+              'Melacak akun publik untuk analisis pesaing atau riset kampanye tanpa perlu akun TikTok cadangan khusus untuk pekerjaan itu.',
+            ],
+            [
+              'Penonton sehari-hari',
+              'Menemukan tutorial, peluncuran produk, atau postingan kreator favorit lalu menyimpannya dalam hitungan detik, jauh sebelum kedaluwarsa.',
+            ]
           ),
         ],
       },
@@ -1993,31 +2248,69 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'perangkat',
         title: 'Penampil dan Pengunduh Story TikTok untuk iPhone, Android, PC, dan Mac',
         blocks: [
-          p('Anda hanya butuh browser. Tidak perlu mencari APK, menambah ekstensi, atau memperbarui aplikasi.'),
+          p(
+            'Anda hanya butuh browser. Tidak perlu mencari APK, menambah ekstensi, atau memperbarui aplikasi.'
+          ),
           cards(
             2,
-            ['iPhone', 'Buka situs di Safari, tempel tautan story, dan story termuat di halaman. File yang disimpan biasanya masuk ke aplikasi File atau daftar Unduhan, tergantung versi iOS dan pengaturan browser Anda.'],
-            ['Android', 'Gunakan Chrome, Firefox, atau browser apa pun yang sudah ada. Tanpa APK dan tanpa side-loading. Setelah mengunduh, cek bagian Unduhan di browser atau pengelola file Anda.'],
-            ['PC (Windows)', 'Buka situs di Chrome atau Edge. Menonton dan mengunduh dilakukan di halaman yang sama, dan file masuk ke folder Unduhan kecuali Anda memilih lokasi lain.'],
-            ['Mac', 'Safari dan Chrome sama-sama berfungsi. Tempel tautan, buka story, dan simpan langsung ke Mac Anda. Prosesnya sama dengan Windows.'],
+            [
+              'iPhone',
+              'Buka situs di Safari, tempel tautan story, dan story termuat di halaman. File yang disimpan biasanya masuk ke aplikasi File atau daftar Unduhan, tergantung versi iOS dan pengaturan browser Anda.',
+            ],
+            [
+              'Android',
+              'Gunakan Chrome, Firefox, atau browser apa pun yang sudah ada. Tanpa APK dan tanpa side-loading. Setelah mengunduh, cek bagian Unduhan di browser atau pengelola file Anda.',
+            ],
+            [
+              'PC (Windows)',
+              'Buka situs di Chrome atau Edge. Menonton dan mengunduh dilakukan di halaman yang sama, dan file masuk ke folder Unduhan kecuali Anda memilih lokasi lain.',
+            ],
+            [
+              'Mac',
+              'Safari dan Chrome sama-sama berfungsi. Tempel tautan, buka story, dan simpan langsung ke Mac Anda. Prosesnya sama dengan Windows.',
+            ]
           ),
-          p('Di perangkat apa pun, Anda butuh koneksi internet untuk mengambil story; file yang sudah diunduh kemudian bisa dibuka offline di aplikasi media atau gambar mana pun.'),
+          p(
+            'Di perangkat apa pun, Anda butuh koneksi internet untuk mengambil story; file yang sudah diunduh kemudian bisa dibuka offline di aplikasi media atau gambar mana pun.'
+          ),
         ],
       },
       {
         id: 'pemecahan-masalah',
         title: 'Story TikTok Tidak Termuat? Pemecahan Masalah',
         blocks: [
-          p('Tidak ada pengunduh yang ajaib. Jika hasil kosong atau unduhan gagal, periksa penyebab berikut secara berurutan:'),
-          ol(
-            ['Tautannya salah.', 'Periksa karakter yang hilang. Menyalinnya langsung dari aplikasi adalah perbaikan paling aman.'],
-            ['Akunnya privat.', 'Hanya story publik yang bisa dijangkau. Tidak ada alat yang secara sah bisa menembus pembatasan akun privat TikTok.'],
-            ['Story sudah kedaluwarsa.', 'Story hilang setelah 24 jam, dan setelah hilang tidak bisa diambil lagi.'],
-            ['Anda menempel jenis tautan yang salah.', 'URL video TikTok biasa bukan tautan story dan mungkin tidak dikenali. Salin tautan story itu sendiri.'],
-            ['Koneksi tidak stabil.', 'Muat ulang halaman, periksa internet, tunggu sebentar, lalu coba lagi.'],
-            ['Browser memblokir unduhan.', 'Periksa izin unduhan browser dan folder Unduhan Anda. Jangan menonaktifkan perlindungan keamanan atau memasang file tidak dikenal untuk memaksa unduhan.'],
+          p(
+            'Tidak ada pengunduh yang ajaib. Jika hasil kosong atau unduhan gagal, periksa penyebab berikut secara berurutan:'
           ),
-          p('Jika masih gagal, coba browser lain, atau pastikan story masih terlihat di profil aslinya.'),
+          ol(
+            [
+              'Tautannya salah.',
+              'Periksa karakter yang hilang. Menyalinnya langsung dari aplikasi adalah perbaikan paling aman.',
+            ],
+            [
+              'Akunnya privat.',
+              'Hanya story publik yang bisa dijangkau. Tidak ada alat yang secara sah bisa menembus pembatasan akun privat TikTok.',
+            ],
+            [
+              'Story sudah kedaluwarsa.',
+              'Story hilang setelah 24 jam, dan setelah hilang tidak bisa diambil lagi.',
+            ],
+            [
+              'Anda menempel jenis tautan yang salah.',
+              'URL video TikTok biasa bukan tautan story dan mungkin tidak dikenali. Salin tautan story itu sendiri.',
+            ],
+            [
+              'Koneksi tidak stabil.',
+              'Muat ulang halaman, periksa internet, tunggu sebentar, lalu coba lagi.',
+            ],
+            [
+              'Browser memblokir unduhan.',
+              'Periksa izin unduhan browser dan folder Unduhan Anda. Jangan menonaktifkan perlindungan keamanan atau memasang file tidak dikenal untuk memaksa unduhan.',
+            ]
+          ),
+          p(
+            'Jika masih gagal, coba browser lain, atau pastikan story masih terlihat di profil aslinya.'
+          ),
         ],
       },
       {
@@ -2027,31 +2320,76 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
           ul(
             '**Akun privat tetap privat.** Hanya story publik.',
             '**Kualitas dibatasi oleh unggahan.** Alat ini tidak meningkatkan resolusi apa pun.',
-            '**Ketersediaan bisa berubah.** Alat ini bergantung pada TikTok, jadi hasil bisa bervariasi jika TikTok mengubah cara menyajikan story.',
+            '**Ketersediaan bisa berubah.** Alat ini bergantung pada TikTok, jadi hasil bisa bervariasi jika TikTok mengubah cara menyajikan story.'
           ),
-          callout('Story adalah milik orang yang membuatnya. Menyimpan klip untuk referensi pribadi, cadangan postingan Anda sendiri, atau riset pesaing adalah satu hal; memposting ulang konten orang lain tanpa izin adalah hal lain. Jangan pernah memasukkan kata sandi TikTok atau kode verifikasi ke pengunduh mana pun, dan hindari pop-up mencurigakan atau unduhan tak terduga. Baca [ketentuan layanan](/terms), dan ingat bahwa situs ini tidak berafiliasi dengan TikTok atau ByteDance.'),
+          callout(
+            'Story adalah milik orang yang membuatnya. Menyimpan klip untuk referensi pribadi, cadangan postingan Anda sendiri, atau riset pesaing adalah satu hal; memposting ulang konten orang lain tanpa izin adalah hal lain. Jangan pernah memasukkan kata sandi TikTok atau kode verifikasi ke pengunduh mana pun, dan hindari pop-up mencurigakan atau unduhan tak terduga. Baca [ketentuan layanan](/terms), dan ingat bahwa situs ini tidak berafiliasi dengan TikTok atau ByteDance.'
+          ),
         ],
       },
     ],
     faqTitle: 'Pertanyaan yang Sering Diajukan',
     faq: [
-      { question: 'Apakah pemilik akun akan tahu saya melihat story mereka?', answer: 'Seharusnya tidak. Alat ini membaca konten story publik di luar aplikasi TikTok, jadi akun Anda tidak digunakan untuk melihat story dan seharusnya tidak muncul di daftar penonton kreator.' },
-      { question: 'Bisakah saya mengunduh story TikTok tanpa watermark?', answer: 'Bisa. File story diambil dari sumbernya, bukan lewat tombol simpan TikTok, jadi tidak ada logo yang ditambahkan saat Anda memilih opsi tanpa watermark. File tanpa watermark tetap tidak memberi Anda hak untuk memposting ulang.' },
-      { question: 'Format file apa yang digunakan untuk unduhan?', answer: 'Story video disimpan sebagai MP4, yang bisa diputar di hampir semua ponsel, tablet, atau komputer. Story foto disimpan sebagai JPG atau PNG, tergantung aslinya.' },
-      { question: 'Bisakah saya melihat story dari akun privat?', answer: 'Tidak. Akun privat hanya membagikan konten kepada pengikut yang disetujui, dan alat ini hanya bekerja dengan akun publik.' },
-      { question: 'Apakah saya perlu akun TikTok?', answer: 'Tidak. Tempel tautan story dan story termuat tanpa login apa pun.' },
-      { question: 'Apakah gratis?', answer: 'Ya, gratis tanpa pendaftaran. Periksa situs jika ada perubahan.' },
-      { question: 'Mengapa tidak ada yang termuat setelah saya menempel tautan?', answer: 'Paling sering tautannya salah, akunnya privat, atau story sudah kedaluwarsa. Bagian pemecahan masalah di atas memuat semua penyebab umum.' },
-      { question: 'Apakah berfungsi di browser ponsel?', answer: 'Ya. Berjalan di browser standar mana pun di Android dan iPhone dan berperilaku sama seperti di laptop atau desktop.' },
-      { question: 'Bisakah saya menyimpan story TikTok milik orang lain?', answer: 'Secara teknis mungkin bisa, tetapi bisa dan diizinkan adalah dua hal berbeda. Gunakan klip yang disimpan untuk referensi pribadi, dan minta izin kreator sebelum memposting ulang atau menggunakan kontennya di tempat lain.' },
-      { question: 'Bisakah saya mengunduh story TikTok saya sendiri?', answer: 'Bisa, selama story masih aktif dan publik. Untuk hal penting, simpan juga file aslinya atau gunakan opsi simpan di akun TikTok Anda sendiri, daripada mengandalkan satu situs pihak ketiga sebagai satu-satunya cadangan.' },
-      { question: 'Apakah aman menggunakan pengunduh story TikTok online?', answer: 'Aman jika Anda menggunakan akal sehat. Jangan bagikan kata sandi atau kode, baca kebijakan privasi, dan abaikan permintaan untuk memasang aplikasi atau ekstensi. Tidak ada layanan online yang bisa menjanjikan anonimitas sempurna, jadi tetaplah pada konten publik.' },
+      {
+        question: 'Apakah pemilik akun akan tahu saya melihat story mereka?',
+        answer:
+          'Seharusnya tidak. Alat ini membaca konten story publik di luar aplikasi TikTok, jadi akun Anda tidak digunakan untuk melihat story dan seharusnya tidak muncul di daftar penonton kreator.',
+      },
+      {
+        question: 'Bisakah saya mengunduh story TikTok tanpa watermark?',
+        answer:
+          'Bisa. File story diambil dari sumbernya, bukan lewat tombol simpan TikTok, jadi tidak ada logo yang ditambahkan saat Anda memilih opsi tanpa watermark. File tanpa watermark tetap tidak memberi Anda hak untuk memposting ulang.',
+      },
+      {
+        question: 'Format file apa yang digunakan untuk unduhan?',
+        answer:
+          'Story video disimpan sebagai MP4, yang bisa diputar di hampir semua ponsel, tablet, atau komputer. Story foto disimpan sebagai JPG atau PNG, tergantung aslinya.',
+      },
+      {
+        question: 'Bisakah saya melihat story dari akun privat?',
+        answer:
+          'Tidak. Akun privat hanya membagikan konten kepada pengikut yang disetujui, dan alat ini hanya bekerja dengan akun publik.',
+      },
+      {
+        question: 'Apakah saya perlu akun TikTok?',
+        answer: 'Tidak. Tempel tautan story dan story termuat tanpa login apa pun.',
+      },
+      {
+        question: 'Apakah gratis?',
+        answer: 'Ya, gratis tanpa pendaftaran. Periksa situs jika ada perubahan.',
+      },
+      {
+        question: 'Mengapa tidak ada yang termuat setelah saya menempel tautan?',
+        answer:
+          'Paling sering tautannya salah, akunnya privat, atau story sudah kedaluwarsa. Bagian pemecahan masalah di atas memuat semua penyebab umum.',
+      },
+      {
+        question: 'Apakah berfungsi di browser ponsel?',
+        answer:
+          'Ya. Berjalan di browser standar mana pun di Android dan iPhone dan berperilaku sama seperti di laptop atau desktop.',
+      },
+      {
+        question: 'Bisakah saya menyimpan story TikTok milik orang lain?',
+        answer:
+          'Secara teknis mungkin bisa, tetapi bisa dan diizinkan adalah dua hal berbeda. Gunakan klip yang disimpan untuk referensi pribadi, dan minta izin kreator sebelum memposting ulang atau menggunakan kontennya di tempat lain.',
+      },
+      {
+        question: 'Bisakah saya mengunduh story TikTok saya sendiri?',
+        answer:
+          'Bisa, selama story masih aktif dan publik. Untuk hal penting, simpan juga file aslinya atau gunakan opsi simpan di akun TikTok Anda sendiri, daripada mengandalkan satu situs pihak ketiga sebagai satu-satunya cadangan.',
+      },
+      {
+        question: 'Apakah aman menggunakan pengunduh story TikTok online?',
+        answer:
+          'Aman jika Anda menggunakan akal sehat. Jangan bagikan kata sandi atau kode, baca kebijakan privasi, dan abaikan permintaan untuk memasang aplikasi atau ekstensi. Tidak ada layanan online yang bisa menjanjikan anonimitas sempurna, jadi tetaplah pada konten publik.',
+      },
     ],
     finalTitle: 'Penutup',
     finalText:
       'Story dibuat untuk bersifat sementara, tetapi kebutuhan Anda untuk menonton atau menyimpannya sering kali tidak. Penampil dan pengunduh berbasis browser memungkinkan Anda melihat story publik tanpa login, menjaga akun Anda tetap di luar daftar penonton, dan menyimpan file bersih tanpa logo di atasnya. Ingat saja batasannya: hanya akun publik, dan kualitas yang bergantung pada unggahan asli.',
     ctaLabel: 'Tempel tautan story dan coba',
-    moreText: 'Butuh lebih dari sekadar story? Coba [pengunduh video TikTok](/) atau [TikTok ke MP3](/tiktok-mp3).',
+    moreText:
+      'Butuh lebih dari sekadar story? Coba [pengunduh video TikTok](/) atau [TikTok ke MP3](/tiktok-mp3).',
   },
 
   /* ------------------------------------------------------------------ VI */
@@ -2075,13 +2413,15 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'la-gi',
         title: 'Công cụ xem và tải TikTok story là gì?',
         blocks: [
-          p('Đây là công cụ web lấy TikTok story công khai và cho phép bạn xem hoặc lưu ngoài ứng dụng. Nó chỉ đọc những gì bất kỳ khách truy cập nào cũng đã có thể thấy trên tài khoản công khai, đó cũng là lý do nó không thể mở hồ sơ riêng tư.'),
+          p(
+            'Đây là công cụ web lấy TikTok story công khai và cho phép bạn xem hoặc lưu ngoài ứng dụng. Nó chỉ đọc những gì bất kỳ khách truy cập nào cũng đã có thể thấy trên tài khoản công khai, đó cũng là lý do nó không thể mở hồ sơ riêng tư.'
+          ),
           p('Mọi người tìm đến công cụ này vì vài lý do rất bình thường:'),
           ul(
             'Story hết hạn sau 24 giờ, nên bất cứ thứ gì đáng giữ lại đều phải lưu nhanh.',
             'Xem trong ứng dụng khi đã đăng nhập có thể khiến tên bạn xuất hiện trong danh sách người xem của người tạo.',
             'Tùy chọn lưu của TikTok thêm logo và tên người dùng vào video.',
-            'Nhiều người không có tài khoản TikTok, hoặc không muốn tạo chỉ để xem một story.',
+            'Nhiều người không có tài khoản TikTok, hoặc không muốn tạo chỉ để xem một story.'
           ),
           p('MusicallyDown được tạo ra để giải quyết đúng những vấn đề đó.'),
         ],
@@ -2092,9 +2432,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           p('Toàn bộ quá trình mất chưa đến một phút và giống nhau trên mọi thiết bị.'),
           steps(
-            ['Sao chép liên kết story.', 'Trong TikTok, mở story rồi sao chép liên kết. Hãy chắc chắn tài khoản ở chế độ công khai và bạn sao chép chính story, không phải video thông thường.'],
-            ['Dán rồi bấm Tải xuống.', 'Dán liên kết vào ô ở đầu trang này rồi gửi. Chờ vài giây. Nếu không có gì hiện ra, xem phần khắc phục sự cố bên dưới.'],
-            ['Xem hoặc lưu.', 'Phát story ngay trên trình duyệt, hoặc dùng nút tải xuống. Video được tải về dạng MP4 và ảnh dạng JPG hoặc PNG, và bạn có thể chọn tùy chọn không watermark.'],
+            [
+              'Sao chép liên kết story.',
+              'Trong TikTok, mở story rồi sao chép liên kết. Hãy chắc chắn tài khoản ở chế độ công khai và bạn sao chép chính story, không phải video thông thường.',
+            ],
+            [
+              'Dán rồi bấm Tải xuống.',
+              'Dán liên kết vào ô ở đầu trang này rồi gửi. Chờ vài giây. Nếu không có gì hiện ra, xem phần khắc phục sự cố bên dưới.',
+            ],
+            [
+              'Xem hoặc lưu.',
+              'Phát story ngay trên trình duyệt, hoặc dùng nút tải xuống. Video được tải về dạng MP4 và ảnh dạng JPG hoặc PNG, và bạn có thể chọn tùy chọn không watermark.',
+            ]
           ),
         ],
       },
@@ -2103,15 +2452,25 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         title: 'Vì sao nên dùng công cụ xem và tải TikTok story trực tuyến?',
         blocks: [
           h3('Xem TikTok story ẩn danh'),
-          p('TikTok có thể cho người tạo biết ai đã xem story của họ, nên xem khi đã đăng nhập có thể đưa tên bạn vào danh sách đó. Công cụ này tải nội dung story công khai bên ngoài ứng dụng TikTok, nên tài khoản của bạn không được dùng để xem và không nên xuất hiện như một người xem. Bạn cũng có thể xem [trung tâm trợ giúp](https://support.tiktok.com) của TikTok để biết quy định hiện hành về lượt xem story.'),
+          p(
+            'TikTok có thể cho người tạo biết ai đã xem story của họ, nên xem khi đã đăng nhập có thể đưa tên bạn vào danh sách đó. Công cụ này tải nội dung story công khai bên ngoài ứng dụng TikTok, nên tài khoản của bạn không được dùng để xem và không nên xuất hiện như một người xem. Bạn cũng có thể xem [trung tâm trợ giúp](https://support.tiktok.com) của TikTok để biết quy định hiện hành về lượt xem story.'
+          ),
           h3('Tải TikTok story không watermark'),
-          p('Nút lưu trong ứng dụng gắn cứng logo TikTok và tên người tạo vào tệp. Công cụ này lấy tệp story từ nguồn, nên khi bạn chọn tùy chọn không watermark, sẽ không có gì được thêm lên trên.'),
+          p(
+            'Nút lưu trong ứng dụng gắn cứng logo TikTok và tên người tạo vào tệp. Công cụ này lấy tệp story từ nguồn, nên khi bạn chọn tùy chọn không watermark, sẽ không có gì được thêm lên trên.'
+          ),
           h3('Lưu story chất lượng HD, giữ nguyên bản gốc'),
-          p('Công cụ cố gắng trả tệp mà không nén hay mã hóa lại thêm. Kết quả vẫn phụ thuộc vào bản tải lên: story quay bằng HD sẽ lưu ở HD, còn story độ phân giải thấp thì không thể cải thiện sau đó.'),
+          p(
+            'Công cụ cố gắng trả tệp mà không nén hay mã hóa lại thêm. Kết quả vẫn phụ thuộc vào bản tải lên: story quay bằng HD sẽ lưu ở HD, còn story độ phân giải thấp thì không thể cải thiện sau đó.'
+          ),
           h3('Dùng trực tuyến, không cần tài khoản, không cần cài đặt'),
-          p('Công cụ xem TikTok story trực tuyến chỉ cần trình duyệt. Mở trang web, dán liên kết và bắt đầu. Hoạt động trên Android, iPhone, Windows, Mac và máy tính bảng.'),
+          p(
+            'Công cụ xem TikTok story trực tuyến chỉ cần trình duyệt. Mở trang web, dán liên kết và bắt đầu. Hoạt động trên Android, iPhone, Windows, Mac và máy tính bảng.'
+          ),
           h3('Tìm kiếm của bạn vẫn riêng tư'),
-          p('Hãy xem [chính sách quyền riêng tư](/privacy) để biết chính xác điều gì được và không được ghi lại. Như với mọi công cụ trực tuyến, hãy tự đọc trước khi tin tưởng.'),
+          p(
+            'Hãy xem [chính sách quyền riêng tư](/privacy) để biết chính xác điều gì được và không được ghi lại. Như với mọi công cụ trực tuyến, hãy tự đọc trước khi tin tưởng.'
+          ),
         ],
       },
       {
@@ -2122,7 +2481,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
             'Xem bất kỳ TikTok story công khai nào trên trình duyệt, không cần đăng nhập.',
             'Lưu những story bạn thích trước khi hết 24 giờ.',
             'Sao lưu story của chính bạn thành tệp MP4 chuẩn.',
-            'Xem story của một người tạo nội dung mà không cần mở TikTok.',
+            'Xem story của một người tạo nội dung mà không cần mở TikTok.'
           ),
         ],
       },
@@ -2132,9 +2491,18 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         blocks: [
           cards(
             3,
-            ['Người sáng tạo & quản lý mạng xã hội', 'Theo dõi đối thủ, thương hiệu và influencer trong lĩnh vực của bạn đăng gì mà tài khoản của bạn không hiện là người xem.'],
-            ['Marketer & đội ngũ thương hiệu', 'Theo dõi tài khoản công khai để phân tích đối thủ hoặc nghiên cứu chiến dịch mà không cần tài khoản TikTok phụ chỉ cho việc đó.'],
-            ['Người xem thông thường', 'Gặp một video hướng dẫn, đợt ra mắt sản phẩm hoặc bài đăng của người tạo yêu thích và lưu lại trong vài giây, rất lâu trước khi hết hạn.'],
+            [
+              'Người sáng tạo & quản lý mạng xã hội',
+              'Theo dõi đối thủ, thương hiệu và influencer trong lĩnh vực của bạn đăng gì mà tài khoản của bạn không hiện là người xem.',
+            ],
+            [
+              'Marketer & đội ngũ thương hiệu',
+              'Theo dõi tài khoản công khai để phân tích đối thủ hoặc nghiên cứu chiến dịch mà không cần tài khoản TikTok phụ chỉ cho việc đó.',
+            ],
+            [
+              'Người xem thông thường',
+              'Gặp một video hướng dẫn, đợt ra mắt sản phẩm hoặc bài đăng của người tạo yêu thích và lưu lại trong vài giây, rất lâu trước khi hết hạn.',
+            ]
           ),
         ],
       },
@@ -2142,31 +2510,69 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
         id: 'thiet-bi',
         title: 'Xem và tải TikTok story trên iPhone, Android, PC và Mac',
         blocks: [
-          p('Bạn chỉ cần một trình duyệt. Không phải tìm APK, không cần thêm tiện ích mở rộng và không cần cập nhật ứng dụng.'),
+          p(
+            'Bạn chỉ cần một trình duyệt. Không phải tìm APK, không cần thêm tiện ích mở rộng và không cần cập nhật ứng dụng.'
+          ),
           cards(
             2,
-            ['iPhone', 'Mở trang web bằng Safari, dán liên kết story và story sẽ tải ngay trên trang. Tệp đã lưu thường nằm trong ứng dụng Tệp hoặc danh sách Tải xuống, tùy phiên bản iOS và cài đặt trình duyệt.'],
-            ['Android', 'Dùng Chrome, Firefox hoặc trình duyệt bạn đang có. Không cần APK, không cần cài đặt ngoài. Sau khi tải, hãy xem mục Tải xuống của trình duyệt hoặc trình quản lý tệp.'],
-            ['PC (Windows)', 'Mở trang web bằng Chrome hoặc Edge. Xem và tải đều thực hiện trên cùng một trang, tệp được lưu vào thư mục Downloads trừ khi bạn chọn vị trí khác.'],
-            ['Mac', 'Safari và Chrome đều dùng được. Dán liên kết, mở story và lưu thẳng vào máy Mac. Quy trình giống hệt Windows.'],
+            [
+              'iPhone',
+              'Mở trang web bằng Safari, dán liên kết story và story sẽ tải ngay trên trang. Tệp đã lưu thường nằm trong ứng dụng Tệp hoặc danh sách Tải xuống, tùy phiên bản iOS và cài đặt trình duyệt.',
+            ],
+            [
+              'Android',
+              'Dùng Chrome, Firefox hoặc trình duyệt bạn đang có. Không cần APK, không cần cài đặt ngoài. Sau khi tải, hãy xem mục Tải xuống của trình duyệt hoặc trình quản lý tệp.',
+            ],
+            [
+              'PC (Windows)',
+              'Mở trang web bằng Chrome hoặc Edge. Xem và tải đều thực hiện trên cùng một trang, tệp được lưu vào thư mục Downloads trừ khi bạn chọn vị trí khác.',
+            ],
+            [
+              'Mac',
+              'Safari và Chrome đều dùng được. Dán liên kết, mở story và lưu thẳng vào máy Mac. Quy trình giống hệt Windows.',
+            ]
           ),
-          p('Dù dùng thiết bị nào, bạn cũng cần kết nối internet để lấy story; sau đó các tệp đã tải có thể mở ngoại tuyến bằng bất kỳ ứng dụng video hoặc ảnh nào.'),
+          p(
+            'Dù dùng thiết bị nào, bạn cũng cần kết nối internet để lấy story; sau đó các tệp đã tải có thể mở ngoại tuyến bằng bất kỳ ứng dụng video hoặc ảnh nào.'
+          ),
         ],
       },
       {
         id: 'khac-phuc-su-co',
         title: 'TikTok story không tải được? Khắc phục sự cố',
         blocks: [
-          p('Không có công cụ tải nào là phép màu. Nếu kết quả trống hoặc tải thất bại, hãy kiểm tra lần lượt các nguyên nhân sau:'),
-          ol(
-            ['Liên kết bị sai.', 'Kiểm tra xem có thiếu ký tự không. Sao chép thẳng từ ứng dụng là cách khắc phục an toàn nhất.'],
-            ['Tài khoản ở chế độ riêng tư.', 'Chỉ truy cập được story công khai. Không công cụ nào có thể vượt qua hợp pháp các giới hạn của tài khoản riêng tư trên TikTok.'],
-            ['Story đã hết hạn.', 'Story biến mất sau 24 giờ, và một khi đã biến mất thì không thể lấy lại.'],
-            ['Bạn dán nhầm loại liên kết.', 'URL video TikTok thông thường không phải liên kết story và có thể không được nhận dạng. Hãy sao chép liên kết của chính story.'],
-            ['Kết nối không ổn định.', 'Tải lại trang, kiểm tra internet, đợi một lát rồi thử lại.'],
-            ['Trình duyệt chặn tải xuống.', 'Kiểm tra quyền tải xuống của trình duyệt và thư mục Tải xuống. Đừng tắt các biện pháp bảo mật hay cài tệp lạ để ép tải xuống.'],
+          p(
+            'Không có công cụ tải nào là phép màu. Nếu kết quả trống hoặc tải thất bại, hãy kiểm tra lần lượt các nguyên nhân sau:'
           ),
-          p('Nếu vẫn lỗi, hãy thử trình duyệt khác, hoặc xác nhận story vẫn hiển thị trên hồ sơ gốc.'),
+          ol(
+            [
+              'Liên kết bị sai.',
+              'Kiểm tra xem có thiếu ký tự không. Sao chép thẳng từ ứng dụng là cách khắc phục an toàn nhất.',
+            ],
+            [
+              'Tài khoản ở chế độ riêng tư.',
+              'Chỉ truy cập được story công khai. Không công cụ nào có thể vượt qua hợp pháp các giới hạn của tài khoản riêng tư trên TikTok.',
+            ],
+            [
+              'Story đã hết hạn.',
+              'Story biến mất sau 24 giờ, và một khi đã biến mất thì không thể lấy lại.',
+            ],
+            [
+              'Bạn dán nhầm loại liên kết.',
+              'URL video TikTok thông thường không phải liên kết story và có thể không được nhận dạng. Hãy sao chép liên kết của chính story.',
+            ],
+            [
+              'Kết nối không ổn định.',
+              'Tải lại trang, kiểm tra internet, đợi một lát rồi thử lại.',
+            ],
+            [
+              'Trình duyệt chặn tải xuống.',
+              'Kiểm tra quyền tải xuống của trình duyệt và thư mục Tải xuống. Đừng tắt các biện pháp bảo mật hay cài tệp lạ để ép tải xuống.',
+            ]
+          ),
+          p(
+            'Nếu vẫn lỗi, hãy thử trình duyệt khác, hoặc xác nhận story vẫn hiển thị trên hồ sơ gốc.'
+          ),
         ],
       },
       {
@@ -2176,31 +2582,76 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
           ul(
             '**Tài khoản riêng tư vẫn là riêng tư.** Chỉ story công khai.',
             '**Chất lượng bị giới hạn bởi bản tải lên.** Công cụ không nâng độ phân giải của bất cứ thứ gì.',
-            '**Tình trạng hoạt động có thể thay đổi.** Công cụ phụ thuộc vào TikTok, nên kết quả có thể khác nếu TikTok thay đổi cách phân phối story.',
+            '**Tình trạng hoạt động có thể thay đổi.** Công cụ phụ thuộc vào TikTok, nên kết quả có thể khác nếu TikTok thay đổi cách phân phối story.'
           ),
-          callout('Story thuộc về những người đã tạo ra chúng. Lưu clip để tham khảo cá nhân, sao lưu bài đăng của chính bạn hoặc nghiên cứu đối thủ là một chuyện; đăng lại nội dung của người khác mà không xin phép là chuyện khác. Không bao giờ nhập mật khẩu TikTok hay mã xác minh vào bất kỳ công cụ tải nào, và tránh cửa sổ bật lên đáng ngờ hay tệp tải xuống bất ngờ. Hãy đọc [điều khoản dịch vụ](/terms), và lưu ý rằng trang này không liên kết với TikTok hay ByteDance.'),
+          callout(
+            'Story thuộc về những người đã tạo ra chúng. Lưu clip để tham khảo cá nhân, sao lưu bài đăng của chính bạn hoặc nghiên cứu đối thủ là một chuyện; đăng lại nội dung của người khác mà không xin phép là chuyện khác. Không bao giờ nhập mật khẩu TikTok hay mã xác minh vào bất kỳ công cụ tải nào, và tránh cửa sổ bật lên đáng ngờ hay tệp tải xuống bất ngờ. Hãy đọc [điều khoản dịch vụ](/terms), và lưu ý rằng trang này không liên kết với TikTok hay ByteDance.'
+          ),
         ],
       },
     ],
     faqTitle: 'Câu hỏi thường gặp',
     faq: [
-      { question: 'Chủ tài khoản có biết tôi đã xem story của họ không?', answer: 'Không, không nên. Công cụ đọc nội dung story công khai bên ngoài ứng dụng TikTok, nên tài khoản của bạn không được dùng để xem story và không nên xuất hiện trong danh sách người xem của người tạo.' },
-      { question: 'Tôi có thể tải TikTok story không watermark không?', answer: 'Có. Tệp story được lấy từ nguồn thay vì qua nút lưu của TikTok, nên không có logo nào được thêm khi bạn chọn tùy chọn không watermark. Tệp không watermark vẫn không cho bạn quyền đăng lại.' },
-      { question: 'Các bản tải xuống dùng định dạng tệp nào?', answer: 'Story video được lưu dạng MP4, phát được trên hầu hết điện thoại, máy tính bảng hoặc máy tính. Story ảnh được lưu dạng JPG hoặc PNG, tùy bản gốc.' },
-      { question: 'Tôi có thể xem story từ tài khoản riêng tư không?', answer: 'Không. Tài khoản riêng tư chỉ chia sẻ nội dung với người theo dõi đã được duyệt, và công cụ này chỉ hoạt động với tài khoản công khai.' },
-      { question: 'Tôi có cần tài khoản TikTok không?', answer: 'Không. Dán liên kết story và story sẽ tải mà không cần đăng nhập.' },
-      { question: 'Có miễn phí không?', answer: 'Có, miễn phí và không cần đăng ký. Hãy kiểm tra trang web nếu có thay đổi.' },
-      { question: 'Tại sao không có gì tải lên sau khi tôi dán liên kết?', answer: 'Thường là do liên kết sai, tài khoản riêng tư hoặc story đã hết hạn. Phần khắc phục sự cố ở trên liệt kê mọi nguyên nhân phổ biến.' },
-      { question: 'Có hoạt động trên trình duyệt di động không?', answer: 'Có. Công cụ chạy trên mọi trình duyệt tiêu chuẩn trên Android và iPhone, và hoạt động giống như trên laptop hoặc máy tính để bàn.' },
-      { question: 'Tôi có thể lưu TikTok story của người khác không?', answer: 'Về mặt kỹ thuật có thể được, nhưng có thể làm và được phép làm là hai chuyện khác nhau. Hãy giữ clip đã lưu để tham khảo cá nhân, và xin phép người tạo trước khi đăng lại hoặc dùng nội dung của họ ở nơi khác.' },
-      { question: 'Tôi có thể tải TikTok story của chính mình không?', answer: 'Có, miễn là story còn hiển thị và ở chế độ công khai. Với những thứ quan trọng, hãy giữ thêm tệp gốc hoặc dùng các tùy chọn lưu trong tài khoản TikTok của bạn, thay vì chỉ dựa vào một trang bên thứ ba làm bản sao lưu duy nhất.' },
-      { question: 'Dùng công cụ tải TikTok story trực tuyến có an toàn không?', answer: 'An toàn nếu bạn dùng theo lẽ thường. Không chia sẻ mật khẩu hay mã, hãy đọc chính sách quyền riêng tư và bỏ qua mọi yêu cầu cài ứng dụng hoặc tiện ích mở rộng. Không dịch vụ trực tuyến nào có thể đảm bảo ẩn danh tuyệt đối, vì vậy hãy chỉ dùng nội dung công khai.' },
+      {
+        question: 'Chủ tài khoản có biết tôi đã xem story của họ không?',
+        answer:
+          'Không, không nên. Công cụ đọc nội dung story công khai bên ngoài ứng dụng TikTok, nên tài khoản của bạn không được dùng để xem story và không nên xuất hiện trong danh sách người xem của người tạo.',
+      },
+      {
+        question: 'Tôi có thể tải TikTok story không watermark không?',
+        answer:
+          'Có. Tệp story được lấy từ nguồn thay vì qua nút lưu của TikTok, nên không có logo nào được thêm khi bạn chọn tùy chọn không watermark. Tệp không watermark vẫn không cho bạn quyền đăng lại.',
+      },
+      {
+        question: 'Các bản tải xuống dùng định dạng tệp nào?',
+        answer:
+          'Story video được lưu dạng MP4, phát được trên hầu hết điện thoại, máy tính bảng hoặc máy tính. Story ảnh được lưu dạng JPG hoặc PNG, tùy bản gốc.',
+      },
+      {
+        question: 'Tôi có thể xem story từ tài khoản riêng tư không?',
+        answer:
+          'Không. Tài khoản riêng tư chỉ chia sẻ nội dung với người theo dõi đã được duyệt, và công cụ này chỉ hoạt động với tài khoản công khai.',
+      },
+      {
+        question: 'Tôi có cần tài khoản TikTok không?',
+        answer: 'Không. Dán liên kết story và story sẽ tải mà không cần đăng nhập.',
+      },
+      {
+        question: 'Có miễn phí không?',
+        answer: 'Có, miễn phí và không cần đăng ký. Hãy kiểm tra trang web nếu có thay đổi.',
+      },
+      {
+        question: 'Tại sao không có gì tải lên sau khi tôi dán liên kết?',
+        answer:
+          'Thường là do liên kết sai, tài khoản riêng tư hoặc story đã hết hạn. Phần khắc phục sự cố ở trên liệt kê mọi nguyên nhân phổ biến.',
+      },
+      {
+        question: 'Có hoạt động trên trình duyệt di động không?',
+        answer:
+          'Có. Công cụ chạy trên mọi trình duyệt tiêu chuẩn trên Android và iPhone, và hoạt động giống như trên laptop hoặc máy tính để bàn.',
+      },
+      {
+        question: 'Tôi có thể lưu TikTok story của người khác không?',
+        answer:
+          'Về mặt kỹ thuật có thể được, nhưng có thể làm và được phép làm là hai chuyện khác nhau. Hãy giữ clip đã lưu để tham khảo cá nhân, và xin phép người tạo trước khi đăng lại hoặc dùng nội dung của họ ở nơi khác.',
+      },
+      {
+        question: 'Tôi có thể tải TikTok story của chính mình không?',
+        answer:
+          'Có, miễn là story còn hiển thị và ở chế độ công khai. Với những thứ quan trọng, hãy giữ thêm tệp gốc hoặc dùng các tùy chọn lưu trong tài khoản TikTok của bạn, thay vì chỉ dựa vào một trang bên thứ ba làm bản sao lưu duy nhất.',
+      },
+      {
+        question: 'Dùng công cụ tải TikTok story trực tuyến có an toàn không?',
+        answer:
+          'An toàn nếu bạn dùng theo lẽ thường. Không chia sẻ mật khẩu hay mã, hãy đọc chính sách quyền riêng tư và bỏ qua mọi yêu cầu cài ứng dụng hoặc tiện ích mở rộng. Không dịch vụ trực tuyến nào có thể đảm bảo ẩn danh tuyệt đối, vì vậy hãy chỉ dùng nội dung công khai.',
+      },
     ],
     finalTitle: 'Lời kết',
     finalText:
       'Story được tạo ra để tồn tại ngắn hạn, nhưng nhu cầu xem hoặc giữ lại chúng của bạn thì thường không. Công cụ xem và tải trên trình duyệt cho phép bạn xem story công khai mà không cần đăng nhập, giữ tài khoản của bạn ngoài danh sách người xem và lưu tệp sạch không logo. Chỉ cần nhớ giới hạn của nó: chỉ tài khoản công khai, và chất lượng phụ thuộc vào bản tải lên gốc.',
     ctaLabel: 'Dán liên kết story và thử ngay',
-    moreText: 'Cần nhiều hơn story? Hãy thử [công cụ tải video TikTok](/) hoặc [TikTok sang MP3](/tiktok-mp3).',
+    moreText:
+      'Cần nhiều hơn story? Hãy thử [công cụ tải video TikTok](/) hoặc [TikTok sang MP3](/tiktok-mp3).',
   },
 };
 
@@ -2238,7 +2689,6 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
     intro: [
       'You hear a few seconds of a track in a TikTok, it gets stuck in your head, and then it’s gone. The video scrolls past, the sound has no obvious name, and the app doesn’t exactly make it easy to keep the audio on its own.',
       'That’s the gap a TikTok to MP3 converter fills. Paste the link of a public video, pick the audio option if one is offered, and save the sound as a standalone file you can play in any music app, drop into an editing project or use as a ringtone. No video file comes along for the ride.',
-      
     ],
     tocTitle: 'In this guide',
     sections: [
@@ -2246,22 +2696,41 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'what-is',
         title: 'What Is a TikTok to MP3 Converter?',
         blocks: [
-          p('A TikTok to MP3 converter takes the link of a public TikTok video and checks whether the audio can be saved separately. When it can, you get a plain audio file instead of a video. People also call it a TikTok sound downloader, a TikTok music downloader or a TikTok audio saver. It’s all the same idea.'),
-          p('Two honest caveats first. The converter works with public videos only, since private, deleted or region-restricted posts may not load. And converting a file never improves it: the audio quality you get is whatever the original post carried.'),
-          p('Within those limits, it solves a simple problem. TikTok keeps sounds tied to videos, and a converter lets you pull the sound out and keep it.'),
+          p(
+            'A TikTok to MP3 converter takes the link of a public TikTok video and checks whether the audio can be saved separately. When it can, you get a plain audio file instead of a video. People also call it a TikTok sound downloader, a TikTok music downloader or a TikTok audio saver. It’s all the same idea.'
+          ),
+          p(
+            'Two honest caveats first. The converter works with public videos only, since private, deleted or region-restricted posts may not load. And converting a file never improves it: the audio quality you get is whatever the original post carried.'
+          ),
+          p(
+            'Within those limits, it solves a simple problem. TikTok keeps sounds tied to videos, and a converter lets you pull the sound out and keep it.'
+          ),
         ],
       },
       {
         id: 'how-to',
         title: 'How to Save TikTok Audio as MP3 in Three Steps',
         blocks: [
-          p('You don’t need an account, and you never have to enter your TikTok password anywhere.'),
-          steps(
-            ['Copy the video link.', 'In the TikTok app, open the video, tap Share, then Copy link. Use the full link to the individual post, not a profile link. A cut-off or mangled link is the most common reason a download fails, and the video’s account has to be public.'],
-            ['Paste it into the converter.', 'Drop the link into the box at the top of this page and submit. The page takes a few seconds to read the video.'],
-            ['Choose the audio option and save.', 'If an MP3 or audio button appears, tap it and the file goes to your phone or computer. If no audio option is shown, that video may not offer one.'],
+          p(
+            'You don’t need an account, and you never have to enter your TikTok password anywhere.'
           ),
-          p('The saved file is only the sound, so it’s ready for a playlist or an editor as soon as it lands. Looking for stories instead of sounds? The same site covers that too, from the [MusicalDown homepage](/).'),
+          steps(
+            [
+              'Copy the video link.',
+              'In the TikTok app, open the video, tap Share, then Copy link. Use the full link to the individual post, not a profile link. A cut-off or mangled link is the most common reason a download fails, and the video’s account has to be public.',
+            ],
+            [
+              'Paste it into the converter.',
+              'Drop the link into the box at the top of this page and submit. The page takes a few seconds to read the video.',
+            ],
+            [
+              'Choose the audio option and save.',
+              'If an MP3 or audio button appears, tap it and the file goes to your phone or computer. If no audio option is shown, that video may not offer one.',
+            ]
+          ),
+          p(
+            'The saved file is only the sound, so it’s ready for a playlist or an editor as soon as it lands. Looking for stories instead of sounds? The same site covers that too, from the [MusicalDown homepage](/).'
+          ),
         ],
       },
       {
@@ -2269,17 +2738,29 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'What to Expect From a TikTok MP3 Download',
         blocks: [
           h3('Just the sound, no video'),
-          p('The whole point is separation. You keep the audio and skip the video file, which saves storage and spares you from trimming a clip before you can use it.'),
+          p(
+            'The whole point is separation. You keep the audio and skip the video file, which saves storage and spares you from trimming a clip before you can use it.'
+          ),
           h3('A standard MP3 file'),
-          p('MP3 plays on nearly every phone, laptop and music app, and editing software accepts it without fuss. There’s no special player to hunt for and no extra conversion step.'),
+          p(
+            'MP3 plays on nearly every phone, laptop and music app, and editing software accepts it without fuss. There’s no special player to hunt for and no extra conversion step.'
+          ),
           h3('Quality that matches the source'),
-          p('A converter can’t add detail that was never there. A clean upload gives you clean audio, and a muffled one stays muffled. That’s true of every tool, so be wary of any page that promises to make audio sound better than the original.'),
+          p(
+            'A converter can’t add detail that was never there. A clean upload gives you clean audio, and a muffled one stays muffled. That’s true of every tool, so be wary of any page that promises to make audio sound better than the original.'
+          ),
           h3('Often a clip, not the full song'),
-          p('A TikTok sound is frequently a short excerpt, an edited segment or a remix, so the file you save may be only that portion. If you want the complete track, use the saved clip to identify the song, then look for the full version through a licensed music service.'),
+          p(
+            'A TikTok sound is frequently a short excerpt, an edited segment or a remix, so the file you save may be only that portion. If you want the complete track, use the saved clip to identify the song, then look for the full version through a licensed music service.'
+          ),
           h3('A quick way to identify a sound'),
-          p('If you’ve been trying to track down a song you heard in a video, saving the audio is often the quickest route. Once the file is on your device you can play it back as many times as you need.'),
+          p(
+            'If you’ve been trying to track down a song you heard in a video, saving the audio is often the quickest route. Once the file is on your device you can play it back as many times as you need.'
+          ),
           h3('No sign-up and no software'),
-          p('It runs in the browser you already have open. There’s nothing to install, no extension to add and no registration form to fill in.'),
+          p(
+            'It runs in the browser you already have open. There’s nothing to install, no extension to add and no registration form to fill in.'
+          ),
         ],
       },
       {
@@ -2291,7 +2772,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             'Keep a sound you may want to reference for your own content later.',
             'Turn a short clip into a ringtone or notification tone.',
             'Store a voiceover or spoken snippet separately from its video.',
-            'Build a personal collection of tracks, remixes and snippets that are hard to find elsewhere.',
+            'Build a personal collection of tracks, remixes and snippets that are hard to find elsewhere.'
           ),
         ],
       },
@@ -2299,12 +2780,23 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'who',
         title: 'Who Saves TikTok Audio?',
         blocks: [
-          p('On TikTok the sound often matters more than the picture, and the people who save it tend to know exactly what they want it for.'),
+          p(
+            'On TikTok the sound often matters more than the picture, and the people who save it tend to know exactly what they want it for.'
+          ),
           cards(
             3,
-            ['Creators & video editors', 'Want a ready-to-use track they can drop straight onto a timeline, instead of ripping the audio out of a finished video first.'],
-            ['Music fans', 'Find a song, remix or snippet in the app and want to keep it in their own library rather than depend on finding that video again.'],
-            ['Everyday users', 'Have smaller jobs in mind: a ringtone, a funny voice clip, a sound for the walk to work. What they share is a wish to have the audio on their own terms.'],
+            [
+              'Creators & video editors',
+              'Want a ready-to-use track they can drop straight onto a timeline, instead of ripping the audio out of a finished video first.',
+            ],
+            [
+              'Music fans',
+              'Find a song, remix or snippet in the app and want to keep it in their own library rather than depend on finding that video again.',
+            ],
+            [
+              'Everyday users',
+              'Have smaller jobs in mind: a ringtone, a funny voice clip, a sound for the walk to work. What they share is a wish to have the audio on their own terms.',
+            ]
           ),
         ],
       },
@@ -2312,13 +2804,27 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'devices',
         title: 'TikTok to MP3 on iPhone, Android, PC and Mac',
         blocks: [
-          p('Because everything happens in a web page, the device matters far less than the browser, and any current one will do.'),
+          p(
+            'Because everything happens in a web page, the device matters far less than the browser, and any current one will do.'
+          ),
           cards(
             2,
-            ['iPhone', 'Open the converter in Safari, paste the link and submit. After the download, look in the Files app, usually in the Downloads folder tied to your browser. The exact save location can vary with your iOS version and browser settings, and you don’t need the App Store at any point.'],
-            ['Android', 'Use Chrome or whichever browser you already have. Paste the link, tap the audio option, and check your browser’s Downloads list or your file manager once it finishes. No APK and no side-loading are involved.'],
-            ['Windows PC', 'Open the page in Chrome or Edge, paste the video URL and choose the MP3 option. The file is saved to your Downloads folder unless you’ve set another location, and you can then play it in any media player or move it into your music library.'],
-            ['Mac', 'Safari and Chrome both work, and the steps match the Windows ones. Check your Downloads folder or the browser’s download history, then add the file to your audio library or editing project if you have the rights to use it.'],
+            [
+              'iPhone',
+              'Open the converter in Safari, paste the link and submit. After the download, look in the Files app, usually in the Downloads folder tied to your browser. The exact save location can vary with your iOS version and browser settings, and you don’t need the App Store at any point.',
+            ],
+            [
+              'Android',
+              'Use Chrome or whichever browser you already have. Paste the link, tap the audio option, and check your browser’s Downloads list or your file manager once it finishes. No APK and no side-loading are involved.',
+            ],
+            [
+              'Windows PC',
+              'Open the page in Chrome or Edge, paste the video URL and choose the MP3 option. The file is saved to your Downloads folder unless you’ve set another location, and you can then play it in any media player or move it into your music library.',
+            ],
+            [
+              'Mac',
+              'Safari and Chrome both work, and the steps match the Windows ones. Check your Downloads folder or the browser’s download history, then add the file to your audio library or editing project if you have the rights to use it.',
+            ]
           ),
         ],
       },
@@ -2326,15 +2832,38 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'troubleshooting',
         title: 'TikTok MP3 Download Not Working? Troubleshooting',
         blocks: [
-          p('A failed download usually has a simple cause. Work through these in order before trying another site or installing anything:'),
+          p(
+            'A failed download usually has a simple cause. Work through these in order before trying another site or installing anything:'
+          ),
           ol(
-            ['The link is incomplete.', 'Go back to the post and copy the full link again. It should be the individual video, not a profile or an edited link.'],
-            ['The video is unavailable.', 'Private, deleted and region-restricted videos may not load at all. Try a different public post you have permission to save.'],
-            ['No audio option appears.', 'Not every video offers a separate audio download. If the page shows no MP3 button for that link, it may simply not be available for that post.'],
-            ['The page is slow or stuck.', 'Check your connection, refresh and paste the link again. A different browser can also help.'],
-            ['The download was blocked or interrupted.', 'Check your browser’s download history, free storage space and any security prompt. Don’t disable security features to force a download.'],
-            ['The file won’t play.', 'Confirm the download finished and the extension is .mp3. If the file looks incomplete, delete it and download it again.'],
-            ['You can’t find the file.', 'Check the Downloads folder or the browser’s download list. On iPhone, open the Files app first.'],
+            [
+              'The link is incomplete.',
+              'Go back to the post and copy the full link again. It should be the individual video, not a profile or an edited link.',
+            ],
+            [
+              'The video is unavailable.',
+              'Private, deleted and region-restricted videos may not load at all. Try a different public post you have permission to save.',
+            ],
+            [
+              'No audio option appears.',
+              'Not every video offers a separate audio download. If the page shows no MP3 button for that link, it may simply not be available for that post.',
+            ],
+            [
+              'The page is slow or stuck.',
+              'Check your connection, refresh and paste the link again. A different browser can also help.',
+            ],
+            [
+              'The download was blocked or interrupted.',
+              'Check your browser’s download history, free storage space and any security prompt. Don’t disable security features to force a download.',
+            ],
+            [
+              'The file won’t play.',
+              'Confirm the download finished and the extension is .mp3. If the file looks incomplete, delete it and download it again.',
+            ],
+            [
+              'You can’t find the file.',
+              'Check the Downloads folder or the browser’s download list. On iPhone, open the Files app first.',
+            ]
           ),
           p('If the problem continues, the source may be temporarily unavailable or unsupported.'),
         ],
@@ -2344,38 +2873,87 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Copyright, Permission and Safe Use',
         blocks: [
           h3('Copyright and permission'),
-          p('A lot of the music on TikTok is copyrighted. Saving a track for private listening is a different matter from publishing it in your own video or using it commercially. Save content you own or have permission to use, and check the usage rights, along with TikTok’s own rules in its [support center](https://support.tiktok.com), before the sound goes into anything public.'),
+          p(
+            'A lot of the music on TikTok is copyrighted. Saving a track for private listening is a different matter from publishing it in your own video or using it commercially. Save content you own or have permission to use, and check the usage rights, along with TikTok’s own rules in its [support center](https://support.tiktok.com), before the sound goes into anything public.'
+          ),
           h3('Keep your account and device safe'),
           p('A downloader only needs a public video link. For safer use:'),
           ul(
             'Never enter your TikTok password or verification codes into any downloader. If a site asks for them, close it.',
             'Ignore unexpected software installs, suspicious redirects and extensions that ask for unnecessary permissions.',
             'Read the site’s [privacy policy](/privacy) to see how it handles submitted links.',
-            'Keep personal or sensitive recordings private.',
+            'Keep personal or sensitive recordings private.'
           ),
         ],
       },
     ],
     faqTitle: 'Frequently Asked Questions',
     faq: [
-      { question: 'Can I download only the music from a TikTok video?', answer: 'Yes, when the video offers an audio option. You save the sound as an MP3 and skip the video file entirely.' },
-      { question: 'How do I convert TikTok to MP3?', answer: 'Copy the link of a public TikTok video, paste it into the converter, submit it and tap the MP3 or audio button. Then save the file to your device.' },
-      { question: 'What format does the audio come in?', answer: 'MP3, which plays on virtually every phone, computer and music app.' },
-      { question: 'Will the MP3 sound better than the TikTok?', answer: 'No. Converting doesn’t improve quality, so the file reflects the source audio of the original post.' },
-      { question: 'Can I download a full song from a TikTok video?', answer: 'Not necessarily. Many TikTok sounds are short excerpts, edits or remixes, so you may get only that portion. Use it to identify the song, then find the full track on a licensed music service.' },
-      { question: 'Can I convert audio from a private account?', answer: 'No. The converter works with public videos only.' },
-      { question: 'Do I need a TikTok account or an app?', answer: 'Neither. Copy a public video link, paste it into the page and save the file from your browser.' },
-      { question: 'Is it free?', answer: 'Yes. At the time of writing the converter is free and requires no sign-up. Check the page for any changes.' },
-      { question: 'Can I use a saved sound in my own videos?', answer: 'For personal listening, generally yes. For anything you publish, especially commercially, check the usage rights first, because many tracks are copyrighted.' },
-      { question: 'Where are downloaded MP3 files saved?', answer: 'In your browser’s Downloads folder, or the Files app on an iPhone. The exact location depends on your device and browser settings.' },
-      { question: 'Is it safe to use a TikTok to MP3 converter?', answer: 'It’s safe when you use common sense: never share passwords or codes, skip unexpected installs, and read the privacy policy. No tool can promise perfect safety, so stick to public content.' },
-      { question: 'Why isn’t my link working?', answer: 'The usual suspects are an incomplete link, a private or deleted video, or a region restriction. Copy the full link again from the app and retry. The troubleshooting section above lists every common cause.' },
+      {
+        question: 'Can I download only the music from a TikTok video?',
+        answer:
+          'Yes, when the video offers an audio option. You save the sound as an MP3 and skip the video file entirely.',
+      },
+      {
+        question: 'How do I convert TikTok to MP3?',
+        answer:
+          'Copy the link of a public TikTok video, paste it into the converter, submit it and tap the MP3 or audio button. Then save the file to your device.',
+      },
+      {
+        question: 'What format does the audio come in?',
+        answer: 'MP3, which plays on virtually every phone, computer and music app.',
+      },
+      {
+        question: 'Will the MP3 sound better than the TikTok?',
+        answer:
+          'No. Converting doesn’t improve quality, so the file reflects the source audio of the original post.',
+      },
+      {
+        question: 'Can I download a full song from a TikTok video?',
+        answer:
+          'Not necessarily. Many TikTok sounds are short excerpts, edits or remixes, so you may get only that portion. Use it to identify the song, then find the full track on a licensed music service.',
+      },
+      {
+        question: 'Can I convert audio from a private account?',
+        answer: 'No. The converter works with public videos only.',
+      },
+      {
+        question: 'Do I need a TikTok account or an app?',
+        answer:
+          'Neither. Copy a public video link, paste it into the page and save the file from your browser.',
+      },
+      {
+        question: 'Is it free?',
+        answer:
+          'Yes. At the time of writing the converter is free and requires no sign-up. Check the page for any changes.',
+      },
+      {
+        question: 'Can I use a saved sound in my own videos?',
+        answer:
+          'For personal listening, generally yes. For anything you publish, especially commercially, check the usage rights first, because many tracks are copyrighted.',
+      },
+      {
+        question: 'Where are downloaded MP3 files saved?',
+        answer:
+          'In your browser’s Downloads folder, or the Files app on an iPhone. The exact location depends on your device and browser settings.',
+      },
+      {
+        question: 'Is it safe to use a TikTok to MP3 converter?',
+        answer:
+          'It’s safe when you use common sense: never share passwords or codes, skip unexpected installs, and read the privacy policy. No tool can promise perfect safety, so stick to public content.',
+      },
+      {
+        question: 'Why isn’t my link working?',
+        answer:
+          'The usual suspects are an incomplete link, a private or deleted video, or a region restriction. Copy the full link again from the app and retry. The troubleshooting section above lists every common cause.',
+      },
     ],
     finalTitle: 'Final Thoughts',
     finalText:
       'Sounds on TikTok are easy to lose and hard to name. Saving one as an MP3 takes a public link, a browser and a few seconds, and you end up with a clean audio file for your playlist, your editor or your ringtone list. Keep expectations realistic: the quality is the original’s, the file may be only part of a song, private videos are off limits, and anything you publish still needs the right permissions.',
     ctaLabel: 'Paste a link and convert to MP3',
-    moreText: 'When you’re ready, paste a link into the converter above and see whether the video offers an audio download.',
+    moreText:
+      'When you’re ready, paste a link into the converter above and see whether the video offers an audio download.',
   },
 
   /* ------------------------------------------------------------------ ES */
@@ -2398,22 +2976,41 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'que-es',
         title: '¿Qué es un convertidor de TikTok a MP3?',
         blocks: [
-          p('Un convertidor de TikTok a MP3 toma el enlace de un vídeo público de TikTok y comprueba si el audio se puede guardar por separado. Cuando se puede, obtienes un archivo de audio normal en lugar de un vídeo. La gente también lo llama descargador de sonidos de TikTok, descargador de música de TikTok o guardador de audio de TikTok. Es la misma idea.'),
-          p('Antes, dos advertencias honestas. El convertidor funciona solo con vídeos públicos, ya que las publicaciones privadas, eliminadas o con restricción regional pueden no cargarse. Y convertir un archivo nunca lo mejora: la calidad del audio es la que tuviera la publicación original.'),
-          p('Dentro de esos límites, resuelve un problema sencillo. TikTok mantiene los sonidos ligados a los vídeos y un convertidor te permite extraer el sonido y conservarlo.'),
+          p(
+            'Un convertidor de TikTok a MP3 toma el enlace de un vídeo público de TikTok y comprueba si el audio se puede guardar por separado. Cuando se puede, obtienes un archivo de audio normal en lugar de un vídeo. La gente también lo llama descargador de sonidos de TikTok, descargador de música de TikTok o guardador de audio de TikTok. Es la misma idea.'
+          ),
+          p(
+            'Antes, dos advertencias honestas. El convertidor funciona solo con vídeos públicos, ya que las publicaciones privadas, eliminadas o con restricción regional pueden no cargarse. Y convertir un archivo nunca lo mejora: la calidad del audio es la que tuviera la publicación original.'
+          ),
+          p(
+            'Dentro de esos límites, resuelve un problema sencillo. TikTok mantiene los sonidos ligados a los vídeos y un convertidor te permite extraer el sonido y conservarlo.'
+          ),
         ],
       },
       {
         id: 'como-guardar',
         title: 'Cómo guardar audio de TikTok como MP3 en tres pasos',
         blocks: [
-          p('No necesitas cuenta y nunca tienes que introducir tu contraseña de TikTok en ningún sitio.'),
-          steps(
-            ['Copia el enlace del vídeo.', 'En la app de TikTok, abre el vídeo, toca Compartir y después Copiar enlace. Usa el enlace completo de la publicación concreta, no el de un perfil. Un enlace cortado o alterado es la causa más común de que falle una descarga, y la cuenta del vídeo debe ser pública.'],
-            ['Pégalo en el convertidor.', 'Pega el enlace en el cuadro de la parte superior de esta página y envíalo. La página tarda unos segundos en leer el vídeo.'],
-            ['Elige la opción de audio y guarda.', 'Si aparece un botón de MP3 o de audio, púlsalo y el archivo se guardará en tu móvil u ordenador. Si no se muestra ninguna opción de audio, es posible que ese vídeo no la ofrezca.'],
+          p(
+            'No necesitas cuenta y nunca tienes que introducir tu contraseña de TikTok en ningún sitio.'
           ),
-          p('El archivo guardado es solo el sonido, así que está listo para una lista de reproducción o un editor en cuanto llega. ¿Buscas historias en vez de sonidos? El mismo sitio también cubre eso, desde la [página de inicio de MusicalDown](/).'),
+          steps(
+            [
+              'Copia el enlace del vídeo.',
+              'En la app de TikTok, abre el vídeo, toca Compartir y después Copiar enlace. Usa el enlace completo de la publicación concreta, no el de un perfil. Un enlace cortado o alterado es la causa más común de que falle una descarga, y la cuenta del vídeo debe ser pública.',
+            ],
+            [
+              'Pégalo en el convertidor.',
+              'Pega el enlace en el cuadro de la parte superior de esta página y envíalo. La página tarda unos segundos en leer el vídeo.',
+            ],
+            [
+              'Elige la opción de audio y guarda.',
+              'Si aparece un botón de MP3 o de audio, púlsalo y el archivo se guardará en tu móvil u ordenador. Si no se muestra ninguna opción de audio, es posible que ese vídeo no la ofrezca.',
+            ]
+          ),
+          p(
+            'El archivo guardado es solo el sonido, así que está listo para una lista de reproducción o un editor en cuanto llega. ¿Buscas historias en vez de sonidos? El mismo sitio también cubre eso, desde la [página de inicio de MusicalDown](/).'
+          ),
         ],
       },
       {
@@ -2421,17 +3018,29 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Qué esperar de una descarga de TikTok en MP3',
         blocks: [
           h3('Solo el sonido, sin vídeo'),
-          p('Todo el sentido está en separar. Te quedas con el audio y te ahorras el archivo de vídeo, lo que ahorra almacenamiento y evita tener que recortar un clip antes de poder usarlo.'),
+          p(
+            'Todo el sentido está en separar. Te quedas con el audio y te ahorras el archivo de vídeo, lo que ahorra almacenamiento y evita tener que recortar un clip antes de poder usarlo.'
+          ),
           h3('Un archivo MP3 estándar'),
-          p('El MP3 se reproduce en casi cualquier móvil, portátil y app de música, y el software de edición lo acepta sin problemas. No hay que buscar un reproductor especial ni hacer una conversión adicional.'),
+          p(
+            'El MP3 se reproduce en casi cualquier móvil, portátil y app de música, y el software de edición lo acepta sin problemas. No hay que buscar un reproductor especial ni hacer una conversión adicional.'
+          ),
           h3('Una calidad que coincide con el origen'),
-          p('Un convertidor no puede añadir detalle que nunca existió. Una subida limpia da un audio limpio y una apagada sigue apagada. Esto es así con todas las herramientas, así que desconfía de cualquier página que prometa que el audio sonará mejor que el original.'),
+          p(
+            'Un convertidor no puede añadir detalle que nunca existió. Una subida limpia da un audio limpio y una apagada sigue apagada. Esto es así con todas las herramientas, así que desconfía de cualquier página que prometa que el audio sonará mejor que el original.'
+          ),
           h3('Muchas veces un fragmento, no la canción completa'),
-          p('Un sonido de TikTok suele ser un extracto corto, un segmento editado o un remix, así que el archivo que guardes puede ser solo esa parte. Si quieres la canción completa, usa el fragmento guardado para identificarla y busca después la versión completa en un servicio de música con licencia.'),
+          p(
+            'Un sonido de TikTok suele ser un extracto corto, un segmento editado o un remix, así que el archivo que guardes puede ser solo esa parte. Si quieres la canción completa, usa el fragmento guardado para identificarla y busca después la versión completa en un servicio de música con licencia.'
+          ),
           h3('Una forma rápida de identificar un sonido'),
-          p('Si has estado intentando localizar una canción que oíste en un vídeo, guardar el audio suele ser el camino más rápido. Cuando el archivo está en tu dispositivo puedes reproducirlo tantas veces como necesites.'),
+          p(
+            'Si has estado intentando localizar una canción que oíste en un vídeo, guardar el audio suele ser el camino más rápido. Cuando el archivo está en tu dispositivo puedes reproducirlo tantas veces como necesites.'
+          ),
           h3('Sin registro y sin software'),
-          p('Funciona en el navegador que ya tienes abierto. No hay nada que instalar, ninguna extensión que añadir y ningún formulario de registro que rellenar.'),
+          p(
+            'Funciona en el navegador que ya tienes abierto. No hay nada que instalar, ninguna extensión que añadir y ningún formulario de registro que rellenar.'
+          ),
         ],
       },
       {
@@ -2443,7 +3052,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             'Guardar un sonido que quizá quieras usar como referencia en tu propio contenido.',
             'Convertir un clip corto en tono de llamada o de notificación.',
             'Guardar una locución o un fragmento hablado por separado de su vídeo.',
-            'Crear una colección personal de temas, remixes y fragmentos difíciles de encontrar en otro sitio.',
+            'Crear una colección personal de temas, remixes y fragmentos difíciles de encontrar en otro sitio.'
           ),
         ],
       },
@@ -2451,12 +3060,23 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'quien',
         title: '¿Quién guarda audio de TikTok?',
         blocks: [
-          p('En TikTok el sonido a menudo importa más que la imagen, y quienes lo guardan suelen saber exactamente para qué lo quieren.'),
+          p(
+            'En TikTok el sonido a menudo importa más que la imagen, y quienes lo guardan suelen saber exactamente para qué lo quieren.'
+          ),
           cards(
             3,
-            ['Creadores y editores de vídeo', 'Quieren una pista lista para arrastrar directamente a la línea de tiempo, en lugar de extraer antes el audio de un vídeo terminado.'],
-            ['Aficionados a la música', 'Encuentran una canción, un remix o un fragmento en la app y quieren conservarlo en su propia biblioteca en vez de depender de volver a encontrar ese vídeo.'],
-            ['Usuarios habituales', 'Tienen tareas más pequeñas en mente: un tono de llamada, un clip de voz divertido, un sonido para el camino al trabajo. Lo que comparten es el deseo de tener el audio en sus propios términos.'],
+            [
+              'Creadores y editores de vídeo',
+              'Quieren una pista lista para arrastrar directamente a la línea de tiempo, en lugar de extraer antes el audio de un vídeo terminado.',
+            ],
+            [
+              'Aficionados a la música',
+              'Encuentran una canción, un remix o un fragmento en la app y quieren conservarlo en su propia biblioteca en vez de depender de volver a encontrar ese vídeo.',
+            ],
+            [
+              'Usuarios habituales',
+              'Tienen tareas más pequeñas en mente: un tono de llamada, un clip de voz divertido, un sonido para el camino al trabajo. Lo que comparten es el deseo de tener el audio en sus propios términos.',
+            ]
           ),
         ],
       },
@@ -2464,13 +3084,27 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'dispositivos',
         title: 'TikTok a MP3 en iPhone, Android, PC y Mac',
         blocks: [
-          p('Como todo ocurre en una página web, el dispositivo importa mucho menos que el navegador, y cualquiera actual sirve.'),
+          p(
+            'Como todo ocurre en una página web, el dispositivo importa mucho menos que el navegador, y cualquiera actual sirve.'
+          ),
           cards(
             2,
-            ['iPhone', 'Abre el convertidor en Safari, pega el enlace y envíalo. Tras la descarga, mira en la app Archivos, normalmente en la carpeta Descargas vinculada a tu navegador. La ubicación exacta puede variar según tu versión de iOS y los ajustes del navegador, y no necesitas la App Store en ningún momento.'],
-            ['Android', 'Usa Chrome o el navegador que ya tengas. Pega el enlace, toca la opción de audio y revisa la lista de descargas del navegador o tu gestor de archivos cuando termine. No hay APK ni instalaciones externas.'],
-            ['PC con Windows', 'Abre la página en Chrome o Edge, pega la URL del vídeo y elige la opción MP3. El archivo se guarda en tu carpeta Descargas salvo que hayas fijado otra ubicación, y luego puedes reproducirlo en cualquier reproductor o moverlo a tu biblioteca de música.'],
-            ['Mac', 'Safari y Chrome funcionan, y los pasos son los mismos que en Windows. Revisa tu carpeta Descargas o el historial de descargas del navegador y añade después el archivo a tu biblioteca de audio o proyecto de edición si tienes derecho a usarlo.'],
+            [
+              'iPhone',
+              'Abre el convertidor en Safari, pega el enlace y envíalo. Tras la descarga, mira en la app Archivos, normalmente en la carpeta Descargas vinculada a tu navegador. La ubicación exacta puede variar según tu versión de iOS y los ajustes del navegador, y no necesitas la App Store en ningún momento.',
+            ],
+            [
+              'Android',
+              'Usa Chrome o el navegador que ya tengas. Pega el enlace, toca la opción de audio y revisa la lista de descargas del navegador o tu gestor de archivos cuando termine. No hay APK ni instalaciones externas.',
+            ],
+            [
+              'PC con Windows',
+              'Abre la página en Chrome o Edge, pega la URL del vídeo y elige la opción MP3. El archivo se guarda en tu carpeta Descargas salvo que hayas fijado otra ubicación, y luego puedes reproducirlo en cualquier reproductor o moverlo a tu biblioteca de música.',
+            ],
+            [
+              'Mac',
+              'Safari y Chrome funcionan, y los pasos son los mismos que en Windows. Revisa tu carpeta Descargas o el historial de descargas del navegador y añade después el archivo a tu biblioteca de audio o proyecto de edición si tienes derecho a usarlo.',
+            ]
           ),
         ],
       },
@@ -2478,17 +3112,42 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'solucion-de-problemas',
         title: '¿No funciona la descarga de TikTok en MP3? Solución de problemas',
         blocks: [
-          p('Una descarga fallida suele tener una causa sencilla. Repasa estos puntos en orden antes de probar otro sitio o instalar nada:'),
-          ol(
-            ['El enlace está incompleto.', 'Vuelve a la publicación y copia de nuevo el enlace completo. Debe ser el del vídeo concreto, no el de un perfil ni un enlace modificado.'],
-            ['El vídeo no está disponible.', 'Los vídeos privados, eliminados o con restricción regional pueden no cargarse en absoluto. Prueba con otra publicación pública que tengas permiso para guardar.'],
-            ['No aparece ninguna opción de audio.', 'No todos los vídeos ofrecen una descarga de audio por separado. Si la página no muestra botón de MP3 para ese enlace, puede que simplemente no esté disponible para esa publicación.'],
-            ['La página va lenta o se queda bloqueada.', 'Revisa tu conexión, actualiza y vuelve a pegar el enlace. Cambiar de navegador también puede ayudar.'],
-            ['La descarga se bloqueó o se interrumpió.', 'Revisa el historial de descargas del navegador, el espacio libre y cualquier aviso de seguridad. No desactives funciones de seguridad para forzar una descarga.'],
-            ['El archivo no se reproduce.', 'Confirma que la descarga terminó y que la extensión es .mp3. Si el archivo parece incompleto, bórralo y vuelve a descargarlo.'],
-            ['No encuentras el archivo.', 'Revisa la carpeta Descargas o la lista de descargas del navegador. En iPhone, abre primero la app Archivos.'],
+          p(
+            'Una descarga fallida suele tener una causa sencilla. Repasa estos puntos en orden antes de probar otro sitio o instalar nada:'
           ),
-          p('Si el problema continúa, puede que el origen no esté disponible temporalmente o no sea compatible.'),
+          ol(
+            [
+              'El enlace está incompleto.',
+              'Vuelve a la publicación y copia de nuevo el enlace completo. Debe ser el del vídeo concreto, no el de un perfil ni un enlace modificado.',
+            ],
+            [
+              'El vídeo no está disponible.',
+              'Los vídeos privados, eliminados o con restricción regional pueden no cargarse en absoluto. Prueba con otra publicación pública que tengas permiso para guardar.',
+            ],
+            [
+              'No aparece ninguna opción de audio.',
+              'No todos los vídeos ofrecen una descarga de audio por separado. Si la página no muestra botón de MP3 para ese enlace, puede que simplemente no esté disponible para esa publicación.',
+            ],
+            [
+              'La página va lenta o se queda bloqueada.',
+              'Revisa tu conexión, actualiza y vuelve a pegar el enlace. Cambiar de navegador también puede ayudar.',
+            ],
+            [
+              'La descarga se bloqueó o se interrumpió.',
+              'Revisa el historial de descargas del navegador, el espacio libre y cualquier aviso de seguridad. No desactives funciones de seguridad para forzar una descarga.',
+            ],
+            [
+              'El archivo no se reproduce.',
+              'Confirma que la descarga terminó y que la extensión es .mp3. Si el archivo parece incompleto, bórralo y vuelve a descargarlo.',
+            ],
+            [
+              'No encuentras el archivo.',
+              'Revisa la carpeta Descargas o la lista de descargas del navegador. En iPhone, abre primero la app Archivos.',
+            ]
+          ),
+          p(
+            'Si el problema continúa, puede que el origen no esté disponible temporalmente o no sea compatible.'
+          ),
         ],
       },
       {
@@ -2496,38 +3155,90 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Derechos de autor, permiso y uso seguro',
         blocks: [
           h3('Derechos de autor y permiso'),
-          p('Mucha de la música de TikTok tiene derechos de autor. Guardar una pista para escucharla en privado es distinto de publicarla en tu propio vídeo o usarla comercialmente. Guarda contenido que sea tuyo o que tengas permiso para usar, y comprueba los derechos de uso, junto con las normas de TikTok en su [centro de ayuda](https://support.tiktok.com), antes de que el sonido acabe en algo público.'),
+          p(
+            'Mucha de la música de TikTok tiene derechos de autor. Guardar una pista para escucharla en privado es distinto de publicarla en tu propio vídeo o usarla comercialmente. Guarda contenido que sea tuyo o que tengas permiso para usar, y comprueba los derechos de uso, junto con las normas de TikTok en su [centro de ayuda](https://support.tiktok.com), antes de que el sonido acabe en algo público.'
+          ),
           h3('Mantén seguros tu cuenta y tu dispositivo'),
-          p('Un descargador solo necesita el enlace de un vídeo público. Para usarlo con más seguridad:'),
+          p(
+            'Un descargador solo necesita el enlace de un vídeo público. Para usarlo con más seguridad:'
+          ),
           ul(
             'Nunca introduzcas tu contraseña de TikTok ni códigos de verificación en ningún descargador. Si un sitio te los pide, ciérralo.',
             'Ignora las instalaciones de software inesperadas, las redirecciones sospechosas y las extensiones que piden permisos innecesarios.',
             'Lee la [política de privacidad](/privacy) del sitio para saber cómo trata los enlaces enviados.',
-            'Mantén en privado las grabaciones personales o sensibles.',
+            'Mantén en privado las grabaciones personales o sensibles.'
           ),
         ],
       },
     ],
     faqTitle: 'Preguntas frecuentes',
     faq: [
-      { question: '¿Puedo descargar solo la música de un vídeo de TikTok?', answer: 'Sí, cuando el vídeo ofrece una opción de audio. Guardas el sonido como MP3 y te saltas por completo el archivo de vídeo.' },
-      { question: '¿Cómo convierto TikTok a MP3?', answer: 'Copia el enlace de un vídeo público de TikTok, pégalo en el convertidor, envíalo y pulsa el botón de MP3 o audio. Después guarda el archivo en tu dispositivo.' },
-      { question: '¿En qué formato llega el audio?', answer: 'MP3, que se reproduce en prácticamente cualquier móvil, ordenador y app de música.' },
-      { question: '¿Sonará mejor el MP3 que el TikTok?', answer: 'No. Convertir no mejora la calidad, así que el archivo refleja el audio de origen de la publicación original.' },
-      { question: '¿Puedo descargar una canción completa de un vídeo de TikTok?', answer: 'No necesariamente. Muchos sonidos de TikTok son extractos cortos, ediciones o remixes, así que puede que obtengas solo esa parte. Úsalo para identificar la canción y busca después la pista completa en un servicio de música con licencia.' },
-      { question: '¿Puedo convertir audio de una cuenta privada?', answer: 'No. El convertidor funciona solo con vídeos públicos.' },
-      { question: '¿Necesito una cuenta de TikTok o una app?', answer: 'Ninguna de las dos. Copia el enlace de un vídeo público, pégalo en la página y guarda el archivo desde tu navegador.' },
-      { question: '¿Es gratis?', answer: 'Sí. En el momento de escribir esto, el convertidor es gratuito y no requiere registro. Consulta la página por si hubiera cambios.' },
-      { question: '¿Puedo usar un sonido guardado en mis propios vídeos?', answer: 'Para escucharlo en privado, por lo general sí. Para cualquier cosa que publiques, sobre todo con fines comerciales, comprueba antes los derechos de uso, porque muchas pistas tienen derechos de autor.' },
-      { question: '¿Dónde se guardan los archivos MP3 descargados?', answer: 'En la carpeta Descargas de tu navegador, o en la app Archivos en un iPhone. La ubicación exacta depende de tu dispositivo y de los ajustes del navegador.' },
-      { question: '¿Es seguro usar un convertidor de TikTok a MP3?', answer: 'Lo es si usas el sentido común: no compartas contraseñas ni códigos, evita instalaciones inesperadas y lee la política de privacidad. Ninguna herramienta puede prometer una seguridad perfecta, así que limítate a contenido público.' },
-      { question: '¿Por qué no funciona mi enlace?', answer: 'Los sospechosos habituales son un enlace incompleto, un vídeo privado o eliminado, o una restricción regional. Copia de nuevo el enlace completo desde la app y reinténtalo. La sección de solución de problemas de arriba recoge todas las causas habituales.' },
+      {
+        question: '¿Puedo descargar solo la música de un vídeo de TikTok?',
+        answer:
+          'Sí, cuando el vídeo ofrece una opción de audio. Guardas el sonido como MP3 y te saltas por completo el archivo de vídeo.',
+      },
+      {
+        question: '¿Cómo convierto TikTok a MP3?',
+        answer:
+          'Copia el enlace de un vídeo público de TikTok, pégalo en el convertidor, envíalo y pulsa el botón de MP3 o audio. Después guarda el archivo en tu dispositivo.',
+      },
+      {
+        question: '¿En qué formato llega el audio?',
+        answer:
+          'MP3, que se reproduce en prácticamente cualquier móvil, ordenador y app de música.',
+      },
+      {
+        question: '¿Sonará mejor el MP3 que el TikTok?',
+        answer:
+          'No. Convertir no mejora la calidad, así que el archivo refleja el audio de origen de la publicación original.',
+      },
+      {
+        question: '¿Puedo descargar una canción completa de un vídeo de TikTok?',
+        answer:
+          'No necesariamente. Muchos sonidos de TikTok son extractos cortos, ediciones o remixes, así que puede que obtengas solo esa parte. Úsalo para identificar la canción y busca después la pista completa en un servicio de música con licencia.',
+      },
+      {
+        question: '¿Puedo convertir audio de una cuenta privada?',
+        answer: 'No. El convertidor funciona solo con vídeos públicos.',
+      },
+      {
+        question: '¿Necesito una cuenta de TikTok o una app?',
+        answer:
+          'Ninguna de las dos. Copia el enlace de un vídeo público, pégalo en la página y guarda el archivo desde tu navegador.',
+      },
+      {
+        question: '¿Es gratis?',
+        answer:
+          'Sí. En el momento de escribir esto, el convertidor es gratuito y no requiere registro. Consulta la página por si hubiera cambios.',
+      },
+      {
+        question: '¿Puedo usar un sonido guardado en mis propios vídeos?',
+        answer:
+          'Para escucharlo en privado, por lo general sí. Para cualquier cosa que publiques, sobre todo con fines comerciales, comprueba antes los derechos de uso, porque muchas pistas tienen derechos de autor.',
+      },
+      {
+        question: '¿Dónde se guardan los archivos MP3 descargados?',
+        answer:
+          'En la carpeta Descargas de tu navegador, o en la app Archivos en un iPhone. La ubicación exacta depende de tu dispositivo y de los ajustes del navegador.',
+      },
+      {
+        question: '¿Es seguro usar un convertidor de TikTok a MP3?',
+        answer:
+          'Lo es si usas el sentido común: no compartas contraseñas ni códigos, evita instalaciones inesperadas y lee la política de privacidad. Ninguna herramienta puede prometer una seguridad perfecta, así que limítate a contenido público.',
+      },
+      {
+        question: '¿Por qué no funciona mi enlace?',
+        answer:
+          'Los sospechosos habituales son un enlace incompleto, un vídeo privado o eliminado, o una restricción regional. Copia de nuevo el enlace completo desde la app y reinténtalo. La sección de solución de problemas de arriba recoge todas las causas habituales.',
+      },
     ],
     finalTitle: 'Reflexión final',
     finalText:
       'Los sonidos de TikTok son fáciles de perder y difíciles de nombrar. Guardar uno como MP3 requiere un enlace público, un navegador y unos segundos, y acabas con un archivo de audio limpio para tu lista de reproducción, tu editor o tu lista de tonos de llamada. Mantén expectativas realistas: la calidad es la del original, el archivo puede ser solo parte de una canción, los vídeos privados están fuera de alcance y todo lo que publiques sigue necesitando los permisos adecuados.',
     ctaLabel: 'Pega un enlace y convierte a MP3',
-    moreText: 'Cuando estés listo, pega un enlace en el convertidor de arriba y comprueba si el vídeo ofrece una descarga de audio.',
+    moreText:
+      'Cuando estés listo, pega un enlace en el convertidor de arriba y comprueba si el vídeo ofrece una descarga de audio.',
   },
 
   /* ------------------------------------------------------------------ ID */
@@ -2550,22 +3261,41 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'apa-itu',
         title: 'Apa Itu Konverter TikTok ke MP3?',
         blocks: [
-          p('Konverter TikTok ke MP3 mengambil tautan video TikTok publik dan memeriksa apakah audionya bisa disimpan terpisah. Jika bisa, Anda mendapatkan file audio biasa, bukan video. Orang juga menyebutnya pengunduh suara TikTok, pengunduh musik TikTok, atau penyimpan audio TikTok. Semuanya ide yang sama.'),
-          p('Dua catatan jujur lebih dulu. Konverter hanya bekerja dengan video publik, karena postingan privat, yang dihapus, atau dibatasi wilayah mungkin tidak termuat. Dan mengonversi file tidak pernah memperbaikinya: kualitas audio yang Anda dapat sama dengan yang dimiliki postingan aslinya.'),
-          p('Dalam batasan itu, alat ini menyelesaikan masalah sederhana. TikTok mengikat suara pada video, dan konverter memungkinkan Anda mengambil suaranya dan menyimpannya.'),
+          p(
+            'Konverter TikTok ke MP3 mengambil tautan video TikTok publik dan memeriksa apakah audionya bisa disimpan terpisah. Jika bisa, Anda mendapatkan file audio biasa, bukan video. Orang juga menyebutnya pengunduh suara TikTok, pengunduh musik TikTok, atau penyimpan audio TikTok. Semuanya ide yang sama.'
+          ),
+          p(
+            'Dua catatan jujur lebih dulu. Konverter hanya bekerja dengan video publik, karena postingan privat, yang dihapus, atau dibatasi wilayah mungkin tidak termuat. Dan mengonversi file tidak pernah memperbaikinya: kualitas audio yang Anda dapat sama dengan yang dimiliki postingan aslinya.'
+          ),
+          p(
+            'Dalam batasan itu, alat ini menyelesaikan masalah sederhana. TikTok mengikat suara pada video, dan konverter memungkinkan Anda mengambil suaranya dan menyimpannya.'
+          ),
         ],
       },
       {
         id: 'cara-simpan',
         title: 'Cara Menyimpan Audio TikTok sebagai MP3 dalam Tiga Langkah',
         blocks: [
-          p('Anda tidak perlu akun, dan tidak pernah perlu memasukkan kata sandi TikTok di mana pun.'),
-          steps(
-            ['Salin tautan video.', 'Di aplikasi TikTok, buka video, ketuk Bagikan, lalu Salin tautan. Gunakan tautan lengkap ke postingan tertentu, bukan tautan profil. Tautan yang terpotong atau rusak adalah penyebab paling umum unduhan gagal, dan akun pemilik video harus publik.'],
-            ['Tempel ke konverter.', 'Masukkan tautan ke kotak di bagian atas halaman ini lalu kirim. Halaman butuh beberapa detik untuk membaca video.'],
-            ['Pilih opsi audio dan simpan.', 'Jika tombol MP3 atau audio muncul, ketuk dan file akan masuk ke ponsel atau komputer Anda. Jika tidak ada opsi audio yang ditampilkan, video itu mungkin tidak menyediakannya.'],
+          p(
+            'Anda tidak perlu akun, dan tidak pernah perlu memasukkan kata sandi TikTok di mana pun.'
           ),
-          p('File yang disimpan hanya berisi suara, jadi siap untuk playlist atau editor begitu masuk. Mencari story, bukan suara? Situs yang sama juga mencakup itu, dari [beranda MusicalDown](/).'),
+          steps(
+            [
+              'Salin tautan video.',
+              'Di aplikasi TikTok, buka video, ketuk Bagikan, lalu Salin tautan. Gunakan tautan lengkap ke postingan tertentu, bukan tautan profil. Tautan yang terpotong atau rusak adalah penyebab paling umum unduhan gagal, dan akun pemilik video harus publik.',
+            ],
+            [
+              'Tempel ke konverter.',
+              'Masukkan tautan ke kotak di bagian atas halaman ini lalu kirim. Halaman butuh beberapa detik untuk membaca video.',
+            ],
+            [
+              'Pilih opsi audio dan simpan.',
+              'Jika tombol MP3 atau audio muncul, ketuk dan file akan masuk ke ponsel atau komputer Anda. Jika tidak ada opsi audio yang ditampilkan, video itu mungkin tidak menyediakannya.',
+            ]
+          ),
+          p(
+            'File yang disimpan hanya berisi suara, jadi siap untuk playlist atau editor begitu masuk. Mencari story, bukan suara? Situs yang sama juga mencakup itu, dari [beranda MusicalDown](/).'
+          ),
         ],
       },
       {
@@ -2573,17 +3303,29 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Yang Bisa Diharapkan dari Unduhan MP3 TikTok',
         blocks: [
           h3('Hanya suara, tanpa video'),
-          p('Inti dari semuanya adalah pemisahan. Anda menyimpan audio dan melewati file video, yang menghemat penyimpanan dan membebaskan Anda dari memotong klip sebelum bisa menggunakannya.'),
+          p(
+            'Inti dari semuanya adalah pemisahan. Anda menyimpan audio dan melewati file video, yang menghemat penyimpanan dan membebaskan Anda dari memotong klip sebelum bisa menggunakannya.'
+          ),
           h3('File MP3 standar'),
-          p('MP3 diputar di hampir semua ponsel, laptop, dan aplikasi musik, dan perangkat lunak editing menerimanya tanpa masalah. Tidak perlu mencari pemutar khusus dan tidak ada langkah konversi tambahan.'),
+          p(
+            'MP3 diputar di hampir semua ponsel, laptop, dan aplikasi musik, dan perangkat lunak editing menerimanya tanpa masalah. Tidak perlu mencari pemutar khusus dan tidak ada langkah konversi tambahan.'
+          ),
           h3('Kualitas sesuai sumbernya'),
-          p('Konverter tidak bisa menambah detail yang memang tidak pernah ada. Unggahan yang bersih menghasilkan audio bersih, dan yang pengap tetap pengap. Ini berlaku untuk semua alat, jadi waspadalah terhadap halaman mana pun yang menjanjikan audio terdengar lebih baik dari aslinya.'),
+          p(
+            'Konverter tidak bisa menambah detail yang memang tidak pernah ada. Unggahan yang bersih menghasilkan audio bersih, dan yang pengap tetap pengap. Ini berlaku untuk semua alat, jadi waspadalah terhadap halaman mana pun yang menjanjikan audio terdengar lebih baik dari aslinya.'
+          ),
           h3('Sering hanya klip, bukan lagu penuh'),
-          p('Suara TikTok sering kali berupa potongan pendek, segmen yang diedit, atau remix, jadi file yang Anda simpan mungkin hanya bagian itu. Jika ingin lagu lengkap, gunakan klip yang disimpan untuk mengenali lagunya, lalu cari versi lengkapnya lewat layanan musik berlisensi.'),
+          p(
+            'Suara TikTok sering kali berupa potongan pendek, segmen yang diedit, atau remix, jadi file yang Anda simpan mungkin hanya bagian itu. Jika ingin lagu lengkap, gunakan klip yang disimpan untuk mengenali lagunya, lalu cari versi lengkapnya lewat layanan musik berlisensi.'
+          ),
           h3('Cara cepat mengenali sebuah suara'),
-          p('Jika Anda sedang berusaha melacak lagu yang didengar di video, menyimpan audionya sering menjadi jalan tercepat. Setelah file ada di perangkat, Anda bisa memutarnya berulang kali sesuka Anda.'),
+          p(
+            'Jika Anda sedang berusaha melacak lagu yang didengar di video, menyimpan audionya sering menjadi jalan tercepat. Setelah file ada di perangkat, Anda bisa memutarnya berulang kali sesuka Anda.'
+          ),
           h3('Tanpa pendaftaran dan tanpa perangkat lunak'),
-          p('Berjalan di browser yang sudah Anda buka. Tidak ada yang perlu dipasang, tidak ada ekstensi yang ditambahkan, dan tidak ada formulir pendaftaran yang diisi.'),
+          p(
+            'Berjalan di browser yang sudah Anda buka. Tidak ada yang perlu dipasang, tidak ada ekstensi yang ditambahkan, dan tidak ada formulir pendaftaran yang diisi.'
+          ),
         ],
       },
       {
@@ -2595,7 +3337,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             'Menyimpan suara yang mungkin ingin dijadikan referensi untuk konten Anda nanti.',
             'Mengubah klip pendek menjadi nada dering atau nada notifikasi.',
             'Menyimpan voiceover atau potongan ucapan terpisah dari videonya.',
-            'Membangun koleksi pribadi berisi lagu, remix, dan potongan yang sulit ditemukan di tempat lain.',
+            'Membangun koleksi pribadi berisi lagu, remix, dan potongan yang sulit ditemukan di tempat lain.'
           ),
         ],
       },
@@ -2603,12 +3345,23 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'siapa',
         title: 'Siapa yang Menyimpan Audio TikTok?',
         blocks: [
-          p('Di TikTok, suara sering lebih penting daripada gambarnya, dan orang yang menyimpannya biasanya tahu persis untuk apa mereka membutuhkannya.'),
+          p(
+            'Di TikTok, suara sering lebih penting daripada gambarnya, dan orang yang menyimpannya biasanya tahu persis untuk apa mereka membutuhkannya.'
+          ),
           cards(
             3,
-            ['Kreator & editor video', 'Menginginkan lagu siap pakai yang bisa langsung dijatuhkan ke timeline, alih-alih mengekstrak audio dari video jadi terlebih dahulu.'],
-            ['Penggemar musik', 'Menemukan lagu, remix, atau potongan di aplikasi dan ingin menyimpannya di pustaka sendiri daripada bergantung pada menemukan video itu lagi.'],
-            ['Pengguna sehari-hari', 'Punya keperluan yang lebih kecil: nada dering, klip suara lucu, suara untuk perjalanan ke tempat kerja. Kesamaan mereka adalah keinginan memiliki audio dengan cara mereka sendiri.'],
+            [
+              'Kreator & editor video',
+              'Menginginkan lagu siap pakai yang bisa langsung dijatuhkan ke timeline, alih-alih mengekstrak audio dari video jadi terlebih dahulu.',
+            ],
+            [
+              'Penggemar musik',
+              'Menemukan lagu, remix, atau potongan di aplikasi dan ingin menyimpannya di pustaka sendiri daripada bergantung pada menemukan video itu lagi.',
+            ],
+            [
+              'Pengguna sehari-hari',
+              'Punya keperluan yang lebih kecil: nada dering, klip suara lucu, suara untuk perjalanan ke tempat kerja. Kesamaan mereka adalah keinginan memiliki audio dengan cara mereka sendiri.',
+            ]
           ),
         ],
       },
@@ -2616,13 +3369,27 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'perangkat',
         title: 'TikTok ke MP3 di iPhone, Android, PC, dan Mac',
         blocks: [
-          p('Karena semuanya terjadi di halaman web, perangkat jauh lebih tidak penting daripada browser, dan browser terkini mana pun bisa dipakai.'),
+          p(
+            'Karena semuanya terjadi di halaman web, perangkat jauh lebih tidak penting daripada browser, dan browser terkini mana pun bisa dipakai.'
+          ),
           cards(
             2,
-            ['iPhone', 'Buka konverter di Safari, tempel tautan lalu kirim. Setelah diunduh, lihat di aplikasi File, biasanya di folder Unduhan yang terkait browser Anda. Lokasi simpan yang tepat bisa berbeda tergantung versi iOS dan pengaturan browser, dan Anda tidak membutuhkan App Store sama sekali.'],
-            ['Android', 'Gunakan Chrome atau browser apa pun yang sudah ada. Tempel tautan, ketuk opsi audio, lalu cek daftar Unduhan browser atau pengelola file setelah selesai. Tanpa APK dan tanpa side-loading.'],
-            ['PC Windows', 'Buka halaman di Chrome atau Edge, tempel URL video dan pilih opsi MP3. File disimpan di folder Unduhan kecuali Anda menetapkan lokasi lain, lalu bisa diputar di pemutar media mana pun atau dipindahkan ke pustaka musik Anda.'],
-            ['Mac', 'Safari dan Chrome sama-sama berfungsi, dan langkahnya sama dengan Windows. Cek folder Unduhan atau riwayat unduhan browser, lalu tambahkan file ke pustaka audio atau proyek editing jika Anda berhak menggunakannya.'],
+            [
+              'iPhone',
+              'Buka konverter di Safari, tempel tautan lalu kirim. Setelah diunduh, lihat di aplikasi File, biasanya di folder Unduhan yang terkait browser Anda. Lokasi simpan yang tepat bisa berbeda tergantung versi iOS dan pengaturan browser, dan Anda tidak membutuhkan App Store sama sekali.',
+            ],
+            [
+              'Android',
+              'Gunakan Chrome atau browser apa pun yang sudah ada. Tempel tautan, ketuk opsi audio, lalu cek daftar Unduhan browser atau pengelola file setelah selesai. Tanpa APK dan tanpa side-loading.',
+            ],
+            [
+              'PC Windows',
+              'Buka halaman di Chrome atau Edge, tempel URL video dan pilih opsi MP3. File disimpan di folder Unduhan kecuali Anda menetapkan lokasi lain, lalu bisa diputar di pemutar media mana pun atau dipindahkan ke pustaka musik Anda.',
+            ],
+            [
+              'Mac',
+              'Safari dan Chrome sama-sama berfungsi, dan langkahnya sama dengan Windows. Cek folder Unduhan atau riwayat unduhan browser, lalu tambahkan file ke pustaka audio atau proyek editing jika Anda berhak menggunakannya.',
+            ]
           ),
         ],
       },
@@ -2630,17 +3397,42 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'pemecahan-masalah',
         title: 'Unduhan MP3 TikTok Tidak Berfungsi? Pemecahan Masalah',
         blocks: [
-          p('Unduhan yang gagal biasanya punya penyebab sederhana. Periksa berurutan sebelum mencoba situs lain atau memasang apa pun:'),
-          ol(
-            ['Tautannya tidak lengkap.', 'Kembali ke postingan dan salin tautan lengkapnya lagi. Harus tautan video tertentu, bukan profil atau tautan yang telah diedit.'],
-            ['Videonya tidak tersedia.', 'Video privat, yang dihapus, dan yang dibatasi wilayah mungkin tidak termuat sama sekali. Coba postingan publik lain yang Anda punya izin untuk menyimpannya.'],
-            ['Tidak ada opsi audio yang muncul.', 'Tidak semua video menyediakan unduhan audio terpisah. Jika halaman tidak menampilkan tombol MP3 untuk tautan itu, mungkin memang tidak tersedia untuk postingan tersebut.'],
-            ['Halaman lambat atau macet.', 'Periksa koneksi, muat ulang, lalu tempel tautan lagi. Browser lain juga bisa membantu.'],
-            ['Unduhan diblokir atau terputus.', 'Periksa riwayat unduhan browser, ruang penyimpanan kosong, dan prompt keamanan apa pun. Jangan menonaktifkan fitur keamanan untuk memaksa unduhan.'],
-            ['File tidak bisa diputar.', 'Pastikan unduhan selesai dan ekstensinya .mp3. Jika file tampak tidak lengkap, hapus dan unduh ulang.'],
-            ['Anda tidak menemukan file.', 'Cek folder Unduhan atau daftar unduhan browser. Di iPhone, buka aplikasi File lebih dulu.'],
+          p(
+            'Unduhan yang gagal biasanya punya penyebab sederhana. Periksa berurutan sebelum mencoba situs lain atau memasang apa pun:'
           ),
-          p('Jika masalah berlanjut, sumbernya mungkin sementara tidak tersedia atau tidak didukung.'),
+          ol(
+            [
+              'Tautannya tidak lengkap.',
+              'Kembali ke postingan dan salin tautan lengkapnya lagi. Harus tautan video tertentu, bukan profil atau tautan yang telah diedit.',
+            ],
+            [
+              'Videonya tidak tersedia.',
+              'Video privat, yang dihapus, dan yang dibatasi wilayah mungkin tidak termuat sama sekali. Coba postingan publik lain yang Anda punya izin untuk menyimpannya.',
+            ],
+            [
+              'Tidak ada opsi audio yang muncul.',
+              'Tidak semua video menyediakan unduhan audio terpisah. Jika halaman tidak menampilkan tombol MP3 untuk tautan itu, mungkin memang tidak tersedia untuk postingan tersebut.',
+            ],
+            [
+              'Halaman lambat atau macet.',
+              'Periksa koneksi, muat ulang, lalu tempel tautan lagi. Browser lain juga bisa membantu.',
+            ],
+            [
+              'Unduhan diblokir atau terputus.',
+              'Periksa riwayat unduhan browser, ruang penyimpanan kosong, dan prompt keamanan apa pun. Jangan menonaktifkan fitur keamanan untuk memaksa unduhan.',
+            ],
+            [
+              'File tidak bisa diputar.',
+              'Pastikan unduhan selesai dan ekstensinya .mp3. Jika file tampak tidak lengkap, hapus dan unduh ulang.',
+            ],
+            [
+              'Anda tidak menemukan file.',
+              'Cek folder Unduhan atau daftar unduhan browser. Di iPhone, buka aplikasi File lebih dulu.',
+            ]
+          ),
+          p(
+            'Jika masalah berlanjut, sumbernya mungkin sementara tidak tersedia atau tidak didukung.'
+          ),
         ],
       },
       {
@@ -2648,38 +3440,87 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Hak Cipta, Izin, dan Penggunaan yang Aman',
         blocks: [
           h3('Hak cipta dan izin'),
-          p('Banyak musik di TikTok berhak cipta. Menyimpan lagu untuk didengarkan pribadi berbeda dengan memublikasikannya di video Anda sendiri atau menggunakannya secara komersial. Simpan konten yang Anda miliki atau punya izin untuk menggunakannya, dan periksa hak penggunaan, beserta aturan TikTok di [pusat bantuan](https://support.tiktok.com)-nya, sebelum suara dipakai di sesuatu yang publik.'),
+          p(
+            'Banyak musik di TikTok berhak cipta. Menyimpan lagu untuk didengarkan pribadi berbeda dengan memublikasikannya di video Anda sendiri atau menggunakannya secara komersial. Simpan konten yang Anda miliki atau punya izin untuk menggunakannya, dan periksa hak penggunaan, beserta aturan TikTok di [pusat bantuan](https://support.tiktok.com)-nya, sebelum suara dipakai di sesuatu yang publik.'
+          ),
           h3('Jaga akun dan perangkat Anda tetap aman'),
           p('Pengunduh hanya membutuhkan tautan video publik. Untuk penggunaan yang lebih aman:'),
           ul(
             'Jangan pernah memasukkan kata sandi TikTok atau kode verifikasi ke pengunduh mana pun. Jika situs memintanya, tutup.',
             'Abaikan pemasangan perangkat lunak yang tak terduga, pengalihan mencurigakan, dan ekstensi yang meminta izin tidak perlu.',
             'Baca [kebijakan privasi](/privacy) situs untuk melihat bagaimana tautan yang dikirim ditangani.',
-            'Jaga kerahasiaan rekaman pribadi atau sensitif.',
+            'Jaga kerahasiaan rekaman pribadi atau sensitif.'
           ),
         ],
       },
     ],
     faqTitle: 'Pertanyaan yang Sering Diajukan',
     faq: [
-      { question: 'Bisakah saya mengunduh hanya musik dari video TikTok?', answer: 'Bisa, jika video menyediakan opsi audio. Anda menyimpan suaranya sebagai MP3 dan melewati file video sepenuhnya.' },
-      { question: 'Bagaimana cara mengonversi TikTok ke MP3?', answer: 'Salin tautan video TikTok publik, tempel ke konverter, kirim, lalu ketuk tombol MP3 atau audio. Kemudian simpan file ke perangkat Anda.' },
-      { question: 'Audio tersedia dalam format apa?', answer: 'MP3, yang bisa diputar di hampir semua ponsel, komputer, dan aplikasi musik.' },
-      { question: 'Apakah MP3-nya akan terdengar lebih baik daripada TikTok-nya?', answer: 'Tidak. Konversi tidak meningkatkan kualitas, jadi file mencerminkan audio sumber dari postingan aslinya.' },
-      { question: 'Bisakah saya mengunduh lagu penuh dari video TikTok?', answer: 'Belum tentu. Banyak suara TikTok berupa potongan pendek, hasil edit, atau remix, jadi Anda mungkin hanya mendapat bagian itu. Gunakan untuk mengenali lagunya, lalu cari lagu lengkapnya di layanan musik berlisensi.' },
-      { question: 'Bisakah saya mengonversi audio dari akun privat?', answer: 'Tidak. Konverter hanya bekerja dengan video publik.' },
-      { question: 'Apakah saya perlu akun TikTok atau aplikasi?', answer: 'Tidak keduanya. Salin tautan video publik, tempel ke halaman, dan simpan file dari browser Anda.' },
-      { question: 'Apakah gratis?', answer: 'Ya. Saat artikel ini ditulis, konverter gratis dan tidak memerlukan pendaftaran. Periksa halaman jika ada perubahan.' },
-      { question: 'Bisakah saya menggunakan suara yang disimpan di video saya sendiri?', answer: 'Untuk didengarkan pribadi, umumnya bisa. Untuk apa pun yang Anda publikasikan, terutama secara komersial, periksa hak penggunaan terlebih dahulu, karena banyak lagu berhak cipta.' },
-      { question: 'Di mana file MP3 yang diunduh disimpan?', answer: 'Di folder Unduhan browser Anda, atau aplikasi File di iPhone. Lokasi pastinya bergantung pada perangkat dan pengaturan browser Anda.' },
-      { question: 'Apakah aman menggunakan konverter TikTok ke MP3?', answer: 'Aman jika Anda menggunakan akal sehat: jangan bagikan kata sandi atau kode, lewati pemasangan tak terduga, dan baca kebijakan privasi. Tidak ada alat yang bisa menjanjikan keamanan sempurna, jadi tetaplah pada konten publik.' },
-      { question: 'Mengapa tautan saya tidak berfungsi?', answer: 'Penyebab yang biasa adalah tautan tidak lengkap, video privat atau dihapus, atau pembatasan wilayah. Salin ulang tautan lengkap dari aplikasi lalu coba lagi. Bagian pemecahan masalah di atas memuat semua penyebab umum.' },
+      {
+        question: 'Bisakah saya mengunduh hanya musik dari video TikTok?',
+        answer:
+          'Bisa, jika video menyediakan opsi audio. Anda menyimpan suaranya sebagai MP3 dan melewati file video sepenuhnya.',
+      },
+      {
+        question: 'Bagaimana cara mengonversi TikTok ke MP3?',
+        answer:
+          'Salin tautan video TikTok publik, tempel ke konverter, kirim, lalu ketuk tombol MP3 atau audio. Kemudian simpan file ke perangkat Anda.',
+      },
+      {
+        question: 'Audio tersedia dalam format apa?',
+        answer: 'MP3, yang bisa diputar di hampir semua ponsel, komputer, dan aplikasi musik.',
+      },
+      {
+        question: 'Apakah MP3-nya akan terdengar lebih baik daripada TikTok-nya?',
+        answer:
+          'Tidak. Konversi tidak meningkatkan kualitas, jadi file mencerminkan audio sumber dari postingan aslinya.',
+      },
+      {
+        question: 'Bisakah saya mengunduh lagu penuh dari video TikTok?',
+        answer:
+          'Belum tentu. Banyak suara TikTok berupa potongan pendek, hasil edit, atau remix, jadi Anda mungkin hanya mendapat bagian itu. Gunakan untuk mengenali lagunya, lalu cari lagu lengkapnya di layanan musik berlisensi.',
+      },
+      {
+        question: 'Bisakah saya mengonversi audio dari akun privat?',
+        answer: 'Tidak. Konverter hanya bekerja dengan video publik.',
+      },
+      {
+        question: 'Apakah saya perlu akun TikTok atau aplikasi?',
+        answer:
+          'Tidak keduanya. Salin tautan video publik, tempel ke halaman, dan simpan file dari browser Anda.',
+      },
+      {
+        question: 'Apakah gratis?',
+        answer:
+          'Ya. Saat artikel ini ditulis, konverter gratis dan tidak memerlukan pendaftaran. Periksa halaman jika ada perubahan.',
+      },
+      {
+        question: 'Bisakah saya menggunakan suara yang disimpan di video saya sendiri?',
+        answer:
+          'Untuk didengarkan pribadi, umumnya bisa. Untuk apa pun yang Anda publikasikan, terutama secara komersial, periksa hak penggunaan terlebih dahulu, karena banyak lagu berhak cipta.',
+      },
+      {
+        question: 'Di mana file MP3 yang diunduh disimpan?',
+        answer:
+          'Di folder Unduhan browser Anda, atau aplikasi File di iPhone. Lokasi pastinya bergantung pada perangkat dan pengaturan browser Anda.',
+      },
+      {
+        question: 'Apakah aman menggunakan konverter TikTok ke MP3?',
+        answer:
+          'Aman jika Anda menggunakan akal sehat: jangan bagikan kata sandi atau kode, lewati pemasangan tak terduga, dan baca kebijakan privasi. Tidak ada alat yang bisa menjanjikan keamanan sempurna, jadi tetaplah pada konten publik.',
+      },
+      {
+        question: 'Mengapa tautan saya tidak berfungsi?',
+        answer:
+          'Penyebab yang biasa adalah tautan tidak lengkap, video privat atau dihapus, atau pembatasan wilayah. Salin ulang tautan lengkap dari aplikasi lalu coba lagi. Bagian pemecahan masalah di atas memuat semua penyebab umum.',
+      },
     ],
     finalTitle: 'Penutup',
     finalText:
       'Suara di TikTok mudah hilang dan sulit dinamai. Menyimpannya sebagai MP3 hanya butuh tautan publik, browser, dan beberapa detik, dan Anda mendapat file audio bersih untuk playlist, editor, atau daftar nada dering. Tetap realistis: kualitasnya sama dengan aslinya, file mungkin hanya sebagian lagu, video privat tidak bisa diakses, dan apa pun yang Anda publikasikan tetap memerlukan izin yang tepat.',
     ctaLabel: 'Tempel tautan dan konversi ke MP3',
-    moreText: 'Jika sudah siap, tempel tautan ke konverter di atas dan lihat apakah video menyediakan unduhan audio.',
+    moreText:
+      'Jika sudah siap, tempel tautan ke konverter di atas dan lihat apakah video menyediakan unduhan audio.',
   },
 
   /* ------------------------------------------------------------------ VI */
@@ -2702,9 +3543,15 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'la-gi',
         title: 'Công cụ chuyển TikTok sang MP3 là gì?',
         blocks: [
-          p('Công cụ chuyển TikTok sang MP3 nhận liên kết của một video TikTok công khai và kiểm tra xem âm thanh có thể lưu riêng hay không. Khi có thể, bạn nhận được tệp âm thanh thuần thay vì video. Người ta cũng gọi nó là công cụ tải âm thanh TikTok, tải nhạc TikTok hoặc lưu audio TikTok. Tất cả đều cùng một ý tưởng.'),
-          p('Trước hết là hai lưu ý thẳng thắn. Công cụ chỉ hoạt động với video công khai, vì bài đăng riêng tư, đã xóa hoặc bị hạn chế theo khu vực có thể không tải được. Và chuyển đổi tệp không bao giờ làm nó tốt hơn: chất lượng âm thanh bạn nhận được chính là chất lượng của bài đăng gốc.'),
-          p('Trong những giới hạn đó, nó giải quyết một vấn đề đơn giản. TikTok gắn âm thanh với video, còn công cụ chuyển đổi cho phép bạn tách âm thanh ra và giữ lại.'),
+          p(
+            'Công cụ chuyển TikTok sang MP3 nhận liên kết của một video TikTok công khai và kiểm tra xem âm thanh có thể lưu riêng hay không. Khi có thể, bạn nhận được tệp âm thanh thuần thay vì video. Người ta cũng gọi nó là công cụ tải âm thanh TikTok, tải nhạc TikTok hoặc lưu audio TikTok. Tất cả đều cùng một ý tưởng.'
+          ),
+          p(
+            'Trước hết là hai lưu ý thẳng thắn. Công cụ chỉ hoạt động với video công khai, vì bài đăng riêng tư, đã xóa hoặc bị hạn chế theo khu vực có thể không tải được. Và chuyển đổi tệp không bao giờ làm nó tốt hơn: chất lượng âm thanh bạn nhận được chính là chất lượng của bài đăng gốc.'
+          ),
+          p(
+            'Trong những giới hạn đó, nó giải quyết một vấn đề đơn giản. TikTok gắn âm thanh với video, còn công cụ chuyển đổi cho phép bạn tách âm thanh ra và giữ lại.'
+          ),
         ],
       },
       {
@@ -2713,11 +3560,22 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         blocks: [
           p('Bạn không cần tài khoản, và không bao giờ phải nhập mật khẩu TikTok ở bất cứ đâu.'),
           steps(
-            ['Sao chép liên kết video.', 'Trong ứng dụng TikTok, mở video, nhấn Chia sẻ, rồi Sao chép liên kết. Hãy dùng liên kết đầy đủ của bài đăng cụ thể, không phải liên kết trang cá nhân. Liên kết bị cắt hoặc sai là lý do phổ biến nhất khiến tải xuống thất bại, và tài khoản đăng video phải ở chế độ công khai.'],
-            ['Dán vào công cụ chuyển đổi.', 'Dán liên kết vào ô ở đầu trang này rồi gửi. Trang cần vài giây để đọc video.'],
-            ['Chọn tùy chọn âm thanh và lưu.', 'Nếu có nút MP3 hoặc âm thanh, hãy nhấn vào và tệp sẽ được lưu vào điện thoại hoặc máy tính của bạn. Nếu không hiển thị tùy chọn âm thanh nào, video đó có thể không hỗ trợ.'],
+            [
+              'Sao chép liên kết video.',
+              'Trong ứng dụng TikTok, mở video, nhấn Chia sẻ, rồi Sao chép liên kết. Hãy dùng liên kết đầy đủ của bài đăng cụ thể, không phải liên kết trang cá nhân. Liên kết bị cắt hoặc sai là lý do phổ biến nhất khiến tải xuống thất bại, và tài khoản đăng video phải ở chế độ công khai.',
+            ],
+            [
+              'Dán vào công cụ chuyển đổi.',
+              'Dán liên kết vào ô ở đầu trang này rồi gửi. Trang cần vài giây để đọc video.',
+            ],
+            [
+              'Chọn tùy chọn âm thanh và lưu.',
+              'Nếu có nút MP3 hoặc âm thanh, hãy nhấn vào và tệp sẽ được lưu vào điện thoại hoặc máy tính của bạn. Nếu không hiển thị tùy chọn âm thanh nào, video đó có thể không hỗ trợ.',
+            ]
           ),
-          p('Tệp đã lưu chỉ có âm thanh, nên sẵn sàng cho danh sách phát hoặc trình biên tập ngay khi tải xong. Muốn tìm story thay vì âm thanh? Cùng trang web này cũng hỗ trợ, từ [trang chủ MusicalDown](/).'),
+          p(
+            'Tệp đã lưu chỉ có âm thanh, nên sẵn sàng cho danh sách phát hoặc trình biên tập ngay khi tải xong. Muốn tìm story thay vì âm thanh? Cùng trang web này cũng hỗ trợ, từ [trang chủ MusicalDown](/).'
+          ),
         ],
       },
       {
@@ -2725,17 +3583,29 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Nên mong đợi gì từ bản tải MP3 TikTok',
         blocks: [
           h3('Chỉ có âm thanh, không có video'),
-          p('Toàn bộ mục đích là tách riêng. Bạn giữ phần âm thanh và bỏ qua tệp video, giúp tiết kiệm dung lượng và không phải cắt clip trước khi dùng.'),
+          p(
+            'Toàn bộ mục đích là tách riêng. Bạn giữ phần âm thanh và bỏ qua tệp video, giúp tiết kiệm dung lượng và không phải cắt clip trước khi dùng.'
+          ),
           h3('Tệp MP3 tiêu chuẩn'),
-          p('MP3 phát được trên hầu hết điện thoại, laptop và ứng dụng nhạc, và phần mềm biên tập chấp nhận nó mà không rắc rối. Không cần tìm trình phát đặc biệt và không có bước chuyển đổi thêm.'),
+          p(
+            'MP3 phát được trên hầu hết điện thoại, laptop và ứng dụng nhạc, và phần mềm biên tập chấp nhận nó mà không rắc rối. Không cần tìm trình phát đặc biệt và không có bước chuyển đổi thêm.'
+          ),
           h3('Chất lượng tương ứng với nguồn'),
-          p('Công cụ chuyển đổi không thể thêm chi tiết vốn không tồn tại. Bản tải lên sạch cho âm thanh sạch, còn bản bị rè vẫn bị rè. Điều này đúng với mọi công cụ, vì vậy hãy cảnh giác với bất kỳ trang nào hứa hẹn âm thanh hay hơn bản gốc.'),
+          p(
+            'Công cụ chuyển đổi không thể thêm chi tiết vốn không tồn tại. Bản tải lên sạch cho âm thanh sạch, còn bản bị rè vẫn bị rè. Điều này đúng với mọi công cụ, vì vậy hãy cảnh giác với bất kỳ trang nào hứa hẹn âm thanh hay hơn bản gốc.'
+          ),
           h3('Thường là một đoạn clip, không phải cả bài hát'),
-          p('Âm thanh TikTok thường là đoạn trích ngắn, đoạn đã chỉnh sửa hoặc bản phối lại, nên tệp bạn lưu có thể chỉ là phần đó. Nếu muốn bản đầy đủ, hãy dùng clip đã lưu để nhận biết bài hát, rồi tìm bản đầy đủ qua dịch vụ nhạc có bản quyền.'),
+          p(
+            'Âm thanh TikTok thường là đoạn trích ngắn, đoạn đã chỉnh sửa hoặc bản phối lại, nên tệp bạn lưu có thể chỉ là phần đó. Nếu muốn bản đầy đủ, hãy dùng clip đã lưu để nhận biết bài hát, rồi tìm bản đầy đủ qua dịch vụ nhạc có bản quyền.'
+          ),
           h3('Cách nhanh để nhận biết một âm thanh'),
-          p('Nếu bạn đang cố tìm một bài hát nghe được trong video, lưu âm thanh thường là cách nhanh nhất. Khi tệp đã có trên thiết bị, bạn có thể phát lại bao nhiêu lần tùy ý.'),
+          p(
+            'Nếu bạn đang cố tìm một bài hát nghe được trong video, lưu âm thanh thường là cách nhanh nhất. Khi tệp đã có trên thiết bị, bạn có thể phát lại bao nhiêu lần tùy ý.'
+          ),
           h3('Không đăng ký và không cần phần mềm'),
-          p('Chạy ngay trong trình duyệt bạn đang mở. Không có gì để cài, không phải thêm tiện ích mở rộng và không có biểu mẫu đăng ký nào để điền.'),
+          p(
+            'Chạy ngay trong trình duyệt bạn đang mở. Không có gì để cài, không phải thêm tiện ích mở rộng và không có biểu mẫu đăng ký nào để điền.'
+          ),
         ],
       },
       {
@@ -2747,7 +3617,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             'Giữ lại một âm thanh bạn có thể muốn tham khảo cho nội dung của mình sau này.',
             'Biến một clip ngắn thành nhạc chuông hoặc âm báo thông báo.',
             'Lưu riêng phần lồng tiếng hoặc đoạn nói tách khỏi video của nó.',
-            'Xây dựng bộ sưu tập cá nhân gồm nhạc, bản phối và đoạn trích khó tìm ở nơi khác.',
+            'Xây dựng bộ sưu tập cá nhân gồm nhạc, bản phối và đoạn trích khó tìm ở nơi khác.'
           ),
         ],
       },
@@ -2755,12 +3625,23 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'ai-luu',
         title: 'Ai lưu âm thanh TikTok?',
         blocks: [
-          p('Trên TikTok, âm thanh thường quan trọng hơn hình ảnh, và những người lưu nó thường biết chính xác mình cần nó để làm gì.'),
+          p(
+            'Trên TikTok, âm thanh thường quan trọng hơn hình ảnh, và những người lưu nó thường biết chính xác mình cần nó để làm gì.'
+          ),
           cards(
             3,
-            ['Người sáng tạo & biên tập video', 'Muốn có bản nhạc dùng ngay, kéo thẳng vào timeline, thay vì phải tách âm thanh từ video đã hoàn chỉnh trước.'],
-            ['Người yêu nhạc', 'Tìm thấy một bài hát, bản phối hoặc đoạn trích trong ứng dụng và muốn giữ trong thư viện riêng thay vì phụ thuộc vào việc tìm lại video đó.'],
-            ['Người dùng thông thường', 'Có những mục đích nhỏ hơn: nhạc chuông, clip giọng nói vui, một âm thanh cho đoạn đường đi làm. Điểm chung là mong muốn có âm thanh theo cách của riêng mình.'],
+            [
+              'Người sáng tạo & biên tập video',
+              'Muốn có bản nhạc dùng ngay, kéo thẳng vào timeline, thay vì phải tách âm thanh từ video đã hoàn chỉnh trước.',
+            ],
+            [
+              'Người yêu nhạc',
+              'Tìm thấy một bài hát, bản phối hoặc đoạn trích trong ứng dụng và muốn giữ trong thư viện riêng thay vì phụ thuộc vào việc tìm lại video đó.',
+            ],
+            [
+              'Người dùng thông thường',
+              'Có những mục đích nhỏ hơn: nhạc chuông, clip giọng nói vui, một âm thanh cho đoạn đường đi làm. Điểm chung là mong muốn có âm thanh theo cách của riêng mình.',
+            ]
           ),
         ],
       },
@@ -2768,13 +3649,27 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'thiet-bi',
         title: 'TikTok sang MP3 trên iPhone, Android, PC và Mac',
         blocks: [
-          p('Vì mọi thứ diễn ra trong một trang web, thiết bị quan trọng ít hơn nhiều so với trình duyệt, và bất kỳ trình duyệt hiện đại nào cũng được.'),
+          p(
+            'Vì mọi thứ diễn ra trong một trang web, thiết bị quan trọng ít hơn nhiều so với trình duyệt, và bất kỳ trình duyệt hiện đại nào cũng được.'
+          ),
           cards(
             2,
-            ['iPhone', 'Mở công cụ trong Safari, dán liên kết rồi gửi. Sau khi tải, hãy xem trong ứng dụng Tệp, thường ở thư mục Tải xuống gắn với trình duyệt. Vị trí lưu chính xác có thể khác tùy phiên bản iOS và cài đặt trình duyệt, và bạn không cần App Store ở bất kỳ bước nào.'],
-            ['Android', 'Dùng Chrome hoặc trình duyệt bạn đang có. Dán liên kết, nhấn tùy chọn âm thanh, rồi kiểm tra danh sách Tải xuống của trình duyệt hoặc trình quản lý tệp khi xong. Không cần APK và không cần cài đặt ngoài.'],
-            ['PC Windows', 'Mở trang bằng Chrome hoặc Edge, dán URL video và chọn tùy chọn MP3. Tệp được lưu vào thư mục Downloads trừ khi bạn đặt vị trí khác, sau đó bạn có thể phát bằng bất kỳ trình phát nào hoặc chuyển vào thư viện nhạc.'],
-            ['Mac', 'Safari và Chrome đều dùng được, và các bước giống như trên Windows. Kiểm tra thư mục Downloads hoặc lịch sử tải xuống của trình duyệt, rồi thêm tệp vào thư viện âm thanh hoặc dự án biên tập nếu bạn có quyền sử dụng.'],
+            [
+              'iPhone',
+              'Mở công cụ trong Safari, dán liên kết rồi gửi. Sau khi tải, hãy xem trong ứng dụng Tệp, thường ở thư mục Tải xuống gắn với trình duyệt. Vị trí lưu chính xác có thể khác tùy phiên bản iOS và cài đặt trình duyệt, và bạn không cần App Store ở bất kỳ bước nào.',
+            ],
+            [
+              'Android',
+              'Dùng Chrome hoặc trình duyệt bạn đang có. Dán liên kết, nhấn tùy chọn âm thanh, rồi kiểm tra danh sách Tải xuống của trình duyệt hoặc trình quản lý tệp khi xong. Không cần APK và không cần cài đặt ngoài.',
+            ],
+            [
+              'PC Windows',
+              'Mở trang bằng Chrome hoặc Edge, dán URL video và chọn tùy chọn MP3. Tệp được lưu vào thư mục Downloads trừ khi bạn đặt vị trí khác, sau đó bạn có thể phát bằng bất kỳ trình phát nào hoặc chuyển vào thư viện nhạc.',
+            ],
+            [
+              'Mac',
+              'Safari và Chrome đều dùng được, và các bước giống như trên Windows. Kiểm tra thư mục Downloads hoặc lịch sử tải xuống của trình duyệt, rồi thêm tệp vào thư viện âm thanh hoặc dự án biên tập nếu bạn có quyền sử dụng.',
+            ]
           ),
         ],
       },
@@ -2782,17 +3677,42 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         id: 'khac-phuc-su-co',
         title: 'Tải MP3 TikTok không được? Khắc phục sự cố',
         blocks: [
-          p('Tải xuống thất bại thường có nguyên nhân đơn giản. Hãy kiểm tra lần lượt trước khi thử trang khác hoặc cài đặt bất cứ thứ gì:'),
-          ol(
-            ['Liên kết không đầy đủ.', 'Quay lại bài đăng và sao chép lại liên kết đầy đủ. Đó phải là video cụ thể, không phải trang cá nhân hay liên kết đã bị chỉnh sửa.'],
-            ['Video không khả dụng.', 'Video riêng tư, đã xóa và bị hạn chế theo khu vực có thể không tải được. Hãy thử bài đăng công khai khác mà bạn có quyền lưu.'],
-            ['Không có tùy chọn âm thanh nào xuất hiện.', 'Không phải video nào cũng cho tải âm thanh riêng. Nếu trang không hiện nút MP3 cho liên kết đó, có thể bài đăng đó không hỗ trợ.'],
-            ['Trang chậm hoặc bị treo.', 'Kiểm tra kết nối, làm mới và dán lại liên kết. Dùng trình duyệt khác cũng có thể giúp ích.'],
-            ['Tải xuống bị chặn hoặc bị gián đoạn.', 'Kiểm tra lịch sử tải xuống của trình duyệt, dung lượng trống và mọi cảnh báo bảo mật. Đừng tắt tính năng bảo mật để ép tải xuống.'],
-            ['Tệp không phát được.', 'Xác nhận quá trình tải đã hoàn tất và phần mở rộng là .mp3. Nếu tệp có vẻ chưa đầy đủ, hãy xóa và tải lại.'],
-            ['Bạn không tìm thấy tệp.', 'Kiểm tra thư mục Downloads hoặc danh sách tải xuống của trình duyệt. Trên iPhone, hãy mở ứng dụng Tệp trước.'],
+          p(
+            'Tải xuống thất bại thường có nguyên nhân đơn giản. Hãy kiểm tra lần lượt trước khi thử trang khác hoặc cài đặt bất cứ thứ gì:'
           ),
-          p('Nếu sự cố vẫn tiếp diễn, nguồn có thể tạm thời không khả dụng hoặc không được hỗ trợ.'),
+          ol(
+            [
+              'Liên kết không đầy đủ.',
+              'Quay lại bài đăng và sao chép lại liên kết đầy đủ. Đó phải là video cụ thể, không phải trang cá nhân hay liên kết đã bị chỉnh sửa.',
+            ],
+            [
+              'Video không khả dụng.',
+              'Video riêng tư, đã xóa và bị hạn chế theo khu vực có thể không tải được. Hãy thử bài đăng công khai khác mà bạn có quyền lưu.',
+            ],
+            [
+              'Không có tùy chọn âm thanh nào xuất hiện.',
+              'Không phải video nào cũng cho tải âm thanh riêng. Nếu trang không hiện nút MP3 cho liên kết đó, có thể bài đăng đó không hỗ trợ.',
+            ],
+            [
+              'Trang chậm hoặc bị treo.',
+              'Kiểm tra kết nối, làm mới và dán lại liên kết. Dùng trình duyệt khác cũng có thể giúp ích.',
+            ],
+            [
+              'Tải xuống bị chặn hoặc bị gián đoạn.',
+              'Kiểm tra lịch sử tải xuống của trình duyệt, dung lượng trống và mọi cảnh báo bảo mật. Đừng tắt tính năng bảo mật để ép tải xuống.',
+            ],
+            [
+              'Tệp không phát được.',
+              'Xác nhận quá trình tải đã hoàn tất và phần mở rộng là .mp3. Nếu tệp có vẻ chưa đầy đủ, hãy xóa và tải lại.',
+            ],
+            [
+              'Bạn không tìm thấy tệp.',
+              'Kiểm tra thư mục Downloads hoặc danh sách tải xuống của trình duyệt. Trên iPhone, hãy mở ứng dụng Tệp trước.',
+            ]
+          ),
+          p(
+            'Nếu sự cố vẫn tiếp diễn, nguồn có thể tạm thời không khả dụng hoặc không được hỗ trợ.'
+          ),
         ],
       },
       {
@@ -2800,38 +3720,87 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
         title: 'Bản quyền, sự cho phép và sử dụng an toàn',
         blocks: [
           h3('Bản quyền và sự cho phép'),
-          p('Rất nhiều nhạc trên TikTok có bản quyền. Lưu một bản nhạc để nghe riêng khác với việc đăng nó trong video của bạn hoặc dùng cho mục đích thương mại. Hãy lưu nội dung bạn sở hữu hoặc có quyền sử dụng, và kiểm tra quyền sử dụng, cùng với quy định của TikTok tại [trung tâm trợ giúp](https://support.tiktok.com), trước khi đưa âm thanh vào bất cứ thứ gì công khai.'),
+          p(
+            'Rất nhiều nhạc trên TikTok có bản quyền. Lưu một bản nhạc để nghe riêng khác với việc đăng nó trong video của bạn hoặc dùng cho mục đích thương mại. Hãy lưu nội dung bạn sở hữu hoặc có quyền sử dụng, và kiểm tra quyền sử dụng, cùng với quy định của TikTok tại [trung tâm trợ giúp](https://support.tiktok.com), trước khi đưa âm thanh vào bất cứ thứ gì công khai.'
+          ),
           h3('Giữ an toàn cho tài khoản và thiết bị'),
           p('Công cụ tải chỉ cần liên kết video công khai. Để dùng an toàn hơn:'),
           ul(
             'Không bao giờ nhập mật khẩu TikTok hoặc mã xác minh vào bất kỳ công cụ tải nào. Nếu trang yêu cầu, hãy đóng lại.',
             'Bỏ qua các yêu cầu cài phần mềm bất ngờ, chuyển hướng đáng ngờ và tiện ích mở rộng đòi quyền không cần thiết.',
             'Đọc [chính sách quyền riêng tư](/privacy) của trang để biết cách xử lý các liên kết đã gửi.',
-            'Giữ riêng tư các bản ghi âm cá nhân hoặc nhạy cảm.',
+            'Giữ riêng tư các bản ghi âm cá nhân hoặc nhạy cảm.'
           ),
         ],
       },
     ],
     faqTitle: 'Câu hỏi thường gặp',
     faq: [
-      { question: 'Tôi có thể chỉ tải nhạc từ video TikTok không?', answer: 'Có, khi video có tùy chọn âm thanh. Bạn lưu âm thanh thành MP3 và bỏ qua hoàn toàn tệp video.' },
-      { question: 'Làm thế nào để chuyển TikTok sang MP3?', answer: 'Sao chép liên kết video TikTok công khai, dán vào công cụ, gửi và nhấn nút MP3 hoặc âm thanh. Sau đó lưu tệp vào thiết bị của bạn.' },
-      { question: 'Âm thanh có định dạng gì?', answer: 'MP3, phát được trên hầu hết điện thoại, máy tính và ứng dụng nhạc.' },
-      { question: 'MP3 có nghe hay hơn TikTok không?', answer: 'Không. Chuyển đổi không cải thiện chất lượng, nên tệp phản ánh âm thanh nguồn của bài đăng gốc.' },
-      { question: 'Tôi có thể tải cả bài hát từ video TikTok không?', answer: 'Không nhất thiết. Nhiều âm thanh TikTok là đoạn trích ngắn, bản chỉnh sửa hoặc bản phối lại, nên bạn có thể chỉ nhận được phần đó. Hãy dùng nó để nhận biết bài hát, rồi tìm bản đầy đủ trên dịch vụ nhạc có bản quyền.' },
-      { question: 'Tôi có thể chuyển âm thanh từ tài khoản riêng tư không?', answer: 'Không. Công cụ chỉ hoạt động với video công khai.' },
-      { question: 'Tôi có cần tài khoản TikTok hoặc ứng dụng không?', answer: 'Không cần cả hai. Sao chép liên kết video công khai, dán vào trang và lưu tệp từ trình duyệt của bạn.' },
-      { question: 'Có miễn phí không?', answer: 'Có. Tại thời điểm viết bài, công cụ miễn phí và không cần đăng ký. Hãy kiểm tra trang nếu có thay đổi.' },
-      { question: 'Tôi có thể dùng âm thanh đã lưu trong video của mình không?', answer: 'Để nghe cá nhân thì nhìn chung là được. Với bất cứ thứ gì bạn đăng tải, đặc biệt là thương mại, hãy kiểm tra quyền sử dụng trước, vì nhiều bản nhạc có bản quyền.' },
-      { question: 'Tệp MP3 đã tải được lưu ở đâu?', answer: 'Trong thư mục Tải xuống của trình duyệt, hoặc ứng dụng Tệp trên iPhone. Vị trí chính xác phụ thuộc vào thiết bị và cài đặt trình duyệt.' },
-      { question: 'Dùng công cụ chuyển TikTok sang MP3 có an toàn không?', answer: 'An toàn nếu bạn dùng theo lẽ thường: không chia sẻ mật khẩu hay mã, bỏ qua các yêu cầu cài đặt bất ngờ và đọc chính sách quyền riêng tư. Không công cụ nào có thể hứa hẹn an toàn tuyệt đối, vì vậy hãy chỉ dùng nội dung công khai.' },
-      { question: 'Vì sao liên kết của tôi không hoạt động?', answer: 'Nguyên nhân thường gặp là liên kết không đầy đủ, video riêng tư hoặc đã xóa, hoặc hạn chế theo khu vực. Hãy sao chép lại liên kết đầy đủ từ ứng dụng rồi thử lại. Phần khắc phục sự cố ở trên liệt kê mọi nguyên nhân phổ biến.' },
+      {
+        question: 'Tôi có thể chỉ tải nhạc từ video TikTok không?',
+        answer:
+          'Có, khi video có tùy chọn âm thanh. Bạn lưu âm thanh thành MP3 và bỏ qua hoàn toàn tệp video.',
+      },
+      {
+        question: 'Làm thế nào để chuyển TikTok sang MP3?',
+        answer:
+          'Sao chép liên kết video TikTok công khai, dán vào công cụ, gửi và nhấn nút MP3 hoặc âm thanh. Sau đó lưu tệp vào thiết bị của bạn.',
+      },
+      {
+        question: 'Âm thanh có định dạng gì?',
+        answer: 'MP3, phát được trên hầu hết điện thoại, máy tính và ứng dụng nhạc.',
+      },
+      {
+        question: 'MP3 có nghe hay hơn TikTok không?',
+        answer:
+          'Không. Chuyển đổi không cải thiện chất lượng, nên tệp phản ánh âm thanh nguồn của bài đăng gốc.',
+      },
+      {
+        question: 'Tôi có thể tải cả bài hát từ video TikTok không?',
+        answer:
+          'Không nhất thiết. Nhiều âm thanh TikTok là đoạn trích ngắn, bản chỉnh sửa hoặc bản phối lại, nên bạn có thể chỉ nhận được phần đó. Hãy dùng nó để nhận biết bài hát, rồi tìm bản đầy đủ trên dịch vụ nhạc có bản quyền.',
+      },
+      {
+        question: 'Tôi có thể chuyển âm thanh từ tài khoản riêng tư không?',
+        answer: 'Không. Công cụ chỉ hoạt động với video công khai.',
+      },
+      {
+        question: 'Tôi có cần tài khoản TikTok hoặc ứng dụng không?',
+        answer:
+          'Không cần cả hai. Sao chép liên kết video công khai, dán vào trang và lưu tệp từ trình duyệt của bạn.',
+      },
+      {
+        question: 'Có miễn phí không?',
+        answer:
+          'Có. Tại thời điểm viết bài, công cụ miễn phí và không cần đăng ký. Hãy kiểm tra trang nếu có thay đổi.',
+      },
+      {
+        question: 'Tôi có thể dùng âm thanh đã lưu trong video của mình không?',
+        answer:
+          'Để nghe cá nhân thì nhìn chung là được. Với bất cứ thứ gì bạn đăng tải, đặc biệt là thương mại, hãy kiểm tra quyền sử dụng trước, vì nhiều bản nhạc có bản quyền.',
+      },
+      {
+        question: 'Tệp MP3 đã tải được lưu ở đâu?',
+        answer:
+          'Trong thư mục Tải xuống của trình duyệt, hoặc ứng dụng Tệp trên iPhone. Vị trí chính xác phụ thuộc vào thiết bị và cài đặt trình duyệt.',
+      },
+      {
+        question: 'Dùng công cụ chuyển TikTok sang MP3 có an toàn không?',
+        answer:
+          'An toàn nếu bạn dùng theo lẽ thường: không chia sẻ mật khẩu hay mã, bỏ qua các yêu cầu cài đặt bất ngờ và đọc chính sách quyền riêng tư. Không công cụ nào có thể hứa hẹn an toàn tuyệt đối, vì vậy hãy chỉ dùng nội dung công khai.',
+      },
+      {
+        question: 'Vì sao liên kết của tôi không hoạt động?',
+        answer:
+          'Nguyên nhân thường gặp là liên kết không đầy đủ, video riêng tư hoặc đã xóa, hoặc hạn chế theo khu vực. Hãy sao chép lại liên kết đầy đủ từ ứng dụng rồi thử lại. Phần khắc phục sự cố ở trên liệt kê mọi nguyên nhân phổ biến.',
+      },
     ],
     finalTitle: 'Lời kết',
     finalText:
       'Âm thanh trên TikTok dễ mất và khó gọi tên. Lưu một âm thanh thành MP3 chỉ cần một liên kết công khai, một trình duyệt và vài giây, và bạn có tệp âm thanh sạch cho danh sách phát, trình biên tập hoặc danh sách nhạc chuông. Hãy giữ kỳ vọng thực tế: chất lượng là của bản gốc, tệp có thể chỉ là một phần bài hát, video riêng tư nằm ngoài giới hạn, và mọi thứ bạn đăng vẫn cần có quyền phù hợp.',
     ctaLabel: 'Dán liên kết và chuyển sang MP3',
-    moreText: 'Khi đã sẵn sàng, hãy dán liên kết vào công cụ ở trên và xem video có cho tải âm thanh hay không.',
+    moreText:
+      'Khi đã sẵn sàng, hãy dán liên kết vào công cụ ở trên và xem video có cho tải âm thanh hay không.',
   },
 };
 
