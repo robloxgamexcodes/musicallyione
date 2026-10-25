@@ -36,6 +36,9 @@ export function organizationNode(opts: { siteUrl: string; description?: string; 
   };
   if (description) node.description = description;
   if (SITE.sameAs.length) node.sameAs = [...SITE.sameAs];
+  if (SITE.foundingDate) node.foundingDate = SITE.foundingDate;
+  if (SITE.telephone) node.telephone = SITE.telephone;
+  if (SITE.address) node.address = { '@type': 'PostalAddress', ...SITE.address };
   return node;
 }
 

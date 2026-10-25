@@ -20,6 +20,22 @@ export const SITE = {
    * emitted as Organization.sameAs. Leave empty until the profiles exist; never invent them.
    */
   sameAs: [] as string[],
+  /**
+   * OPTIONAL Organization details. Fill in ONLY real values; each one is emitted in the Organization
+   * JSON-LD when set and left out when empty (never invent them).
+   *   foundingDate: '2026'  or '2026-10-24'
+   *   telephone:    '+1-555-000-0000'
+   *   address:      { streetAddress: '...', addressLocality: '...', addressRegion: '...', postalCode: '...', addressCountry: 'US' }
+   */
+  foundingDate: '' as string,
+  telephone: '' as string,
+  address: null as null | {
+    streetAddress?: string;
+    addressLocality?: string;
+    addressRegion?: string;
+    postalCode?: string;
+    addressCountry: string;
+  },
 } as const;
 
 /** Language versions of the blog index stay `noindex` until a language has at least this many posts. */
