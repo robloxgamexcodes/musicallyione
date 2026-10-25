@@ -1,8 +1,8 @@
 /**
  * Intent landing pages (English). One entry per page; each page file in src/pages/ just renders
  * <IntentPage slug="..."/>. Every page targets ONE search intent with its own title, angle and FAQ.
- * To translate: add the same slug to es/id/vi, create src/pages/<lang>/<slug>.astro and list the path in
- * LOCALE_PAGES (src/i18n/utils.ts). Until then hreflang / the sitemap only list the English page.
+ * Translations live in intent-pages.{es,id,vi}.ts; each language has its own src/pages/<lang>/<slug>.astro
+ * and every slug is listed in LOCALE_PAGES (src/i18n/utils.ts) so hreflang and the sitemap pick them up.
  */
 import type { ArticleContent, StoriesBlock } from './ui';
 
@@ -564,3 +564,15 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
     },
   },
 };
+
+import { PAGES_ES, LABELS_ES } from './intent-pages.es';
+import { PAGES_ID, LABELS_ID } from './intent-pages.id';
+import { PAGES_VI, LABELS_VI } from './intent-pages.vi';
+
+const ALL: Record<string, Record<IntentSlug, IntentPage>> = { en: INTENT_PAGES, es: PAGES_ES, id: PAGES_ID, vi: PAGES_VI };
+const ALL_LABELS: Record<string, Record<IntentSlug, string>> = { en: INTENT_LABELS, es: LABELS_ES, id: LABELS_ID, vi: LABELS_VI };
+
+/** Intent page content for a language (falls back to English). */
+export const getIntentPage = (lang: string, slug: IntentSlug): IntentPage => (ALL[lang] ?? ALL.en)[slug];
+/** Short link labels for a language (footer, related-tools lists). */
+export const getIntentLabels = (lang: string): Record<IntentSlug, string> => ALL_LABELS[lang] ?? INTENT_LABELS;

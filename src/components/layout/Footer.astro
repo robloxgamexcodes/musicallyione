@@ -11,10 +11,9 @@ const currentYear = new Date().getFullYear();
 // Plain <a> links to every language version of this page (crawlable, unlike the <select> picker)
 const langLinks = getAlternateLocales(Astro.url.pathname);
 
-import { INTENT_LABELS, INTENT_SLUGS } from '../../i18n/intent-pages';
-// Intent pages exist in English only for now
-const intentLinks =
-  lang === 'en' ? INTENT_SLUGS.map((s) => ({ label: INTENT_LABELS[s], href: `/${s}/` })) : [];
+import { getIntentLabels, INTENT_SLUGS } from '../../i18n/intent-pages';
+const intentLabels = getIntentLabels(lang);
+const intentLinks = INTENT_SLUGS.map((s) => ({ label: intentLabels[s], href: getLocalizedPath(lang, `/${s}`) }));
 
 const footerColumns = [
   {
