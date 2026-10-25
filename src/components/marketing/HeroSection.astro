@@ -25,7 +25,7 @@ const {
 } = Astro.props;
 ---
 
-<section class="flex flex-col items-center justify-center bg-[#ef124e] px-6 py-12 text-center">
+<section class="flex flex-col items-center justify-center bg-[#d90f45] px-6 py-12 text-center">
   <h1 class="mx-auto max-w-4xl font-display text-3xl font-semibold leading-tight tracking-tight text-white md:text-4xl">
     {titleStart}<span class="underline decoration-white underline-offset-4"> {titleHighlight}</span>
   </h1>
@@ -33,7 +33,9 @@ const {
 
   <div class="mt-2 w-full max-w-4xl"><InputScreen client:only="solid-js" /></div>
 
-  <p class="mx-auto mt-4 max-w-3xl text-base text-white md:text-base">{t('hero.subtitle')}</p>
+  {t('hero.subtitle') && (
+    <p class="mx-auto mt-4 max-w-3xl text-base text-white md:text-base">{t('hero.subtitle')}</p>
+  )}
 
 
 

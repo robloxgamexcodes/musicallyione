@@ -1,0 +1,24 @@
+---
+/**
+ * HomeSchema.astro: one linked JSON-LD @graph for the home page of each language:
+ *   Organization (publisher, logo, contact) <- WebSite (publisher) and WebApplication (publisher)
+ * Organization `sameAs` comes from SITE.sameAs in src/lib/site.ts (empty until real profiles exist).
+ * Do not add AggregateRating / Review here.
+ */
+import JsonLd from './JsonLd.astro';
+import { organizationNode, webSiteNode, webApplicationNode } from '../../lib/schema';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldown.se';
+const description = t('site.description');
+
+const nodes = [
+  organizationNode({ siteUrl, description }),
+  webSiteNode({ siteUrl, lang, description }),
+  webApplicationNode({ siteUrl, lang, description }),
+];
+---
+
+<JsonLd type="Graph" data={{ nodes }} />

@@ -15,7 +15,7 @@ const prohibitedItems = [1, 2, 3, 4, 5, 6, 7];
 <BaseLayout title={t('terms.metaTitle')} description={t('terms.metaDescription')}>
   <Header slot="header" />
 
-  <main class="mx-auto max-w-4xl bg-white px-6 py-20 md:py-32">
+  <div class="mx-auto max-w-4xl bg-white px-6 py-20 md:py-32">
     <header class="mb-12 md:mb-16">
       <h1 class="font-display text-4xl font-extrabold tracking-tight text-[var(--text-primary)] sm:text-5xl">
         {t('terms.title')}
@@ -25,7 +25,7 @@ const prohibitedItems = [1, 2, 3, 4, 5, 6, 7];
       </p>
     </header>
 
-    <div class="prose prose-lg mx-auto dark:prose-invert prose-a:text-[#ef124e] prose-a:no-underline hover:prose-a:underline">
+    <div class="prose prose-lg mx-auto dark:prose-invert prose-a:text-[#d90f45] prose-a:no-underline hover:prose-a:underline">
       <p>{t('terms.intro')}</p>
 
       <h2>{t('terms.s1.title')}</h2>
@@ -82,7 +82,7 @@ const prohibitedItems = [1, 2, 3, 4, 5, 6, 7];
       <h2>{t('terms.s16.title')}</h2>
       <p set:html={t('terms.s16.text')} />
     </div>
-  </main>
+  </div>
 
   <Footer slot="footer" />
 </BaseLayout>

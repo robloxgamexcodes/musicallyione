@@ -1,5 +1,5 @@
 /**
- * i18n utility functions for MusicalDown.
+ * i18n utility functions for MusicallyDown.
  *
  * Usage in .astro components:
  *   import { getLangFromUrl, useTranslations, getLocalizedPath } from '../i18n/utils';
@@ -26,12 +26,16 @@ export const LOCALE_PAGES: Record<Lang, 'all' | string[]> = {
   vi: 'all',
 };
 
-/** hreflang + Open Graph codes per language. */
+/**
+ * hreflang + Open Graph codes per language.
+ * hreflang is language-only on purpose (es also serves Mexico, Argentina, Colombia, ...);
+ * Open Graph keeps full locale codes.
+ */
 export const localeMeta: Record<Lang, { hreflang: string; og: string }> = {
-  en: { hreflang: 'en-US', og: 'en_US' },
-  es: { hreflang: 'es-ES', og: 'es_ES' },
-  id: { hreflang: 'id-ID', og: 'id_ID' },
-  vi: { hreflang: 'vi-VN', og: 'vi_VN' },
+  en: { hreflang: 'en', og: 'en_US' },
+  es: { hreflang: 'es', og: 'es_ES' },
+  id: { hreflang: 'id', og: 'id_ID' },
+  vi: { hreflang: 'vi', og: 'vi_VN' },
 };
 
 const nonDefaultLangs = (Object.keys(languages) as Lang[]).filter((l) => l !== defaultLang);
@@ -68,16 +72,22 @@ export function useTranslations(lang: Lang) {
   };
 }
 
+/** Force the trailing-slash form used by canonicals, hreflang and the sitemap. Keeps any #fragment. */
+const slash = (p: string): string => {
+  const [base, frag] = p.split('#');
+  const b = base.endsWith('/') ? base : base + '/';
+  return frag !== undefined ? `${b}#${frag}` : b;
+};
+
 /**
- * Generate a localized path.
- * - For 'en' (default): returns path as-is (e.g. '/about')
- * - For other languages: prepends /<lang> (e.g. '/es/about')
+ * Generate a localized path (always with a trailing slash).
+ * - For 'en' (default): returns the path as-is (e.g. '/about/')
+ * - For other languages: prepends /<lang> (e.g. '/es/about/')
  * - If that language has no such page yet, the English path is returned instead.
  */
 export function getLocalizedPath(lang: Lang, path: string): string {
-  if (lang === defaultLang) return path;
-  if (!hasPage(lang, path)) return path;
-  return `/${lang}${path}`;
+  if (lang === defaultLang || !hasPage(lang, path)) return slash(path);
+  return slash(`/${lang}${path}`);
 }
 
 /**
@@ -86,7 +96,9 @@ export function getLocalizedPath(lang: Lang, path: string): string {
  */
 export function getAlternateLocales(currentPath: string): { lang: Lang; href: string }[] {
   // Strip any existing locale prefix
-  const cleanPath = currentPath.replace(localePrefix, '') || '/';
+  let cleanPath = currentPath.replace(localePrefix, '') || '/';
+  // The 404 page is rendered for any missing URL, so offer each language's home page instead.
+  if (/^\/404\/?$/.test(cleanPath)) cleanPath = '/';
 
   // Always use the trailing-slash form so hreflang matches the canonical and the sitemap
   // (otherwise '/es' and '/es/' are both seen as "pages for the same language").

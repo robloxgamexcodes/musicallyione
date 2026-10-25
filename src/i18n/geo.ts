@@ -1,17 +1,25 @@
 /**
- * Geo / language detection used to send first-time visitors to their native language.
+ * Geo / language detection used to SUGGEST (never force) the visitor's native language.
+ * The English home page shows a dismissible "Switch to ...?" banner; there is no automatic redirect.
  *
  * To add a language later:
  *   1. add it to `ENABLED_LOCALES` below
  *   2. add its dictionary + name in src/i18n/ui.ts
  *   3. add its pages under src/pages/<code>/ and list them in LOCALE_PAGES (src/i18n/utils.ts)
- * The country list is already prepared for all the languages tiktokio.cam used.
+ * The country list is already prepared for more languages than are enabled.
  */
 
 export const DEFAULT_LOCALE = 'en';
 
 /** Languages that really exist on the site. Visitors are only ever sent to these. */
 export const ENABLED_LOCALES = ['en', 'es', 'id', 'vi'] as const;
+
+/** Banner copy, written in the language being offered. Shown on the English home page only. */
+export const BANNER_COPY: Record<string, { question: string; action: string; dismiss: string; label: string }> = {
+  es: { question: '¿Cambiar a Español?', action: 'Cambiar', dismiss: 'Cerrar', label: 'Sugerencia de idioma' },
+  id: { question: 'Beralih ke Bahasa Indonesia?', action: 'Beralih', dismiss: 'Tutup', label: 'Saran bahasa' },
+  vi: { question: 'Chuyển sang Tiếng Việt?', action: 'Chuyển', dismiss: 'Đóng', label: 'Gợi ý ngôn ngữ' },
+};
 
 /** Cookie written by the language picker (an explicit choice always wins over geo detection). */
 export const LOCALE_COOKIE = 'user-locale';
@@ -70,7 +78,7 @@ export function localeFromAcceptLanguage(header?: string | null): string | null 
 export const BOT_PATTERN =
   /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|embedly|lighthouse|pagespeed|headless|preview/i;
 
-/** Same order as tiktokio.cam: country first, then browser language, else English. */
+/** Country first, then browser language, else English. */
 export function detectLocale(input: {
   country?: string | null;
   acceptLanguage?: string | null;

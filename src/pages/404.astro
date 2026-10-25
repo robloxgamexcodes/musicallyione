@@ -14,11 +14,11 @@ import Footer from '../components/layout/Footer.astro';
   <script>
     // Client-side fallback for local development and SPA view transitions
     if (window.location.pathname.startsWith('/es/')) {
-      window.location.replace('/es/404');
+      window.location.replace('/es/404/');
     }
   </script>
 
-  <main class="flex min-h-[70vh] flex-col items-center justify-center px-6 text-center">
+  <div class="flex min-h-[70vh] flex-col items-center justify-center px-6 text-center">
     <p class="font-display text-base font-semibold text-[var(--color-primary-600)] dark:text-[var(--color-primary-400)]">404</p>
     <h1 class="mt-4 font-display text-4xl font-extrabold tracking-tight text-[var(--text-primary)] sm:text-5xl">
       Page not found
@@ -44,7 +44,7 @@ import Footer from '../components/layout/Footer.astro';
         Go back home
       </a>
     </div>
-  </main>
+  </div>
 
   <Footer slot="footer" />
 </BaseLayout>

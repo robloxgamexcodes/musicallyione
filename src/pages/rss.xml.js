@@ -16,7 +16,7 @@ export async function GET(context) {
     }));
 
   return rss({
-    title: 'MusicalDown Blog',
+    title: 'MusicallyDown Blog',
     description: 'Guides on saving public TikTok videos, MP4 and MP3 formats, and troubleshooting.',
     site: context.site || 'https://musicaldown.se',
     items,

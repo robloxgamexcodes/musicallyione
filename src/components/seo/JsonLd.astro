@@ -2,24 +2,39 @@
 /**
  * JsonLd.astro — Dynamic JSON-LD Schema.org Generator
  *
- * Supports multiple schema types for rich results:
- * - WebSite (with SearchAction for sitelinks)
+ * Supports multiple schema types:
+ * - Graph (several linked nodes with @id, see src/lib/schema.ts)  <- home page
+ * - WebSite
+ * - WebApplication (the downloader tool)
  * - BlogPosting / Article
- * - BreadcrumbList
  * - Organization
  * - Person (for E-E-A-T author profiles)
  * - FAQPage
+ * (BreadcrumbList is emitted by components/seo/Breadcrumbs.astro.)
+ *
+ * No SearchAction: Google retired the sitelinks search box and the site has no /search page.
+ * No AggregateRating / Review: never add self-served ratings.
  *
  * Usage:
- *   <JsonLd type="WebSite" data={{ name: "My Site", url: "https://..." }} />
+ *   <JsonLd type="Graph" data={{ nodes: [organizationNode(...), webSiteNode(...)] }} />
  *   <JsonLd type="BlogPosting" data={{ headline: "...", ... }} />
  */
+import { graph, webSiteNode, webApplicationNode } from '../../lib/schema';
 
 export interface WebSiteData {
-  name: string;
-  url: string;
+  siteUrl: string;
+  lang: string;
   description?: string;
-  searchUrl?: string;
+}
+
+export interface WebApplicationData {
+  siteUrl: string;
+  lang: string;
+  description?: string;
+}
+
+export interface GraphData {
+  nodes: Record<string, unknown>[];
 }
 
 export interface BlogPostingData {
@@ -29,11 +44,15 @@ export interface BlogPostingData {
   datePublished: string;
   dateModified?: string;
   image?: string;
+  inLanguage?: string;
   author: {
+    type?: 'Person' | 'Organization';
+    id?: string;
     name: string;
     url?: string;
   };
   publisher?: {
+    id?: string;
     name: string;
     logo?: string;
   };
@@ -66,37 +85,43 @@ export interface FAQPageData {
   items: FAQItem[];
 }
 
-type SchemaType = 'WebSite' | 'BlogPosting' | 'Organization' | 'Person' | 'FAQPage';
+type SchemaType =
+  | 'Graph'
+  | 'WebSite'
+  | 'WebApplication'
+  | 'BlogPosting'
+  | 'Organization'
+  | 'Person'
+  | 'FAQPage';
 
 interface Props {
   type: SchemaType;
-  data: WebSiteData | BlogPostingData | OrganizationData | PersonData | FAQPageData;
+  data:
+    | GraphData
+    | WebSiteData
+    | WebApplicationData
+    | BlogPostingData
+    | OrganizationData
+    | PersonData
+    | FAQPageData;
 }
 
 const { type, data } = Astro.props;
 
 function buildSchema(type: SchemaType, data: any): Record<string, unknown> {
   switch (type) {
+    case 'Graph': {
+      return graph((data as GraphData).nodes);
+    }
+
     case 'WebSite': {
       const d = data as WebSiteData;
-      const schema: Record<string, unknown> = {
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        name: d.name,
-        url: d.url,
-      };
-      if (d.description) schema.description = d.description;
-      if (d.searchUrl) {
-        schema.potentialAction = {
-          '@type': 'SearchAction',
-          target: {
-            '@type': 'EntryPoint',
-            urlTemplate: `${d.searchUrl}?q={search_term_string}`,
-          },
-          'query-input': 'required name=search_term_string',
-        };
-      }
-      return schema;
+      return { '@context': 'https://schema.org', ...webSiteNode(d) };
+    }
+
+    case 'WebApplication': {
+      const d = data as WebApplicationData;
+      return { '@context': 'https://schema.org', ...webApplicationNode(d) };
     }
 
     case 'BlogPosting': {
@@ -108,17 +133,21 @@ function buildSchema(type: SchemaType, data: any): Record<string, unknown> {
         description: d.description,
         url: d.url,
         datePublished: d.datePublished,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': d.url },
         author: {
-          '@type': 'Person',
+          '@type': d.author.type ?? 'Person',
+          ...(d.author.id && { '@id': d.author.id }),
           name: d.author.name,
           ...(d.author.url && { url: d.author.url }),
         },
       };
+      if (d.inLanguage) schema.inLanguage = d.inLanguage;
       if (d.dateModified) schema.dateModified = d.dateModified;
       if (d.image) schema.image = d.image;
       if (d.publisher) {
         schema.publisher = {
           '@type': 'Organization',
+          ...(d.publisher.id && { '@id': d.publisher.id }),
           name: d.publisher.name,
           ...(d.publisher.logo && {
             logo: { '@type': 'ImageObject', url: d.publisher.logo },

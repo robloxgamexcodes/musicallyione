@@ -1,4 +1,4 @@
-# MusicalDown
+# MusicallyDown
 
 A free, browser-based TikTok video and MP3 downloader built with [Astro](https://astro.build), Tailwind CSS and Solid.
 

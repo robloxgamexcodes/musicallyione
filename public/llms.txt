@@ -1,19 +1,19 @@
-# MusicalDown
+# MusicallyDown
 
-> MusicalDown is a free, browser-based tool for saving public TikTok videos as MP4 and extracting the audio as MP3, when those formats are available.
+> MusicallyDown is a free, browser-based tool for saving public TikTok videos as MP4 and extracting the audio as MP3, when those formats are available.
 
 ## About
-MusicalDown needs no app and no account. A visitor copies a TikTok video link, pastes it into the box on the homepage and chooses from the download options shown. Available formats depend on the original video. The site encourages downloading only content you created or have permission to keep.
+MusicallyDown needs no app and no account. A visitor copies a TikTok video link, pastes it into the box on the homepage and chooses from the download options shown. Available formats depend on the original video. The site encourages downloading only content you created or have permission to keep.
 
 ## Languages
-English (https://musicaldown.se/), Spanish (/es/), Indonesian (/id/) and Vietnamese (/vi/).
+English (https://musicaldown.se/), Spanish (https://musicaldown.se/es/), Indonesian (https://musicaldown.se/id/) and Vietnamese (https://musicaldown.se/vi/).
 
 ## Main pages
 - [TikTok video downloader](https://musicaldown.se/)
-- [TikTok Stories downloader](https://musicaldown.se/download-tiktok-stories)
-- [TikTok to MP3](https://musicaldown.se/tiktok-mp3)
-- [Blog](https://musicaldown.se/blog)
-- [About](https://musicaldown.se/about)
-- [Contact](https://musicaldown.se/contact)
-- [Privacy Policy](https://musicaldown.se/privacy)
-- [Terms of Service](https://musicaldown.se/terms)
+- [TikTok Stories downloader](https://musicaldown.se/download-tiktok-stories/)
+- [TikTok to MP3](https://musicaldown.se/tiktok-mp3/)
+- [Blog](https://musicaldown.se/blog/)
+- [About](https://musicaldown.se/about/)
+- [Contact](https://musicaldown.se/contact/)
+- [Privacy Policy](https://musicaldown.se/privacy/)
+- [Terms of Service](https://musicaldown.se/terms/)

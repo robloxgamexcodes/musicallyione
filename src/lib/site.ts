@@ -1,0 +1,24 @@
+/**
+ * Single source of truth for site-wide identity values used by SEO markup
+ * (JSON-LD, meta tags, sitemap). Keep the brand spelled "MusicallyDown" everywhere.
+ */
+export const SITE = {
+  /** Visible brand name, used for <title>, og:site_name, schema `name`. */
+  name: 'MusicallyDown',
+  /** Other spellings people use. Declared in schema as `alternateName` only, never in visible copy. */
+  alternateNames: ['MusicalDown', 'Musical Down'],
+  url: 'https://musicaldown.se',
+  /** 180×180 PNG in /public. */
+  logoPath: '/logo.png',
+  /** 1200×630 default social image in /public. */
+  ogImage: { path: '/og-default.png', width: 1200, height: 630 },
+  supportEmail: 'support@musicaldown.se',
+  /**
+   * Official profiles of the brand (X, YouTube, GitHub, ...). Add real URLs here and they are
+   * emitted as Organization.sameAs. Leave empty until the profiles exist; never invent them.
+   */
+  sameAs: [] as string[],
+} as const;
+
+/** Language versions of the blog index stay `noindex` until a language has at least this many posts. */
+export const MIN_POSTS_FOR_BLOG_INDEX = 5;

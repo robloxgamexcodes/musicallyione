@@ -16,7 +16,7 @@ const choiceItems = [1, 2, 3];
 <BaseLayout title={t('privacy.metaTitle')} description={t('privacy.metaDescription')}>
   <Header slot="header" />
 
-  <main class="mx-auto max-w-4xl bg-white px-6 py-20 md:py-32">
+  <div class="mx-auto max-w-4xl bg-white px-6 py-20 md:py-32">
     <header class="mb-12 md:mb-16">
       <h1 class="font-display text-4xl font-extrabold tracking-tight text-[var(--text-primary)] sm:text-5xl">
         {t('privacy.title')}
@@ -28,7 +28,7 @@ const choiceItems = [1, 2, 3];
       </p>
     </header>
 
-    <div class="prose prose-lg mx-auto dark:prose-invert prose-a:text-[#ef124e] prose-a:no-underline hover:prose-a:underline">
+    <div class="prose prose-lg mx-auto dark:prose-invert prose-a:text-[#d90f45] prose-a:no-underline hover:prose-a:underline">
       <p>{t('privacy.intro')}</p>
 
       <!-- 1 -->
@@ -120,10 +120,10 @@ const choiceItems = [1, 2, 3];
         {t('privacy.s14.emailLabel')}{' '}
         <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>
         <br />
-        {t('privacy.s14.websiteLabel')} <a href="https://Musicaldown.se">https://Musicaldown.se</a>
+        {t('privacy.s14.websiteLabel')} <a href="https://musicaldown.se">https://musicaldown.se</a>
       </p>
     </div>
-  </main>
+  </div>
 
   <Footer slot="footer" />
 </BaseLayout>

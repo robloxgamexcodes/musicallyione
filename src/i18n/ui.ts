@@ -23,6 +23,9 @@ export const ui = {
   en: {
     // Main Site
     'site.name': 'MusicallyDown',
+    'lang.select': 'Select language',
+    'toc.title': 'On this page',
+    'footer.languages': 'Languages',
     'site.title': 'MusicallyDown – TikTok Downloader Without Watermark & MP3',
     'site.description':
       'Download TikTok videos without watermark in HD with Free MusicallyDown TikTok downloader. Save TikTok video as MP4 or MP3, free, with no app and no sign-up.',
@@ -45,16 +48,15 @@ export const ui = {
     'hero.titleStart': 'TikTok Downloader HD Free,',
     'hero.titleHighlight': ' No Watermark',
     'hero.description': 'Download TikTok videos without watermark and Convert TikTok to MP3 free',
-    'hero.subtitle':
-      'Also searched as MusicallyDown, Musically Down or Musical Down. You are in the right place.',
+    'hero.subtitle': '',
 
     // Section 1
     'section1.title': 'Download TikTok Videos Online - ',
     'section1.highlight': 'No Watermark',
     'section1.paragraph':
-      'MusicallyDown is a free TikTok downloader to save TikTok video as an MP4 without watermark in the high quality. Musical down helps you to download videos from TikTok without watermark by using any browser on iPhone, Android and PC quickly and easily.',
+      'MusicallyDown is a free TikTok downloader to save TikTok video as an MP4 without watermark in the high quality. MusicallyDown helps you to download videos from TikTok without watermark by using any browser on iPhone, Android and PC quickly and easily.',
     'section1.paragraph2':
-      'Musical Down helps you to work with supported TikTok video links in one place. Depending on the formats available for a TikTok video, you can save TikTok video as an MP4 or extract its audio as an MP3.',
+      'MusicallyDown helps you to work with supported TikTok video links in one place. Depending on the formats available for a TikTok video, you can save TikTok video as an MP4 or extract its audio as an MP3.',
 
     // Highlights bar (LogoCloud.astro)
     'highlights.ariaLabel': 'Service highlights',
@@ -75,9 +77,9 @@ export const ui = {
     'how.step1.title': 'Copy the video link',
     'how.step1.text':
       'Open the TikTok video, select Share, and choose Copy link. Make sure the video is accessible and you have permission to save it.',
-    'how.step2.title': 'Paste it into MusicalDown',
+    'how.step2.title': 'Paste it into MusicallyDown',
     'how.step2.text':
-      'Return to this page, paste the URL into the musical down TikTok downloader field and submit it for processing.',
+      'Return to this page, paste the URL into the MusicallyDown TikTok downloader field and submit it for processing.',
     'how.step3.title': 'Review and save',
     'how.step3.text':
       "Choose a format that is actually offered for your link, then follow the download prompt and check your device's downloads.",
@@ -108,21 +110,21 @@ export const ui = {
 
     // Intro text (LogoCloud.astro)
     'intro.paragraph1':
-      'MusicalDown is a free online TikTok video downloader for people who want the video, not a pile of extra steps. The name goes back to the Musical.ly app, which later merged into TikTok, so many visitors still type “musically download online” or “musical down”. Under any spelling the idea is the same: take a public TikTok link and turn it into a file on your own device.',
+      'MusicallyDown is a free online TikTok video downloader for people who want the video, not a pile of extra steps. The name goes back to the Musical.ly app, which later merged into TikTok, so the name still rings a bell for many visitors. The idea is simple: take a public TikTok link and turn it into a file on your own device.',
     'intro.paragraph2':
       'The page stays light, so it loads quickly even on a slow mobile connection.',
 
     // Bento Grid
-    'bento.title': 'Everything you get with Musical Down ',
+    'bento.title': 'Everything you get with MusicallyDown ',
     'bento.highlight': 'TikTok Video Downloader',
     'bento.paragraph':
-      'MusicallyDown is the fastest TikTok Video Download tool that lets you download TikTok videos without watermark in HD quality. Save TikTok videos online in an MP4 format on any device.',
+      'MusicallyDown is a free TikTok video downloader that lets you save public TikTok videos without watermark, in HD when that quality is available. Save TikTok videos online as MP4 on any device.',
     'bento.paragraph1':
-      'If you search for MusicallyDown, Musically Down or musicallydown, you will find a free online TikTok downloader that is simple to use: copy the video link, paste it and save the file. The same page also includes a TikTok to MP3 converter for extracting audio from any video.',
+      'It is a free online TikTok downloader that is simple to use: copy the video link, paste it and save the file. The same page also includes a TikTok to MP3 converter for extracting audio from any video.',
 
     // ── Bento: TikTok video quality ──────────────────────────────
     'bento.quality.eyebrow': 'Know what to expect from MusicallyDown',
-    'bento.quality.title': 'HD TikTok downloader: Save Tiktok videos up to 4K',
+    'bento.quality.title': 'HD TikTok downloader: save TikTok videos in up to 4K when available',
     'bento.quality.p1':
       'The quality you can save Tiktok videos depends on the original video and the formats the Tiktok downloader returns. Select a resolution only when it is explicitly available; a downloader cannot create genuine detail that was not present in the source.',
     'bento.quality.p2':
@@ -141,7 +143,7 @@ export const ui = {
       'Illustrative guide only — these bars do not represent measured performance or a promise of availability.',
     // ── Bento: Use on mobile or desktop ──────────────────────────
     'bento.devices.eyebrow': 'One familiar process',
-    'bento.devices.title': 'Use MusicalDown on mobile or desktop',
+    'bento.devices.title': 'Use MusicallyDown on mobile or desktop',
     'bento.devices.paragraph':
       'Open the website in a current compatible browser and follow the same copy-link and paste-link workflow.',
     'bento.devices.iphone.title': 'iPhone',
@@ -155,7 +157,7 @@ export const ui = {
     'faq.title': 'Frequently Asked Questions',
     'faq.description':
       'Find quick answers to the most common questions about downloading TikTok videos and audio. Learn how our tool works, which formats are supported and how to fix common issues, so you can save your favorite content easily, safely and responsibly on any device.',
-    'faq.question1': 'Is Musicallydown free?',
+    'faq.question1': 'Is MusicallyDown free?',
     'faq.answer1':
       'Yes. Downloading is free, the site is supported by ads and you do not need to register or install anything.',
     'faq.question2': 'How do I download a TikTok video without a watermark?',
@@ -172,11 +174,11 @@ export const ui = {
       'No. We save audio the way TikTok stores it, so a 320 kbps label would not add real detail. Expect a normal listening-quality MP3.',
     'faq.question6': 'Can I download YouTube videos here?',
     'faq.answer6':
-      'No. Musicallydown only accepts TikTok links. YouTube downloaders and converters are separate services.',
+      'No. MusicallyDown only accepts TikTok links. YouTube downloaders and converters are separate services.',
     'faq.question7': 'Why is my TikTok link not working?',
     'faq.answer7':
       'Most failures come from private or deleted videos or a link with extra text around it. Use a public video, copy only the link and try again.',
-    'faq.question8': 'Is Musicallydown safe to use?',
+    'faq.question8': 'Is MusicallyDown safe to use?',
     'faq.answer8':
       'You never enter your TikTok password or install anything. Only paste a video link, and do not share personal login details with any downloader. Read our Privacy Policy for how data is handled.',
     'faq.question9': 'Is it legal to download TikTok videos?',
@@ -184,7 +186,7 @@ export const ui = {
       'It depends on what you do with the file. Saving your own videos or clips you have permission to use is generally fine; reposting others videos as your own is not. This is general information, not legal advice.',
     'faq.question10': 'Can I use a TikTok downloader on an iPhone? or Android?',
     'faq.answer10':
-      'Yes. Musicallydown works in any browser on iPhone, Android or PC. No app is needed.',
+      'Yes. MusicallyDown works in any browser on iPhone, Android or PC. No app is needed.',
 
     // Footer
     'footer.product': 'Tools',
@@ -193,7 +195,7 @@ export const ui = {
     'footer.documentation': 'Documentation',
     'footer.rssFeed': 'RSS Feed',
     'footer.license': 'License (MIT)',
-    'footer.copyright': 'MusicalDown. All rights reserved.',
+    'footer.copyright': 'MusicallyDown. All rights reserved.',
     'footer.builtWith': 'Built with',
     'footer.privacyPolicy': 'Privacy Policy',
     'footer.termsOfService': 'Terms of Service',
@@ -215,16 +217,16 @@ export const ui = {
     // About Page
     'about.title': 'About MusicallyDown – Free TikTok Video Downloader', // meta title
     'about.metaDescription':
-      'Learn what Musicallydown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
+      'Learn what MusicallyDown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
     'about.titleStart': 'About ',
-    'about.titleHighlight': 'Musicallydown',
+    'about.titleHighlight': 'MusicallyDown',
 
     'about.intro1':
-      'Musicallydown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
+      'MusicallyDown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
     'about.intro2':
-      'We built Musicallydown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
+      'We built MusicallyDown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
 
-    'about.doesTitle': 'What Musicallydown does',
+    'about.doesTitle': 'What MusicallyDown does',
     'about.does1.title': 'Downloads TikTok videos as MP4.',
     'about.does1.text':
       ' Where the source offers it, you can choose a clean version without the TikTok watermark in SD or HD.',
@@ -237,11 +239,11 @@ export const ui = {
     'about.does4.text': ' We never ask for your TikTok username or password.',
     'about.does5.title': 'Speaks your language.',
     'about.does5.text':
-      ' The site is available in English, <a href="/es">Spanish</a>, <a href="/id">Indonesian</a> and <a href="/vi">Vietnamese</a>, with more planned.',
+      ' The site is available in English, <a href="/es/">Spanish</a>, <a href="/id/">Indonesian</a> and <a href="/vi/">Vietnamese</a>, with more planned.',
 
     'about.howTitle': 'How it works',
     'about.how1': 'Open TikTok, find the video and tap Share, then Copy Link.',
-    'about.how2': 'Paste the link into the Musicallydown box.',
+    'about.how2': 'Paste the link into the MusicallyDown box.',
     'about.how3': 'Choose an available format or quality.',
     'about.how4': 'Save the file to your device.',
     'about.howNote':
@@ -253,31 +255,31 @@ export const ui = {
       ' The tool is free to use and supported by advertising. We keep the interface as uncluttered as we can.',
     'about.principle2.title': 'Privacy first.',
     'about.principle2.text':
-      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy">Privacy Policy</a> for exactly what is processed.',
+      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy/">Privacy Policy</a> for exactly what is processed.',
     'about.principle3.title': 'Respect for creators.',
     'about.principle3.text':
-      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy">Privacy Policy</a>.',
+      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy/">Privacy Policy</a>.',
     'about.principle4.title': 'Honest expectations.',
     'about.principle4.text':
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
 
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
 
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
 
     // ───────────── Privacy Page ─────────────
-    'privacy.metaTitle': 'Privacy Policy – Musicaldown',
+    'privacy.metaTitle': 'Privacy Policy – MusicallyDown',
     'privacy.metaDescription':
-      'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
+      'How MusicallyDown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
     'privacy.title': 'Privacy Policy',
     'privacy.effective': 'Effective date: October 20, 2026',
     'privacy.updated': 'Last updated: October 20, 2026',
     'privacy.intro':
-      'This Privacy Policy explains what information Musicaldown (“we”, “us”, “our”) collects when you use Musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
+      'This Privacy Policy explains what information MusicallyDown (“we”, “us”, “our”) collects when you use musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
 
     'privacy.s1.title': '1. Information we collect',
     'privacy.s1.provided.title': 'Information you provide.',
@@ -359,22 +361,22 @@ export const ui = {
       'We may update this policy from time to time. The “Last updated” date at the top shows the latest version. Continued use of the Site after changes means you accept the updated policy.',
 
     'privacy.s14.title': '14. Contact',
-    'privacy.s14.name': 'Musicaldown',
+    'privacy.s14.name': 'MusicallyDown',
     'privacy.s14.emailLabel': 'Email:',
     'privacy.s14.websiteLabel': 'Website:',
 
     // ───────────── Terms Page ─────────────
-    'terms.metaTitle': 'Terms of Service – Musicaldown',
+    'terms.metaTitle': 'Terms of Service – MusicallyDown',
     'terms.metaDescription':
-      "The rules for using Musicaldown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
+      "The rules for using MusicallyDown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
     'terms.title': 'Terms of Service',
     'terms.effective': 'Effective date: October 20, 2026',
     'terms.intro':
-      'These Terms of Service (“Terms”) govern your use of Musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
+      'These Terms of Service (“Terms”) govern your use of musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
 
     'terms.s1.title': '1. The Service',
     'terms.s1.text':
-      'Musicaldown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
+      'MusicallyDown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
 
     'terms.s2.title': '2. Eligibility',
     'terms.s2.text':
@@ -406,11 +408,11 @@ export const ui = {
 
     'terms.s6.title': '6. No affiliation',
     'terms.s6.text':
-      'Musicaldown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
+      'MusicallyDown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
 
     'terms.s7.title': '7. Intellectual property',
     'terms.s7.text':
-      "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
+      "The Site's design, text, code and branding (excluding third-party content) belong to MusicallyDown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
 
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
@@ -426,11 +428,11 @@ export const ui = {
 
     'terms.s11.title': '11. Limitation of liability',
     'terms.s11.text':
-      'To the fullest extent permitted by law, Musicaldown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
+      'To the fullest extent permitted by law, MusicallyDown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
 
     'terms.s12.title': '12. Indemnification',
     'terms.s12.text':
-      "You agree to indemnify and hold harmless Musicaldown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
+      "You agree to indemnify and hold harmless MusicallyDown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
 
     'terms.s13.title': '13. Suspension and termination',
     'terms.s13.text':
@@ -454,6 +456,9 @@ export const ui = {
   },
   es: {
     'site.name': 'MusicallyDown',
+    'lang.select': 'Seleccionar idioma',
+    'toc.title': 'En esta página',
+    'footer.languages': 'Idiomas',
     'site.title': 'MusicallyDown – Descargar TikTok Sin Marca de Agua y MP3',
     'site.description':
       'Descarga videos públicos de TikTok sin marca de agua cuando esté disponible. Guarda videos en MP4 o extrae audio en MP3 gratis, sin instalar aplicaciones.',
@@ -463,6 +468,7 @@ export const ui = {
     'nav.blog': 'Blog',
     'nav.how': 'Cómo usar',
     'nav.contact': 'Contacto',
+    'nav.about': 'Acerca de',
     'nav.faq': 'Preguntas frecuentes',
     'hero.badge1': 'Sin marca de agua',
     'hero.badge2': 'Calidad HD',
@@ -502,12 +508,12 @@ export const ui = {
     lastUpdated: 'Última actualización',
 
     // Complete locale key coverage; untranslated legal-page strings use English fallback text.
-    'bento.title': 'Todo lo que obtienes con Musical Down ',
+    'bento.title': 'Todo lo que obtienes con MusicallyDown ',
     'bento.highlight': 'Descargador de videos de TikTok',
     'bento.paragraph':
       'MusicallyDown es una herramienta rápida para guardar videos públicos de TikTok en formato MP4 cuando está disponible.',
     'bento.paragraph1':
-      'Busca MusicallyDown, Musically Down o musicallydown para usar una herramienta gratuita y sencilla: copia el enlace, pégalo y guarda el archivo. También puedes extraer audio como MP3 cuando esté disponible.',
+      'Es una herramienta gratuita y sencilla: copia el enlace, pégalo y guarda el archivo. También puedes extraer audio como MP3 cuando esté disponible.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
@@ -542,7 +548,7 @@ export const ui = {
     'faq.question10': '¿Puedo descargar cualquier video de TikTok?',
     'faq.answer10':
       'No siempre. Los videos privados, eliminados o restringidos pueden no estar disponibles. Descarga contenido propio o que tengas permiso para guardar.',
-    'footer.copyright': 'MusicalDown. Todos los derechos reservados.',
+    'footer.copyright': 'MusicallyDown. Todos los derechos reservados.',
     'footer.builtWith': 'Built with',
     'contact.title': "Let's talk about your project",
     'contact.description':
@@ -556,16 +562,16 @@ export const ui = {
     'contact.emailLabel': 'Email',
     'contact.phoneLabel': 'Phone',
     'contact.hqLabel': 'Headquarters',
-    'about.title': 'About Musicallydown – Free TikTok Video Downloader',
+    'about.title': 'About MusicallyDown – Free TikTok Video Downloader',
     'about.metaDescription':
-      'Learn what Musicallydown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
+      'Learn what MusicallyDown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
     'about.titleStart': 'About ',
-    'about.titleHighlight': 'Musicallydown',
+    'about.titleHighlight': 'MusicallyDown',
     'about.intro1':
-      'Musicallydown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
+      'MusicallyDown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
     'about.intro2':
-      'We built Musicallydown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
-    'about.doesTitle': 'What Musicallydown does',
+      'We built MusicallyDown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
+    'about.doesTitle': 'What MusicallyDown does',
     'about.does1.title': 'Downloads TikTok videos as MP4.',
     'about.does1.text':
       ' Where the source offers it, you can choose a clean version without the TikTok watermark in SD or HD.',
@@ -578,10 +584,10 @@ export const ui = {
     'about.does4.text': ' We never ask for your TikTok username or password.',
     'about.does5.title': 'Speaks your language.',
     'about.does5.text':
-      ' The site is available in English, <a href="/es">Spanish</a>, <a href="/id">Indonesian</a> and <a href="/vi">Vietnamese</a>, with more planned.',
+      ' The site is available in English, <a href="/es/">Spanish</a>, <a href="/id/">Indonesian</a> and <a href="/vi/">Vietnamese</a>, with more planned.',
     'about.howTitle': 'How it works',
     'about.how1': 'Open TikTok, find the video and tap Share, then Copy Link.',
-    'about.how2': 'Paste the link into the Musicallydown box.',
+    'about.how2': 'Paste the link into the MusicallyDown box.',
     'about.how3': 'Choose an available format or quality.',
     'about.how4': 'Save the file to your device.',
     'about.howNote':
@@ -592,27 +598,27 @@ export const ui = {
       ' The tool is free to use and supported by advertising. We keep the interface as uncluttered as we can.',
     'about.principle2.title': 'Privacy first.',
     'about.principle2.text':
-      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy">Privacy Policy</a> for exactly what is processed.',
+      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy/">Privacy Policy</a> for exactly what is processed.',
     'about.principle3.title': 'Respect for creators.',
     'about.principle3.text':
-      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy">Privacy Policy</a>.',
+      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy/">Privacy Policy</a>.',
     'about.principle4.title': 'Honest expectations.',
     'about.principle4.text':
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
-    'privacy.metaTitle': 'Privacy Policy – Musicaldown',
+    'privacy.metaTitle': 'Política de privacidad – MusicallyDown',
     'privacy.metaDescription':
-      'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
+      'How MusicallyDown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
     'privacy.title': 'Privacy Policy',
     'privacy.effective': 'Effective date: October 20, 2026',
     'privacy.updated': 'Last updated: October 20, 2026',
     'privacy.intro':
-      'This Privacy Policy explains what information Musicaldown (“we”, “us”, “our”) collects when you use Musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
+      'This Privacy Policy explains what information MusicallyDown (“we”, “us”, “our”) collects when you use musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
     'privacy.s1.title': '1. Information we collect',
     'privacy.s1.provided.title': 'Information you provide.',
     'privacy.s1.provided.text':
@@ -680,19 +686,19 @@ export const ui = {
     'privacy.s13.text':
       'We may update this policy from time to time. The “Last updated” date at the top shows the latest version. Continued use of the Site after changes means you accept the updated policy.',
     'privacy.s14.title': '14. Contact',
-    'privacy.s14.name': 'Musicaldown',
+    'privacy.s14.name': 'MusicallyDown',
     'privacy.s14.emailLabel': 'Email:',
     'privacy.s14.websiteLabel': 'Website:',
-    'terms.metaTitle': 'Terms of Service – Musicaldown',
+    'terms.metaTitle': 'Términos del servicio – MusicallyDown',
     'terms.metaDescription':
-      "The rules for using Musicaldown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
+      "The rules for using MusicallyDown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
     'terms.title': 'Terms of Service',
     'terms.effective': 'Effective date: October 20, 2026',
     'terms.intro':
-      'These Terms of Service (“Terms”) govern your use of Musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
+      'These Terms of Service (“Terms”) govern your use of musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
     'terms.s1.title': '1. The Service',
     'terms.s1.text':
-      'Musicaldown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
+      'MusicallyDown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
     'terms.s2.title': '2. Eligibility',
     'terms.s2.text':
       'You must be old enough to form a binding contract in your country, or have permission from a parent or guardian, and you must not be barred from using the Service under applicable law.',
@@ -719,10 +725,10 @@ export const ui = {
       "You are solely responsible for the content you download and how you use it. We do not host the videos on TikTok, we do not review them, and we do not verify that you have the right to download them. Saving content may also be restricted by TikTok's own terms of service, which you are responsible for reading.",
     'terms.s6.title': '6. No affiliation',
     'terms.s6.text':
-      'Musicaldown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
+      'MusicallyDown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
     'terms.s7.title': '7. Intellectual property',
     'terms.s7.text':
-      "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
+      "The Site's design, text, code and branding (excluding third-party content) belong to MusicallyDown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
       'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
@@ -734,10 +740,10 @@ export const ui = {
       'The Service is provided “as is” and “as available” without warranties of any kind, express or implied, including fitness for a particular purpose, accuracy, non-infringement or uninterrupted or error-free operation. We do not guarantee that any video or audio will be available, that any specific quality or format will be offered, or that files will be free of errors.',
     'terms.s11.title': '11. Limitation of liability',
     'terms.s11.text':
-      'To the fullest extent permitted by law, Musicaldown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
+      'To the fullest extent permitted by law, MusicallyDown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
     'terms.s12.title': '12. Indemnification',
     'terms.s12.text':
-      "You agree to indemnify and hold harmless Musicaldown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
+      "You agree to indemnify and hold harmless MusicallyDown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
     'terms.s13.title': '13. Suspension and termination',
     'terms.s13.text':
       'We may limit, suspend or block access to the Service at any time, without notice, for any reason, including suspected abuse or violation of these Terms.',
@@ -784,11 +790,11 @@ export const ui = {
     'features.item6.text':
       'Nunca compartas tus credenciales de TikTok con un descargador. Usa solo el enlace público que quieras procesar.',
     'intro.paragraph1':
-      'MusicallyDown es un descargador de videos de TikTok en línea para quienes quieren guardar un video sin pasos innecesarios. El nombre recuerda a Musical.ly, que más tarde se integró en TikTok; por eso algunas personas buscan «musically download online» o «musical down». Copia un enlace público de TikTok y guarda el archivo en tu dispositivo.',
+      'MusicallyDown es un descargador de videos de TikTok en línea para quienes quieren guardar un video sin pasos innecesarios. El nombre recuerda a Musical.ly, que más tarde se integró en TikTok; por eso el nombre sigue siendo familiar para muchas personas. Copia un enlace público de TikTok y guarda el archivo en tu dispositivo.',
     'intro.paragraph2':
       'La página es ligera para cargar rápidamente incluso con una conexión móvil lenta.',
     'bento.quality.eyebrow': 'Qué puedes esperar de MusicallyDown',
-    'bento.quality.title': 'Descargador TikTok HD: guarda videos hasta 4K',
+    'bento.quality.title': 'Descargador TikTok HD: guarda videos hasta en 4K cuando esté disponible',
     'bento.quality.p1':
       'La calidad depende del video original y de los formatos que devuelva el descargador. Elige una resolución solo si aparece disponible; una herramienta no puede crear detalles que no existen en la fuente.',
     'bento.quality.p2':
@@ -805,7 +811,7 @@ export const ui = {
     'bento.quality.disclaimer':
       'Guía ilustrativa: las barras no representan mediciones ni garantizan disponibilidad.',
     'bento.devices.eyebrow': 'Un proceso familiar',
-    'bento.devices.title': 'Usa MusicalDown en móvil o computadora',
+    'bento.devices.title': 'Usa MusicallyDown en móvil o computadora',
     'bento.devices.paragraph':
       'Abre el sitio en un navegador compatible y sigue el mismo proceso de copiar y pegar el enlace.',
     'bento.devices.iphone.desc': 'Revisa las descargas de Safari o la app Archivos.',
@@ -815,11 +821,13 @@ export const ui = {
     'faq.description':
       'Respuestas rápidas sobre cómo descargar videos y audio de TikTok, los formatos compatibles y la solución de problemas comunes.',
 
-    'hero.subtitle':
-      'También puedes buscar MusicallyDown, Musically Down o Musical Down. Estás en el lugar correcto.',
+    'hero.subtitle': '',
   },
   id: {
     'site.name': 'MusicallyDown',
+    'lang.select': 'Pilih bahasa',
+    'toc.title': 'Di halaman ini',
+    'footer.languages': 'Bahasa',
     'site.title': 'MusicallyDown – Unduh Video TikTok Tanpa Watermark & MP3',
     'site.description':
       'Unduh video TikTok publik tanpa watermark jika tersedia. Simpan video sebagai MP4 atau ekstrak audio MP3 secara gratis melalui browser tanpa memasang aplikasi.',
@@ -829,6 +837,7 @@ export const ui = {
     'nav.blog': 'Blog',
     'nav.how': 'Cara Menggunakan',
     'nav.contact': 'Kontak',
+    'nav.about': 'Tentang',
     'nav.faq': 'FAQ',
     'hero.badge1': 'Tanpa Watermark',
     'hero.badge2': 'Kualitas HD',
@@ -867,12 +876,12 @@ export const ui = {
     lastUpdated: 'Terakhir diperbarui',
 
     // Complete locale key coverage; untranslated legal-page strings use English fallback text.
-    'bento.title': 'Semua yang Anda dapatkan dengan Musical Down ',
+    'bento.title': 'Semua yang Anda dapatkan dengan MusicallyDown ',
     'bento.highlight': 'Pengunduh Video TikTok',
     'bento.paragraph':
       'MusicallyDown adalah alat praktis untuk menyimpan video TikTok publik sebagai MP4 jika format tersedia.',
     'bento.paragraph1':
-      'Cari MusicallyDown, Musically Down, atau musicallydown untuk menggunakan alat gratis yang mudah: salin tautan, tempel, lalu simpan file. Audio juga dapat diekstrak sebagai MP3 jika tersedia.',
+      'Alat ini gratis dan mudah digunakan: salin tautan, tempel, lalu simpan file. Audio juga dapat diekstrak sebagai MP3 jika tersedia.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
@@ -904,7 +913,7 @@ export const ui = {
     'faq.question10': 'Bisakah saya mengunduh semua video TikTok?',
     'faq.answer10':
       'Tidak selalu. Video privat, dihapus, atau dibatasi mungkin tidak tersedia. Unduh konten milik Anda atau yang boleh Anda simpan.',
-    'footer.copyright': 'MusicalDown. Hak cipta dilindungi.',
+    'footer.copyright': 'MusicallyDown. Hak cipta dilindungi.',
     'footer.builtWith': 'Built with',
     'contact.title': "Let's talk about your project",
     'contact.description':
@@ -918,16 +927,16 @@ export const ui = {
     'contact.emailLabel': 'Email',
     'contact.phoneLabel': 'Phone',
     'contact.hqLabel': 'Headquarters',
-    'about.title': 'About Musicallydown – Free TikTok Video Downloader',
+    'about.title': 'About MusicallyDown – Free TikTok Video Downloader',
     'about.metaDescription':
-      'Learn what Musicallydown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
+      'Learn what MusicallyDown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
     'about.titleStart': 'About ',
-    'about.titleHighlight': 'Musicallydown',
+    'about.titleHighlight': 'MusicallyDown',
     'about.intro1':
-      'Musicallydown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
+      'MusicallyDown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
     'about.intro2':
-      'We built Musicallydown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
-    'about.doesTitle': 'What Musicallydown does',
+      'We built MusicallyDown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
+    'about.doesTitle': 'What MusicallyDown does',
     'about.does1.title': 'Downloads TikTok videos as MP4.',
     'about.does1.text':
       ' Where the source offers it, you can choose a clean version without the TikTok watermark in SD or HD.',
@@ -940,10 +949,10 @@ export const ui = {
     'about.does4.text': ' We never ask for your TikTok username or password.',
     'about.does5.title': 'Speaks your language.',
     'about.does5.text':
-      ' The site is available in English, <a href="/es">Spanish</a>, <a href="/id">Indonesian</a> and <a href="/vi">Vietnamese</a>, with more planned.',
+      ' The site is available in English, <a href="/es/">Spanish</a>, <a href="/id/">Indonesian</a> and <a href="/vi/">Vietnamese</a>, with more planned.',
     'about.howTitle': 'How it works',
     'about.how1': 'Open TikTok, find the video and tap Share, then Copy Link.',
-    'about.how2': 'Paste the link into the Musicallydown box.',
+    'about.how2': 'Paste the link into the MusicallyDown box.',
     'about.how3': 'Choose an available format or quality.',
     'about.how4': 'Save the file to your device.',
     'about.howNote':
@@ -954,27 +963,27 @@ export const ui = {
       ' The tool is free to use and supported by advertising. We keep the interface as uncluttered as we can.',
     'about.principle2.title': 'Privacy first.',
     'about.principle2.text':
-      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy">Privacy Policy</a> for exactly what is processed.',
+      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy/">Privacy Policy</a> for exactly what is processed.',
     'about.principle3.title': 'Respect for creators.',
     'about.principle3.text':
-      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy">Privacy Policy</a>.',
+      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy/">Privacy Policy</a>.',
     'about.principle4.title': 'Honest expectations.',
     'about.principle4.text':
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
-    'privacy.metaTitle': 'Privacy Policy – Musicaldown',
+    'privacy.metaTitle': 'Kebijakan Privasi – MusicallyDown',
     'privacy.metaDescription':
-      'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
+      'How MusicallyDown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
     'privacy.title': 'Privacy Policy',
     'privacy.effective': 'Effective date: October 20, 2026',
     'privacy.updated': 'Last updated: October 20, 2026',
     'privacy.intro':
-      'This Privacy Policy explains what information Musicaldown (“we”, “us”, “our”) collects when you use Musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
+      'This Privacy Policy explains what information MusicallyDown (“we”, “us”, “our”) collects when you use musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
     'privacy.s1.title': '1. Information we collect',
     'privacy.s1.provided.title': 'Information you provide.',
     'privacy.s1.provided.text':
@@ -1042,19 +1051,19 @@ export const ui = {
     'privacy.s13.text':
       'We may update this policy from time to time. The “Last updated” date at the top shows the latest version. Continued use of the Site after changes means you accept the updated policy.',
     'privacy.s14.title': '14. Contact',
-    'privacy.s14.name': 'Musicaldown',
+    'privacy.s14.name': 'MusicallyDown',
     'privacy.s14.emailLabel': 'Email:',
     'privacy.s14.websiteLabel': 'Website:',
-    'terms.metaTitle': 'Terms of Service – Musicaldown',
+    'terms.metaTitle': 'Ketentuan Layanan – MusicallyDown',
     'terms.metaDescription':
-      "The rules for using Musicaldown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
+      "The rules for using MusicallyDown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
     'terms.title': 'Terms of Service',
     'terms.effective': 'Effective date: October 20, 2026',
     'terms.intro':
-      'These Terms of Service (“Terms”) govern your use of Musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
+      'These Terms of Service (“Terms”) govern your use of musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
     'terms.s1.title': '1. The Service',
     'terms.s1.text':
-      'Musicaldown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
+      'MusicallyDown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
     'terms.s2.title': '2. Eligibility',
     'terms.s2.text':
       'You must be old enough to form a binding contract in your country, or have permission from a parent or guardian, and you must not be barred from using the Service under applicable law.',
@@ -1081,10 +1090,10 @@ export const ui = {
       "You are solely responsible for the content you download and how you use it. We do not host the videos on TikTok, we do not review them, and we do not verify that you have the right to download them. Saving content may also be restricted by TikTok's own terms of service, which you are responsible for reading.",
     'terms.s6.title': '6. No affiliation',
     'terms.s6.text':
-      'Musicaldown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
+      'MusicallyDown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
     'terms.s7.title': '7. Intellectual property',
     'terms.s7.text':
-      "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
+      "The Site's design, text, code and branding (excluding third-party content) belong to MusicallyDown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
       'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
@@ -1096,10 +1105,10 @@ export const ui = {
       'The Service is provided “as is” and “as available” without warranties of any kind, express or implied, including fitness for a particular purpose, accuracy, non-infringement or uninterrupted or error-free operation. We do not guarantee that any video or audio will be available, that any specific quality or format will be offered, or that files will be free of errors.',
     'terms.s11.title': '11. Limitation of liability',
     'terms.s11.text':
-      'To the fullest extent permitted by law, Musicaldown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
+      'To the fullest extent permitted by law, MusicallyDown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
     'terms.s12.title': '12. Indemnification',
     'terms.s12.text':
-      "You agree to indemnify and hold harmless Musicaldown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
+      "You agree to indemnify and hold harmless MusicallyDown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
     'terms.s13.title': '13. Suspension and termination',
     'terms.s13.text':
       'We may limit, suspend or block access to the Service at any time, without notice, for any reason, including suspected abuse or violation of these Terms.',
@@ -1146,11 +1155,11 @@ export const ui = {
     'features.item6.text':
       'Jangan pernah membagikan kredensial TikTok kepada layanan pengunduh. Gunakan hanya tautan publik yang ingin diproses.',
     'intro.paragraph1':
-      'MusicallyDown adalah pengunduh video TikTok online untuk orang yang ingin menyimpan video tanpa langkah tambahan. Namanya merujuk pada aplikasi Musical.ly yang kemudian bergabung dengan TikTok; karena itu orang masih mencari “musically download online” atau “musical down”. Tempel tautan TikTok publik dan simpan file ke perangkat Anda.',
+      'MusicallyDown adalah pengunduh video TikTok online untuk orang yang ingin menyimpan video tanpa langkah tambahan. Namanya merujuk pada aplikasi Musical.ly yang kemudian bergabung dengan TikTok; karena itu namanya masih terdengar akrab bagi banyak orang. Tempel tautan TikTok publik dan simpan file ke perangkat Anda.',
     'intro.paragraph2':
       'Halaman ini dibuat ringan agar cepat dimuat, bahkan dengan koneksi seluler yang lambat.',
     'bento.quality.eyebrow': 'Ketahui apa yang bisa diharapkan dari MusicallyDown',
-    'bento.quality.title': 'Pengunduh TikTok HD: simpan video hingga 4K',
+    'bento.quality.title': 'Pengunduh TikTok HD: simpan video hingga 4K jika tersedia',
     'bento.quality.p1':
       'Kualitas bergantung pada video asli dan format yang dikembalikan pengunduh. Pilih resolusi hanya jika tersedia; alat pengunduh tidak dapat menciptakan detail yang tidak ada pada sumber.',
     'bento.quality.p2':
@@ -1167,7 +1176,7 @@ export const ui = {
     'bento.quality.disclaimer':
       'Panduan ilustratif saja—batang ini bukan hasil pengukuran atau jaminan ketersediaan.',
     'bento.devices.eyebrow': 'Proses yang sama dan mudah',
-    'bento.devices.title': 'Gunakan MusicalDown di ponsel atau komputer',
+    'bento.devices.title': 'Gunakan MusicallyDown di ponsel atau komputer',
     'bento.devices.paragraph':
       'Buka situs melalui browser yang kompatibel dan ikuti proses salin-tempel tautan.',
     'bento.devices.iphone.desc': 'Periksa unduhan Safari atau aplikasi Files.',
@@ -1176,11 +1185,13 @@ export const ui = {
     'faq.description':
       'Jawaban singkat tentang mengunduh video dan audio TikTok, format yang didukung, serta cara mengatasi masalah umum.',
 
-    'hero.subtitle':
-      'Anda juga dapat mencari MusicallyDown, Musically Down, atau Musical Down. Anda berada di tempat yang tepat.',
+    'hero.subtitle': '',
   },
   vi: {
     'site.name': 'MusicallyDown',
+    'lang.select': 'Chọn ngôn ngữ',
+    'toc.title': 'Trên trang này',
+    'footer.languages': 'Ngôn ngữ',
     'site.title': 'MusicallyDown – Tải Video TikTok Không Logo & MP3 Miễn Phí',
     'site.description':
       'Tải video TikTok công khai không watermark khi có tùy chọn. Lưu video MP4 hoặc trích xuất âm thanh MP3 miễn phí ngay trên trình duyệt, không cần cài ứng dụng.',
@@ -1190,6 +1201,7 @@ export const ui = {
     'nav.blog': 'Blog',
     'nav.how': 'Cách sử dụng',
     'nav.contact': 'Liên hệ',
+    'nav.about': 'Giới thiệu',
     'nav.faq': 'Câu hỏi thường gặp',
     'hero.badge1': 'Không watermark',
     'hero.badge2': 'Chất lượng HD',
@@ -1227,12 +1239,12 @@ export const ui = {
     lastUpdated: 'Cập nhật lần cuối',
 
     // Complete locale key coverage; untranslated legal-page strings use English fallback text.
-    'bento.title': 'Tất cả tiện ích từ Musical Down ',
+    'bento.title': 'Tất cả tiện ích từ MusicallyDown ',
     'bento.highlight': 'Công cụ tải video TikTok',
     'bento.paragraph':
       'MusicallyDown là công cụ tiện lợi giúp lưu video TikTok công khai dưới dạng MP4 khi định dạng này được hỗ trợ.',
     'bento.paragraph1':
-      'Tìm MusicallyDown, Musically Down hoặc musicallydown để dùng công cụ miễn phí, dễ thao tác: sao chép liên kết, dán và lưu tệp. Bạn cũng có thể trích xuất MP3 khi được hỗ trợ.',
+      'Đây là công cụ miễn phí, dễ thao tác: sao chép liên kết, dán và lưu tệp. Bạn cũng có thể trích xuất MP3 khi được hỗ trợ.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
@@ -1266,7 +1278,7 @@ export const ui = {
     'faq.question10': 'Tôi có thể tải mọi video TikTok không?',
     'faq.answer10':
       'Không phải lúc nào cũng được. Video riêng tư, đã xóa hoặc bị hạn chế có thể không khả dụng. Chỉ tải nội dung của bạn hoặc nội dung bạn được phép lưu.',
-    'footer.copyright': 'MusicalDown. Bảo lưu mọi quyền.',
+    'footer.copyright': 'MusicallyDown. Bảo lưu mọi quyền.',
     'footer.builtWith': 'Built with',
     'contact.title': "Let's talk about your project",
     'contact.description':
@@ -1280,16 +1292,16 @@ export const ui = {
     'contact.emailLabel': 'Email',
     'contact.phoneLabel': 'Phone',
     'contact.hqLabel': 'Headquarters',
-    'about.title': 'About Musicallydown – Free TikTok Video zxcvbnm,Downloader',
+    'about.title': 'About MusicallyDown – Free TikTok Video Downloader',
     'about.metaDescription':
-      'Learn what Musicallydown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
+      'Learn what MusicallyDown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
     'about.titleStart': 'About ',
-    'about.titleHighlight': 'Musicallydown',
+    'about.titleHighlight': 'MusicallyDown',
     'about.intro1':
-      'Musicallydown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
+      'MusicallyDown is a free, browser-based tool that helps you save TikTok videos as MP4 files and extract the audio as MP3, when those formats are available. There is nothing to install and no account to create. You copy a video link, paste it into the box on our homepage and choose the file you want.',
     'about.intro2':
-      'We built Musicallydown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
-    'about.doesTitle': 'What Musicallydown does',
+      'We built MusicallyDown because saving a TikTok you made or a clip you have permission to keep, should not require an app, a login or a pile of pop-ups. Our goal is simple: a fast, clear tool that works on iPhone, Android and desktop browsers.',
+    'about.doesTitle': 'What MusicallyDown does',
     'about.does1.title': 'Downloads TikTok videos as MP4.',
     'about.does1.text':
       ' Where the source offers it, you can choose a clean version without the TikTok watermark in SD or HD.',
@@ -1302,10 +1314,10 @@ export const ui = {
     'about.does4.text': ' We never ask for your TikTok username or password.',
     'about.does5.title': 'Speaks your language.',
     'about.does5.text':
-      ' The site is available in English, <a href="/es">Spanish</a>, <a href="/id">Indonesian</a> and <a href="/vi">Vietnamese</a>, with more planned.',
+      ' The site is available in English, <a href="/es/">Spanish</a>, <a href="/id/">Indonesian</a> and <a href="/vi/">Vietnamese</a>, with more planned.',
     'about.howTitle': 'How it works',
     'about.how1': 'Open TikTok, find the video and tap Share, then Copy Link.',
-    'about.how2': 'Paste the link into the Musicallydown box.',
+    'about.how2': 'Paste the link into the MusicallyDown box.',
     'about.how3': 'Choose an available format or quality.',
     'about.how4': 'Save the file to your device.',
     'about.howNote':
@@ -1316,27 +1328,27 @@ export const ui = {
       ' The tool is free to use and supported by advertising. We keep the interface as uncluttered as we can.',
     'about.principle2.title': 'Privacy first.',
     'about.principle2.text':
-      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy">Privacy Policy</a> for exactly what is processed.',
+      ' We do not ask you to register, and we do not need your TikTok credentials. Read our <a href="/privacy/">Privacy Policy</a> for exactly what is processed.',
     'about.principle3.title': 'Respect for creators.',
     'about.principle3.text':
-      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy">Privacy Policy</a>.',
+      'Videos and music on TikTok belong to their creators. Please download only your own content or content you have permission to save and do not repost other peoples work as your own. See our <a href="/privacy/">Privacy Policy</a>.',
     'about.principle4.title': 'Honest expectations.',
     'about.principle4.text':
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'Musicaldown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
-    'privacy.metaTitle': 'Privacy Policy – Musicaldown',
+    'privacy.metaTitle': 'Chính sách quyền riêng tư – MusicallyDown',
     'privacy.metaDescription':
-      'How Musicaldown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
+      'How MusicallyDown handles TikTok links, device data, cookies and advertising. No account needed and no TikTok login requested.',
     'privacy.title': 'Privacy Policy',
     'privacy.effective': 'Effective date: October 20, 2026',
     'privacy.updated': 'Last updated: October 20, 2026',
     'privacy.intro':
-      'This Privacy Policy explains what information Musicaldown (“we”, “us”, “our”) collects when you use Musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
+      'This Privacy Policy explains what information MusicallyDown (“we”, “us”, “our”) collects when you use musicaldown.se and its language versions (the “Site”), how we use it and what choices you have. By using the Site you agree to this policy.',
     'privacy.s1.title': '1. Information we collect',
     'privacy.s1.provided.title': 'Information you provide.',
     'privacy.s1.provided.text':
@@ -1404,19 +1416,19 @@ export const ui = {
     'privacy.s13.text':
       'We may update this policy from time to time. The “Last updated” date at the top shows the latest version. Continued use of the Site after changes means you accept the updated policy.',
     'privacy.s14.title': '14. Contact',
-    'privacy.s14.name': 'Musicaldown',
+    'privacy.s14.name': 'MusicallyDown',
     'privacy.s14.emailLabel': 'Email:',
     'privacy.s14.websiteLabel': 'Website:',
-    'terms.metaTitle': 'Terms of Service – Musicaldown',
+    'terms.metaTitle': 'Điều khoản dịch vụ – MusicallyDown',
     'terms.metaDescription':
-      "The rules for using Musicaldown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
+      "The rules for using MusicallyDown's free TikTok video and MP3 downloader, including permitted use, copyright, disclaimers and liability.",
     'terms.title': 'Terms of Service',
     'terms.effective': 'Effective date: October 20, 2026',
     'terms.intro':
-      'These Terms of Service (“Terms”) govern your use of Musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
+      'These Terms of Service (“Terms”) govern your use of musicaldown.se and its language versions (the “Site”) and the TikTok downloader and related tools we provide (the “Service”). By using the Service you agree to these Terms. If you do not agree, please do not use it.',
     'terms.s1.title': '1. The Service',
     'terms.s1.text':
-      'Musicaldown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
+      'MusicallyDown lets you submit a link to a public TikTok video and, where available, receive the video as an MP4 file or the audio as an MP3 file. The Service is provided free of charge and is supported by advertising. Availability, quality and formats depend on the original content and on third-party platforms, and may change or stop at any time.',
     'terms.s2.title': '2. Eligibility',
     'terms.s2.text':
       'You must be old enough to form a binding contract in your country, or have permission from a parent or guardian, and you must not be barred from using the Service under applicable law.',
@@ -1443,10 +1455,10 @@ export const ui = {
       "You are solely responsible for the content you download and how you use it. We do not host the videos on TikTok, we do not review them, and we do not verify that you have the right to download them. Saving content may also be restricted by TikTok's own terms of service, which you are responsible for reading.",
     'terms.s6.title': '6. No affiliation',
     'terms.s6.text':
-      'Musicaldown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
+      'MusicallyDown is an independent service. It is not affiliated with, endorsed or sponsored by TikTok or ByteDance Ltd. All trademarks, logos and content belong to their respective owners.',
     'terms.s7.title': '7. Intellectual property',
     'terms.s7.text':
-      "The Site's design, text, code and branding (excluding third-party content) belong to Musicaldown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
+      "The Site's design, text, code and branding (excluding third-party content) belong to MusicallyDown or its licensors and are protected by law. You may not copy or reuse them without permission. Content downloaded through the Service remains the property of its respective creators and rights holders.",
     'terms.s8.title': '8. Copyright complaints (DMCA)',
     'terms.s8.text':
       'We respect intellectual property rights. If you believe content processed through the Service infringes your copyright, email <a href="mailto:support@musicaldown.se">support@musicaldown.se</a> with: your name and contact details; a description of the copyrighted work; the URL of the material; a statement that you have a good-faith belief the use is unauthorised; and a statement, under penalty of perjury, that your notice is accurate and that you are the owner or authorised to act for the owner. We will review valid notices and take appropriate action, which may include blocking the specific link and restricting repeat infringers. Because we do not host the original videos, the original platform is the best place to request removal of the video itself.',
@@ -1458,10 +1470,10 @@ export const ui = {
       'The Service is provided “as is” and “as available” without warranties of any kind, express or implied, including fitness for a particular purpose, accuracy, non-infringement or uninterrupted or error-free operation. We do not guarantee that any video or audio will be available, that any specific quality or format will be offered, or that files will be free of errors.',
     'terms.s11.title': '11. Limitation of liability',
     'terms.s11.text':
-      'To the fullest extent permitted by law, Musicaldown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
+      'To the fullest extent permitted by law, MusicallyDown and its owners and affiliates will not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of data, profits or goodwill, arising from your use of or inability to use the Service. Our total liability for any claim relating to the Service will not exceed USD 100. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.',
     'terms.s12.title': '12. Indemnification',
     'terms.s12.text':
-      "You agree to indemnify and hold harmless Musicaldown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
+      "You agree to indemnify and hold harmless MusicallyDown and its owners from claims, losses and expenses (including reasonable legal fees) arising from your misuse of the Service, your violation of these Terms or your infringement of any third party's rights.",
     'terms.s13.title': '13. Suspension and termination',
     'terms.s13.text':
       'We may limit, suspend or block access to the Service at any time, without notice, for any reason, including suspected abuse or violation of these Terms.',
@@ -1508,11 +1520,11 @@ export const ui = {
     'features.item6.text':
       'Không chia sẻ thông tin đăng nhập TikTok với công cụ tải xuống. Chỉ gửi liên kết công khai mà bạn muốn xử lý.',
     'intro.paragraph1':
-      'MusicallyDown là công cụ tải video TikTok trực tuyến dành cho những người muốn lưu video mà không cần nhiều bước phụ. Tên gọi gợi nhớ ứng dụng Musical.ly, sau này sáp nhập vào TikTok; vì vậy nhiều người vẫn tìm “musically download online” hoặc “musical down”. Hãy dán liên kết TikTok công khai và lưu tệp vào thiết bị.',
+      'MusicallyDown là công cụ tải video TikTok trực tuyến dành cho những người muốn lưu video mà không cần nhiều bước phụ. Tên gọi gợi nhớ ứng dụng Musical.ly, sau này sáp nhập vào TikTok; vì vậy cái tên này vẫn quen thuộc với nhiều người. Hãy dán liên kết TikTok công khai và lưu tệp vào thiết bị.',
     'intro.paragraph2':
       'Trang được thiết kế gọn nhẹ để tải nhanh ngay cả khi kết nối di động chậm.',
     'bento.quality.eyebrow': 'Tìm hiểu những gì MusicallyDown cung cấp',
-    'bento.quality.title': 'Tải TikTok HD: lưu video lên đến 4K',
+    'bento.quality.title': 'Tải TikTok HD: lưu video lên đến 4K khi có sẵn',
     'bento.quality.p1':
       'Chất lượng phụ thuộc video gốc và định dạng mà công cụ trả về. Chỉ chọn độ phân giải khi tùy chọn đó xuất hiện; công cụ không thể tạo thêm chi tiết không có trong nguồn.',
     'bento.quality.p2':
@@ -1529,7 +1541,7 @@ export const ui = {
     'bento.quality.disclaimer':
       'Chỉ mang tính minh họa — các thanh này không thể hiện phép đo hoặc cam kết về tính khả dụng.',
     'bento.devices.eyebrow': 'Quy trình quen thuộc',
-    'bento.devices.title': 'Dùng MusicalDown trên điện thoại hoặc máy tính',
+    'bento.devices.title': 'Dùng MusicallyDown trên điện thoại hoặc máy tính',
     'bento.devices.paragraph':
       'Mở trang web bằng trình duyệt tương thích và thực hiện các bước sao chép, dán liên kết.',
     'bento.devices.iphone.desc': 'Kiểm tra mục tải xuống của Safari hoặc ứng dụng Tệp.',
@@ -1540,8 +1552,7 @@ export const ui = {
     'faq.description':
       'Giải đáp nhanh về cách tải video và âm thanh TikTok, định dạng được hỗ trợ và cách khắc phục sự cố thường gặp.',
 
-    'hero.subtitle':
-      'Bạn cũng có thể tìm MusicallyDown, Musically Down hoặc Musical Down. Bạn đã đến đúng nơi.',
+    'hero.subtitle': '',
   },
 } as const;
 
@@ -2729,7 +2740,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'The saved file is only the sound, so it’s ready for a playlist or an editor as soon as it lands. Looking for stories instead of sounds? The same site covers that too, from the [MusicalDown homepage](/).'
+            'The saved file is only the sound, so it’s ready for a playlist or an editor as soon as it lands. Looking for stories instead of sounds? The same site covers that too, from the [MusicallyDown homepage](/).'
           ),
         ],
       },
@@ -3009,7 +3020,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'El archivo guardado es solo el sonido, así que está listo para una lista de reproducción o un editor en cuanto llega. ¿Buscas historias en vez de sonidos? El mismo sitio también cubre eso, desde la [página de inicio de MusicalDown](/).'
+            'El archivo guardado es solo el sonido, así que está listo para una lista de reproducción o un editor en cuanto llega. ¿Buscas historias en vez de sonidos? El mismo sitio también cubre eso, desde la [página de inicio de MusicallyDown](/).'
           ),
         ],
       },
@@ -3294,7 +3305,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'File yang disimpan hanya berisi suara, jadi siap untuk playlist atau editor begitu masuk. Mencari story, bukan suara? Situs yang sama juga mencakup itu, dari [beranda MusicalDown](/).'
+            'File yang disimpan hanya berisi suara, jadi siap untuk playlist atau editor begitu masuk. Mencari story, bukan suara? Situs yang sama juga mencakup itu, dari [beranda MusicallyDown](/).'
           ),
         ],
       },
@@ -3574,7 +3585,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'Tệp đã lưu chỉ có âm thanh, nên sẵn sàng cho danh sách phát hoặc trình biên tập ngay khi tải xong. Muốn tìm story thay vì âm thanh? Cùng trang web này cũng hỗ trợ, từ [trang chủ MusicalDown](/).'
+            'Tệp đã lưu chỉ có âm thanh, nên sẵn sàng cho danh sách phát hoặc trình biên tập ngay khi tải xong. Muốn tìm story thay vì âm thanh? Cùng trang web này cũng hỗ trợ, từ [trang chủ MusicallyDown](/).'
           ),
         ],
       },

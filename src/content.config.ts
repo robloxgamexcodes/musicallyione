@@ -14,7 +14,7 @@ const blog = defineCollection({
       pubDate: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
       heroImage: image().optional(),
-      author: z.string().default('candace-d'),
+      author: z.string().default('musicallydown'),
       tags: z.array(z.string()).default([]),
       draft: z.boolean().default(false),
       // SEO/GEO specific fields
@@ -27,12 +27,16 @@ const blog = defineCollection({
 /**
  * Authors Collection
  * Author profiles shown on blog posts. Only `name` is required.
+ * `type: 'organization'` credits the site itself (BlogPosting.author = the Organization, no personal
+ * profile). To credit a real person, add a JSON file with `type: 'person'` plus real bio, avatar
+ * and social links, then point the post's `author:` frontmatter at it.
  */
 const authors = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/authors' }),
   schema: ({ image }) =>
     z.object({
       name: z.string(),
+      type: z.enum(['person', 'organization']).default('person'),
       role: z.string().optional(),
       bio: z.string().optional(),
       avatar: image().optional(),

@@ -1,0 +1,24 @@
+---
+/**
+ * PageCrumbs.astro: "Home > Current page" breadcrumb (visible nav + BreadcrumbList JSON-LD),
+ * localized from the URL language. `page` picks the translated nav label of the current page.
+ *   <PageCrumbs page="about" />
+ */
+import Breadcrumbs from './Breadcrumbs.astro';
+import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../i18n/utils';
+
+interface Props {
+  page: 'about' | 'contact' | 'mp3' | 'stories';
+  /** Tailwind max-width class so the crumbs line up with the page content. */
+  width?: string;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { page, width = 'max-w-4xl' } = Astro.props;
+const label = t(`nav.${page}` as const);
+---
+
+<div class={`mx-auto ${width} px-6 pt-6`}>
+  <Breadcrumbs items={[{ label: t('nav.home'), href: getLocalizedPath(lang, '/') }, { label }]} />
+</div>

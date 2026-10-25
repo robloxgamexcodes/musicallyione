@@ -1,17 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
+import PageCrumbs from '../../components/seo/PageCrumbs.astro';
 import Footer from '../../components/layout/Footer.astro';
 ---
 
 <BaseLayout
   title="Contacto"
-  description="¿Dudas o problemas técnicos? Contacta con el soporte de MusicalDown en support@musicaldown.se. Incluye el enlace afectado y nunca compartas tu contraseña."
+  description="¿Dudas o problemas técnicos? Contacta con el soporte de MusicallyDown en support@musicaldown.se. Incluye el enlace afectado y nunca compartas tu contraseña."
 >
   <Header slot="header" />
+  <PageCrumbs page="contact" />
 
-  <main class="mx-auto max-w-4xl px-6 py-16 md:py-24">
-    <article class="prose prose-zinc prose-lg mx-auto dark:prose-invert prose-a:text-[#ef124e] prose-a:no-underline hover:prose-a:underline">
+  <div class="mx-auto max-w-4xl px-6 py-16 md:py-24">
+    <article class="prose prose-zinc prose-lg mx-auto dark:prose-invert prose-a:text-[#d90f45] prose-a:no-underline hover:prose-a:underline">
       <h1>Contacto</h1>
       <p>
         ¿Tienes una pregunta, un error que informar o una solicitud de retirada? Escríbenos e
@@ -27,7 +29,7 @@ import Footer from '../../components/layout/Footer.astro';
         <a href="/es/">Volver al inicio</a>
       </p>
     </article>
-  </main>
+  </div>
 
   <Footer slot="footer" />
 </BaseLayout>

@@ -1,15 +1,17 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
+import PageCrumbs from '../../components/seo/PageCrumbs.astro';
 import Footer from '../../components/layout/Footer.astro';
 ---
 
 <BaseLayout
   title="Hubungi Kami"
-  description="Ada pertanyaan atau kendala teknis? Hubungi dukungan MusicalDown di support@musicaldown.se. Sertakan tautan terkait tanpa membagikan kata sandi."
+  description="Ada pertanyaan atau kendala teknis? Hubungi dukungan MusicallyDown di support@musicaldown.se. Sertakan tautan terkait tanpa membagikan kata sandi."
 >
   <Header slot="header" />
-  <main class="mx-auto max-w-4xl px-6 py-16 md:py-24">
+  <PageCrumbs page="contact" />
+  <div class="mx-auto max-w-4xl px-6 py-16 md:py-24">
     <article class="prose prose-zinc prose-lg mx-auto dark:prose-invert">
       <h1>Hubungi Kami</h1>
       <p>
@@ -22,6 +24,6 @@ import Footer from '../../components/layout/Footer.astro';
         <a href="/id/">Kembali ke beranda</a>
       </p>
     </article>
-  </main>
+  </div>
   <Footer slot="footer" />
 </BaseLayout>

@@ -6,6 +6,10 @@ import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import JsonLd from '../components/seo/JsonLd.astro';
 import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
+import { getLocalizedPath, useTranslations } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+import { orgId } from '../lib/schema';
+import { SITE } from '../lib/site';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -17,16 +21,18 @@ const { title, description, pubDate, updatedDate, heroImage, tags, noindex, cano
 
 // Fetch author data for E-E-A-T and Schema
 const author = await getEntry('authors', post.data.author);
-const authorName = author ? author.data.name : 'Candace D';
+// No real person profile yet, so posts are credited to the site (Organization) unless an author file says otherwise.
+const authorIsOrg = !author || author.data.type === 'organization';
+const authorName = author ? author.data.name : SITE.name;
 const authorRole = author?.data.role;
-const blogLang = post.id.split('/')[0];
-const langPrefix = blogLang === 'en' ? '' : `/${blogLang}`;
+const blogLang = post.id.split('/')[0] as Lang;
+const t = useTranslations(blogLang);
 
-const siteUrl = Astro.site?.toString() ?? 'https://musicaldown.se';
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? SITE.url;
 const articleUrl = new URL(Astro.url.pathname, siteUrl).toString();
 
-// Formatter for dates
-const dateFormatter = new Intl.DateTimeFormat('en-US', {
+// Formatter for dates (in the post's language)
+const dateFormatter = new Intl.DateTimeFormat(blogLang, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -40,6 +46,9 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
   ogType="article"
   noindex={noindex}
   canonicalUrl={canonicalUrl}
+  imageWidth={heroImage?.width}
+  imageHeight={heroImage?.height}
+  imageAlt={heroImage ? title : undefined}
 >
   <Fragment slot="head">
     <JsonLd
@@ -51,17 +60,18 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
         datePublished: pubDate.toISOString(),
         dateModified: updatedDate?.toISOString(),
         image: heroImage ? new URL(heroImage.src, siteUrl).toString() : undefined,
-        author: {
-          name: authorName,
-          // url: author ? new URL(`/authors/${author.id}`, siteUrl).toString() : undefined
-        },
+        inLanguage: blogLang,
+        author: authorIsOrg
+          ? { type: 'Organization', id: orgId(siteUrl), name: SITE.name, url: `${siteUrl}/` }
+          : { type: 'Person', name: authorName },
         publisher: {
-          name: 'MusicalDown',
-          // logo: new URL('/logo.png', siteUrl).toString()
+          id: orgId(siteUrl),
+          name: SITE.name,
+          logo: new URL(SITE.logoPath, siteUrl).toString(),
         },
       }}
     />
-    {author && (
+    {author && !authorIsOrg && (
       <JsonLd
         type="Person"
         data={{
@@ -86,7 +96,11 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
     <header class="mb-10 text-center md:mb-16">
       <div class="mb-6 flex justify-center">
         <Breadcrumbs
-          items={[{ label: 'Home', href: langPrefix || '/' }, { label: 'Blog', href: `${langPrefix}/blog` }, { label: title }]}
+          items={[
+            { label: t('nav.home'), href: getLocalizedPath(blogLang, '/') },
+            { label: t('nav.blog'), href: getLocalizedPath(blogLang, '/blog') },
+            { label: title },
+          ]}
         />
       </div>
 

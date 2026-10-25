@@ -5,28 +5,30 @@
  * Zero JavaScript overhead (just a native form element).
  */
 import { languages, type Lang } from '../../i18n/ui';
-import { getLangFromUrl, getAlternateLocales } from '../../i18n/utils';
+import { getLangFromUrl, getAlternateLocales, useTranslations } from '../../i18n/utils';
 
 const currentLang = getLangFromUrl(Astro.url);
+const t = useTranslations(currentLang);
 const alternates = getAlternateLocales(Astro.url.pathname);
 ---
 
 <div class="relative">
   <label for="language-select" class="sr-only">
-    Select language
+    {t('lang.select')}
   </label>
   <select
     id="language-select"
     class="cursor-pointer appearance-none rounded-lg border border-[var(--border)] bg-[var(--bg-secondary)] px-2 py-1 pr-6 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)] focus:border-[var(--color-primary-500)] focus:outline-none focus:ring-1 focus:ring-[var(--color-primary-500)] md:px-3 md:py-1.5 md:pr-8"
   >
     {alternates.map(({ lang, href }) => (
-      <option value={href} data-lang={lang} selected={lang === currentLang}>
+      <option value={href} data-lang={lang} lang={lang} selected={lang === currentLang}>
         {lang.toUpperCase()}
       </option>
     ))}
   </select>
   <!-- Dropdown arrow -->
   <svg
+    aria-hidden="true"
     class="pointer-events-none absolute right-2 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-tertiary)]"
     fill="none"
     viewBox="0 0 24 24"

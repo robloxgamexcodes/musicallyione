@@ -5,7 +5,7 @@ export const GET: APIRoute = ({ site }) => {
   const xml =
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    `  <sitemap>\n    <loc>${base}/sitemap-0.xml</loc>\n  </sitemap>\n` +
+    `  <sitemap>\n    <loc>${base}/sitemap-0.xml</loc>\n    <lastmod>${new Date().toISOString().slice(0, 10)}</lastmod>\n  </sitemap>\n` +
     `</sitemapindex>\n`;
   return new Response(xml, { headers: { 'Content-Type': 'application/xml; charset=utf-8' } });
 };
