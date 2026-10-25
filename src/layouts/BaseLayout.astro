@@ -52,7 +52,11 @@ const organizationData = {
   logo: `${siteUrl}/logo.png`,
   image: `${siteUrl}/og-default.png`,
   description: t('site.description'),
-  email: 'support@Musicaldown.se',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer support',
+    email: 'support@Musicaldown.se',
+  },
 };
 ---
 
