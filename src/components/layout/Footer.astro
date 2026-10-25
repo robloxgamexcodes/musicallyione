@@ -11,6 +11,11 @@ const currentYear = new Date().getFullYear();
 // Plain <a> links to every language version of this page (crawlable, unlike the <select> picker)
 const langLinks = getAlternateLocales(Astro.url.pathname);
 
+import { INTENT_LABELS, INTENT_SLUGS } from '../../i18n/intent-pages';
+// Intent pages exist in English only for now
+const intentLinks =
+  lang === 'en' ? INTENT_SLUGS.map((s) => ({ label: INTENT_LABELS[s], href: `/${s}/` })) : [];
+
 const footerColumns = [
   {
     title: t('footer.product'),
@@ -18,6 +23,7 @@ const footerColumns = [
       { label: t('nav.home'), href: getLocalizedPath(lang, '/') },
       { label: t('nav.stories'), href: getLocalizedPath(lang, '/download-tiktok-stories') },
       { label: t('nav.mp3'), href: getLocalizedPath(lang, '/tiktok-mp3') },
+      ...intentLinks,
     ],
   },
   {

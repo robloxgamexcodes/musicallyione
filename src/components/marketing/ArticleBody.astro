@@ -7,10 +7,13 @@
  */
 import { getLangFromUrl, getLocalizedPath, useTranslations } from '../../i18n/utils';
 import PageCrumbs from '../seo/PageCrumbs.astro';
+import Breadcrumbs from '../seo/Breadcrumbs.astro';
 import type { ArticleContent, StoriesBlock } from '../../i18n/ui';
 
 interface Props {
   content: ArticleContent;
+  /** Breadcrumb label for pages that are not the mp3/stories pages (intent landing pages). */
+  crumb?: string;
 }
 
 const lang = getLangFromUrl(Astro.url);
@@ -55,7 +58,13 @@ const badge =
   'flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#d90f45] font-bold text-white';
 ---
 
-<PageCrumbs page="mp3" />
+{Astro.props.crumb ? (
+  <div class="mx-auto max-w-4xl px-6 pt-6">
+    <Breadcrumbs items={[{ label: t('nav.home'), href: getLocalizedPath(lang, '/') }, { label: Astro.props.crumb }]} />
+  </div>
+) : (
+  <PageCrumbs page="mp3" />
+)}
 <div class="mx-auto max-w-4xl px-6 py-12">
   <article
     class="prose prose-zinc prose-lg mx-auto max-w-none [&_a]:underline [&_h2]:scroll-mt-20"

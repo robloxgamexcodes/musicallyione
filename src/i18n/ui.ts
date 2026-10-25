@@ -26,7 +26,7 @@ export const ui = {
     'lang.select': 'Select language',
     'toc.title': 'On this page',
     'footer.languages': 'Languages',
-    'site.title': 'MusicallyDown – TikTok Downloader Without Watermark & MP3',
+    'site.title': 'MusicallyDown – TikTok Downloader No Watermark & MP3',
     'site.description':
       'Download TikTok videos without watermark in HD with Free MusicallyDown TikTok downloader. Save TikTok video as MP4 or MP3, free, with no app and no sign-up.',
 
@@ -1192,7 +1192,7 @@ export const ui = {
     'lang.select': 'Chọn ngôn ngữ',
     'toc.title': 'Trên trang này',
     'footer.languages': 'Ngôn ngữ',
-    'site.title': 'MusicallyDown – Tải Video TikTok Không Logo & MP3 Miễn Phí',
+    'site.title': 'MusicallyDown – Tải Video TikTok Không Logo & MP3',
     'site.description':
       'Tải video TikTok công khai không watermark khi có tùy chọn. Lưu video MP4 hoặc trích xuất âm thanh MP3 miễn phí ngay trên trình duyệt, không cần cài ứng dụng.',
     'nav.home': 'Trang chủ',
@@ -1620,7 +1620,7 @@ const callout = (text: string): StoriesBlock => ({ t: 'callout', text });
 export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
   /* ------------------------------------------------------------------ EN */
   en: {
-    metaTitle: 'TikTok Story Viewer & Downloader – Free, No Watermark',
+    metaTitle: 'TikTok Story Downloader – Free | MusicallyDown',
     metaDescription:
       'View public TikTok stories anonymously and download TikTok Story in HD with no watermark. No login, no app. Paste a story link and save it.',
     heroTitleStart: 'TikTok Story Viewer &',
@@ -2405,7 +2405,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
 
   /* ------------------------------------------------------------------ VI */
   vi: {
-    metaTitle: 'Xem & Tải TikTok Story – Miễn phí, không watermark',
+    metaTitle: 'Tải TikTok Story – Miễn phí | MusicallyDown',
     metaDescription:
       'Xem TikTok story công khai ẩn danh và tải về chất lượng HD không watermark. Không cần đăng nhập, không cần ứng dụng. Dán liên kết story rồi lưu.',
     heroTitleStart: 'Xem & Tải TikTok Story,',
@@ -2690,7 +2690,7 @@ export type ArticleContent = Omit<StoriesPageContent, 'byline'> & { byline?: str
 export const MP3_PAGE: Record<Lang, ArticleContent> = {
   /* ------------------------------------------------------------------ EN */
   en: {
-    metaTitle: 'TikTok to MP3 Converter – Free, Save TikTok Sounds',
+    metaTitle: 'TikTok to MP3 Converter – Free | MusicallyDown',
     metaDescription:
       'Convert public TikTok videos to MP3 and save the sound as a standalone audio file. Free, no sign-up. Works on iPhone, Android, Windows and Mac.',
     heroTitleStart: 'TikTok to MP3 Converter:',
@@ -3254,7 +3254,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
 
   /* ------------------------------------------------------------------ ID */
   id: {
-    metaTitle: 'Konverter TikTok ke MP3 – Gratis, Simpan Suara TikTok',
+    metaTitle: 'Konverter TikTok ke MP3 – Gratis | MusicallyDown',
     metaDescription:
       'Konversi video TikTok publik ke MP3 dan simpan suaranya sebagai file audio. Gratis, tanpa daftar. Berfungsi di iPhone, Android, Windows, dan Mac.',
     heroTitleStart: 'Konverter TikTok ke MP3:',
@@ -3536,7 +3536,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
 
   /* ------------------------------------------------------------------ VI */
   vi: {
-    metaTitle: 'Chuyển TikTok sang MP3 – Miễn phí, lưu âm thanh TikTok',
+    metaTitle: 'Chuyển TikTok sang MP3 – Miễn phí | MusicallyDown',
     metaDescription:
       'Chuyển video TikTok công khai sang MP3 và lưu âm thanh thành tệp riêng. Miễn phí, không cần đăng ký. Dùng được trên iPhone, Android, Windows và Mac.',
     heroTitleStart: 'Chuyển TikTok sang MP3:',

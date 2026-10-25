@@ -12,7 +12,7 @@ import { ui, languages, defaultLang, type Lang } from './ui';
 
 /**
  * Which pages exist for each language.
- *  - 'all'      -> the language mirrors the whole site (en, id, vi)
+ *  - 'all'      -> the language mirrors the whole site (en)
  *  - string[]   -> only these paths exist in that language (es)
  * Links to other pages in a limited language fall back to the English page, and
  * hreflang / language-picker entries are only generated where a page really exists.
@@ -22,8 +22,10 @@ export const LOCALE_PAGES: Record<Lang, 'all' | string[]> = {
   en: 'all',
   // es has no localized About / Privacy / Terms yet: those links fall back to English.
   es: ['/', '/download-tiktok-stories', '/tiktok-mp3', '/contact', '/blog', '/blog/using-musicallydown'],
-  id: 'all',
-  vi: 'all',
+  // id / vi: only the pages that exist. The English-only intent pages (src/i18n/intent-pages.ts) are
+  // deliberately NOT listed so hreflang never points at a missing URL. Add each path when you translate it.
+  id: ['/', '/about', '/blog', '/blog/using-musicallydown', '/contact', '/download-tiktok-stories', '/privacy', '/terms', '/tiktok-mp3'],
+  vi: ['/', '/about', '/blog', '/blog/using-musicallydown', '/contact', '/download-tiktok-stories', '/privacy', '/terms', '/tiktok-mp3'],
 };
 
 /**

@@ -1,0 +1,30 @@
+---
+/**
+ * IntentPage.astro: renders one landing page from src/i18n/intent-pages.ts.
+ *   <IntentPage slug="tiktok-no-watermark" />
+ * Pages live as real files in src/pages/ so the sitemap and hreflang pick them up.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../layout/Header.astro';
+import Footer from '../layout/Footer.astro';
+import HeroSection from './HeroSection.astro';
+import ArticleBody from './ArticleBody.astro';
+import { INTENT_PAGES, type IntentSlug } from '../../i18n/intent-pages';
+
+interface Props {
+  slug: IntentSlug;
+}
+const page = INTENT_PAGES[Astro.props.slug];
+const c = page.content;
+---
+
+<BaseLayout title={c.metaTitle} description={c.metaDescription} ogType="article">
+  <Header slot="header" />
+  <HeroSection
+    titleStart={c.heroTitleStart}
+    titleHighlight={c.heroTitleHighlight}
+    description={c.heroDescription}
+  />
+  <ArticleBody content={c} crumb={page.crumb} />
+  <Footer slot="footer" />
+</BaseLayout>
