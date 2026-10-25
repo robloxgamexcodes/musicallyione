@@ -8,6 +8,7 @@
 import { getLangFromUrl, getLocalizedPath, useTranslations } from '../../i18n/utils';
 import PageCrumbs from '../seo/PageCrumbs.astro';
 import Breadcrumbs from '../seo/Breadcrumbs.astro';
+import ArticleSchema from '../seo/ArticleSchema.astro';
 import type { ArticleContent, StoriesBlock } from '../../i18n/ui';
 
 interface Props {
@@ -58,6 +59,10 @@ const badge =
   'flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#d90f45] font-bold text-white';
 ---
 
+<ArticleSchema
+  headline={`${c.heroTitleStart} ${c.heroTitleHighlight}`.replace(/\s+/g, ' ').trim()}
+  description={c.metaDescription}
+/>
 {Astro.props.crumb ? (
   <div class="mx-auto max-w-4xl px-6 pt-6">
     <Breadcrumbs items={[{ label: t('nav.home'), href: getLocalizedPath(lang, '/') }, { label: Astro.props.crumb }]} />

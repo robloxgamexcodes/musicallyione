@@ -13,6 +13,8 @@ export const SITE = {
   /** 1200×630 default social image in /public. */
   ogImage: { path: '/og-default.png', width: 1200, height: 630 },
   supportEmail: 'support@musicaldown.se',
+  /** Languages the site is available in (used for Organization knowsLanguage / ContactPoint.availableLanguage). */
+  languages: ['en', 'es', 'id', 'vi'],
   /**
    * Official profiles of the brand (X, YouTube, GitHub, ...). Add real URLs here and they are
    * emitted as Organization.sameAs. Leave empty until the profiles exist; never invent them.
@@ -25,3 +27,6 @@ export const MIN_POSTS_FOR_BLOG_INDEX = 5;
 
 /** Fallback <lastmod> (YYYY-MM-DD) for static pages when git history is unavailable (Vercel). Bump when page copy changes. */
 export const SITE_LASTMOD = '2026-10-25';
+
+/** First-publish date (YYYY-MM-DD) of the guide / landing pages, used as Article.datePublished. Set it to the real launch date. */
+export const SITE_PUBLISHED = '2026-10-24';

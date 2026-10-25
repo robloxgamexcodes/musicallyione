@@ -67,7 +67,7 @@ const ogImageAlt =
   imageAlt ?? (isDefaultImage ? `${siteName}: free TikTok video & MP3 downloader` : `${siteName} – ${title}`);
 
 // Site-wide Organization schema (rendered once on every page except the home pages, which add it to their @graph)
-const organizationGraph = { nodes: [organizationNode({ siteUrl, description: t('site.description') })] };
+const organizationGraph = { nodes: [organizationNode({ siteUrl, description: t('site.description'), lang: detectedLang })] };
 
 // "Switch to Español?" banner (English home page only). Suggests, never redirects.
 const bannerCopy = Object.fromEntries(

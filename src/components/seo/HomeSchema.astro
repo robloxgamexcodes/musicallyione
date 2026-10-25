@@ -15,7 +15,7 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldow
 const description = t('site.description');
 
 const nodes = [
-  organizationNode({ siteUrl, description }),
+  organizationNode({ siteUrl, description, lang }),
   webSiteNode({ siteUrl, lang, description }),
   webApplicationNode({ siteUrl, lang, description }),
 ];

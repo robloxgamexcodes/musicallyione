@@ -1,0 +1,22 @@
+---
+/**
+ * ArticleSchema.astro: Article JSON-LD for the guide / landing pages (ArticleBody + StoriesArticle).
+ *   <ArticleSchema headline={...} description={...} />
+ * Author and publisher are the Organization (same @id as the site-wide Organization node).
+ */
+import { articleNode } from '../../lib/schema';
+import { getLangFromUrl } from '../../i18n/utils';
+
+interface Props {
+  headline: string;
+  description: string;
+}
+
+const { headline, description } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldown.se';
+const url = new URL(Astro.url.pathname, siteUrl).toString();
+const json = JSON.stringify(articleNode({ siteUrl, url, lang, headline, description })).replace(/</g, '\\u003c');
+---
+
+<script type="application/ld+json" is:inline set:html={json}></script>
