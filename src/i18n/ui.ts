@@ -1280,7 +1280,7 @@ export const ui = {
     'contact.emailLabel': 'Email',
     'contact.phoneLabel': 'Phone',
     'contact.hqLabel': 'Headquarters',
-    'about.title': 'About Musicallydown – Free TikTok Video Downloader',
+    'about.title': 'About Musicallydown – Free TikTok Video zxcvbnm,Downloader',
     'about.metaDescription':
       'Learn what Musicallydown is, how our free TikTok downloader works, what we do with your data, and how we encourage responsible, permission-based downloading.',
     'about.titleStart': 'About ',
