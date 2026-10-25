@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { execFileSync } from 'node:child_process';
-import { MIN_POSTS_FOR_BLOG_INDEX } from '../lib/site';
+import { MIN_POSTS_FOR_BLOG_INDEX, SITE_LASTMOD } from '../lib/site';
 
 /**
  * Custom sitemap so the output is always uniform:
@@ -24,7 +24,9 @@ const HREFLANG: Record<L, string> = { en: 'en', es: 'es', id: 'id', vi: 'vi' };
 const pageFiles = Object.keys(import.meta.glob('/src/pages/**/*.astro'));
 
 const day = (d: Date) => d.toISOString().slice(0, 10);
-const BUILD_DATE = day(new Date());
+// Stable fallback (NOT the build date): Vercel has no git history, and a lastmod that changes on every
+// deploy teaches Google to ignore lastmod. Bump SITE_LASTMOD in src/lib/site.ts when page copy changes.
+const BUILD_DATE = SITE_LASTMOD;
 
 /** Date (YYYY-MM-DD) of the last git commit touching `file`, or null if git isn't usable here. */
 function gitDate(file: string): string | null {
@@ -117,6 +119,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   const xml =
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n` +
     `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
     entries.join('\n') +
     `\n</urlset>\n`;

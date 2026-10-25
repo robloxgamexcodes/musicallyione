@@ -39,6 +39,19 @@
   ],
   "headers": [
     {
+      "source": "/(sitemap-index|sitemap-0)\\.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=3600, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/sitemap.xsl",
+      "headers": [
+        { "key": "Content-Type", "value": "text/xsl; charset=utf-8" }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {

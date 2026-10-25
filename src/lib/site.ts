@@ -22,3 +22,6 @@ export const SITE = {
 
 /** Language versions of the blog index stay `noindex` until a language has at least this many posts. */
 export const MIN_POSTS_FOR_BLOG_INDEX = 5;
+
+/** Fallback <lastmod> (YYYY-MM-DD) for static pages when git history is unavailable (Vercel). Bump when page copy changes. */
+export const SITE_LASTMOD = '2026-10-25';
