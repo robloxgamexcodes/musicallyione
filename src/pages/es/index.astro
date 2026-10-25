@@ -15,7 +15,6 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldow
 <BaseLayout title={t('site.title')} description={t('site.description')} appendSiteName={false}>
   <Fragment slot="head">
     <JsonLd type="WebSite" data={{ name: t('site.name'), url: siteUrl, description: t('site.description'), searchUrl: `${siteUrl}/search` }} />
-    <JsonLd type="Organization" data={{ name: t('site.name'), url: siteUrl, description: t('site.description') }} />
   </Fragment>
   <Header slot="header" />
   <HeroSection />

@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { getLangFromUrl, useTranslations, getAlternateLocales, localeMeta } from '../i18n/utils';
 import { ENABLED_LOCALES } from '../i18n/geo';
+import JsonLd from '../components/seo/JsonLd.astro';
 
 // Self-host Inter font for 100/100 PageSpeed Insights score
 import '@fontsource-variable/inter';
@@ -43,6 +44,19 @@ const ogImageUrl = new URL(image, siteUrl).toString();
 const siteName = 'MusicallyDown';
 const fullTitle = appendSiteName ? `${title} | ${siteName}` : title;
 const alternateLocales = getAlternateLocales(Astro.url.pathname);
+
+// Site-wide Organization schema (rendered once on every page)
+const organizationData = {
+  name: t('site.name'),
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
+  description: t('site.description'),
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer support',
+    email: 'support@Musicaldown.se',
+  },
+};
 ---
 
 <!doctype html>
@@ -141,6 +155,9 @@ const alternateLocales = getAlternateLocales(Astro.url.pathname);
         } catch (e) {}
       })();
     </script>
+    <!-- Organization schema (site-wide) -->
+    <JsonLd type="Organization" data={organizationData} />
+
     <!-- Slot for page-specific head content (JSON-LD, hreflang, etc.) -->
     <slot name="head" />
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="tVY/t/nGwM/K1XPT1/pq6Q" async></script>
