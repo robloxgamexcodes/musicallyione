@@ -1,6 +1,6 @@
 ---
 title: 'Cara Menyimpan Video TikTok dengan MusicallyDown'
-description: 'Panduan singkat langkah demi langkah untuk menyimpan video TikTok publik sebagai MP4 atau MP3 dengan MusicallyDown, plus solusi cepat saat link tidak bisa diproses.'
+description: 'Panduan singkat langkah demi langkah untuk menyimpan video TikTok publik sebagai MP4 atau MP3 dengan MusicallyDown.'
 pubDate: 2026-10-24
 author: 'musicallydown'
 tags: ['TikTok', 'panduan', 'MP4', 'MP3']

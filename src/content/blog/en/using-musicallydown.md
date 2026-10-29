@@ -1,6 +1,6 @@
 ---
 title: 'How to Save a TikTok Video with MusicallyDown'
-description: 'A short step-by-step guide to saving public TikTok videos as MP4 or MP3 with MusicallyDown, plus quick fixes when a link will not process.'
+description: 'A short step-by-step guide to saving public TikTok videos as MP4 or MP3 with MusicallyDown.'
 pubDate: 2026-10-24
 author: 'musicallydown'
 tags: ['TikTok', 'guide', 'MP4', 'MP3']
