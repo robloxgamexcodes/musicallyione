@@ -1,6 +1,6 @@
 ---
 title: 'Estrategia publicitaria de TikTok para 2027: herramientas de IA agéntica y una red publicitaria en EE. UU.'
-description: 'Los anuncios de TikTok en Advertising Week New York 2026 incluyen herramientas agénticas de IA para compras y generación de leads, además de una TikTok Ad Network en EE. UU. Esto es lo que deben saber los profesionales del marketing.'
+description: 'Anuncios de TikTok en Advertising Week New York 2026: IA agéntica para compras y leads, y una TikTok Ad Network en EE. UU. Lo que debe saber el marketing.'
 pubDate: 2026-10-29
 author: 'musicallydown'
 tags: ['TikTok', 'Publicidad', 'IA agéntica', 'TikTok Shop', 'Marketing' ]

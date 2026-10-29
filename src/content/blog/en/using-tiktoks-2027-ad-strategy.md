@@ -1,6 +1,6 @@
 ---
 title: 'TikTok 2027 Ad Strategy: Agentic AI Tools and a U.S. Ad Network'
-description: 'TikTok Advertising Week New York 2026 announcements include agentic AI shopping and lead tools, plus a U.S. TikTok Ad Network. Here is what marketers should know.'
+description: 'Advertising Week New York 2026 announcements: agentic AI shopping and lead tools plus a U.S. TikTok Ad Network. What marketers should know.'
 pubDate: 2026-10-29
 author: 'musicallydown'
 tags: ['TikTok', 'Advertising', 'Agentic AI', 'TikTok Shop', 'Marketing' ]
@@ -95,3 +95,9 @@ The announcements point to several practical steps for 2027 planning. These are 
 TikTok is pursuing two related strategies for 2027. Its agentic AI tools aim to make shopping and lead generation more automated and conversational, while the TikTok Ad Network is designed to extend its advertising reach beyond its own app.
 
 Together with the survey data highlighted in its pitch, these moves position TikTok as a platform seeking a larger role in brands' media plans. How much the tools deliver will depend on real campaign results, which advertisers will need to establish through testing and measurement.
+
+---
+
+## Source and editorial note
+
+This article summarizes reporting by Sam Gutelle at Tubefilter on October 6, 2026, which cites Digiday reporting on the TikTok Ad Network. The figures from TikTok's Economic Impact Report and Kantar's *Media Reactions 2026* report are presented as they appear in that coverage and have not been independently verified.

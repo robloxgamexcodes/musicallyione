@@ -1,6 +1,6 @@
 ---
 title: 'Chiến lược quảng cáo TikTok 2027: Công cụ AI tác tử và mạng quảng cáo tại Hoa Kỳ'
-description: 'Các thông báo của TikTok tại Advertising Week New York 2026 gồm công cụ mua sắm và tạo khách hàng tiềm năng dùng AI tác tử, cùng TikTok Ad Network tại Hoa Kỳ. Đây là những điều nhà tiếp thị cần biết.'
+description: 'Thông báo của TikTok tại Advertising Week New York 2026: công cụ mua sắm và lead dùng AI tác tử, cùng TikTok Ad Network tại Mỹ. Điều nhà tiếp thị cần biết.'
 pubDate: 2026-10-29
 author: 'musicallydown'
 tags: ['TikTok', 'Quảng cáo', 'AI tác tử', 'TikTok Shop', 'Tiếp thị' ]

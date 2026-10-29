@@ -1,6 +1,6 @@
 ---
 title: 'Strategi Iklan TikTok 2027: Alat AI Agentik dan Jaringan Iklan di AS'
-description: 'Pengumuman TikTok di Advertising Week New York 2026 mencakup alat belanja dan lead berbasis AI agentik, serta TikTok Ad Network di AS. Berikut yang perlu diketahui pemasar.'
+description: 'Pengumuman TikTok di Advertising Week New York 2026: alat belanja dan lead berbasis AI agentik serta TikTok Ad Network di AS. Yang perlu diketahui pemasar.'
 pubDate: 2026-10-29
 author: 'musicallydown'
 tags: ['TikTok', 'Periklanan', 'AI Agentik', 'TikTok Shop', 'Pemasaran' ]
