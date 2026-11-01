@@ -11,17 +11,21 @@ import HeroSection from './HeroSection.astro';
 import ArticleBody from './ArticleBody.astro';
 import { getIntentPage, type IntentSlug } from '../../i18n/intent-pages';
 import { getLangFromUrl } from '../../i18n/utils';
+import { pageBadges } from '../../i18n/page-badges';
 
 interface Props {
   slug: IntentSlug;
 }
-const page = getIntentPage(getLangFromUrl(Astro.url), Astro.props.slug);
+const lang = getLangFromUrl(Astro.url);
+const page = getIntentPage(lang, Astro.props.slug);
+const badges = Astro.props.slug === 'tiktok-sound-downloader' ? pageBadges[lang].audio : undefined;
 const c = page.content;
 ---
 
-<BaseLayout title={c.metaTitle} description={c.metaDescription} ogType="article">
+<BaseLayout title={c.metaTitle} description={c.metaDescription}>
   <Header slot="header" />
   <HeroSection
+    badges={badges}
     titleStart={c.heroTitleStart}
     titleHighlight={c.heroTitleHighlight}
     description={c.heroDescription}

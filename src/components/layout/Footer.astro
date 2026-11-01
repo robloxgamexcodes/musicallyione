@@ -4,6 +4,7 @@
  */
 import { getLangFromUrl, useTranslations, getLocalizedPath, getAlternateLocales } from '../../i18n/utils';
 import { languages } from '../../i18n/ui';
+import { legalLabels } from '../../i18n/legal-extra';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -38,6 +39,8 @@ const footerColumns = [
       { label: t('nav.contact'), href: getLocalizedPath(lang, '/contact') },
       { label: t('footer.privacyPolicy'), href: getLocalizedPath(lang, '/privacy') },
       { label: t('footer.termsOfService'), href: getLocalizedPath(lang, '/terms') },
+      { label: legalLabels[lang].dmca, href: getLocalizedPath(lang, '/dmca') },
+      { label: legalLabels[lang].disclaimer, href: getLocalizedPath(lang, '/disclaimer') },
     ],
   },
 ];
@@ -119,7 +122,7 @@ const badges = [
             <a
               href={badge.href}
               target="_blank"
-              rel="noopener"
+              rel="nofollow noopener"
               title={badge.name}
               class="inline-flex opacity-80 transition duration-200 hover:-translate-y-0.5 hover:opacity-100"
             >

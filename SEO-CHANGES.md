@@ -30,3 +30,23 @@ Brand is "MusicallyDown" everywhere visible; the domain stays `musicaldown.se`. 
 - Tighten the CSP in `vercel.json` later.
 - Add real social profile URLs to `SITE.sameAs` in `src/lib/site.ts` when they exist.
 - Synthetic ad clicks / pop-ups: untouched, as requested.
+
+# Round 2 (2026-11-01)
+- `og:type` is now `website` on tiktok-mp3, download-tiktok-stories and all intent pages (all languages).
+- Removed `<meta name="generator">`.
+- Directory badges in the footer: `rel="nofollow noopener"`.
+- Header nav now includes Blog.
+- New pages in en/es/id/vi: `/dmca/` and `/disclaimer/` (text in `src/i18n/legal-extra.ts`, template `components/legal/LegalPage.astro`), linked from the footer, added to `LOCALE_PAGES`, hreflang and the sitemap. Have a lawyer review the text and a native speaker check es/id/vi.
+- MP3, Stories and Sound-downloader pages have their own hero badges (`src/i18n/page-badges.ts`) so they no longer duplicate the homepage "No Watermark / HD Quality" row.
+- About: es/id/vi "Independent service" text was still English; translated. All four languages now mention the "MusicalDown / Musical Down" spelling once.
+- `vercel.json`: `X-Robots-Tag: noindex, nofollow` on `/api/*`.
+- Ads: removed the script-generated click on the banner ad (`triggerBannerAdClick` in ResultSection.tsx, `onRef` in AdBanner.tsx). The visitor-initiated direct-link tab in InputScreen.tsx is still there; review it against your ad network's rules.
+- `SITE_LASTMOD` bumped to 2026-11-01.
+
+## Still open
+- Add the real X profile URL to `SITE.sameAs` and replace the `t.co` footer link.
+- Distinct OG images for mp3 / stories pages.
+- Decide on third-party scripts (Ahrefs, gtag, clicks.page, kaithiunmoldy ad script in HeroSection) and consent banner for EU traffic.
+- Confirm ownership of `dl.tiktokiocdn.workers.dev`; tighten the CSP.
+- `instrumentation-client.ts` (Betterlytics) is not loaded by Astro: import it or delete it.
+- Measure Core Web Vitals after deploy.

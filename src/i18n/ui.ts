@@ -266,7 +266,7 @@ export const ui = {
 
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with. Many visitors search for us as “MusicalDown” or “Musical Down”; it is the same service at musicaldown.se.',
 
     'about.contactTitle': 'Contact',
     'about.contactText':
@@ -608,7 +608,7 @@ export const ui = {
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown es una herramienta independiente. No está afiliada, respaldada ni patrocinada por TikTok ni por ByteDance Ltd. TikTok es una marca de su respectivo propietario y se usa solo para describir el contenido con el que funciona nuestra herramienta. Muchos visitantes nos buscan como “MusicalDown” o “Musical Down”; es el mismo servicio de musicaldown.se.',
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
@@ -973,7 +973,7 @@ export const ui = {
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown adalah alat independen. Tidak berafiliasi dengan, didukung oleh, atau disponsori oleh TikTok maupun ByteDance Ltd. TikTok adalah merek dagang pemiliknya dan hanya digunakan untuk menjelaskan konten yang didukung alat kami. Banyak pengunjung mencari kami sebagai “MusicalDown” atau “Musical Down”; itu adalah layanan yang sama di musicaldown.se.',
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
@@ -1338,7 +1338,7 @@ export const ui = {
       ' TikTok changes often. When something stops working we would rather say so than overpromise. If a download fails, check the FAQ or contact us.',
     'about.independentTitle': 'Independent service',
     'about.independentText':
-      'MusicallyDown is an independent tool. It is not affiliated with, endorsed by or sponsored by TikTok or ByteDance Ltd. TikTok is a trademark of its respective owner and is used only to describe the content our tool works with.',
+      'MusicallyDown là công cụ độc lập. Không liên kết, không được TikTok hay ByteDance Ltd. xác nhận hoặc tài trợ. TikTok là nhãn hiệu của chủ sở hữu tương ứng và chỉ được dùng để mô tả nội dung mà công cụ hỗ trợ. Nhiều người tìm chúng tôi với tên “MusicalDown” hoặc “Musical Down”; đó là cùng một dịch vụ tại musicaldown.se.',
     'about.contactTitle': 'Contact',
     'about.contactText':
       'Questions, bug reports, removal requests or business enquiries: <a href="mailto:support@musicaldown.se">support@musicaldown.se</a>. We read every message and aim to reply within 2–3 business days.',
