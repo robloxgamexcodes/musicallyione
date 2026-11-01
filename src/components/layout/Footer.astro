@@ -1,6 +1,6 @@
 ---
 /**
- * Footer.astro — Site footer with navigation columns and social links
+ * Footer.astro — Site footer with navigation columns, directory badges and social links
  */
 import { getLangFromUrl, useTranslations, getLocalizedPath, getAlternateLocales } from '../../i18n/utils';
 import { languages } from '../../i18n/ui';
@@ -22,7 +22,6 @@ const footerColumns = [
       { label: t('nav.home'), href: getLocalizedPath(lang, '/') },
       { label: t('nav.stories'), href: getLocalizedPath(lang, '/download-tiktok-stories') },
       { label: t('nav.mp3'), href: getLocalizedPath(lang, '/tiktok-mp3') },
-      
     ],
   },
   {
@@ -42,6 +41,40 @@ const footerColumns = [
     ],
   },
 ];
+
+// Directory / launch badges (rendered in the badge row above the bottom bar)
+const badges = [
+  {
+    name: 'CircleSaaS',
+    href: 'https://circlesaasboard.com/startup/musicaldown-a1402d',
+    src: 'https://circlesaasboard.com/badge.svg',
+    alt: 'Featured on CircleSaaS',
+  },
+  {
+    name: 'forg.to',
+    href: 'https://forg.to/projects/musicallydown-7d626823',
+    src: 'https://forg.to/api/badges/shipped/musicallydown-7d626823?theme=dark&shape=rounded',
+    alt: 'MusicallyDown - Shipped on forg.to',
+  },
+  {
+    name: 'Toolfame',
+    href: 'https://toolfame.com/item/musicallydown',
+    src: 'https://toolfame.com/badge-light.svg',
+    alt: 'Featured on toolfame.com',
+  },
+  {
+    name: 'Fazier',
+    href: 'https://fazier.com/launches/musicaldown.se',
+    src: 'https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=light',
+    alt: 'Featured on Fazier',
+  },
+  // Add more once you've submitted to the directory and have your own slug, e.g.:
+  // { name: 'Findly', href: 'https://findly.tools/YOUR-SLUG', src: 'https://findly.tools/badges/findly-tools-badge-light.svg', alt: 'Featured on Findly Tools' },
+  // { name: 'SaaSFame', href: 'https://saasfame.com/item/YOUR-SLUG', src: 'https://saasfame.com/badge-light.svg', alt: 'Featured on SaaSFame' },
+  // { name: 'AIToolFame', href: 'https://aitoolfame.com/item/YOUR-SLUG', src: 'https://aitoolfame.com/badge-light.svg', alt: 'Featured on AIToolFame' },
+  // { name: 'Turbo0', href: 'https://turbo0.com/item/YOUR-SLUG', src: 'https://img.turbo0.com/badge-listed-light.svg', alt: 'Listed on Turbo0' },
+  // { name: 'PeerBear', href: 'https://peerbear.io/p/YOUR-SLUG', src: 'https://peerbear.io/badge-light.svg', alt: 'Listed on PeerBear' },
+];
 ---
 
 <footer class="border-t border-[var(--border)] bg-white">
@@ -50,25 +83,8 @@ const footerColumns = [
       <!-- Brand column -->
       <div class="col-span-2 md:col-span-1">
         <a href={getLocalizedPath(lang, '/')} class="flex items-center gap-2 font-display text-lg font-bold">
-          <span class="font-display text-xl font-bold tracking-tight">Musically<span class="text-[var(--color-red-600)] dark:text-[var(--color-primary-400)]">Down</span>
-          </span>
+          <span class="font-display text-xl font-bold tracking-tight">Musically<span class="text-[var(--color-red-600)] dark:text-[var(--color-primary-400)]">Down</span></span>
         </a>
-        <a href="https://circlesaasboard.com/startup/musicaldown-a1402d" target="_blank" rel="noopener">
-  <img src="https://circlesaasboard.com/badge.svg" alt="Featured on CircleSaaS" width="110" height="42" />
-</a>
-<a href="https://forg.to/projects/musicallydown-7d626823" target="_blank" rel="noopener">
-  <img src="https://forg.to/api/badges/shipped/musicallydown-7d626823?theme=dark&shape=rounded" alt="MusicallyDown - Shipped on forg.to on forg." height="48" />
-</a>
-<a href="https://toolfame.com/item/musicallydown" target="_blank" rel="noopener noreferrer">
-<img src="https://toolfame.com/badge-light.svg" alt="Featured on toolfame.com" style="height: 54px; width: auto;" />
-</a>
-<a href="https://fazier.com/launches/musicaldown.se" target="_blank"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=light" width=100 alt="Fazier badge" /></a>
-        <p class="mt-3 text-sm leading-relaxed text-[var(--text-secondary)]">
-          
-        </p>
-
-      
-        
       </div>
 
       <!-- Navigation columns -->
@@ -93,6 +109,32 @@ const footerColumns = [
           </ul>
         </div>
       ))}
+    </div>
+
+    <!-- Directory badges -->
+    <div class="mt-12 flex justify-center" role="group" aria-label="Featured on">
+      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-4">
+        {badges.map((badge) => (
+          <li class="flex items-center">
+            <a
+              href={badge.href}
+              target="_blank"
+              rel="noopener"
+              title={badge.name}
+              class="inline-flex opacity-80 transition duration-200 hover:-translate-y-0.5 hover:opacity-100"
+            >
+              <img
+                src={badge.src}
+                alt={badge.alt}
+                height="40"
+                loading="lazy"
+                decoding="async"
+                class="h-10 w-auto"
+              />
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
 
     <!-- Bottom bar -->
@@ -122,22 +164,7 @@ const footerColumns = [
             ))}
           </ul>
         </nav>
-        <!-- div class="flex gap-4" >
-          <a
-            href={getLocalizedPath(lang, '/privacy')}
-            class="hover:text-[var(--text-primary)] transition-colors"
-          >
-            {t('footer.privacyPolicy')}
-          </a>
-          <a
-            href={getLocalizedPath(lang, '/terms')}
-            class="hover:text-[var(--text-primary)] transition-colors"
-          >
-            {t('footer.termsOfService')}
-          </a>
-        </!-->
       </div>
-      
     </div>
   </div>
 </footer>
