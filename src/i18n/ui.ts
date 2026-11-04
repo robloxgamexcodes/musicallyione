@@ -1623,11 +1623,11 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
   en: {
     metaTitle: 'TikTok Story Downloader – Free | MusicallyDown',
     metaDescription:
-      'View public TikTok stories anonymously and download TikTok Story in HD with no watermark. No login, no app. Paste a story link and save it.',
+      'View public TikTok stories anonymously and download them in HD with no watermark. No login, no app. Paste a story link and save it.',
     heroTitleStart: 'TikTok Story Viewer &',
     heroTitleHighlight: 'Downloader',
     heroDescription:
-      'Paste a public TikTok story link download TikTok Story in HD without a watermark. No app, no login, Free.',
+      'Paste a public TikTok story link and download the story in HD without a watermark. No app, no login, free.',
     byline: 'Oct 24, 2026 · @Baloch · Last updated: Oct 24, 2026',
     intro: [
       'An online TikTok story viewer and downloader gets around all three annoyances from an ordinary browser tab. You paste a story link, the public story loads, and you either watch it there or save it as an MP4, JPG or PNG file. There’s no app to install, no login and no fee.',
@@ -1888,7 +1888,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
     heroTitleStart: 'Visor de historias de TikTok y',
     heroTitleHighlight: 'descargador',
     heroDescription:
-      'Pega el enlace de una historia pública, míralo en tu navegador y guárdalo sin marca de agua. Sin app, sin registro y sin coste.',
+      'Pega el enlace de una historia pública, mírala en tu navegador y guárdala sin marca de agua. Sin app, sin registro y sin coste.',
     byline: '24 oct 2026 · @Baloch · Última actualización: 24 oct 2026',
     intro: [
       'Una historia de TikTok desaparece a las 24 horas y la app te da muy poco control sobre lo que pasa en ese tiempo. Puedes verla, pero solo dentro de TikTok. Si has iniciado sesión, el creador puede ver tu nombre en la lista de espectadores. Y si pulsas guardar, el clip sale con el logo de TikTok y un nombre de usuario encima.',
