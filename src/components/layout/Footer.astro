@@ -1,21 +1,35 @@
+
 ---
 /**
- * Footer.astro — Site footer with navigation columns, directory links and social links
+ * Footer.astro
+ * Responsive localized footer with directory badges and language navigation.
  */
-import { getLangFromUrl, useTranslations, getLocalizedPath, getAlternateLocales } from '../../i18n/utils';
+
+import {
+  getLangFromUrl,
+  useTranslations,
+  getLocalizedPath,
+  getAlternateLocales,
+} from '../../i18n/utils';
+
 import { languages } from '../../i18n/ui';
 import { legalLabels } from '../../i18n/legal-extra';
+import { getIntentLabels, INTENT_SLUGS } from '../../i18n/intent-pages';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const currentYear = new Date().getFullYear();
-// Plain <a> links to every language version of this page (crawlable, unlike the <select> picker)
+
 const langLinks = getAlternateLocales(Astro.url.pathname);
 
-import { getIntentLabels, INTENT_SLUGS } from '../../i18n/intent-pages';
 const intentLabels = getIntentLabels(lang);
-const intentLinks = INTENT_SLUGS.map((s) => ({ label: intentLabels[s], href: getLocalizedPath(lang, `/${s}`) }));
 
+const intentLinks = INTENT_SLUGS.map((slug) => ({
+  label: intentLabels[slug],
+  href: getLocalizedPath(lang, `/${slug}`),
+}));
+
+// Footer navigation
 const footerColumns = [
   {
     title: t('footer.product'),
@@ -45,31 +59,74 @@ const footerColumns = [
   },
 ];
 
-// Directory listings, shown as simple text links (the image badges could not be verified by the directories).
-// To add another listing, add { name, href } here.
-const directoryLinks = [
-  { name: 'CircleSaaS', href: 'https://circlesaasboard.com/startup/musicaldown-a1402d' },
-  { name: 'forg.to', href: 'https://forg.to/projects/musicallydown-7d626823' },
-  { name: 'Toolfame', href: 'https://toolfame.com/item/musicallydown' },
-  { name: 'Fazier', href: 'https://fazier.com/launches/musicaldown.se' },
+// Official directory listing pages and their supplied badge image endpoints
+const badges = [
+  {
+    name: 'CircleSaaS',
+    href: 'https://circlesaasboard.com/startup/musicaldown-a1402d',
+    src: 'https://circlesaasboard.com/badge.svg',
+    alt: 'MusicallyDown featured on CircleSaaS',
+    width: 120,
+    height: 36,
+  },
+  {
+    name: 'Forg',
+    href: 'https://forg.to/projects/musicallydown-7d626823',
+    src: 'https://forg.to/api/badges/shipped/musicallydown-7d626823?theme=dark&shape=rounded',
+    alt: 'MusicallyDown shipped on Forg',
+    width: 140,
+    height: 36,
+  },
+  {
+    name: 'Toolfame',
+    href: 'https://toolfame.com/item/musicallydown',
+    src: 'https://toolfame.com/badge-light.svg',
+    alt: 'MusicallyDown featured on Toolfame',
+    width: 120,
+    height: 36,
+  },
+  {
+    name: 'Fazier',
+    href: 'https://fazier.com/launches/musicaldown.se',
+    src: 'https://fazier.com/api/v1/public/badges/launch_badges.svg?badge_type=featured&theme=light',
+    alt: 'MusicallyDown featured on Fazier',
+    width: 140,
+    height: 36,
+  },
 ];
 ---
 
-<footer class="border-t border-[var(--border)] bg-white">
+<footer class="border-t border-[var(--border)] bg-white dark:bg-gray-950">
+
   <div class="mx-auto max-w-7xl px-6 py-12 md:py-16">
-    <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
-      <!-- Brand column -->
+
+    <!-- Main footer -->
+    <div class="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4">
+
+      <!-- Brand -->
       <div class="col-span-2 md:col-span-1">
-        <a href={getLocalizedPath(lang, '/')} class="flex items-center gap-2 font-display text-lg font-bold">
-          <span class="font-display text-xl font-bold tracking-tight">Musically<span class="text-[var(--color-red-600)] dark:text-[var(--color-primary-400)]">Down</span></span>
+        <a
+          href={getLocalizedPath(lang, '/')}
+          class="inline-flex items-center font-display text-xl font-bold tracking-tight"
+          aria-label="MusicallyDown homepage"
+        >
+          Musically<span class="text-[var(--color-red-600)]">Down</span>
         </a>
+
+        <p class="mt-3 max-w-xs text-sm leading-6 text-[var(--text-tertiary)]">
+          Download TikTok videos in MP4 and MP3 without watermark.
+          Fast, simple and free.
+        </p>
       </div>
 
       <!-- Navigation columns -->
       {footerColumns.map((column) => (
         <div>
-          <h3 class="text-sm font-semibold text-[var(--text-primary)]">{column.title}</h3>
-          <ul class="mt-3 space-y-2.5">
+          <h3 class="text-sm font-semibold text-[var(--text-primary)]">
+            {column.title}
+          </h3>
+
+          <ul class="mt-4 space-y-3">
             {column.links.map((link) => (
               <li>
                 <a
@@ -87,63 +144,98 @@ const directoryLinks = [
           </ul>
         </div>
       ))}
+
     </div>
 
-    <!-- Directory links -->
-    <nav class="mt-12" aria-label="Featured on">
-      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs text-[var(--text-tertiary)]">
-        {directoryLinks.map((item) => (
-          <li>
+    <!-- Directory badges -->
+    <div class="mt-12 border-t border-[var(--border)] pt-8">
+
+      <h3 class="mb-6 text-center text-sm font-semibold text-[var(--text-primary)]">
+        Featured on
+      </h3>
+
+      <ul
+        class="flex flex-wrap items-center justify-center gap-x-8 gap-y-6"
+        role="list"
+        aria-label="MusicallyDown directory listings"
+      >
+        {badges.map((badge) => (
+          <li class="flex items-center justify-center">
             <a
-              href={item.href}
+              href={badge.href}
               target="_blank"
               rel="nofollow noopener noreferrer"
-              class="transition-colors hover:text-[var(--text-primary)]"
+              title={badge.name}
+              aria-label={`View MusicallyDown on ${badge.name}`}
+              class="inline-flex items-center justify-center opacity-85 transition duration-200 hover:-translate-y-1 hover:opacity-100"
             >
-              {item.name}
+              <img
+                src={badge.src}
+                alt={badge.alt}
+                width={badge.width}
+                height={badge.height}
+                loading="lazy"
+                decoding="async"
+                class="max-h-9 max-w-[140px] object-contain"
+              />
             </a>
           </li>
         ))}
       </ul>
-    </nav>
+
+    </div>
 
     <!-- Bottom bar -->
-    <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[var(--border)] pt-8 text-sm text-[var(--text-tertiary)] md:flex-row">
+    <div class="mt-10 flex flex-col items-center justify-between gap-5 border-t border-[var(--border)] pt-8 text-sm text-[var(--text-tertiary)] md:flex-row">
+
+      <!-- Copyright -->
       <div class="flex flex-col items-center gap-4 md:flex-row md:gap-6">
+
         <p>
-          &copy; {currentYear} <span set:html={t('footer.copyright')} />
+          &copy; {currentYear}
+          <span set:html={t('footer.copyright')} />
         </p>
+
+        <!-- Language navigation -->
         <nav aria-label={t('footer.languages')}>
           <ul class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
-            {langLinks.map(({ lang: l, href }) => (
+            {langLinks.map(({ lang: locale, href }) => (
               <li>
                 <a
                   href={href}
-                  lang={l}
-                  hreflang={l}
-                  data-lang-link={l}
+                  lang={locale}
+                  hreflang={locale}
+                  data-lang-link={locale}
                   class:list={[
                     'transition-colors hover:text-[var(--text-primary)]',
-                    l === lang && 'font-semibold text-[var(--text-primary)]',
+                    locale === lang && 'font-semibold text-[var(--text-primary)]',
                   ]}
-                  aria-current={l === lang ? 'true' : undefined}
+                  aria-current={locale === lang ? 'page' : undefined}
                 >
-                  {languages[l]}
+                  {languages[locale]}
                 </a>
               </li>
             ))}
           </ul>
         </nav>
+
       </div>
+
     </div>
+
   </div>
 </footer>
 
 <script>
-  // Remember an explicit language choice (same cookie as the language picker)
-  document.querySelectorAll<HTMLAnchorElement>('a[data-lang-link]').forEach((a) => {
-    a.addEventListener('click', () => {
-      document.cookie = `user-locale=${a.dataset.langLink}; path=/; max-age=31536000; SameSite=Lax`;
+  // Remember the visitor's explicit language selection
+  document.querySelectorAll<HTMLAnchorElement>('a[data-lang-link]').forEach((anchor) => {
+    anchor.addEventListener('click', () => {
+      const selectedLanguage = anchor.dataset.langLink;
+
+      if (selectedLanguage) {
+        document.cookie =
+          `user-locale=${selectedLanguage}; path=/; max-age=31536000; SameSite=Lax`;
+      }
     });
   });
 </script>
