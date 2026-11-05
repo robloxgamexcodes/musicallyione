@@ -1,6 +1,6 @@
 ---
 /**
- * Footer.astro — Site footer with navigation columns, directory badges and social links
+ * Footer.astro — Site footer with navigation columns, directory links and social links
  */
 import { getLangFromUrl, useTranslations, getLocalizedPath, getAlternateLocales } from '../../i18n/utils';
 import { languages } from '../../i18n/ui';
@@ -45,38 +45,13 @@ const footerColumns = [
   },
 ];
 
-// Directory / launch badges (rendered in the badge row above the bottom bar)
-const badges = [
-  {
-    name: 'CircleSaaS',
-    href: 'https://circlesaasboard.com/startup/musicaldown-a1402d',
-    src: 'https://circlesaasboard.com/badge.svg',
-    alt: 'Featured on CircleSaaS',
-  },
-  {
-    name: 'forg.to',
-    href: 'https://forg.to/projects/musicallydown-7d626823',
-    src: 'https://forg.to/api/badges/shipped/musicallydown-7d626823?theme=dark&shape=rounded',
-    alt: 'MusicallyDown - Shipped on forg.to',
-  },
-  {
-    name: 'Toolfame',
-    href: 'https://toolfame.com/item/musicallydown',
-    src: 'https://toolfame.com/badge-light.svg',
-    alt: 'Featured on toolfame.com',
-  },
-  {
-    name: 'Fazier',
-    href: 'https://fazier.com/launches/musicaldown.se',
-    src: 'https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=light',
-    alt: 'Featured on Fazier',
-  },
-  // Add more once you've submitted to the directory and have your own slug, e.g.:
-  // { name: 'Findly', href: 'https://findly.tools/YOUR-SLUG', src: 'https://findly.tools/badges/findly-tools-badge-light.svg', alt: 'Featured on Findly Tools' },
-  // { name: 'SaaSFame', href: 'https://saasfame.com/item/YOUR-SLUG', src: 'https://saasfame.com/badge-light.svg', alt: 'Featured on SaaSFame' },
-  // { name: 'AIToolFame', href: 'https://aitoolfame.com/item/YOUR-SLUG', src: 'https://aitoolfame.com/badge-light.svg', alt: 'Featured on AIToolFame' },
-  // { name: 'Turbo0', href: 'https://turbo0.com/item/YOUR-SLUG', src: 'https://img.turbo0.com/badge-listed-light.svg', alt: 'Listed on Turbo0' },
-  // { name: 'PeerBear', href: 'https://peerbear.io/p/YOUR-SLUG', src: 'https://peerbear.io/badge-light.svg', alt: 'Listed on PeerBear' },
+// Directory listings, shown as simple text links (the image badges could not be verified by the directories).
+// To add another listing, add { name, href } here.
+const directoryLinks = [
+  { name: 'CircleSaaS', href: 'https://circlesaasboard.com/startup/musicaldown-a1402d' },
+  { name: 'forg.to', href: 'https://forg.to/projects/musicallydown-7d626823' },
+  { name: 'Toolfame', href: 'https://toolfame.com/item/musicallydown' },
+  { name: 'Fazier', href: 'https://fazier.com/launches/musicaldown.se' },
 ];
 ---
 
@@ -114,32 +89,23 @@ const badges = [
       ))}
     </div>
 
-    <!-- Directory badges -->
-    <div class="mt-12 flex justify-center" role="group" aria-label="Featured on">
-      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-4">
-        {badges.map((badge) => (
-          <li class="flex items-center">
+    <!-- Directory links -->
+    <nav class="mt-12" aria-label="Featured on">
+      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs text-[var(--text-tertiary)]">
+        {directoryLinks.map((item) => (
+          <li>
             <a
-              href={badge.href}
+              href={item.href}
               target="_blank"
-              rel="nofollow noopener"
-              title={badge.name}
-              class="inline-flex opacity-80 transition duration-200 hover:-translate-y-0.5 hover:opacity-100"
+              rel="nofollow noopener noreferrer"
+              class="transition-colors hover:text-[var(--text-primary)]"
             >
-              <img
-                src={badge.src}
-                alt={badge.alt}
-                width="60"
-                height="18"
-                loading="lazy"
-                decoding="async"
-                class="h-[18px] w-[60px] object-contain"
-              />
+              {item.name}
             </a>
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
 
     <!-- Bottom bar -->
     <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[var(--border)] pt-8 text-sm text-[var(--text-tertiary)] md:flex-row">
