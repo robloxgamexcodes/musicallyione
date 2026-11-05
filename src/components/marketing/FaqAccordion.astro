@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getLangFromUrl, getLocalizedPath, useTranslations } from '../../i18n/utils';
 
 interface FaqItem {
   question: string;
@@ -42,6 +42,20 @@ const validFaqs = faqs.filter(
 
 const stripHtml = (s: string) => s.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+/** [label](/path | https://url) -> safe HTML link; internal paths are localized (same syntax as the Stories/MP3 pages). */
+function inline(s: string): string {
+  return esc(s).replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label: string, href: string) => {
+    const external = /^https?:\/\//.test(href);
+    const url = external ? href : getLocalizedPath(lang, href);
+    return `<a href="${url}"${external ? ' target="_blank" rel="noopener noreferrer"' : ''}>${label}</a>`;
+  });
+}
+
+/** Link markup removed, so the FAQPage JSON-LD text matches the visible text exactly. */
+const plain = (s: string) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+
 // Uses the production domain when `site` is set in astro.config.mjs
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
 
@@ -56,7 +70,7 @@ const faqSchema = {
     name: stripHtml(faq.question),
     acceptedAnswer: {
       '@type': 'Answer',
-      text: stripHtml(faq.answer),
+      text: stripHtml(plain(faq.answer)),
     },
   })),
 };
@@ -93,7 +107,7 @@ const faqJsonLd = JSON.stringify(faqSchema).replace(/</g, '\\u003c');
           </span>
         </summary>
         <div class="px-6 pb-6 text-[var(--text-secondary)] leading-relaxed">
-          <p>{faq.answer}</p>
+          <p class="[&_a]:font-medium [&_a]:text-[var(--color-primary-600,#d90f45)] [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:no-underline" set:html={inline(faq.answer)} />
         </div>
       </details>
     ))}

@@ -26,9 +26,9 @@ export const ui = {
     'lang.select': 'Select language',
     'toc.title': 'On this page',
     'footer.languages': 'Languages',
-    'site.title': 'MusicallyDown – TikTok Downloader No Watermark & MP3',
+    'site.title': 'MusicallyDown – TikTok Downloader No Watermark HD',
     'site.description':
-      'Download TikTok videos without watermark in HD with Free MusicallyDown TikTok downloader. Save TikTok video as MP4 or MP3, free, with no app and no sign-up.',
+      'Download TikTok videos without watermark in HD with MusicallyDown. Paste a link and save MP4 on iPhone, Android or PC. Free, no app and no sign-up.',
 
     // Navigation
     'nav.home': 'Home',
@@ -44,11 +44,11 @@ export const ui = {
     // Hero
     'hero.badge1': 'No Watermark',
     'hero.badge2': 'HD Quality',
-    'hero.badge3': 'MP4 & MP3',
+    'hero.badge3': 'MP4 Video',
     'hero.badge4': 'Free, No Sign-up',
     'hero.titleStart': 'TikTok Downloader HD Free,',
     'hero.titleHighlight': ' No Watermark',
-    'hero.description': 'Download TikTok videos without watermark and Convert TikTok to MP3 free',
+    'hero.description': 'Download TikTok videos without watermark in HD. Paste a link, choose MP4 and save it free.',
     'hero.subtitle': '',
 
     // Section 1
@@ -57,7 +57,7 @@ export const ui = {
     'section1.paragraph':
       'MusicallyDown is a free TikTok downloader to save TikTok video as an MP4 without watermark in the high quality. MusicallyDown helps you to download videos from TikTok without watermark by using any browser on iPhone, Android and PC quickly and easily.',
     'section1.paragraph2':
-      'MusicallyDown helps you to work with supported TikTok video links in one place. Depending on the formats available for a TikTok video, you can save TikTok video as an MP4 or extract its audio as an MP3.',
+      'MusicallyDown helps you to work with supported TikTok video links in one place. Depending on the formats available for a TikTok video, you can save it as an MP4 in the best quality offered.',
 
     // Highlights bar (LogoCloud.astro)
     'highlights.ariaLabel': 'Service highlights',
@@ -74,7 +74,7 @@ export const ui = {
     'how.eyebrow': 'Three simple steps',
     'how.title': 'How to download TikTok videos in HD',
     'how.description':
-      'Download a TikTok video in just 3 steps and about ten seconds: paste the link, then choose MP4 in step 3 to save it in HD, or choose MP3 to convert TikTok to audio, depending on the formats available for that video.',
+      'Download a TikTok video in just 3 steps and about ten seconds: paste the link, then choose MP4 in step 3 to save it in HD, depending on the formats available for that video.',
     'how.step1.title': 'Copy the video link',
     'how.step1.text':
       'Open the TikTok video, select Share, and choose Copy link. Make sure the video is accessible and you have permission to save it.',
@@ -96,9 +96,9 @@ export const ui = {
     'features.item2.title': 'MP4 video options',
     'features.item2.text':
       'When MP4 is offered, it provides a widely supported format for playback on many phones, tablets and computers.',
-    'features.item3.title': 'TikTok sound downloader',
+    'features.item3.title': 'Audio when offered',
     'features.item3.text':
-      'If audio extraction is supported for your link, review the available audio or MP3 option before saving.',
+      'If a video offers a separate audio file, the option appears next to the video formats.',
     'features.item4.title': 'Watermark-free options',
     'features.item4.text':
       'Check the results for a watermark-free option where available. Availability can vary by video and service behavior.',
@@ -121,7 +121,7 @@ export const ui = {
     'bento.paragraph':
       'MusicallyDown is a free TikTok video downloader that lets you save public TikTok videos without watermark, in HD when that quality is available. Save TikTok videos online as MP4 on any device.',
     'bento.paragraph1':
-      'It is a free online TikTok downloader that is simple to use: copy the video link, paste it and save the file. The same page also includes a TikTok to MP3 converter for extracting audio from any video.',
+      'It is a free online TikTok downloader that is simple to use: copy the video link, paste it and save the file.',
 
     // ── Bento: TikTok video quality ──────────────────────────────
     'bento.quality.eyebrow': 'Know what to expect from MusicallyDown',
@@ -157,22 +157,22 @@ export const ui = {
     // FAQ
     'faq.title': 'Frequently Asked Questions',
     'faq.description':
-      'Find quick answers to the most common questions about downloading TikTok videos and audio. Learn how our tool works, which formats are supported and how to fix common issues, so you can save your favorite content easily, safely and responsibly on any device.',
+      'Find quick answers to the most common questions about downloading TikTok videos. Learn how our tool works, which formats are supported and how to fix common issues, so you can save your favorite content easily, safely and responsibly on any device.',
     'faq.question1': 'Is MusicallyDown free?',
     'faq.answer1':
       'Yes. Downloading is free, the site is supported by ads and you do not need to register or install anything.',
     'faq.question2': 'How do I download a TikTok video without a watermark?',
     'faq.answer2':
       'Copy the link from TikTok Share menu, paste it into the box on this page, press Download and choose SD or HD (no watermark). No account or app is needed.',
-    'faq.question3': 'How do I convert TikTok to MP3?',
+    'faq.question3': 'How do I save only the audio from a TikTok?',
     'faq.answer3':
-      'Paste the TikTok link, press Download and choose Download Audio Only. The sound saves as an MP3 on iPhone, Android or PC.',
+      'Audio-only downloads have their own page. Open the [TikTok to MP3 converter](/tiktok-mp3), paste the link and save the sound.',
     'faq.question4': 'Can I save a TikTok as an MP4 file?',
     'faq.answer4':
       'Yes. The SD and HD options save the video as a regular MP4 that plays in any player on your phone or computer.',
-    'faq.question5': 'Is there a TikTok to MP3 320 kbps option?',
+    'faq.question5': 'Can I download TikTok Stories?',
     'faq.answer5':
-      'No. We save audio the way TikTok stores it, so a 320 kbps label would not add real detail. Expect a normal listening-quality MP3.',
+      'Yes, for public stories. Open the [TikTok Story downloader](/download-tiktok-stories), paste the story link and save it.',
     'faq.question6': 'Can I download YouTube videos here?',
     'faq.answer6':
       'No. MusicallyDown only accepts TikTok links. YouTube downloaders and converters are separate services.',
@@ -184,8 +184,8 @@ export const ui = {
       'You never enter your TikTok password or install anything. Only paste a video link, and do not share personal login details with any downloader. Read our Privacy Policy for how data is handled.',
     'faq.question9': 'Is it legal to download TikTok videos?',
     'faq.answer9':
-      'It depends on what you do with the file. Saving your own videos or clips you have permission to use is generally fine; reposting others videos as your own is not. This is general information, not legal advice.',
-    'faq.question10': 'Can I use a TikTok downloader on an iPhone? or Android?',
+      'It depends on what you do with the file. Saving your own videos or clips you have permission to use is generally fine; reposting other people’s videos as your own is not. This is general information, not legal advice.',
+    'faq.question10': 'Can I use a TikTok downloader on iPhone or Android?',
     'faq.answer10':
       'Yes. MusicallyDown works in any browser on iPhone, Android or PC. No app is needed.',
 
@@ -460,9 +460,9 @@ export const ui = {
     'lang.select': 'Seleccionar idioma',
     'toc.title': 'En esta página',
     'footer.languages': 'Idiomas',
-    'site.title': 'MusicallyDown – Descargar TikTok Sin Marca de Agua y MP3',
+    'site.title': 'MusicallyDown – Descargar TikTok Sin Marca de Agua',
     'site.description':
-      'Descarga videos públicos de TikTok sin marca de agua cuando esté disponible. Guarda videos en MP4 o extrae audio en MP3 gratis, sin instalar aplicaciones.',
+      'Descarga videos públicos de TikTok sin marca de agua cuando esté disponible. Guarda videos en MP4 gratis, sin instalar aplicaciones.',
     'nav.home': 'Inicio',
     'nav.stories': 'Descargar historias de TikTok',
     'nav.mp3': 'Descargar TikTok en MP3',
@@ -473,12 +473,12 @@ export const ui = {
     'nav.faq': 'Preguntas frecuentes',
     'hero.badge1': 'Sin marca de agua',
     'hero.badge2': 'Calidad HD',
-    'hero.badge3': 'MP4 y MP3',
+    'hero.badge3': 'Video MP4',
     'hero.badge4': 'Gratis, sin registro',
     'hero.titleStart': 'Descargador de videos de TikTok',
     'hero.titleHighlight': ' sin marca de agua',
     'hero.description':
-      'Descarga videos públicos de TikTok y guarda MP4 o audio MP3 cuando esas opciones estén disponibles.',
+      'Descarga videos públicos de TikTok sin marca de agua y guárdalos en MP4 cuando esa opción esté disponible.',
     'section1.title': 'Descarga videos de TikTok en línea - ',
     'section1.highlight': 'sin marca de agua',
     'section1.paragraph':
@@ -514,7 +514,7 @@ export const ui = {
     'bento.paragraph':
       'MusicallyDown es una herramienta rápida para guardar videos públicos de TikTok en formato MP4 cuando está disponible.',
     'bento.paragraph1':
-      'Es una herramienta gratuita y sencilla: copia el enlace, pégalo y guarda el archivo. También puedes extraer audio como MP3 cuando esté disponible.',
+      'Es una herramienta gratuita y sencilla: copia el enlace, pégalo y guarda el archivo.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
@@ -525,15 +525,15 @@ export const ui = {
     'faq.question2': '¿Cómo descargo un video de TikTok sin marca de agua?',
     'faq.answer2':
       'Copia el enlace desde el menú Compartir de TikTok, pégalo aquí, pulsa Descargar y elige una opción sin marca de agua si está disponible.',
-    'faq.question3': '¿Cómo convierto TikTok a MP3?',
+    'faq.question3': '¿Cómo guardo solo el audio de un TikTok?',
     'faq.answer3':
-      'Pega el enlace de TikTok, pulsa Descargar y selecciona la opción de audio si está disponible.',
+      'Las descargas de solo audio tienen su propia página. Abre el [convertidor de TikTok a MP3](/tiktok-mp3), pega el enlace y guarda el sonido.',
     'faq.question4': '¿Puedo guardar un TikTok como archivo MP4?',
     'faq.answer4':
       'Sí. Si se ofrece la opción de video, puedes guardarlo como MP4 compatible con muchos teléfonos y computadoras.',
-    'faq.question5': '¿Hay una opción TikTok a MP3 de 320 kbps?',
+    'faq.question5': '¿Puedo descargar historias de TikTok?',
     'faq.answer5':
-      'No. Guardamos el audio según lo proporciona TikTok; indicar 320 kbps no añadiría calidad real.',
+      'Sí, las historias públicas. Abre el [descargador de historias de TikTok](/download-tiktok-stories), pega el enlace y guárdala.',
     'faq.question6': '¿Puedo descargar videos de YouTube aquí?',
     'faq.answer6':
       'No. MusicallyDown procesa enlaces de TikTok; los servicios para YouTube son independientes.',
@@ -767,7 +767,7 @@ export const ui = {
     'highlights.item4.title': 'Proceso sencillo',
     'highlights.item4.text': 'Copiar, pegar y revisar',
     'how.description':
-      'Descarga un video de TikTok en tres pasos: pega el enlace y elige MP4 para guardar el video o MP3 para extraer el audio, según las opciones disponibles.',
+      'Descarga un video de TikTok en tres pasos: pega el enlace y elige MP4 para guardar el video, según las opciones disponibles.',
     'features.eyebrow': 'Diseñado para tu flujo de trabajo',
     'features.title': 'Un descargador práctico de videos de TikTok',
     'features.description':
@@ -778,9 +778,9 @@ export const ui = {
     'features.item2.title': 'Opciones de video MP4',
     'features.item2.text':
       'Cuando esté disponible, MP4 ofrece un formato compatible con muchos teléfonos, tabletas y computadoras.',
-    'features.item3.title': 'Descargador de audio TikTok',
+    'features.item3.title': 'Audio, si se ofrece',
     'features.item3.text':
-      'Si se admite la extracción de audio, revisa las opciones de audio o MP3 antes de guardar.',
+      'Si un video ofrece un archivo de audio aparte, la opción aparece junto a los formatos de video.',
     'features.item4.title': 'Opciones sin marca de agua',
     'features.item4.text':
       'Comprueba si hay una versión sin marca de agua. La disponibilidad depende del video y del servicio.',
@@ -820,7 +820,7 @@ export const ui = {
     'bento.devices.desktop.desc':
       'Usa el gestor de descargas del navegador o la carpeta Descargas.',
     'faq.description':
-      'Respuestas rápidas sobre cómo descargar videos y audio de TikTok, los formatos compatibles y la solución de problemas comunes.',
+      'Respuestas rápidas sobre cómo descargar videos de TikTok, los formatos compatibles y la solución de problemas comunes.',
 
     'hero.subtitle': '',
   },
@@ -829,9 +829,9 @@ export const ui = {
     'lang.select': 'Pilih bahasa',
     'toc.title': 'Di halaman ini',
     'footer.languages': 'Bahasa',
-    'site.title': 'MusicallyDown – Unduh Video TikTok Tanpa Watermark & MP3',
+    'site.title': 'MusicallyDown – Unduh Video TikTok Tanpa Watermark',
     'site.description':
-      'Unduh video TikTok publik tanpa watermark jika tersedia. Simpan video sebagai MP4 atau ekstrak audio MP3 secara gratis melalui browser tanpa memasang aplikasi.',
+      'Unduh video TikTok publik tanpa watermark jika tersedia. Simpan video sebagai MP4 secara gratis melalui browser tanpa memasang aplikasi.',
     'nav.home': 'Beranda',
     'nav.stories': 'Unduh TikTok Stories',
     'nav.mp3': 'Unduh TikTok ke MP3',
@@ -842,11 +842,11 @@ export const ui = {
     'nav.faq': 'FAQ',
     'hero.badge1': 'Tanpa Watermark',
     'hero.badge2': 'Kualitas HD',
-    'hero.badge3': 'MP4 & MP3',
+    'hero.badge3': 'Video MP4',
     'hero.badge4': 'Gratis, Tanpa Daftar',
     'hero.titleStart': 'Pengunduh Video TikTok',
     'hero.titleHighlight': ' Tanpa Watermark',
-    'hero.description': 'Unduh video TikTok dan simpan sebagai MP4 atau audio MP3 jika tersedia.',
+    'hero.description': 'Unduh video TikTok tanpa watermark dan simpan sebagai MP4 jika opsinya tersedia.',
     'section1.title': 'Unduh Video TikTok Online - ',
     'section1.highlight': 'Tanpa Watermark',
     'section1.paragraph':
@@ -882,7 +882,7 @@ export const ui = {
     'bento.paragraph':
       'MusicallyDown adalah alat praktis untuk menyimpan video TikTok publik sebagai MP4 jika format tersedia.',
     'bento.paragraph1':
-      'Alat ini gratis dan mudah digunakan: salin tautan, tempel, lalu simpan file. Audio juga dapat diekstrak sebagai MP3 jika tersedia.',
+      'Alat ini gratis dan mudah digunakan: salin tautan, tempel, lalu simpan file. ',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
@@ -893,14 +893,14 @@ export const ui = {
     'faq.question2': 'Bagaimana cara mengunduh video TikTok tanpa watermark?',
     'faq.answer2':
       'Salin tautan dari menu Bagikan TikTok, tempel di sini, tekan Unduh, lalu pilih opsi tanpa watermark jika tersedia.',
-    'faq.question3': 'Bagaimana cara mengubah TikTok menjadi MP3?',
-    'faq.answer3': 'Tempel tautan TikTok, tekan Unduh, lalu pilih opsi audio jika tersedia.',
+    'faq.question3': 'Bagaimana cara menyimpan audio saja dari TikTok?',
+    'faq.answer3': 'Unduhan khusus audio punya halamannya sendiri. Buka [konverter TikTok ke MP3](/tiktok-mp3), tempel tautan, lalu simpan suaranya.',
     'faq.question4': 'Bisakah saya menyimpan TikTok sebagai file MP4?',
     'faq.answer4':
       'Bisa. Jika opsi video tersedia, Anda dapat menyimpannya sebagai MP4 yang kompatibel dengan banyak ponsel dan komputer.',
-    'faq.question5': 'Apakah tersedia TikTok ke MP3 320 kbps?',
+    'faq.question5': 'Bisakah saya mengunduh TikTok Stories?',
     'faq.answer5':
-      'Tidak. Audio disimpan sesuai sumber TikTok; label 320 kbps tidak akan menambah kualitas sebenarnya.',
+      'Bisa, untuk story publik. Buka [pengunduh TikTok Stories](/download-tiktok-stories), tempel tautan story, lalu simpan.',
     'faq.question6': 'Bisakah saya mengunduh video YouTube di sini?',
     'faq.answer6': 'Tidak. MusicallyDown memproses tautan TikTok; layanan untuk YouTube terpisah.',
     'faq.question7': 'Mengapa tautan TikTok saya tidak berfungsi?',
@@ -1132,7 +1132,7 @@ export const ui = {
     'highlights.item4.title': 'Alur mudah',
     'highlights.item4.text': 'Salin, tempel, periksa',
     'how.description':
-      'Unduh video TikTok dalam tiga langkah: tempel tautan, lalu pilih MP4 untuk menyimpan video atau MP3 untuk mengambil audio, sesuai format yang tersedia.',
+      'Unduh video TikTok dalam tiga langkah: tempel tautan, lalu pilih MP4 untuk menyimpan video, sesuai format yang tersedia.',
     'features.eyebrow': 'Dirancang untuk alur kerja Anda',
     'features.title': 'Pengunduh video TikTok yang praktis',
     'features.description':
@@ -1143,9 +1143,9 @@ export const ui = {
     'features.item2.title': 'Pilihan video MP4',
     'features.item2.text':
       'Jika tersedia, MP4 merupakan format yang didukung banyak ponsel, tablet, dan komputer.',
-    'features.item3.title': 'Pengunduh audio TikTok',
+    'features.item3.title': 'Audio jika tersedia',
     'features.item3.text':
-      'Jika ekstraksi audio didukung, periksa opsi audio atau MP3 sebelum menyimpan.',
+      'Jika video menyediakan file audio terpisah, opsinya muncul di samping format video.',
     'features.item4.title': 'Pilihan tanpa watermark',
     'features.item4.text':
       'Periksa apakah versi tanpa watermark tersedia. Ketersediaannya bergantung pada video dan layanan.',
@@ -1184,7 +1184,7 @@ export const ui = {
     'bento.devices.android.desc': 'Periksa daftar unduhan browser atau folder Downloads.',
     'bento.devices.desktop.desc': 'Gunakan pengelola unduhan browser atau folder Downloads.',
     'faq.description':
-      'Jawaban singkat tentang mengunduh video dan audio TikTok, format yang didukung, serta cara mengatasi masalah umum.',
+      'Jawaban singkat tentang mengunduh video TikTok, format yang didukung, serta cara mengatasi masalah umum.',
 
     'hero.subtitle': '',
   },
@@ -1193,9 +1193,9 @@ export const ui = {
     'lang.select': 'Chọn ngôn ngữ',
     'toc.title': 'Trên trang này',
     'footer.languages': 'Ngôn ngữ',
-    'site.title': 'MusicallyDown – Tải Video TikTok Không Logo & MP3',
+    'site.title': 'MusicallyDown – Tải Video TikTok Không Logo',
     'site.description':
-      'Tải video TikTok công khai không watermark khi có tùy chọn. Lưu video MP4 hoặc trích xuất âm thanh MP3 miễn phí ngay trên trình duyệt, không cần cài ứng dụng.',
+      'Tải video TikTok công khai không watermark khi có tùy chọn. Lưu video MP4 miễn phí ngay trên trình duyệt, không cần cài ứng dụng.',
     'nav.home': 'Trang chủ',
     'nav.stories': 'Tải TikTok Stories',
     'nav.mp3': 'Tải TikTok sang MP3',
@@ -1206,11 +1206,11 @@ export const ui = {
     'nav.faq': 'Câu hỏi thường gặp',
     'hero.badge1': 'Không watermark',
     'hero.badge2': 'Chất lượng HD',
-    'hero.badge3': 'MP4 & MP3',
+    'hero.badge3': 'Video MP4',
     'hero.badge4': 'Miễn phí, không đăng ký',
     'hero.titleStart': 'Tải video TikTok',
     'hero.titleHighlight': ' không logo',
-    'hero.description': 'Tải video TikTok và lưu MP4 hoặc âm thanh MP3 nếu có tùy chọn phù hợp.',
+    'hero.description': 'Tải video TikTok không logo và lưu MP4 nếu có tùy chọn phù hợp.',
     'section1.title': 'Tải video TikTok trực tuyến - ',
     'section1.highlight': 'Không watermark',
     'section1.paragraph':
@@ -1245,7 +1245,7 @@ export const ui = {
     'bento.paragraph':
       'MusicallyDown là công cụ tiện lợi giúp lưu video TikTok công khai dưới dạng MP4 khi định dạng này được hỗ trợ.',
     'bento.paragraph1':
-      'Đây là công cụ miễn phí, dễ thao tác: sao chép liên kết, dán và lưu tệp. Bạn cũng có thể trích xuất MP3 khi được hỗ trợ.',
+      'Đây là công cụ miễn phí, dễ thao tác: sao chép liên kết, dán và lưu tệp.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
@@ -1256,14 +1256,14 @@ export const ui = {
     'faq.question2': 'Làm cách nào tải video TikTok không watermark?',
     'faq.answer2':
       'Sao chép liên kết từ menu Chia sẻ của TikTok, dán vào đây, nhấn Tải xuống và chọn tùy chọn không watermark nếu có.',
-    'faq.question3': 'Làm cách nào chuyển TikTok sang MP3?',
-    'faq.answer3': 'Dán liên kết TikTok, nhấn Tải xuống và chọn tùy chọn âm thanh nếu có.',
+    'faq.question3': 'Làm cách nào lưu riêng âm thanh từ TikTok?',
+    'faq.answer3': 'Tải riêng âm thanh có trang riêng. Mở [công cụ chuyển TikTok sang MP3](/tiktok-mp3), dán liên kết và lưu âm thanh.',
     'faq.question4': 'Tôi có thể lưu TikTok dưới dạng MP4 không?',
     'faq.answer4':
       'Có. Nếu có tùy chọn video, bạn có thể lưu dưới dạng MP4 tương thích với nhiều điện thoại và máy tính.',
-    'faq.question5': 'Có tùy chọn TikTok sang MP3 320 kbps không?',
+    'faq.question5': 'Tôi có thể tải TikTok Stories không?',
     'faq.answer5':
-      'Không. Âm thanh được lưu theo nguồn TikTok; nhãn 320 kbps không làm tăng chất lượng thực tế.',
+      'Có, với story công khai. Mở [công cụ tải TikTok Stories](/download-tiktok-stories), dán liên kết story và lưu lại.',
     'faq.question6': 'Tôi có thể tải video YouTube ở đây không?',
     'faq.answer6':
       'Không. MusicallyDown xử lý liên kết TikTok; dịch vụ tải YouTube là dịch vụ riêng.',
@@ -1497,7 +1497,7 @@ export const ui = {
     'highlights.item4.title': 'Quy trình đơn giản',
     'highlights.item4.text': 'Sao chép, dán, kiểm tra',
     'how.description':
-      'Tải video TikTok qua ba bước: dán liên kết, chọn MP4 để lưu video hoặc MP3 để trích xuất âm thanh, tùy theo định dạng có sẵn.',
+      'Tải video TikTok qua ba bước: dán liên kết, chọn MP4 để lưu video, tùy theo định dạng có sẵn.',
     'features.eyebrow': 'Phù hợp với quy trình của bạn',
     'features.title': 'Công cụ tải video TikTok thiết thực',
     'features.description':
@@ -1508,9 +1508,9 @@ export const ui = {
     'features.item2.title': 'Tùy chọn video MP4',
     'features.item2.text':
       'Khi có sẵn, MP4 là định dạng tương thích với nhiều điện thoại, máy tính bảng và máy tính.',
-    'features.item3.title': 'Tải âm thanh TikTok',
+    'features.item3.title': 'Âm thanh khi có sẵn',
     'features.item3.text':
-      'Nếu hỗ trợ trích xuất âm thanh, hãy kiểm tra tùy chọn âm thanh hoặc MP3 trước khi lưu.',
+      'Nếu video có tệp âm thanh riêng, tùy chọn sẽ xuất hiện cạnh các định dạng video.',
     'features.item4.title': 'Tùy chọn không watermark',
     'features.item4.text':
       'Kiểm tra xem có phiên bản không watermark hay không. Tính khả dụng tùy thuộc video và dịch vụ.',
@@ -1551,7 +1551,7 @@ export const ui = {
     'bento.devices.desktop.desc':
       'Dùng trình quản lý tải xuống của trình duyệt hoặc thư mục Downloads.',
     'faq.description':
-      'Giải đáp nhanh về cách tải video và âm thanh TikTok, định dạng được hỗ trợ và cách khắc phục sự cố thường gặp.',
+      'Giải đáp nhanh về cách tải video TikTok, định dạng được hỗ trợ và cách khắc phục sự cố thường gặp.',
 
     'hero.subtitle': '',
   },
@@ -2741,7 +2741,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'The saved file is only the sound, so it’s ready for a playlist or an editor as soon as it lands. Looking for stories instead of sounds? The same site covers that too, from the [MusicallyDown homepage](/).'
+            'The saved file is only the sound, so it’s ready for a playlist or an editor as soon as it lands. Looking for stories instead of sounds? Try the [TikTok Story downloader](/download-tiktok-stories), or the [TikTok video downloader](/) for full videos.'
           ),
         ],
       },
@@ -3021,7 +3021,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'El archivo guardado es solo el sonido, así que está listo para una lista de reproducción o un editor en cuanto llega. ¿Buscas historias en vez de sonidos? El mismo sitio también cubre eso, desde la [página de inicio de MusicallyDown](/).'
+            'El archivo guardado es solo el sonido, así que está listo para una lista de reproducción o un editor en cuanto llega. ¿Buscas historias en vez de sonidos? Prueba el [descargador de historias de TikTok](/download-tiktok-stories) o el [descargador de videos de TikTok](/) para videos completos.'
           ),
         ],
       },
@@ -3306,7 +3306,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'File yang disimpan hanya berisi suara, jadi siap untuk playlist atau editor begitu masuk. Mencari story, bukan suara? Situs yang sama juga mencakup itu, dari [beranda MusicallyDown](/).'
+            'File yang disimpan hanya berisi suara, jadi siap untuk playlist atau editor begitu masuk. Mencari story, bukan suara? Coba [pengunduh TikTok Stories](/download-tiktok-stories), atau [pengunduh video TikTok](/) untuk video lengkap.'
           ),
         ],
       },
@@ -3586,7 +3586,7 @@ export const MP3_PAGE: Record<Lang, ArticleContent> = {
             ]
           ),
           p(
-            'Tệp đã lưu chỉ có âm thanh, nên sẵn sàng cho danh sách phát hoặc trình biên tập ngay khi tải xong. Muốn tìm story thay vì âm thanh? Cùng trang web này cũng hỗ trợ, từ [trang chủ MusicallyDown](/).'
+            'Tệp đã lưu chỉ có âm thanh, nên sẵn sàng cho danh sách phát hoặc trình biên tập ngay khi tải xong. Muốn tìm story thay vì âm thanh? Hãy thử [công cụ tải TikTok Stories](/download-tiktok-stories) hoặc [công cụ tải video TikTok](/) cho video đầy đủ.'
           ),
         ],
       },
