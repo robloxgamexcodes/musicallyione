@@ -2,7 +2,8 @@
 ---
 /**
  * Footer.astro
- * Responsive localized footer with directory badges and language navigation.
+ * Responsive localized footer with infinite directory badge carousel
+ * and language navigation.
  */
 
 import {
@@ -59,97 +60,6 @@ const footerColumns = [
   },
 ];
 
-// Official directory listing pages and their supplied badge image endpoints
-const badges = [
-  {
-    name: 'CircleSaaS',
-    href: 'https://circlesaasboard.com/startup/musicaldown-a1402d',
-    src: 'https://circlesaasboard.com/badge.svg',
-    alt: 'MusicallyDown featured on CircleSaaS',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'Forg',
-    href: 'https://forg.to/projects/musicallydown-7d626823',
-    src: 'https://forg.to/api/badges/shipped/musicallydown-7d626823?theme=dark&shape=rounded',
-    alt: 'MusicallyDown shipped on Forg',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'Toolfame',
-    href: 'https://toolfame.com/item/musicallydown',
-    src: 'https://toolfame.com/badge-light.svg',
-    alt: 'MusicallyDown featured on Toolfame',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'Fazier',
-    href: 'https://fazier.com/launches/musicaldown.se',
-    src: 'https://fazier.com/api/v1/public/badges/launch_badges.svg?badge_type=featured&theme=light',
-    alt: 'MusicallyDown featured on Fazier',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'Aidirs',
-    href: 'https://aidirs.best/item/musically-down',
-    src: 'https://aidirs.best/light.svg',
-    alt: 'MusicallyDown - TikTok Video Downloader | Aidirs',
-    width: 120,
-    height: 36,
-  },
-    {
-    name: 'Backlink Dirs',
-    href: 'https://backlinkdirs.com/item/musicallydown',
-    src: 'https://backlinkdirs.com/badges/badge-listed-dark.svg',
-    alt: 'MusicallyDown listed on Backlink Dirs',
-    width: 120,
-    height: 36,
-  },
-    {
-    name: 'Findly.tools',
-    href: 'https://findly.tools/musicallydown-tiktok-downloader?utm_source=musicallydown-tiktok-downloader',
-    src: 'https://findly.tools/badges/findly-tools-badge-light.svg',
-    alt: 'Featured on Findly.tools',
-    width: 120,
-    height: 36,
-  },
-    {
-    name: 'Dofollow.Tools',
-    href: 'https://dofollow.tools',
-    src: 'https://dofollow.tools/badge/badge_light.svg',
-    alt: 'Featured on Dofollow.Tools',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'Super Launch',
-    href: 'https://super-launch.app',
-    src: 'https://super-launch.app/badge/badge_light.svg',
-    alt: 'Featured on Super Launch',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'Gets.Tools',
-    href: 'https://gets.tools',
-    src: 'https://gets.tools/badge/badge_light.svg',
-    alt: 'Featured on Gets.Tools',
-    width: 120,
-    height: 36,
-  },
-  {
-    name: 'DeepLaunch.io',
-    href: 'https://deeplaunch.io',
-    src: 'https://deeplaunch.io/badge/badge_light.svg',
-    alt: 'Featured on DeepLaunch.io',
-    width: 120,
-    height: 36,
-  },
-];
 ---
 
 <footer class="border-t border-[var(--border)] bg-white dark:bg-gray-950">
@@ -203,34 +113,193 @@ const badges = [
 
     </div>
 
-    <!-- Directory badges -->
+    <!-- Directory badges - Infinite RTL Carousel -->
     <div class="mt-12 border-t border-[var(--border)] pt-8">
 
       <h3 class="mb-6 text-center text-sm font-semibold text-[var(--text-primary)]">
         Featured on
       </h3>
-      <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-6" role="list" aria-label="MusicallyDown directory listings">
-        <li class="flex items-center justify-center"><a href="https://circlesaasboard.com/startup/musicaldown-a1402d" target="_blank" rel="noopener"><img src="https://circlesaasboard.com/badge.svg" alt="MusicallyDown featured on CircleSaaS" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://forg.to/projects/musicallydown-7d626823" target="_blank" rel="noopener"><img src="https://forg.to/api/badges/shipped/musicallydown-7d626823?theme=dark&shape=rounded" alt="MusicallyDown shipped on Forg" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://toolfame.com/item/musicaldown" target="_blank" rel="noopener"><img src="https://toolfame.com/badge-light.svg" alt="MusicallyDown featured on Toolfame" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://fazier.com/launches/musicaldown.se" target="_blank" rel="noopener"><img src="https://fazier.com/api/v1/public/badges/launch_badges.svg?badge_type=featured&theme=light" alt="MusicallyDown featured on Fazier" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://aidirs.best/item/musical-down" target="_blank" rel="noopener"><img src="https://aidirs.best/light.svg" alt="MusicallyDown - TikTok Video Downloader | Aidirs" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://backlinkdirs.com/item/musicallydown" target="_blank" rel="noopener"><img src="https://backlinkdirs.com/badges/badge-listed-dark.svg" alt="MusicallyDown listed on Backlink Dirs" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://findly.tools/musicallydown-tiktok-downloader?utm_source=musicallydown-tiktok-downloader" target="_blank" rel="noopener"><img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Featured on Findly.tools" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://dofollow.tools" target="_blank" rel="noopener"><img src="https://dofollow.tools/badge/badge_light.svg" alt="Featured on Dofollow.Tools" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://super-launch.app" target="_blank" rel="noopener"><img src="https://super-launch.app/badge/badge_light.svg" alt="Featured on Super Launch" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://gets.tools" target="_blank" rel="noopener"><img src="https://gets.tools/badge/badge_light.svg" alt="Featured on Gets.Tools" width="120" height="36" /></a></li>
-        <li class="flex items-center justify-center"><a href="https://deeplaunch.io" target="_blank" rel="noopener"><img src="https://deeplaunch.io/badge/badge_light.svg" alt="Featured on DeepLaunch.io" width="120" height="36" /></a></li>   
-        <li class="flex items-center justify-center"><a href="https://superlaunchlist.com?ref=https%3A%2F%2Fmusicaldown.se%2F" target="_blank" rel="noopener"><img src="https://superlaunchlist.com/badge.svg" alt="Featured on SuperLaunch List" width="120" height="36"></a></li>
-        <li class="flex items-center justify-center"><a href="https://superlaunchai.com/" target="_blank" rel="noopener"><img src="https://superlaunchai.com/badge.svg" alt="Curated on SuperLaunch AI" width="120" height="36" /></a></li>
 
-      </ul>
+      <div
+        class="badge-carousel"
+        role="region"
+        aria-label="MusicallyDown directory listings"
+      >
 
+        <div class="badge-carousel-track">
 
+          <!-- First group: Original badges -->
+          <ul class="badge-carousel-group" role="list">
+
+            <li>
+              <a href="https://circlesaasboard.com/startup/musicaldown-a1402d" target="_blank" rel="noopener noreferrer">
+                <img src="https://circlesaasboard.com/badge.svg" alt="MusicallyDown featured on CircleSaaS" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://forg.to/projects/musicallydown-7d626823" target="_blank" rel="noopener noreferrer">
+                <img src="https://forg.to/api/badges/shipped/musicaldown-7d626823?theme=dark&shape=rounded" alt="MusicallyDown shipped on Forg" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://toolfame.com/item/musicaldown" target="_blank" rel="noopener noreferrer">
+                <img src="https://toolfame.com/badge-light.svg" alt="MusicallyDown featured on Toolfame" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://fazier.com/launches/musicaldown.se" target="_blank" rel="noopener noreferrer">
+                <img src="https://fazier.com/api/v1/public/badges/launch_badges.svg?badge_type=featured&theme=light" alt="MusicallyDown featured on Fazier" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://aidirs.best/item/musical-down" target="_blank" rel="noopener noreferrer">
+                <img src="https://aidirs.best/light.svg" alt="MusicallyDown - TikTok Video Downloader | Aidirs" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://backlinkdirs.com/item/musicaldown" target="_blank" rel="noopener noreferrer">
+                <img src="https://backlinkdirs.com/badges/badge-listed-dark.svg" alt="MusicallyDown listed on Backlink Dirs" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://findly.tools/musicaldown-tiktok-downloader?utm_source=musicaldown-tiktok-downloader" target="_blank" rel="noopener noreferrer">
+                <img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Featured on Findly.tools" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://dofollow.tools" target="_blank" rel="noopener noreferrer">
+                <img src="https://dofollow.tools/badge/badge_light.svg" alt="Featured on Dofollow.Tools" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://super-launch.app" target="_blank" rel="noopener noreferrer">
+                <img src="https://super-launch.app/badge/badge_light.svg" alt="Featured on Super Launch" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://gets.tools" target="_blank" rel="noopener noreferrer">
+                <img src="https://gets.tools/badge/badge_light.svg" alt="Featured on Gets.Tools" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://deeplaunch.io" target="_blank" rel="noopener noreferrer">
+                <img src="https://deeplaunch.io/badge/badge_light.svg" alt="Featured on DeepLaunch.io" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://superlaunchlist.com?ref=https%3A%2F%2Fmusicaldown.se%2F" target="_blank" rel="noopener noreferrer">
+                <img src="https://superlaunchlist.com/badge.svg" alt="Featured on SuperLaunch List" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://superlaunchai.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://superlaunchai.com/badge.svg" alt="Curated on SuperLaunch AI" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+          </ul>
+
+          <!-- Second group: Duplicate badges for seamless looping -->
+          <ul class="badge-carousel-group" role="list" aria-hidden="true">
+
+            <li>
+              <a href="https://circlesaasboard.com/startup/musicaldown-a1402d" tabindex="-1">
+                <img src="https://circlesaasboard.com/badge.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://forg.to/projects/musicaldown-7d626823" tabindex="-1">
+                <img src="https://forg.to/api/badges/shipped/musicaldown-7d626823?theme=dark&shape=rounded" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://toolfame.com/item/musicaldown" tabindex="-1">
+                <img src="https://toolfame.com/badge-light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://fazier.com/launches/musicaldown.se" tabindex="-1">
+                <img src="https://fazier.com/api/v1/public/badges/launch_badges.svg?badge_type=featured&theme=light" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://aidirs.best/item/musical-down" tabindex="-1">
+                <img src="https://aidirs.best/light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://backlinkdirs.com/item/musicaldown" tabindex="-1">
+                <img src="https://backlinkdirs.com/badges/badge-listed-dark.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://findly.tools/musicaldown-tiktok-downloader?utm_source=musicaldown-tiktok-downloader" tabindex="-1">
+                <img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://dofollow.tools" tabindex="-1">
+                <img src="https://dofollow.tools/badge/badge_light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://super-launch.app" tabindex="-1">
+                <img src="https://super-launch.app/badge/badge_light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://gets.tools" tabindex="-1">
+                <img src="https://gets.tools/badge/badge_light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://deeplaunch.io" tabindex="-1">
+                <img src="https://deeplaunch.io/badge/badge_light.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://superlaunchlist.com?ref=https%3A%2F%2Fmusicaldown.se%2F" tabindex="-1">
+                <img src="https://superlaunchlist.com/badge.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://superlaunchai.com/" tabindex="-1">
+                <img src="https://superlaunchai.com/badge.svg" alt="" width="120" height="36" loading="lazy" />
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
 
     </div>
 
-<!-- Bottom bar -->
+    <!-- Bottom bar -->
     <div class="mt-10 flex flex-col items-center justify-between gap-5 border-t border-[var(--border)] pt-8 text-sm text-[var(--text-tertiary)] md:flex-row">
 
       <!-- Copyright -->
@@ -271,6 +340,7 @@ const badges = [
   </div>
 </footer>
 
+<!-- Language preference script -->
 <script>
   // Remember the visitor's explicit language selection
   document.querySelectorAll<HTMLAnchorElement>('a[data-lang-link]').forEach((anchor) => {
@@ -284,3 +354,106 @@ const badges = [
     });
   });
 </script>
+
+<!-- Infinite badge carousel styles -->
+<style>
+  /* Carousel viewport */
+  .badge-carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Scrolling track */
+  .badge-carousel-track {
+    display: flex;
+    width: max-content;
+    animation: badge-scroll 40s linear infinite;
+    will-change: transform;
+  }
+
+  /* Badge groups */
+  .badge-carousel-group {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 32px;
+    padding-right: 32px;
+    margin: 0;
+    list-style: none;
+  }
+
+  /* Individual badge */
+  .badge-carousel-group li {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Badge links */
+  .badge-carousel-group a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease;
+  }
+
+  .badge-carousel-group a:hover {
+    opacity: 0.7;
+  }
+
+  /* Badge images */
+  .badge-carousel-group img {
+    display: block;
+    width: 120px;
+    height: 36px;
+    object-fit: contain;
+  }
+
+  /* Right-to-left infinite scrolling */
+  @keyframes badge-scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Pause animation on hover */
+  .badge-carousel:hover .badge-carousel-track,
+  .badge-carousel:focus-within .badge-carousel-track {
+    animation-play-state: paused;
+  }
+
+  /* Mobile responsive */
+  @media (max-width: 640px) {
+    .badge-carousel-group {
+      gap: 24px;
+      padding-right: 24px;
+    }
+
+    .badge-carousel-group img {
+      width: 110px;
+      height: 34px;
+    }
+
+    .badge-carousel-track {
+      animation-duration: 35s;
+    }
+  }
+
+  /* Accessibility: Respect reduced-motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    .badge-carousel-track {
+      animation: none;
+      transform: none;
+    }
+
+    .badge-carousel-group[aria-hidden="true"] {
+      display: none;
+    }
+  }
+</style>
