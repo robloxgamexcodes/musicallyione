@@ -359,41 +359,47 @@ const footerColumns = [
 <style>
   /* Carousel viewport */
   .badge-carousel {
-    width: 100%;
-    overflow: hidden;
+    display: block;
     position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
-  /* Scrolling track */
+  /* Two identical groups travel together for a seamless loop */
   .badge-carousel-track {
     display: flex;
+    flex-wrap: nowrap;
     width: max-content;
-    animation: badge-scroll 10s linear infinite;
+    max-width: none;
+    animation: badge-scroll 36s linear infinite !important;
+    animation-play-state: running;
+    transform: translate3d(0, 0, 0);
     will-change: transform;
   }
 
-  /* Badge groups */
   .badge-carousel-group {
     display: flex;
-    flex-shrink: 0;
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
     align-items: center;
     gap: 32px;
-    padding-right: 32px;
+    padding: 0 32px 0 0;
     margin: 0;
     list-style: none;
   }
 
-  /* Individual badge */
   .badge-carousel-group li {
     display: flex;
-    flex-shrink: 0;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
   }
 
-  /* Badge links */
   .badge-carousel-group a {
     display: flex;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
     transition: opacity 0.2s ease;
@@ -403,32 +409,31 @@ const footerColumns = [
     opacity: 0.7;
   }
 
-  /* Badge images */
   .badge-carousel-group img {
     display: block;
+    flex: 0 0 auto;
     width: 120px;
     height: 36px;
     object-fit: contain;
   }
 
-  /* Right-to-left infinite scrolling */
+  /* Move exactly one badge group width, then repeat seamlessly */
   @keyframes badge-scroll {
     from {
-      transform: translateX(0);
+      transform: translate3d(0, 0, 0);
     }
 
     to {
-      transform: translateX(-50%);
+      transform: translate3d(-50%, 0, 0);
     }
   }
 
-  /* Pause animation on hover */
+  /* Pause only while the visitor interacts with the carousel */
   .badge-carousel:hover .badge-carousel-track,
   .badge-carousel:focus-within .badge-carousel-track {
-    animation-play-state: paused;
+    animation-play-state: paused !important;
   }
 
-  /* Mobile responsive */
   @media (max-width: 640px) {
     .badge-carousel-group {
       gap: 24px;
@@ -441,19 +446,7 @@ const footerColumns = [
     }
 
     .badge-carousel-track {
-      animation-duration: 10s;
-    }
-  }
-
-  /* Accessibility: Respect reduced-motion preference */
-  @media (prefers-reduced-motion: reduce) {
-    .badge-carousel-track {
-      animation: none;
-      transform: none;
-    }
-
-    .badge-carousel-group[aria-hidden="true"] {
-      display: none;
+      animation-duration: 30s !important;
     }
   }
 </style>
