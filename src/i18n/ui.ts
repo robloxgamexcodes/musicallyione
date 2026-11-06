@@ -26,7 +26,7 @@ export const ui = {
     'lang.select': 'Select language',
     'toc.title': 'On this page',
     'footer.languages': 'Languages',
-    'site.title': 'MusicallyDown – TikTok Downloader No Watermark HD',
+    'site.title': 'MusicallyDown: Download TikTok Videos - No Watermark',
     'site.description':
       'Download TikTok videos without watermark in HD with MusicallyDown. Paste a link and save MP4 on iPhone, Android or PC. Free, no app and no sign-up.',
 
@@ -119,7 +119,7 @@ export const ui = {
     'bento.title': 'Everything you get with MusicallyDown ',
     'bento.highlight': 'TikTok Video Downloader',
     'bento.paragraph':
-      'MusicallyDown is a free TikTok video downloader that lets you save public TikTok videos without watermark, in HD when that quality is available. Save TikTok videos online as MP4 on any device.',
+      'MusicallyDown is a free TikTok video downloader that lets you save TikTok videos without watermark in HD. Download TikTok videos online as MP4 on any device.',
     'bento.paragraph1':
       'It is a free online TikTok downloader that is simple to use: copy the video link, paste it and save the file.',
 
