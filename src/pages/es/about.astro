@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import PageCrumbs from '../../components/seo/PageCrumbs.astro';
+import Footer from '../../components/layout/Footer.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+// Helper so numbered keys like `about.does${n}.title` type-check
+const k = (key: string) => t(key as Parameters<typeof t>[0]);
+
+const doesItems = [1, 2, 3, 4, 5];
+const howSteps = [1, 2, 3, 4];
+const principles = [1, 2, 3, 4];
+---
+
+<BaseLayout title={t('about.title')} description={t('about.metaDescription')}>
+  <Header slot="header" />
+  <PageCrumbs page="about" />
+
+  <div class="mx-auto max-w-4xl bg-white px-6 py-20 md:py-32">
+    <header class="text-center md:mb-16">
+      <h1 class="font-display text-4xl font-extrabold tracking-tight text-[var(--text-primary)] sm:text-5xl">
+        {t('about.titleStart')}<span class="text-[#d90f45]">{t('about.titleHighlight')}</span>
+      </h1>
+    </header>
+
+    <div class="prose prose-zinc prose-lg mx-auto dark:prose-invert prose-a:text-[#d90f45] prose-a:no-underline hover:prose-a:underline">
+      <p>{t('about.intro1')}</p>
+      <p>{t('about.intro2')}</p>
+
+      <h2>{t('about.doesTitle')}</h2>
+      <ul>
+        {doesItems.map((n) => (
+          <li>
+            <strong>{k(`about.does${n}.title`)}</strong><Fragment set:html={k(`about.does${n}.text`)} />
+          </li>
+        ))}
+      </ul>
+
+      <h2>{t('about.howTitle')}</h2>
+      <ol>
+        {howSteps.map((n) => (
+          <li>{k(`about.how${n}`)}</li>
+        ))}
+      </ol>
+      <p>{t('about.howNote')}</p>
+
+      <h2>{t('about.principlesTitle')}</h2>
+      {principles.map((n) => (
+        <p>
+          <strong>{k(`about.principle${n}.title`)}</strong><Fragment set:html={k(`about.principle${n}.text`)} />
+        </p>
+      ))}
+
+      <h2>{t('about.independentTitle')}</h2>
+      <p>{t('about.independentText')}</p>
+
+      <h2>{t('about.contactTitle')}</h2>
+      <p set:html={t('about.contactText')} />
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

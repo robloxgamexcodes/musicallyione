@@ -20,8 +20,8 @@ import { ui, languages, defaultLang, type Lang } from './ui';
  */
 export const LOCALE_PAGES: Record<Lang, 'all' | string[]> = {
   en: 'all',
-  // es has no localized About / Privacy / Terms yet: those links fall back to English.
-  es: ['/', '/download-tiktok-stories', '/tiktok-mp3', '/contact', '/blog', '/blog/using-musicallydown', '/tiktok-video-downloader-hd', '/tiktok-no-watermark', '/tiktok-sound-downloader', '/tiktok-slideshow-downloader', '/download-tiktok-iphone', '/download-tiktok-android', '/musically-down', '/dmca', '/disclaimer'],
+  // es has no localized Privacy / Terms yet: those links fall back to English.
+  es: ['/', '/about', '/download-tiktok-stories', '/tiktok-mp3', '/contact', '/blog', '/blog/using-musicallydown', '/tiktok-video-downloader-hd', '/tiktok-no-watermark', '/tiktok-sound-downloader', '/tiktok-slideshow-downloader', '/download-tiktok-iphone', '/download-tiktok-android', '/musically-down', '/dmca', '/disclaimer'],
   // id / vi: list only pages that really exist, so hreflang never points at a missing URL.
   id: ['/', '/about', '/blog', '/blog/using-musicallydown', '/contact', '/download-tiktok-stories', '/privacy', '/terms', '/tiktok-mp3', '/tiktok-video-downloader-hd', '/tiktok-no-watermark', '/tiktok-sound-downloader', '/tiktok-slideshow-downloader', '/download-tiktok-iphone', '/download-tiktok-android', '/musically-down', '/dmca', '/disclaimer'],
   vi: ['/', '/about', '/blog', '/blog/using-musicallydown', '/contact', '/download-tiktok-stories', '/privacy', '/terms', '/tiktok-mp3', '/tiktok-video-downloader-hd', '/tiktok-no-watermark', '/tiktok-sound-downloader', '/tiktok-slideshow-downloader', '/download-tiktok-iphone', '/download-tiktok-android', '/musically-down', '/dmca', '/disclaimer'],

@@ -2,11 +2,6 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/es/about",
-      "destination": "/about/",
-      "permanent": true
-    },
-    {
       "source": "/es/privacy",
       "destination": "/privacy/",
       "permanent": true
