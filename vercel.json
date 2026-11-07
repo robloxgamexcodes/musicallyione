@@ -30,6 +30,86 @@
       "source": "/es/case-studies/:path*",
       "destination": "/es/",
       "permanent": true
+    },
+    {
+      "source": "/blog/doj-tiktok-federal-devices-ban-no-longer-applies",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seal-vs-ytdlnis-newpipe",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/upscrolled-downloads-surge-tiktok-us-takeover",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/using-tiktoks-2027-ad-strategy",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/es/blog/doj-tiktok-federal-devices-ban-no-longer-applies",
+      "destination": "/es/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/es/blog/seal-vs-ytdlnis-newpipe",
+      "destination": "/es/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/es/blog/upscrolled-downloads-surge-tiktok-us-takeover",
+      "destination": "/es/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/es/blog/using-tiktoks-2027-ad-strategy",
+      "destination": "/es/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/id/blog/doj-tiktok-federal-devices-ban-no-longer-applies",
+      "destination": "/id/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/id/blog/seal-vs-ytdlnis-newpipe",
+      "destination": "/id/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/id/blog/upscrolled-downloads-surge-tiktok-us-takeover",
+      "destination": "/id/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/id/blog/using-tiktoks-2027-ad-strategy",
+      "destination": "/id/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/vi/blog/doj-tiktok-federal-devices-ban-no-longer-applies",
+      "destination": "/vi/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/vi/blog/seal-vs-ytdlnis-newpipe",
+      "destination": "/vi/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/vi/blog/upscrolled-downloads-surge-tiktok-us-takeover",
+      "destination": "/vi/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/vi/blog/using-tiktoks-2027-ad-strategy",
+      "destination": "/vi/blog/",
+      "permanent": true
     }
   ],
   "headers": [
