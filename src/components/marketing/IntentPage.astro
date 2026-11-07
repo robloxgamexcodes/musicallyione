@@ -9,6 +9,7 @@ import Header from '../layout/Header.astro';
 import Footer from '../layout/Footer.astro';
 import HeroSection from './HeroSection.astro';
 import ArticleBody from './ArticleBody.astro';
+import HomeSchema from '../seo/HomeSchema.astro';
 import { getIntentPage, type IntentSlug } from '../../i18n/intent-pages';
 import { getLangFromUrl } from '../../i18n/utils';
 import { pageBadges } from '../../i18n/page-badges';
@@ -20,9 +21,17 @@ const lang = getLangFromUrl(Astro.url);
 const page = getIntentPage(lang, Astro.props.slug);
 const badges = Astro.props.slug === 'tiktok-sound-downloader' ? pageBadges[lang].audio : undefined;
 const c = page.content;
+// Pages that carry the same linked schema graph as the home page (Organization + WebSite + WebApplication).
+const HOME_SCHEMA_SLUGS: IntentSlug[] = ['musically-down'];
+const useHomeSchema = HOME_SCHEMA_SLUGS.includes(Astro.props.slug);
 ---
 
-<BaseLayout title={c.metaTitle} description={c.metaDescription}>
+<BaseLayout title={c.metaTitle} description={c.metaDescription} organizationSchema={!useHomeSchema}>
+  {useHomeSchema && (
+    <Fragment slot="head">
+      <HomeSchema />
+    </Fragment>
+  )}
   <Header slot="header" />
   <HeroSection
     badges={badges}

@@ -27,7 +27,7 @@ export const SITE = {
    *   telephone:    '+1-555-000-0000'
    *   address:      { streetAddress: '...', addressLocality: '...', addressRegion: '...', postalCode: '...', addressCountry: 'US' }
    */
-  foundingDate: '' as string,
+  foundingDate: '2026-10-24' as string, // first publish date (matches SITE_PUBLISHED). Confirm it is the real launch date.
   telephone: '' as string,
   address: null as null | {
     streetAddress?: string;
