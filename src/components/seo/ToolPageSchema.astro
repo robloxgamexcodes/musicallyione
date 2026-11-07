@@ -1,0 +1,33 @@
+---
+/**
+ * ToolPageSchema.astro: JSON-LD for an inner page that is BOTH a free tool and an article
+ * (e.g. /musically-down/). Describes the page as what it is:
+ *
+ *   WebPage  -> about / mainEntity -> WebApplication (the downloader tool, free, NO Offer)
+ *
+ * The Article, FAQPage and BreadcrumbList nodes are emitted by ArticleBody; the Organization by
+ * BaseLayout (keep `organizationSchema` on). No Offer / Product / AggregateOffer here on purpose:
+ * Ahrefs classifies pages with an Offer as "Product" pages and then flags missing product data.
+ */
+import JsonLd from './JsonLd.astro';
+import { webApplicationNode, webPageNode } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+import { getLangFromUrl } from '../../i18n/utils';
+
+interface Props {
+  /** Page <title> text / meta description (same strings used for the meta tags). */
+  name: string;
+  description: string;
+}
+
+const { name, description } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? SITE.url;
+// Same URL BaseLayout uses for <link rel="canonical">, so @id values match the canonical.
+const url = new URL(Astro.url.pathname, siteUrl).toString();
+
+const app = webApplicationNode({ siteUrl, lang, description, url, offer: false });
+const page = webPageNode({ siteUrl, url, lang, name, description, aboutId: app['@id'] as string });
+---
+
+<JsonLd type="Graph" data={{ nodes: [page, app] }} />

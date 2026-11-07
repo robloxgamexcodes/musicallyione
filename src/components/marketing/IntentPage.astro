@@ -9,7 +9,7 @@ import Header from '../layout/Header.astro';
 import Footer from '../layout/Footer.astro';
 import HeroSection from './HeroSection.astro';
 import ArticleBody from './ArticleBody.astro';
-import HomeSchema from '../seo/HomeSchema.astro';
+import ToolPageSchema from '../seo/ToolPageSchema.astro';
 import { getIntentPage, type IntentSlug } from '../../i18n/intent-pages';
 import { getLangFromUrl } from '../../i18n/utils';
 import { pageBadges } from '../../i18n/page-badges';
@@ -21,15 +21,16 @@ const lang = getLangFromUrl(Astro.url);
 const page = getIntentPage(lang, Astro.props.slug);
 const badges = Astro.props.slug === 'tiktok-sound-downloader' ? pageBadges[lang].audio : undefined;
 const c = page.content;
-// Pages that carry the same linked schema graph as the home page (Organization + WebSite + WebApplication).
-const HOME_SCHEMA_SLUGS: IntentSlug[] = ['musically-down'];
-const useHomeSchema = HOME_SCHEMA_SLUGS.includes(Astro.props.slug);
+// Pages that are a free tool AND an article: add WebPage + WebApplication (no Offer, so crawlers don't
+// treat them as product pages). Organization comes from BaseLayout; Article/FAQ/Breadcrumb from ArticleBody.
+const TOOL_SCHEMA_SLUGS: IntentSlug[] = ['musically-down'];
+const useToolSchema = TOOL_SCHEMA_SLUGS.includes(Astro.props.slug);
 ---
 
-<BaseLayout title={c.metaTitle} description={c.metaDescription} organizationSchema={!useHomeSchema}>
-  {useHomeSchema && (
+<BaseLayout title={c.metaTitle} description={c.metaDescription}>
+  {useToolSchema && (
     <Fragment slot="head">
-      <HomeSchema />
+      <ToolPageSchema name={c.metaTitle} description={c.metaDescription} />
     </Fragment>
   )}
   <Header slot="header" />
