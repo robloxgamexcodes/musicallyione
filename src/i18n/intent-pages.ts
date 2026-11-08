@@ -43,20 +43,6 @@ export const INTENT_LABELS: Record<IntentSlug, string> = {
   'musically-down': 'MusicallyDown Guide',
 };
 
-const moreTools = (exclude: IntentSlug, pick: IntentSlug[]) => ({
-  id: 'more-tools',
-  title: 'More TikTok Tools',
-  blocks: [
-    ul(
-      ...pick
-        .filter((s) => s !== exclude)
-        .map((s) => `[${INTENT_LABELS[s]}](/${s})`),
-      '[TikTok Story Downloader](/download-tiktok-stories)',
-      '[TikTok to MP3 Converter](/tiktok-mp3)'
-    ),
-  ],
-});
-
 const responsible = callout(
   '**Download responsibly.** Only save videos you created or have permission to keep, respect the creator’s rights and TikTok’s terms, and credit the original creator if you share their work with consent. MusicallyDown is an independent tool and is not affiliated with TikTok.'
 );
@@ -68,7 +54,7 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
     content: {
       metaTitle: 'HD TikTok Video Downloader – Free | MusicallyDown',
       metaDescription:
-        'Save public TikTok videos in the highest quality the source offers, up to 4K when available. Free HD TikTok downloader, no app and no sign-up.',
+        'Save public TikTok videos in the highest quality the source offers. Free HD TikTok downloader, no app and no sign-up.',
       heroTitleStart: 'HD TikTok Video Downloader:',
       heroTitleHighlight: 'Best Quality Available',
       heroDescription:
@@ -124,7 +110,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('tiktok-video-downloader-hd', ['tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'HD TikTok Downloader FAQ',
       faq: [
@@ -196,7 +181,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('tiktok-no-watermark', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'tiktok-slideshow-downloader']),
       ],
       faqTitle: 'No-Watermark TikTok FAQ',
       faq: [
@@ -268,7 +252,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('tiktok-sound-downloader', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'download-tiktok-android']),
       ],
       faqTitle: 'TikTok Sound Downloader FAQ',
       faq: [
@@ -338,7 +321,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('tiktok-slideshow-downloader', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'TikTok Slideshow FAQ',
       faq: [
@@ -408,7 +390,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('download-tiktok-iphone', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'iPhone TikTok Download FAQ',
       faq: [
@@ -477,7 +458,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('download-tiktok-android', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'Android TikTok Download FAQ',
       faq: [
@@ -498,11 +478,11 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
   'musically-down': {
     crumb: 'MusicallyDown Guide',
     content: {
-      metaTitle: 'MusicallyDown – Free TikTok Downloader Online',
+      metaTitle: 'Musically Down & Musical Down: What MusicallyDown Is',
       metaDescription:
-        'MusicallyDown, also searched as Musical Down or musicaldown, is a free browser tool for saving public TikTok videos as MP4 or MP3. How it works.',
-      heroTitleStart: 'MusicallyDown:',
-      heroTitleHighlight: 'Free TikTok Downloader',
+        'Searching for Musically Down, Musical Down or musicaldown? Learn what MusicallyDown is, how this TikTok downloader works and what it cannot do.',
+      heroTitleStart: 'Musically Down or MusicallyDown?',
+      heroTitleHighlight: ' Same Free TikTok Downloader',
       heroDescription:
         'Save public TikTok videos as MP4 or MP3 in your browser. No app, no sign-up. Here is how it works.',
       intro: [
@@ -547,7 +527,6 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
             responsible,
           ],
         },
-        moreTools('musically-down', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone', 'download-tiktok-android']),
       ],
       faqTitle: 'MusicallyDown FAQ',
       faq: [

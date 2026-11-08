@@ -1,0 +1,99 @@
+---
+/**
+ * LinkCards.astro: internal-link blocks driven by src/i18n/link-hub.ts.
+ *   <LinkCards mode="related" />   -> related tools + guides for the current page (bottom of articles)
+ *   <LinkCards mode="hub" />       -> every tool and guide (homepage)
+ * Link text and descriptions come from the target pages themselves, so they are always localized.
+ * Links go through getLocalizedPath(), so they stay inside the visitor's language when that page exists.
+ */
+import { getEntry } from 'astro:content';
+import { getLangFromUrl, getLocalizedPath, useTranslations } from '../../i18n/utils';
+import { getIntentLabels, getIntentPage } from '../../i18n/intent-pages';
+import { getMp3Content, getStoriesContent } from '../../i18n/ui';
+import {
+  HUB, HUB_TEXT, RELATED, TOOL_INTENT_SLUG, POST_SLUGS, keyFromPath, pathForKey,
+  type HubKey, type PostKey, type ToolKey,
+} from '../../i18n/link-hub';
+
+interface Props {
+  mode?: 'related' | 'hub';
+  /** Override the current page key (defaults to the URL). */
+  current?: HubKey;
+  wide?: boolean;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const text = HUB_TEXT[lang];
+const { mode = 'related', wide = false } = Astro.props;
+const current = Astro.props.current ?? keyFromPath(Astro.url.pathname);
+
+const lists =
+  mode === 'hub'
+    ? HUB
+    : (current && current !== 'home' ? RELATED[current] : undefined) ?? { tools: [] as ToolKey[], guides: [] as PostKey[] };
+
+const intentLabels = getIntentLabels(lang);
+const clamp = (s: string, n = 140) => (s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s);
+
+function tool(k: ToolKey): { href: string; label: string; desc: string } {
+  const href = getLocalizedPath(lang, pathForKey(k));
+  if (k === 'home') return { href, label: text.homeLabel, desc: clamp(t('hero.description')) };
+  if (k === 'mp3') return { href, label: t('nav.mp3'), desc: clamp(getMp3Content(lang).heroDescription) };
+  if (k === 'stories') return { href, label: t('nav.stories'), desc: clamp(getStoriesContent(lang).heroDescription) };
+  const slug = TOOL_INTENT_SLUG[k];
+  return { href, label: intentLabels[slug], desc: clamp(getIntentPage(lang, slug).content.heroDescription) };
+}
+
+const tools = lists.tools.filter((k) => k !== current).map(tool);
+
+const guideEntries = await Promise.all(
+  lists.guides.filter((k) => k !== current).map(async (k) => {
+    const entry = await getEntry('blog', `${lang}/${POST_SLUGS[k]}`);
+    return entry
+      ? { href: getLocalizedPath(lang, pathForKey(k)), label: entry.data.title, desc: clamp(entry.data.description) }
+      : null;
+  })
+);
+const guides = guideEntries.filter((g): g is { href: string; label: string; desc: string } => g !== null);
+
+const width = wide ? 'max-w-6xl' : 'max-w-4xl';
+const card = 'rounded-2xl border border-[var(--border)] bg-[var(--bg-secondary)] p-5';
+const link = 'font-semibold text-[var(--text-primary)] underline decoration-[#d90f45] decoration-2 underline-offset-4 hover:text-[#d90f45]';
+---
+
+{(tools.length > 0 || guides.length > 0) && (
+  <nav aria-label={mode === 'hub' ? text.hubTitle : text.relatedTools} class={`mx-auto ${width} px-6 pb-12`} data-link-block={mode}>
+    {tools.length > 0 && (
+      <section class={mode === 'hub' ? 'pt-4' : ''}>
+        <h2 class="font-display text-2xl font-semibold tracking-tight text-[var(--text-primary)] sm:text-3xl">
+          {mode === 'hub' ? text.hubTitle : text.relatedTools}
+        </h2>
+        {mode === 'hub' && <p class="mt-2 text-[var(--text-secondary)]">{text.hubIntro}</p>}
+        <ul class={`mt-5 grid gap-4 ${wide ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2'}`}>
+          {tools.map((i) => (
+            <li class={card}>
+              <a href={i.href} class={link}>{i.label}</a>
+              <p class="mt-2 text-sm leading-6 text-[var(--text-secondary)]">{i.desc}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {guides.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-display text-2xl font-semibold tracking-tight text-[var(--text-primary)] sm:text-3xl">
+          {mode === 'hub' ? text.hubGuides : text.relatedGuides}
+        </h2>
+        <ul class={`mt-5 grid gap-4 ${wide ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2'}`}>
+          {guides.map((i) => (
+            <li class={card}>
+              <a href={i.href} class={link}>{i.label}</a>
+              <p class="mt-2 text-sm leading-6 text-[var(--text-secondary)]">{i.desc}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </nav>
+)}

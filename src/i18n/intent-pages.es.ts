@@ -12,18 +12,6 @@ export const LABELS_ES: Record<IntentSlug, string> = {
   'musically-down': 'Guía de MusicallyDown',
 };
 
-const more = (self: IntentSlug, pick: IntentSlug[]) => ({
-  id: 'mas-herramientas',
-  title: 'Más herramientas de TikTok',
-  blocks: [
-    ul(
-      ...pick.filter((s) => s !== self).map((s) => `[${LABELS_ES[s]}](/${s})`),
-      '[Descargar historias de TikTok](/download-tiktok-stories)',
-      '[Convertidor de TikTok a MP3](/tiktok-mp3)'
-    ),
-  ],
-});
-
 const resp = callout(
   '**Descarga con responsabilidad.** Guarda solo vídeos que hayas creado o para los que tengas permiso, respeta los derechos del creador y las condiciones de TikTok, y da crédito al creador original si compartes su trabajo con su consentimiento. MusicallyDown es una herramienta independiente y no está afiliada a TikTok.'
 );
@@ -34,7 +22,7 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
     content: {
       metaTitle: 'Descargar Vídeos de TikTok en HD – Gratis | MusicallyDown',
       metaDescription:
-        'Guarda vídeos públicos de TikTok con la mejor calidad que ofrezca el original, hasta 4K si está disponible. Gratis, sin app y sin registro.',
+        'Guarda vídeos públicos de TikTok con la mejor calidad que ofrezca el original. Gratis, sin app y sin registro.',
       heroTitleStart: 'Descargador de TikTok en HD:',
       heroTitleHighlight: 'la mejor calidad disponible',
       heroDescription:
@@ -77,7 +65,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-video-downloader-hd', ['tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'Preguntas frecuentes sobre el descargador en HD',
       faq: [
@@ -138,7 +125,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-no-watermark', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'tiktok-slideshow-downloader']),
       ],
       faqTitle: 'Preguntas frecuentes sobre TikTok sin marca de agua',
       faq: [
@@ -205,7 +191,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-sound-downloader', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'download-tiktok-android']),
       ],
       faqTitle: 'Preguntas frecuentes sobre descargar sonidos de TikTok',
       faq: [
@@ -270,7 +255,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-slideshow-downloader', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'Preguntas frecuentes sobre presentaciones de TikTok',
       faq: [
@@ -337,7 +321,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('download-tiktok-iphone', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'Preguntas frecuentes sobre descargar TikTok en iPhone',
       faq: [
@@ -403,7 +386,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('download-tiktok-android', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'Preguntas frecuentes sobre descargar TikTok en Android',
       faq: [
@@ -423,11 +405,11 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
   'musically-down': {
     crumb: LABELS_ES['musically-down'],
     content: {
-      metaTitle: 'MusicallyDown – Descargar TikTok Gratis Online',
+      metaTitle: 'Musically Down y Musical Down: qué es MusicallyDown',
       metaDescription:
-        'MusicallyDown, también buscado como Musical Down o musicaldown, es una herramienta gratis para guardar vídeos públicos de TikTok en MP4 o MP3.',
-      heroTitleStart: 'MusicallyDown:',
-      heroTitleHighlight: 'descargador de TikTok gratis',
+        '¿Buscas Musically Down, Musical Down o musicaldown? Descubre qué es MusicallyDown, cómo funciona este descargador de TikTok y qué no hace.',
+      heroTitleStart: '¿Musically Down o MusicallyDown?',
+      heroTitleHighlight: ' La misma herramienta gratis',
       heroDescription:
         'Guarda vídeos públicos de TikTok como MP4 o MP3 en tu navegador. Sin app y sin registro. Así funciona.',
       intro: [
@@ -470,7 +452,6 @@ export const PAGES_ES: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('musically-down', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone', 'download-tiktok-android']),
       ],
       faqTitle: 'Preguntas frecuentes sobre MusicallyDown',
       faq: [

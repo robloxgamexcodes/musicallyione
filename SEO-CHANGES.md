@@ -50,3 +50,10 @@ Brand is "MusicallyDown" everywhere visible; the domain stays `musicaldown.se`. 
 - Confirm ownership of `dl.tiktokiocdn.workers.dev`; tighten the CSP.
 - `instrumentation-client.ts` (Betterlytics) is not loaded by Astro: import it or delete it.
 - Measure Core Web Vitals after deploy.
+
+# Round 4 (2026-11-08): GSC-driven copy and internal links
+- Search Console (last 3 months, ~12 days of data): ~99% of impressions are brand queries (musicallydown, musically down, musical down, musically download/downloader); Indonesia is ~95% of impressions; mobile is ~99%. Modifiers that appear: mp4, mp3, hd, capcut mp4, private, app.
+- Homepage title/description/H1/intro rewritten in en/es/id/vi around the real name variants and the MP4 / MP3 modifiers. Indonesian uses "download" (what Indonesian searchers type). `/musically-down/` has its own title, description and H1 so it no longer competes with the homepage.
+- Internal links: `src/i18n/link-hub.ts` is the single link map. `LinkCards.astro` renders a hub on the homepage and a "related tools + guides" block on every tool page, article and blog post (labels come from the target pages, so they are localized automatically). Footer now lists every tool page. Homepage intro, quality card and device cards link to the matching pages.
+- Removed the four off-topic posts (16 files) that were still being built and listed in the sitemap; their 301s stay in `vercel.json`.
+- `<title>` appends the brand only if the result fits in 60 characters; six long titles shortened; About and blog-index titles/descriptions fixed.

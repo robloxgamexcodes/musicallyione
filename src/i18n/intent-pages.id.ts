@@ -12,18 +12,6 @@ export const LABELS_ID: Record<IntentSlug, string> = {
   'musically-down': 'Panduan MusicallyDown',
 };
 
-const more = (self: IntentSlug, pick: IntentSlug[]) => ({
-  id: 'alat-lainnya',
-  title: 'Alat TikTok Lainnya',
-  blocks: [
-    ul(
-      ...pick.filter((s) => s !== self).map((s) => `[${LABELS_ID[s]}](/${s})`),
-      '[Unduh TikTok Stories](/download-tiktok-stories)',
-      '[Konverter TikTok ke MP3](/tiktok-mp3)'
-    ),
-  ],
-});
-
 const resp = callout(
   '**Unduh dengan bertanggung jawab.** Simpan hanya video yang Anda buat atau yang Anda punya izin untuk menyimpannya, hormati hak kreator dan ketentuan TikTok, dan cantumkan kreator aslinya jika Anda membagikan karyanya dengan persetujuan. MusicallyDown adalah alat independen dan tidak berafiliasi dengan TikTok.'
 );
@@ -34,7 +22,7 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
     content: {
       metaTitle: 'Unduh Video TikTok HD – Gratis | MusicallyDown',
       metaDescription:
-        'Simpan video TikTok publik dengan kualitas tertinggi yang ditawarkan sumbernya, hingga 4K jika tersedia. Gratis, tanpa aplikasi dan tanpa daftar.',
+        'Simpan video TikTok publik dengan kualitas tertinggi yang ditawarkan sumbernya. Gratis, tanpa aplikasi dan tanpa daftar.',
       heroTitleStart: 'Pengunduh Video TikTok HD:',
       heroTitleHighlight: 'Kualitas Terbaik yang Tersedia',
       heroDescription:
@@ -77,7 +65,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-video-downloader-hd', ['tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'FAQ Pengunduh TikTok HD',
       faq: [
@@ -138,7 +125,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-no-watermark', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'tiktok-slideshow-downloader']),
       ],
       faqTitle: 'FAQ TikTok Tanpa Watermark',
       faq: [
@@ -205,7 +191,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-sound-downloader', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'download-tiktok-android']),
       ],
       faqTitle: 'FAQ Pengunduh Suara TikTok',
       faq: [
@@ -270,7 +255,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-slideshow-downloader', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'FAQ Slideshow TikTok',
       faq: [
@@ -337,7 +321,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('download-tiktok-iphone', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'FAQ Unduh TikTok di iPhone',
       faq: [
@@ -403,7 +386,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('download-tiktok-android', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'FAQ Unduh TikTok di Android',
       faq: [
@@ -423,11 +405,11 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
   'musically-down': {
     crumb: LABELS_ID['musically-down'],
     content: {
-      metaTitle: 'MusicallyDown – Pengunduh TikTok Gratis Online',
+      metaTitle: 'Musically Down & Musical Down: Apa Itu MusicallyDown?',
       metaDescription:
-        'MusicallyDown, juga dicari sebagai Musical Down atau musicaldown, adalah alat gratis untuk menyimpan video TikTok publik sebagai MP4 atau MP3.',
-      heroTitleStart: 'MusicallyDown:',
-      heroTitleHighlight: 'Pengunduh TikTok Gratis',
+        'Cari Musically Down, Musical Down atau musicaldown? Pelajari apa itu MusicallyDown, cara kerja pengunduh TikTok ini, dan batasannya.',
+      heroTitleStart: 'Musically Down atau MusicallyDown?',
+      heroTitleHighlight: ' Satu Alat TikTok Gratis',
       heroDescription:
         'Simpan video TikTok publik sebagai MP4 atau MP3 di browser Anda. Tanpa aplikasi, tanpa pendaftaran. Begini cara kerjanya.',
       intro: [
@@ -470,7 +452,6 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('musically-down', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone', 'download-tiktok-android']),
       ],
       faqTitle: 'FAQ MusicallyDown',
       faq: [

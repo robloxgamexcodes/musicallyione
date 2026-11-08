@@ -6,6 +6,7 @@
  * Features span different rows/cols to create an asymmetric, "bento box" look.
  */
 import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../i18n/utils';
+import { getIntentLabels } from '../../i18n/intent-pages';
 
 interface BentoItem {
   title: string;
@@ -22,6 +23,7 @@ interface Props {
 }
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const intentLabels = getIntentLabels(lang);
 
 const {
   bentotitle = t('bento.title'),
@@ -59,9 +61,9 @@ const devices = {
   title: t('bento.devices.title'),
   paragraph: t('bento.devices.paragraph'),
   items: [
-    { icon: icons.iphone, title: t('bento.devices.iphone.title'), desc: t('bento.devices.iphone.desc') },
-    { icon: icons.android, title: t('bento.devices.android.title'), desc: t('bento.devices.android.desc') },
-    { icon: icons.desktop, title: t('bento.devices.desktop.title'), desc: t('bento.devices.desktop.desc') },
+    { icon: icons.iphone, title: t('bento.devices.iphone.title'), desc: t('bento.devices.iphone.desc'), href: getLocalizedPath(lang, '/download-tiktok-iphone'), linkLabel: intentLabels['download-tiktok-iphone'] },
+    { icon: icons.android, title: t('bento.devices.android.title'), desc: t('bento.devices.android.desc'), href: getLocalizedPath(lang, '/download-tiktok-android'), linkLabel: intentLabels['download-tiktok-android'] },
+    { icon: icons.desktop, title: t('bento.devices.desktop.title'), desc: t('bento.devices.desktop.desc'), href: getLocalizedPath(lang, '/musically-down'), linkLabel: intentLabels['musically-down'] },
   ],
 };
 ---
@@ -81,6 +83,7 @@ const devices = {
             <h2 class="mt-3 font-display text-2xl font-bold tracking-tight text-[var(--text-primary)] sm:text-3xl">{quality.title}</h2>
             <p class="mt-3 leading-relaxed text-[var(--text-secondary)]">{quality.p1}</p>
             <p class="mt-3 leading-relaxed text-[var(--text-secondary)]">{quality.p2}</p>
+            <p class="mt-3"><a href={getLocalizedPath(lang, '/tiktok-video-downloader-hd')} class="font-medium text-[#d90f45] underline underline-offset-2">{intentLabels['tiktok-video-downloader-hd']} →</a></p>
             <a href={getLocalizedPath(lang, '/')} class="mt-6 inline-flex items-center rounded-full bg-[#d90f45] px-6 py-3 font-semibold text-white transition hover:opacity-90">
               {quality.cta} <span class="ml-2" aria-hidden="true">↓</span>
             </a>
@@ -125,6 +128,9 @@ const devices = {
                 <span class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white border border-[var(--border)] text-[#d90f45]" set:html={item.icon} />
                 <h3 class="mt-3 font-semibold text-[var(--text-primary)]">{item.title}</h3>
                 <p class="mt-2 text-sm leading-6 text-[var(--text-secondary)]">{item.desc}</p>
+                {item.href && (
+                  <p class="mt-3 text-sm"><a href={item.href} class="font-medium text-[#d90f45] underline underline-offset-2">{item.linkLabel}</a></p>
+                )}
               </div>
             ))}
           </div>

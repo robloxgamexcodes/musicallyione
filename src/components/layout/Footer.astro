@@ -15,7 +15,7 @@ import {
 
 import { languages } from '../../i18n/ui';
 import { legalLabels } from '../../i18n/legal-extra';
-import { getIntentLabels, INTENT_SLUGS } from '../../i18n/intent-pages';
+import { getIntentLabels } from '../../i18n/intent-pages';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -25,25 +25,27 @@ const langLinks = getAlternateLocales(Astro.url.pathname);
 
 const intentLabels = getIntentLabels(lang);
 
-const intentLinks = INTENT_SLUGS.map((slug) => ({
-  label: intentLabels[slug],
-  href: getLocalizedPath(lang, `/${slug}`),
-}));
-
 // Footer navigation
 const footerColumns = [
   {
     title: t('footer.product'),
     links: [
       { label: t('nav.home'), href: getLocalizedPath(lang, '/') },
-      { label: t('nav.stories'), href: getLocalizedPath(lang, '/download-tiktok-stories') },
       { label: t('nav.mp3'), href: getLocalizedPath(lang, '/tiktok-mp3') },
+      { label: intentLabels['tiktok-video-downloader-hd'], href: getLocalizedPath(lang, '/tiktok-video-downloader-hd') },
+      { label: intentLabels['tiktok-no-watermark'], href: getLocalizedPath(lang, '/tiktok-no-watermark') },
+      { label: intentLabels['tiktok-sound-downloader'], href: getLocalizedPath(lang, '/tiktok-sound-downloader') },
+      { label: t('nav.stories'), href: getLocalizedPath(lang, '/download-tiktok-stories') },
+      { label: intentLabels['tiktok-slideshow-downloader'], href: getLocalizedPath(lang, '/tiktok-slideshow-downloader') },
     ],
   },
   {
     title: t('footer.resources'),
     links: [
       { label: t('nav.blog'), href: getLocalizedPath(lang, '/blog') },
+      { label: intentLabels['musically-down'], href: getLocalizedPath(lang, '/musically-down') },
+      { label: intentLabels['download-tiktok-iphone'], href: getLocalizedPath(lang, '/download-tiktok-iphone') },
+      { label: intentLabels['download-tiktok-android'], href: getLocalizedPath(lang, '/download-tiktok-android') },
       { label: t('nav.about'), href: getLocalizedPath(lang, '/about') },
       { label: t('nav.x'), href: 'https://t.co/dPzLhVgA0S' },
     ],

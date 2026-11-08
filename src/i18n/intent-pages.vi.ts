@@ -12,18 +12,6 @@ export const LABELS_VI: Record<IntentSlug, string> = {
   'musically-down': 'Hướng dẫn MusicallyDown',
 };
 
-const more = (self: IntentSlug, pick: IntentSlug[]) => ({
-  id: 'cong-cu-khac',
-  title: 'Các công cụ TikTok khác',
-  blocks: [
-    ul(
-      ...pick.filter((s) => s !== self).map((s) => `[${LABELS_VI[s]}](/${s})`),
-      '[Tải TikTok Stories](/download-tiktok-stories)',
-      '[Chuyển TikTok sang MP3](/tiktok-mp3)'
-    ),
-  ],
-});
-
 const resp = callout(
   '**Hãy tải xuống có trách nhiệm.** Chỉ lưu những video do bạn tạo ra hoặc bạn có quyền giữ, tôn trọng quyền của người sáng tạo và điều khoản của TikTok, và ghi nguồn người sáng tạo gốc nếu bạn chia sẻ tác phẩm của họ khi được đồng ý. MusicallyDown là công cụ độc lập và không liên kết với TikTok.'
 );
@@ -34,7 +22,7 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
     content: {
       metaTitle: 'Tải Video TikTok HD – Miễn phí | MusicallyDown',
       metaDescription:
-        'Lưu video TikTok công khai với chất lượng cao nhất mà nguồn cung cấp, tối đa 4K nếu có. Miễn phí, không cần ứng dụng, không cần đăng ký.',
+        'Lưu video TikTok công khai với chất lượng cao nhất mà nguồn cung cấp. Miễn phí, không cần ứng dụng, không cần đăng ký.',
       heroTitleStart: 'Tải Video TikTok HD:',
       heroTitleHighlight: 'chất lượng tốt nhất hiện có',
       heroDescription:
@@ -77,7 +65,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-video-downloader-hd', ['tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'Câu hỏi thường gặp về tải TikTok HD',
       faq: [
@@ -138,7 +125,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-no-watermark', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'tiktok-slideshow-downloader']),
       ],
       faqTitle: 'Câu hỏi thường gặp về TikTok không logo',
       faq: [
@@ -205,7 +191,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-sound-downloader', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'download-tiktok-android']),
       ],
       faqTitle: 'Câu hỏi thường gặp về tải âm thanh TikTok',
       faq: [
@@ -270,7 +255,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('tiktok-slideshow-downloader', ['tiktok-video-downloader-hd', 'tiktok-sound-downloader', 'download-tiktok-iphone']),
       ],
       faqTitle: 'Câu hỏi thường gặp về slideshow TikTok',
       faq: [
@@ -337,7 +321,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('download-tiktok-iphone', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'Câu hỏi thường gặp về tải TikTok trên iPhone',
       faq: [
@@ -403,7 +386,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('download-tiktok-android', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader']),
       ],
       faqTitle: 'Câu hỏi thường gặp về tải TikTok trên Android',
       faq: [
@@ -423,11 +405,11 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
   'musically-down': {
     crumb: LABELS_VI['musically-down'],
     content: {
-      metaTitle: 'MusicallyDown – Tải TikTok Miễn Phí Online',
+      metaTitle: 'Musically Down, Musical Down: MusicallyDown là gì?',
       metaDescription:
-        'MusicallyDown, còn được tìm là Musical Down hay musicaldown, là công cụ miễn phí để lưu video TikTok công khai thành MP4 hoặc MP3.',
-      heroTitleStart: 'MusicallyDown:',
-      heroTitleHighlight: 'tải TikTok miễn phí',
+        'Bạn tìm Musically Down, Musical Down hay musicaldown? Tìm hiểu MusicallyDown là gì, công cụ tải TikTok này hoạt động ra sao và giới hạn của nó.',
+      heroTitleStart: 'Musically Down hay MusicallyDown?',
+      heroTitleHighlight: ' Cùng một công cụ miễn phí',
       heroDescription:
         'Lưu video TikTok công khai thành MP4 hoặc MP3 ngay trong trình duyệt. Không cần ứng dụng, không cần đăng ký. Đây là cách hoạt động.',
       intro: [
@@ -470,7 +452,6 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
             resp,
           ],
         },
-        more('musically-down', ['tiktok-video-downloader-hd', 'tiktok-no-watermark', 'tiktok-sound-downloader', 'download-tiktok-iphone', 'download-tiktok-android']),
       ],
       faqTitle: 'Câu hỏi thường gặp về MusicallyDown',
       faq: [

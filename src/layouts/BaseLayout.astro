@@ -61,7 +61,8 @@ const ogImageUrl = new URL(image, siteUrl).toString();
 const siteName = SITE.name;
 // Don't append the brand when the title already contains it (any spelling).
 const hasBrand = /musical(?:ly)?\s?down/i.test(title);
-const fullTitle = appendSiteName && !hasBrand ? `${title} | ${siteName}` : title;
+// Append the brand only when the whole <title> still fits in ~60 characters (Google truncates longer titles).
+const fullTitle = appendSiteName && !hasBrand && title.length + siteName.length + 3 <= 60 ? `${title} | ${siteName}` : title;
 const alternateLocales = getAlternateLocales(Astro.url.pathname);
 
 const usingAutoImage = !imageProp;

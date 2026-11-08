@@ -6,6 +6,7 @@ import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import JsonLd from '../components/seo/JsonLd.astro';
 import Breadcrumbs from '../components/seo/Breadcrumbs.astro';
+import LinkCards from '../components/marketing/LinkCards.astro';
 import { getLocalizedPath, useTranslations } from '../i18n/utils';
 import type { Lang } from '../i18n/ui';
 import { orgId } from '../lib/schema';
@@ -266,6 +267,8 @@ const dateFormatter = new Intl.DateTimeFormat(blogLang, {
       </aside>
     )}
   </article>
+
+  <LinkCards mode="related" />
 
   <Footer slot="footer" />
 </BaseLayout>

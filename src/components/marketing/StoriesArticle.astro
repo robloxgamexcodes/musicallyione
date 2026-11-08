@@ -6,6 +6,7 @@
  */
 import { getLangFromUrl, getLocalizedPath, useTranslations } from '../../i18n/utils';
 import PageCrumbs from '../seo/PageCrumbs.astro';
+import LinkCards from './LinkCards.astro';
 import ArticleSchema from '../seo/ArticleSchema.astro';
 import { getStoriesContent, type StoriesBlock } from '../../i18n/ui';
 
@@ -162,3 +163,4 @@ const badge =
     </section>
   </article>
 </div>
+<LinkCards mode="related" />

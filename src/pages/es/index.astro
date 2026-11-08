@@ -7,6 +7,7 @@ import HeroSection from '../../components/marketing/HeroSection.astro';
 import LogoCloud from '../../components/marketing/LogoCloud.astro';
 import BentoGrid from '../../components/marketing/BentoGrid.astro';
 import FaqAccordion from '../../components/marketing/FaqAccordion.astro';
+import LinkCards from '../../components/marketing/LinkCards.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -20,6 +21,8 @@ const t = useTranslations(lang);
   <HeroSection />
   <LogoCloud />
   <BentoGrid />
+  <LinkCards mode="hub" wide />
+
   <FaqAccordion />
   <Footer slot="footer" />
 </BaseLayout>
