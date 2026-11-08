@@ -19,11 +19,7 @@ export const SITE = {
    * Official profiles of the brand (X, YouTube, GitHub, ...). Add real URLs here and they are
    * emitted as Organization.sameAs. Leave empty until the profiles exist; never invent them.
    */
-  sameAs: [
-    'https://x.com/musicalldown',
-    'https://www.youtube.com/@musicalldown',
-    'https://github.com/musicalldown',
-  ] as string[],
+  sameAs: [] as string[], // add a profile URL here only after confirming you own it
   /**
    * OPTIONAL Organization details. Fill in ONLY real values; each one is emitted in the Organization
    * JSON-LD when set and left out when empty (never invent them).

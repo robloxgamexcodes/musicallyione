@@ -3,12 +3,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import PageCrumbs from '../../components/seo/PageCrumbs.astro';
 import Footer from '../../components/layout/Footer.astro';
+import PageTypeSchema from '../../components/seo/PageTypeSchema.astro';
 ---
 
 <BaseLayout
   title="Hubungi Kami"
   description="Ada pertanyaan atau kendala teknis? Hubungi dukungan MusicallyDown di support@musicaldown.se. Sertakan tautan terkait tanpa membagikan kata sandi."
 >
+  <Fragment slot="head">
+    <PageTypeSchema type="ContactPage" name="Hubungi Kami" description="Ada pertanyaan atau kendala teknis? Hubungi dukungan MusicallyDown di support@musicaldown.se. Sertakan tautan terkait tanpa membagikan kata sandi." />
+  </Fragment>
   <Header slot="header" />
   <PageCrumbs page="contact" />
   <div class="mx-auto max-w-4xl px-6 py-16 md:py-24">

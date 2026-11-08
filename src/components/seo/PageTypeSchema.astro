@@ -1,0 +1,43 @@
+---
+/**
+ * PageTypeSchema.astro: WebPage subtype JSON-LD (CollectionPage for blog indexes, ContactPage for contact).
+ * Linked to the same Organization / WebSite ids as the home page graph (see src/lib/schema.ts).
+ *   <PageTypeSchema type="ContactPage" name="Contact" description="..." />
+ *   <PageTypeSchema type="CollectionPage" name="Blog" description="..." items={[{ name, url }]} />
+ */
+import { getLangFromUrl } from '../../i18n/utils';
+import { homeUrl, orgId } from '../../lib/schema';
+
+interface Props {
+  type: 'CollectionPage' | 'ContactPage';
+  name: string;
+  description: string;
+  items?: { name: string; url: string }[];
+}
+
+const lang = getLangFromUrl(Astro.url);
+const { type, name, description, items = [] } = Astro.props;
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldown.se';
+const url = new URL(Astro.url.pathname, siteUrl).toString();
+
+const node: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': type,
+  '@id': url,
+  url,
+  name,
+  description,
+  inLanguage: lang,
+  isPartOf: { '@id': `${homeUrl(siteUrl, lang)}#website` },
+  publisher: { '@id': orgId(siteUrl) },
+};
+if (items.length > 0) {
+  node.mainEntity = {
+    '@type': 'ItemList',
+    itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, url: it.url })),
+  };
+}
+const json = JSON.stringify(node).replace(/</g, '\\u003c');
+---
+
+<script type="application/ld+json" set:html={json} />

@@ -12,7 +12,7 @@ import type { Lang } from './ui';
 
 export type ToolKey =
   | 'home' | 'mp3' | 'stories' | 'hd' | 'nowm' | 'sound' | 'slideshow' | 'iphone' | 'android' | 'brand';
-export type PostKey = 'using' | 'fixes' | 'backup' | 'song' | 'quality';
+export type PostKey = 'using' | 'fixes' | 'backup' | 'song' | 'quality' | 'private' | 'capcut';
 export type HubKey = ToolKey | PostKey | 'blog';
 
 export const TOOL_PATHS: Record<ToolKey, string> = {
@@ -34,6 +34,8 @@ export const POST_SLUGS: Record<PostKey, string> = {
   backup: 'back-up-your-tiktok-videos',
   song: 'find-song-in-tiktok-video',
   quality: 'tiktok-video-quality-explained',
+  private: 'private-tiktok-video-download',
+  capcut: 'tiktok-video-to-capcut',
 };
 
 /** Intent slug (src/i18n/intent-pages.ts) for the tool keys that are intent pages. */
@@ -62,27 +64,29 @@ export const pathForKey = (k: HubKey): string =>
 
 /** Related links shown at the bottom of each page: [tools, guides]. */
 export const RELATED: Partial<Record<HubKey, { tools: ToolKey[]; guides: PostKey[] }>> = {
-  brand: { tools: ['home', 'mp3', 'hd', 'nowm', 'iphone', 'android'], guides: ['using', 'fixes'] },
-  mp3: { tools: ['home', 'sound', 'hd', 'nowm', 'brand'], guides: ['song', 'using'] },
-  stories: { tools: ['home', 'nowm', 'hd', 'slideshow', 'mp3'], guides: ['backup', 'fixes'] },
-  hd: { tools: ['home', 'nowm', 'iphone', 'android', 'brand'], guides: ['quality', 'fixes'] },
-  nowm: { tools: ['home', 'hd', 'sound', 'slideshow', 'brand'], guides: ['quality', 'using'] },
+  brand: { tools: ['home', 'mp3', 'hd', 'nowm', 'iphone', 'android'], guides: ['using', 'fixes', 'private'] },
+  mp3: { tools: ['home', 'sound', 'hd', 'nowm', 'brand'], guides: ['song', 'capcut', 'using'] },
+  stories: { tools: ['home', 'nowm', 'hd', 'slideshow', 'mp3'], guides: ['backup', 'fixes', 'private'] },
+  hd: { tools: ['home', 'nowm', 'iphone', 'android', 'brand'], guides: ['quality', 'capcut', 'fixes'] },
+  nowm: { tools: ['home', 'hd', 'sound', 'slideshow', 'brand'], guides: ['quality', 'capcut', 'using'] },
   sound: { tools: ['home', 'mp3', 'hd', 'slideshow', 'brand'], guides: ['song', 'backup'] },
   slideshow: { tools: ['home', 'stories', 'nowm', 'sound', 'brand'], guides: ['backup', 'using'] },
-  iphone: { tools: ['home', 'android', 'hd', 'mp3', 'brand'], guides: ['fixes', 'using'] },
-  android: { tools: ['home', 'iphone', 'hd', 'mp3', 'brand'], guides: ['fixes', 'using'] },
-  using: { tools: ['home', 'brand', 'mp3', 'nowm', 'iphone', 'android'], guides: ['fixes', 'quality', 'song', 'backup'] },
-  fixes: { tools: ['home', 'iphone', 'android', 'hd', 'brand'], guides: ['using', 'quality'] },
-  backup: { tools: ['home', 'stories', 'hd', 'slideshow', 'mp3'], guides: ['using', 'quality'] },
-  song: { tools: ['home', 'mp3', 'sound', 'brand'], guides: ['using', 'fixes'] },
-  quality: { tools: ['home', 'hd', 'nowm', 'iphone', 'android'], guides: ['fixes', 'using'] },
+  iphone: { tools: ['home', 'android', 'hd', 'mp3', 'brand'], guides: ['fixes', 'capcut', 'private'] },
+  android: { tools: ['home', 'iphone', 'hd', 'mp3', 'brand'], guides: ['fixes', 'capcut', 'private'] },
+  using: { tools: ['home', 'brand', 'mp3', 'nowm', 'iphone', 'android'], guides: ['fixes', 'quality', 'song', 'backup', 'private', 'capcut'] },
+  fixes: { tools: ['home', 'iphone', 'android', 'hd', 'brand'], guides: ['using', 'private', 'quality'] },
+  backup: { tools: ['home', 'stories', 'hd', 'slideshow', 'mp3'], guides: ['using', 'quality', 'private'] },
+  song: { tools: ['home', 'mp3', 'sound', 'brand'], guides: ['using', 'capcut', 'fixes'] },
+  quality: { tools: ['home', 'hd', 'nowm', 'iphone', 'android'], guides: ['fixes', 'capcut', 'using'] },
+  private: { tools: ['home', 'brand', 'iphone', 'android', 'mp3'], guides: ['fixes', 'backup', 'using'] },
+  capcut: { tools: ['home', 'hd', 'iphone', 'android', 'mp3'], guides: ['quality', 'song', 'using'] },
   blog: { tools: ['home', 'mp3', 'stories', 'hd', 'nowm', 'brand'], guides: [] },
 };
 
 /** Homepage hub: every tool page and every guide. */
 export const HUB: { tools: ToolKey[]; guides: PostKey[] } = {
   tools: ['mp3', 'hd', 'nowm', 'sound', 'stories', 'slideshow', 'iphone', 'android', 'brand'],
-  guides: ['fixes', 'quality', 'song', 'backup', 'using'],
+  guides: ['fixes', 'private', 'capcut', 'quality', 'song', 'backup', 'using'],
 };
 
 export const HUB_TEXT: Record<Lang, {

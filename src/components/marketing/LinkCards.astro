@@ -28,10 +28,17 @@ const text = HUB_TEXT[lang];
 const { mode = 'related', wide = false } = Astro.props;
 const current = Astro.props.current ?? keyFromPath(Astro.url.pathname);
 
+// Blog posts that are not in the link map (older news-style posts) still get links to the main tools and guides.
+const fallback = {
+  tools: ['home', 'mp3', 'hd', 'nowm', 'brand'] as ToolKey[],
+  guides: ['using', 'fixes'] as PostKey[],
+};
+const isBlogPost = /\/blog\/[^/]+\/?$/.test(Astro.url.pathname);
 const lists =
   mode === 'hub'
     ? HUB
-    : (current && current !== 'home' ? RELATED[current] : undefined) ?? { tools: [] as ToolKey[], guides: [] as PostKey[] };
+    : (current && current !== 'home' ? RELATED[current] : undefined) ??
+      (isBlogPost ? fallback : { tools: [] as ToolKey[], guides: [] as PostKey[] });
 
 const intentLabels = getIntentLabels(lang);
 const clamp = (s: string, n = 140) => (s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s);

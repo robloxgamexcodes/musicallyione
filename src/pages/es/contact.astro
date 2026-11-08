@@ -3,12 +3,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import PageCrumbs from '../../components/seo/PageCrumbs.astro';
 import Footer from '../../components/layout/Footer.astro';
+import PageTypeSchema from '../../components/seo/PageTypeSchema.astro';
 ---
 
 <BaseLayout
   title="Contacto"
   description="¿Dudas o problemas técnicos? Contacta con el soporte de MusicallyDown en support@musicaldown.se. Incluye el enlace afectado y nunca compartas tu contraseña."
 >
+  <Fragment slot="head">
+    <PageTypeSchema type="ContactPage" name="Contacto" description="¿Dudas o problemas técnicos? Contacta con el soporte de MusicallyDown en support@musicaldown.se. Incluye el enlace afectado y nunca compartas tu contraseña." />
+  </Fragment>
   <Header slot="header" />
   <PageCrumbs page="contact" />
 

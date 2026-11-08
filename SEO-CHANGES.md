@@ -57,3 +57,12 @@ Brand is "MusicallyDown" everywhere visible; the domain stays `musicaldown.se`. 
 - Internal links: `src/i18n/link-hub.ts` is the single link map. `LinkCards.astro` renders a hub on the homepage and a "related tools + guides" block on every tool page, article and blog post (labels come from the target pages, so they are localized automatically). Footer now lists every tool page. Homepage intro, quality card and device cards link to the matching pages.
 - Removed the four off-topic posts (16 files) that were still being built and listed in the sitemap; their 301s stay in `vercel.json`.
 - `<title>` appends the brand only if the result fits in 60 characters; six long titles shortened; About and blog-index titles/descriptions fixed.
+
+# Round 5 (2026-11-08): remaining audit items
+- Kept as is on purpose: ownership of dl.tiktokiocdn.workers.dev, ad scripts / visitor-click tab / consent banner, "Featured on" badge wall, CSP, LICENSE/README notice.
+- Decision (owner): KEEP the four news-style posts (DOJ, UpScrolled, ad strategy, Seal; 16 files). They stay in the blog and sitemap, with no redirects in `vercel.json`. They now also show the related tools/guides block.
+- `SITE.sameAs` emptied: the three profile URLs could not be confirmed as owned. Add real URLs only after confirming them.
+- Added `CollectionPage` (blog indexes, with the post list) and `ContactPage` schema via `components/seo/PageTypeSchema.astro`.
+- Older localized `using-musicallydown` posts now link to localized About, Blog, Contact, Stories (and Privacy/Terms in id/vi).
+- Two new posts in en/es/id/vi, chosen from Search Console modifiers: `private-tiktok-video-download` ("private") and `tiktok-video-to-capcut` ("capcut mp4"). Added to LOCALE_PAGES, the link map and the OG cards (75 cards now).
+- Five shortened titles restored (es/id/vi) so every <title> is at most 60 characters.

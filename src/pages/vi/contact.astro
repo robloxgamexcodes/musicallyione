@@ -3,12 +3,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import PageCrumbs from '../../components/seo/PageCrumbs.astro';
 import Footer from '../../components/layout/Footer.astro';
+import PageTypeSchema from '../../components/seo/PageTypeSchema.astro';
 ---
 
 <BaseLayout
   title="Liên hệ"
   description="Bạn có câu hỏi hoặc gặp sự cố kỹ thuật? Hãy liên hệ support@musicaldown.se. Mô tả sự cố và không gửi mật khẩu hay thông tin cá nhân."
 >
+  <Fragment slot="head">
+    <PageTypeSchema type="ContactPage" name="Liên hệ" description="Bạn có câu hỏi hoặc gặp sự cố kỹ thuật? Hãy liên hệ support@musicaldown.se. Mô tả sự cố và không gửi mật khẩu hay thông tin cá nhân." />
+  </Fragment>
   <Header slot="header" />
   <PageCrumbs page="contact" />
   <div class="mx-auto max-w-4xl px-6 py-16 md:py-24">
