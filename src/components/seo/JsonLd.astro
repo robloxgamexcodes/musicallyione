@@ -68,6 +68,10 @@ export interface OrganizationData {
 }
 
 export interface PersonData {
+  /** Stable @id so BlogPosting.author can point at this Person node. */
+  id?: string;
+  /** @id of the employer Organization. */
+  worksFor?: string;
   name: string;
   url?: string;
   jobTitle?: string;
@@ -177,8 +181,10 @@ function buildSchema(type: SchemaType, data: any): Record<string, unknown> {
       const schema: Record<string, unknown> = {
         '@context': 'https://schema.org',
         '@type': 'Person',
+        ...(d.id && { '@id': d.id }),
         name: d.name,
       };
+      if (d.worksFor) schema.worksFor = { '@type': 'Organization', '@id': d.worksFor };
       if (d.url) schema.url = d.url;
       if (d.jobTitle) schema.jobTitle = d.jobTitle;
       if (d.description) schema.description = d.description;

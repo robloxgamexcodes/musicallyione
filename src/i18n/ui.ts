@@ -26,9 +26,9 @@ export const ui = {
     'lang.select': 'Select language',
     'toc.title': 'On this page',
     'footer.languages': 'Languages',
-    'site.title': 'MusicallyDown: Download TikTok Videos - No Watermark',
+    'site.title': 'MusicallyDown: Free TikTok Video Downloader, No Watermark',
     'site.description':
-      'Download TikTok videos without watermark in HD with MusicallyDown. Paste a link and save MP4 on iPhone, Android or PC. Free, no app and no sign-up.',
+      'Save public TikTok videos as MP4 or MP3. Paste the link, pick SD or HD when offered, and download free on iPhone, Android or PC. No app or sign-up.',
 
     // Navigation
     'nav.home': 'Home',
@@ -43,12 +43,12 @@ export const ui = {
 
     // Hero
     'hero.badge1': 'No Watermark',
-    'hero.badge2': 'HD Quality',
-    'hero.badge3': 'MP4 Video',
+    'hero.badge2': 'SD & HD Options',
+    'hero.badge3': 'MP4 & MP3',
     'hero.badge4': 'Free, No Sign-up',
-    'hero.titleStart': 'TikTok Downloader HD Free,',
+    'hero.titleStart': 'Free TikTok Video Downloader,',
     'hero.titleHighlight': ' No Watermark',
-    'hero.description': 'Download TikTok videos without watermark in HD. Paste a link, choose MP4 and save it free.',
+    'hero.description': 'Paste a TikTok link and save the video as an MP4, with the watermark removed when a clean version is available. Free, with no app and no sign-up.',
     'hero.subtitle': '',
 
     // Section 1
@@ -86,28 +86,28 @@ export const ui = {
       "Choose a format that is actually offered for your link, then follow the download prompt and check your device's downloads.",
 
     // Features grid (LogoCloud.astro)
-    'features.eyebrow': 'Made for your workflow',
-    'features.title': 'A practical TikTok video downloader',
+    'features.eyebrow': 'Built for quick saves',
+    'features.title': 'A TikTok downloader that tells you what to expect',
     'features.description':
-      'Find the right option for the task at hand, without assuming every video supports every format or resolution.',
-    'features.item1.title': 'TikTok downloader HD',
+      'Every result shows exactly what is available for your link, so you choose a format instead of guessing.',
+    'features.item1.title': 'SD and HD options',
     'features.item1.text':
-      'Check which video resolutions are returned for a supported link. HD, 1080p and 4K are not guaranteed for every clip.',
-    'features.item2.title': 'MP4 video options',
+      'Each link returns the resolutions TikTok makes available for that video. HD is offered when the source has it; 1080p and 4K are not guaranteed.',
+    'features.item2.title': 'MP4 for any device',
     'features.item2.text':
-      'When MP4 is offered, it provides a widely supported format for playback on many phones, tablets and computers.',
-    'features.item3.title': 'Audio when offered',
+      'MP4 plays on almost every phone, tablet and computer, so you can watch, edit or share the file without extra software.',
+    'features.item3.title': 'MP3 audio when offered',
     'features.item3.text':
-      'If a video offers a separate audio file, the option appears next to the video formats.',
-    'features.item4.title': 'Watermark-free options',
+      'Need just the sound? When a video has a separate audio file, the MP3 option appears next to the video formats, or use the dedicated TikTok to MP3 page.',
+    'features.item4.title': 'Clean, watermark-free copies',
     'features.item4.text':
-      'Check the results for a watermark-free option where available. Availability can vary by video and service behavior.',
+      'When the source provides a version without the TikTok logo, you can pick it. Availability varies by video.',
     'features.item5.title': 'Works in your browser',
     'features.item5.text':
-      'Open the website in a compatible browser on iPhone, Android, Windows or Mac. File locations depend on your device.',
-    'features.item6.title': 'No TikTok password needed',
+      'Open the site in Chrome, Safari, Firefox or Edge on iPhone, Android, Windows or Mac. There is nothing to install.',
+    'features.item6.title': 'Never asks for your password',
     'features.item6.text':
-      'Never share your TikTok login credentials with a downloader. Use only the public link you intend to submit.',
+      'MusicallyDown only needs the public video link. Do not share your TikTok login with any downloader.',
 
     // Intro text (LogoCloud.astro)
     'intro.paragraph1':
@@ -116,23 +116,23 @@ export const ui = {
       'The page stays light, so it loads quickly even on a slow mobile connection.',
 
     // Bento Grid
-    'bento.title': 'Everything you get with MusicallyDown ',
-    'bento.highlight': 'TikTok Video Downloader',
+    'bento.title': 'Everything you get with',
+    'bento.highlight': 'the MusicallyDown TikTok Downloader',
     'bento.paragraph':
-      'MusicallyDown is a free TikTok video downloader that lets you save TikTok videos without watermark in HD. Download TikTok videos online as MP4 on any device.',
+      'MusicallyDown is a free tool for saving public TikTok videos as MP4 files and extracting the audio as MP3, right from your browser.',
     'bento.paragraph1':
-      'It is a free online TikTok downloader that is simple to use: copy the video link, paste it and save the file.',
+      'Copy the video link in TikTok, paste it above, choose a format and save the file. The whole process takes three steps.',
 
     // ── Bento: TikTok video quality ──────────────────────────────
-    'bento.quality.eyebrow': 'Know what to expect from MusicallyDown',
-    'bento.quality.title': 'HD TikTok downloader: save TikTok videos in up to 4K when available',
+    'bento.quality.eyebrow': 'What to expect from each download',
+    'bento.quality.title': 'Save TikTok videos in the best quality available for each link',
     'bento.quality.p1':
-      'The quality you can save Tiktok videos depends on the original video and the formats the Tiktok downloader returns. Select a resolution only when it is explicitly available; a downloader cannot create genuine detail that was not present in the source.',
+      'The sharpness of a saved video depends on the original upload and on which formats TikTok provides for that link. MusicallyDown lists what is available. It cannot add detail that was never in the source, so pick the highest option shown.',
     'bento.quality.p2':
-      'For large files, use a stable connection and make sure your device has enough free storage before starting the download.',
+      'For long HD videos, use a stable connection and make sure your device has enough free storage before you start.',
     'bento.quality.cta': 'Check available options',
     'bento.quality.guide.label': 'Resolution guide',
-    'bento.quality.guide.heading': 'Choose what’s available',
+    'bento.quality.guide.heading': 'Choose what is available',
     'bento.quality.guide.badge': 'Source-dependent',
     'bento.quality.sd': 'Standard definition',
     'bento.quality.sd.note': 'May be available',
@@ -143,33 +143,33 @@ export const ui = {
     'bento.quality.disclaimer':
       'Illustrative guide only — these bars do not represent measured performance or a promise of availability.',
     // ── Bento: Use on mobile or desktop ──────────────────────────
-    'bento.devices.eyebrow': 'One familiar process',
-    'bento.devices.title': 'Use MusicallyDown on mobile or desktop',
+    'bento.devices.eyebrow': 'Same steps on every device',
+    'bento.devices.title': 'Use MusicallyDown on iPhone, Android or desktop',
     'bento.devices.paragraph':
-      'Open the website in a current compatible browser and follow the same copy-link and paste-link workflow.',
+      'The process is the same everywhere: copy the link in TikTok, paste it here, then save the file. Only the place where downloads land is different.',
     'bento.devices.iphone.title': 'iPhone',
-    'bento.devices.iphone.desc': 'Check Safari’s downloads or the Files app.',
+    'bento.devices.iphone.desc': 'Safari is the simplest option. Find the file in the Safari downloads list or the Files app.',
     'bento.devices.android.title': 'Android',
-    'bento.devices.android.desc': 'Check your browser’s download list or Downloads folder.',
+    'bento.devices.android.desc': 'Use Chrome or any browser. Find the file in the browser download list or your Downloads folder.',
     'bento.devices.desktop.title': 'Desktop',
-    'bento.devices.desktop.desc': 'Use your browser’s download manager or Downloads folder.',
+    'bento.devices.desktop.desc': 'Use any modern browser. Find the file in the download manager or your Downloads folder.',
 
     // FAQ
     'faq.title': 'Frequently Asked Questions',
     'faq.description':
-      'Find quick answers to the most common questions about downloading TikTok videos. Learn how our tool works, which formats are supported and how to fix common issues, so you can save your favorite content easily, safely and responsibly on any device.',
+      'Quick answers about saving TikTok videos: how the tool works, which formats to expect and how to fix common problems.',
     'faq.question1': 'Is MusicallyDown free?',
     'faq.answer1':
-      'Yes. Downloading is free, the site is supported by ads and you do not need to register or install anything.',
+      'Yes. Downloading is free and needs no registration or app install. The site is supported by ads.',
     'faq.question2': 'How do I download a TikTok video without a watermark?',
     'faq.answer2':
-      'Copy the link from TikTok Share menu, paste it into the box on this page, press Download and choose SD or HD (no watermark). No account or app is needed.',
+      'In TikTok, tap Share, then Copy link. Paste the link into the box at the top of this page, press Download and choose the MP4 option. When TikTok provides a clean version of that video, it is offered without the watermark. No account or app is needed.',
     'faq.question3': 'How do I save only the audio from a TikTok?',
     'faq.answer3':
       'Audio-only downloads have their own page. Open the [TikTok to MP3 converter](/tiktok-mp3), paste the link and save the sound.',
     'faq.question4': 'Can I save a TikTok as an MP4 file?',
     'faq.answer4':
-      'Yes. The SD and HD options save the video as a regular MP4 that plays in any player on your phone or computer.',
+      'Yes. Video downloads are saved as regular MP4 files that play in any common player on your phone or computer.',
     'faq.question5': 'Can I download TikTok Stories?',
     'faq.answer5':
       'Yes, for public stories. Open the [TikTok Story downloader](/download-tiktok-stories), paste the story link and save it.',
@@ -178,16 +178,18 @@ export const ui = {
       'No. MusicallyDown only accepts TikTok links. YouTube downloaders and converters are separate services.',
     'faq.question7': 'Why is my TikTok link not working?',
     'faq.answer7':
-      'Most failures come from private or deleted videos or a link with extra text around it. Use a public video, copy only the link and try again.',
+      'Most failures come from private or deleted videos, or a link with extra text around it. Use a public video, copy only the link and try again. See also our [troubleshooting guide](/blog/tiktok-video-not-downloading-fixes).',
     'faq.question8': 'Is MusicallyDown safe to use?',
     'faq.answer8':
-      'You never enter your TikTok password or install anything. Only paste a video link, and do not share personal login details with any downloader. Read our Privacy Policy for how data is handled.',
+      'MusicallyDown never asks for your TikTok password or requires you to install anything. You only paste a public video link. Do not share login details with any downloader, and avoid sites that push app installs or pop-ups. Read our [Privacy Policy](/privacy) to see how data is handled.',
     'faq.question9': 'Is it legal to download TikTok videos?',
     'faq.answer9':
       'It depends on what you do with the file. Saving your own videos or clips you have permission to use is generally fine; reposting other people’s videos as your own is not. This is general information, not legal advice.',
     'faq.question10': 'Can I use a TikTok downloader on iPhone or Android?',
     'faq.answer10':
-      'Yes. MusicallyDown works in any browser on iPhone, Android or PC. No app is needed.',
+      'Yes. MusicallyDown works in any modern browser on iPhone, Android and PC, with no app. See the guides for [iPhone](/download-tiktok-iphone) and [Android](/download-tiktok-android).',
+    'faq.question11': 'Why is there no HD or 4K option for my video?',
+    'faq.answer11': 'MusicallyDown only lists the formats TikTok provides for that specific video. If the original was uploaded in standard quality, HD or 4K cannot be created from it. Choose the highest option shown.',
 
     // Footer
     'footer.product': 'Tools',
@@ -202,16 +204,6 @@ export const ui = {
     'footer.termsOfService': 'Terms of Service',
 
     // Contact Page
-    'contact.title': "Let's talk about your project",
-    'contact.description':
-      'Whether you need a custom implementation, have questions about our open-source offering, or just want to say hi, our team is ready to help.',
-    'contact.formTitle': 'Send us a message',
-    'contact.firstName': 'First name',
-    'contact.lastName': 'Last name',
-    'contact.email': 'Company email',
-    'contact.message': 'How can we help?',
-    'contact.submit': 'Send Message',
-    'contact.emailLabel': 'Email',
 
     // About Page
     'about.title': 'About MusicallyDown – Free TikTok Video Downloader', // meta title
@@ -458,9 +450,9 @@ export const ui = {
     'lang.select': 'Seleccionar idioma',
     'toc.title': 'En esta página',
     'footer.languages': 'Idiomas',
-    'site.title': 'MusicallyDown – Descargar TikTok Sin Marca de Agua',
+    'site.title': 'MusicallyDown: Descargar TikTok gratis sin marca de agua',
     'site.description':
-      'Descarga videos públicos de TikTok sin marca de agua cuando esté disponible. Guarda videos en MP4 gratis, sin instalar aplicaciones.',
+      'Guarda videos públicos de TikTok como MP4 o MP3. Pega el enlace, elige SD o HD si está disponible y descarga gratis en iPhone, Android o PC. Sin app ni cuenta.',
     'nav.home': 'Inicio',
     'nav.stories': 'Descargar historias de TikTok',
     'nav.mp3': 'Descargar TikTok en MP3',
@@ -470,13 +462,13 @@ export const ui = {
     'nav.about': 'Acerca de',
     'nav.faq': 'Preguntas frecuentes',
     'hero.badge1': 'Sin marca de agua',
-    'hero.badge2': 'Calidad HD',
-    'hero.badge3': 'Video MP4',
+    'hero.badge2': 'Opciones SD y HD',
+    'hero.badge3': 'MP4 y MP3',
     'hero.badge4': 'Gratis, sin registro',
-    'hero.titleStart': 'Descargador de videos de TikTok',
+    'hero.titleStart': 'Descargador de videos de TikTok gratis,',
     'hero.titleHighlight': ' sin marca de agua',
     'hero.description':
-      'Descarga videos públicos de TikTok sin marca de agua y guárdalos en MP4 cuando esa opción esté disponible.',
+      'Pega un enlace de TikTok y guarda el video en MP4, sin marca de agua cuando haya una versión limpia disponible. Gratis, sin app y sin registro.',
     'section1.title': 'Descarga videos de TikTok en línea - ',
     'section1.highlight': 'sin marca de agua',
     'section1.paragraph':
@@ -507,28 +499,28 @@ export const ui = {
     lastUpdated: 'Última actualización',
 
     // Complete locale key coverage; untranslated legal-page strings use English fallback text.
-    'bento.title': 'Todo lo que obtienes con MusicallyDown ',
-    'bento.highlight': 'Descargador de videos de TikTok',
+    'bento.title': 'Todo lo que obtienes con',
+    'bento.highlight': 'el descargador de TikTok MusicallyDown',
     'bento.paragraph':
-      'MusicallyDown es una herramienta rápida para guardar videos públicos de TikTok en formato MP4 cuando está disponible.',
+      'MusicallyDown es una herramienta gratuita para guardar videos públicos de TikTok como MP4 y extraer el audio como MP3, directamente desde tu navegador.',
     'bento.paragraph1':
-      'Es una herramienta gratuita y sencilla: copia el enlace, pégalo y guarda el archivo.',
+      'Copia el enlace del video en TikTok, pégalo arriba, elige un formato y guarda el archivo. Todo el proceso son tres pasos.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
     'bento.devices.desktop.title': 'Desktop',
     'faq.question1': '¿MusicallyDown es gratis?',
     'faq.answer1':
-      'Sí. La descarga es gratuita, el sitio se financia con anuncios y no necesitas registrarte ni instalar nada.',
+      'Sí. Descargar es gratis y no requiere registro ni instalar una app. El sitio se financia con publicidad.',
     'faq.question2': '¿Cómo descargo un video de TikTok sin marca de agua?',
     'faq.answer2':
-      'Copia el enlace desde el menú Compartir de TikTok, pégalo aquí, pulsa Descargar y elige una opción sin marca de agua si está disponible.',
+      'En TikTok, pulsa Compartir y luego Copiar enlace. Pega el enlace en el cuadro de la parte superior de esta página, pulsa Descargar y elige la opción MP4. Cuando TikTok ofrece una versión limpia de ese video, aparece sin marca de agua. No hace falta cuenta ni app.',
     'faq.question3': '¿Cómo guardo solo el audio de un TikTok?',
     'faq.answer3':
       'Las descargas de solo audio tienen su propia página. Abre el [convertidor de TikTok a MP3](/tiktok-mp3), pega el enlace y guarda el sonido.',
     'faq.question4': '¿Puedo guardar un TikTok como archivo MP4?',
     'faq.answer4':
-      'Sí. Si se ofrece la opción de video, puedes guardarlo como MP4 compatible con muchos teléfonos y computadoras.',
+      'Sí. Las descargas de video se guardan como archivos MP4 normales que se reproducen en cualquier reproductor común de tu teléfono o computadora.',
     'faq.question5': '¿Puedo descargar historias de TikTok?',
     'faq.answer5':
       'Sí, las historias públicas. Abre el [descargador de historias de TikTok](/download-tiktok-stories), pega el enlace y guárdala.',
@@ -537,28 +529,20 @@ export const ui = {
       'No. MusicallyDown procesa enlaces de TikTok; los servicios para YouTube son independientes.',
     'faq.question7': '¿Por qué no funciona mi enlace de TikTok?',
     'faq.answer7':
-      'Puede que el video sea privado, se haya eliminado o que el enlace incluya texto adicional. Prueba con un video público y copia solo el enlace.',
+      'La mayoría de los fallos se deben a videos privados o eliminados, o a un enlace con texto adicional alrededor. Usa un video público, copia solo el enlace y vuelve a intentarlo. Consulta también nuestra [guía de solución de problemas](/blog/tiktok-video-not-downloading-fixes).',
     'faq.question8': '¿Es seguro usar MusicallyDown?',
     'faq.answer8':
-      'No compartas tu contraseña de TikTok. Envía únicamente el enlace público que deseas procesar y evita anuncios o páginas externas sospechosas.',
+      'MusicallyDown nunca te pide la contraseña de TikTok ni exige instalar nada. Solo pegas el enlace público de un video. No compartas tus datos de acceso con ningún descargador y evita los sitios que empujan la instalación de apps o abren ventanas emergentes. Lee nuestra [Política de privacidad](/privacy) para saber cómo se tratan los datos.',
     'faq.question9': '¿Necesito instalar una aplicación?',
     'faq.answer9':
       'No. Puedes usar el sitio desde un navegador compatible en tu teléfono o computadora.',
     'faq.question10': '¿Puedo descargar cualquier video de TikTok?',
     'faq.answer10':
-      'No siempre. Los videos privados, eliminados o restringidos pueden no estar disponibles. Descarga contenido propio o que tengas permiso para guardar.',
+      'Sí. MusicallyDown funciona en cualquier navegador moderno en iPhone, Android y PC, sin app. Consulta las guías para [iPhone](/download-tiktok-iphone) y [Android](/download-tiktok-android).',
+    'faq.question11': '¿Por qué no veo una opción HD o 4K para mi video?',
+    'faq.answer11': 'MusicallyDown solo muestra los formatos que TikTok ofrece para ese video concreto. Si el original se subió en calidad estándar, no se puede crear HD ni 4K a partir de él. Elige la opción más alta que aparezca.',
     'footer.copyright': 'MusicallyDown. Todos los derechos reservados.',
     'footer.builtWith': 'Built with',
-    'contact.title': "Let's talk about your project",
-    'contact.description':
-      'Whether you need a custom implementation, have questions about our open-source offering, or just want to say hi, our team is ready to help.',
-    'contact.formTitle': 'Send us a message',
-    'contact.firstName': 'First name',
-    'contact.lastName': 'Last name',
-    'contact.email': 'Company email',
-    'contact.message': 'How can we help?',
-    'contact.submit': 'Send Message',
-    'contact.emailLabel': 'Email',
     'about.title': 'Acerca de MusicallyDown – Descargador gratuito de videos de TikTok',
     'about.metaDescription': 'Conoce qué es MusicallyDown, cómo funciona nuestro descargador gratuito de TikTok, qué hacemos con tus datos y cómo fomentamos las descargas responsables y con permiso.',
     'about.titleStart': 'Acerca de ',
@@ -751,41 +735,41 @@ export const ui = {
     'highlights.item4.text': 'Copiar, pegar y revisar',
     'how.description':
       'Descarga un video de TikTok en tres pasos: pega el enlace y elige MP4 para guardar el video, según las opciones disponibles.',
-    'features.eyebrow': 'Diseñado para tu flujo de trabajo',
-    'features.title': 'Un descargador práctico de videos de TikTok',
+    'features.eyebrow': 'Pensado para guardar rápido',
+    'features.title': 'Un descargador de TikTok que te dice qué esperar',
     'features.description':
-      'Elige la opción adecuada sin dar por hecho que todos los videos admiten todos los formatos o resoluciones.',
-    'features.item1.title': 'Descargador TikTok HD',
+      'Cada resultado muestra exactamente lo que está disponible para tu enlace, para que elijas un formato en lugar de adivinar.',
+    'features.item1.title': 'Opciones SD y HD',
     'features.item1.text':
-      'Comprueba las resoluciones disponibles para el enlace. HD, 1080p y 4K no están garantizados para todos los videos.',
-    'features.item2.title': 'Opciones de video MP4',
+      'Cada enlace devuelve las resoluciones que TikTok ofrece para ese video. El HD se ofrece cuando el original lo tiene; 1080p y 4K no están garantizados.',
+    'features.item2.title': 'MP4 para cualquier dispositivo',
     'features.item2.text':
-      'Cuando esté disponible, MP4 ofrece un formato compatible con muchos teléfonos, tabletas y computadoras.',
-    'features.item3.title': 'Audio, si se ofrece',
+      'El MP4 se reproduce en casi cualquier teléfono, tableta y computadora, así que puedes verlo, editarlo o compartirlo sin software adicional.',
+    'features.item3.title': 'Audio MP3 cuando se ofrece',
     'features.item3.text':
-      'Si un video ofrece un archivo de audio aparte, la opción aparece junto a los formatos de video.',
-    'features.item4.title': 'Opciones sin marca de agua',
+      '¿Solo quieres el sonido? Cuando un video tiene un archivo de audio aparte, la opción MP3 aparece junto a los formatos de video, o usa la página dedicada de TikTok a MP3.',
+    'features.item4.title': 'Copias limpias, sin marca de agua',
     'features.item4.text':
-      'Comprueba si hay una versión sin marca de agua. La disponibilidad depende del video y del servicio.',
-    'features.item5.title': 'Funciona en el navegador',
+      'Cuando el original ofrece una versión sin el logo de TikTok, puedes elegirla. La disponibilidad varía según el video.',
+    'features.item5.title': 'Funciona en tu navegador',
     'features.item5.text':
-      'Abre el sitio en un navegador compatible en iPhone, Android, Windows o Mac.',
-    'features.item6.title': 'No necesitas contraseña',
+      'Abre el sitio en Chrome, Safari, Firefox o Edge en iPhone, Android, Windows o Mac. No hay nada que instalar.',
+    'features.item6.title': 'Nunca pide tu contraseña',
     'features.item6.text':
-      'Nunca compartas tus credenciales de TikTok con un descargador. Usa solo el enlace público que quieras procesar.',
+      'MusicallyDown solo necesita el enlace público del video. No compartas tu inicio de sesión de TikTok con ningún descargador.',
     'intro.paragraph1':
       'MusicallyDown es un descargador de videos de TikTok en línea para quienes quieren guardar un video sin pasos innecesarios. El nombre recuerda a Musical.ly, que más tarde se integró en TikTok; por eso el nombre sigue siendo familiar para muchas personas. Copia un enlace público de TikTok y guarda el archivo en tu dispositivo.',
     'intro.paragraph2':
       'La página es ligera para cargar rápidamente incluso con una conexión móvil lenta.',
-    'bento.quality.eyebrow': 'Qué puedes esperar de MusicallyDown',
-    'bento.quality.title': 'Descargador TikTok HD: guarda videos hasta en 4K cuando esté disponible',
+    'bento.quality.eyebrow': 'Qué esperar de cada descarga',
+    'bento.quality.title': 'Guarda videos de TikTok con la mejor calidad disponible para cada enlace',
     'bento.quality.p1':
-      'La calidad depende del video original y de los formatos que devuelva el descargador. Elige una resolución solo si aparece disponible; una herramienta no puede crear detalles que no existen en la fuente.',
+      'La nitidez de un video guardado depende de la subida original y de los formatos que TikTok ofrece para ese enlace. MusicallyDown muestra lo que hay disponible. No puede añadir detalle que nunca estuvo en el original, así que elige la opción más alta que aparezca.',
     'bento.quality.p2':
-      'Para archivos grandes, usa una conexión estable y comprueba que tienes suficiente espacio libre.',
+      'Para videos largos en HD, usa una conexión estable y comprueba que tu dispositivo tenga espacio libre antes de empezar.',
     'bento.quality.cta': 'Ver opciones disponibles',
     'bento.quality.guide.label': 'Guía de resolución',
-    'bento.quality.guide.heading': 'Elige una opción disponible',
+    'bento.quality.guide.heading': 'Elige lo que esté disponible',
     'bento.quality.guide.badge': 'Depende de la fuente',
     'bento.quality.sd': 'Definición estándar',
     'bento.quality.sd.note': 'Puede estar disponible',
@@ -794,16 +778,16 @@ export const ui = {
     'bento.quality.4k.note': 'Solo si se ofrece',
     'bento.quality.disclaimer':
       'Guía ilustrativa: las barras no representan mediciones ni garantizan disponibilidad.',
-    'bento.devices.eyebrow': 'Un proceso familiar',
-    'bento.devices.title': 'Usa MusicallyDown en móvil o computadora',
+    'bento.devices.eyebrow': 'Los mismos pasos en cada dispositivo',
+    'bento.devices.title': 'Usa MusicallyDown en iPhone, Android o computadora',
     'bento.devices.paragraph':
-      'Abre el sitio en un navegador compatible y sigue el mismo proceso de copiar y pegar el enlace.',
-    'bento.devices.iphone.desc': 'Revisa las descargas de Safari o la app Archivos.',
-    'bento.devices.android.desc': 'Revisa las descargas del navegador o la carpeta Descargas.',
+      'El proceso es igual en todas partes: copia el enlace en TikTok, pégalo aquí y guarda el archivo. Solo cambia el lugar donde se guardan las descargas.',
+    'bento.devices.iphone.desc': 'Safari es la opción más sencilla. Encuentra el archivo en la lista de descargas de Safari o en la app Archivos.',
+    'bento.devices.android.desc': 'Usa Chrome u otro navegador. Encuentra el archivo en la lista de descargas del navegador o en la carpeta Descargas.',
     'bento.devices.desktop.desc':
-      'Usa el gestor de descargas del navegador o la carpeta Descargas.',
+      'Usa cualquier navegador moderno. Encuentra el archivo en el administrador de descargas o en la carpeta Descargas.',
     'faq.description':
-      'Respuestas rápidas sobre cómo descargar videos de TikTok, los formatos compatibles y la solución de problemas comunes.',
+      'Respuestas rápidas sobre cómo guardar videos de TikTok: cómo funciona la herramienta, qué formatos esperar y cómo resolver problemas comunes.',
 
     'hero.subtitle': '',
   },
@@ -812,9 +796,9 @@ export const ui = {
     'lang.select': 'Pilih bahasa',
     'toc.title': 'Di halaman ini',
     'footer.languages': 'Bahasa',
-    'site.title': 'MusicallyDown – Unduh Video TikTok Tanpa Watermark',
+    'site.title': 'MusicallyDown: Unduh Video TikTok Gratis Tanpa Watermark',
     'site.description':
-      'Unduh video TikTok publik tanpa watermark jika tersedia. Simpan video sebagai MP4 secara gratis melalui browser tanpa memasang aplikasi.',
+      'Simpan video TikTok publik sebagai MP4 atau MP3. Tempel tautan, pilih SD atau HD bila tersedia, dan unduh gratis di iPhone, Android, atau PC. Tanpa aplikasi.',
     'nav.home': 'Beranda',
     'nav.stories': 'Unduh TikTok Stories',
     'nav.mp3': 'Unduh TikTok ke MP3',
@@ -824,12 +808,12 @@ export const ui = {
     'nav.about': 'Tentang',
     'nav.faq': 'FAQ',
     'hero.badge1': 'Tanpa Watermark',
-    'hero.badge2': 'Kualitas HD',
-    'hero.badge3': 'Video MP4',
+    'hero.badge2': 'Opsi SD & HD',
+    'hero.badge3': 'MP4 & MP3',
     'hero.badge4': 'Gratis, Tanpa Daftar',
-    'hero.titleStart': 'Pengunduh Video TikTok',
+    'hero.titleStart': 'Pengunduh Video TikTok Gratis,',
     'hero.titleHighlight': ' Tanpa Watermark',
-    'hero.description': 'Unduh video TikTok tanpa watermark dan simpan sebagai MP4 jika opsinya tersedia.',
+    'hero.description': 'Tempel tautan TikTok dan simpan videonya sebagai MP4, tanpa watermark bila versi bersih tersedia. Gratis, tanpa aplikasi, dan tanpa daftar.',
     'section1.title': 'Unduh Video TikTok Online - ',
     'section1.highlight': 'Tanpa Watermark',
     'section1.paragraph':
@@ -860,27 +844,27 @@ export const ui = {
     lastUpdated: 'Terakhir diperbarui',
 
     // Complete locale key coverage; untranslated legal-page strings use English fallback text.
-    'bento.title': 'Semua yang Anda dapatkan dengan MusicallyDown ',
-    'bento.highlight': 'Pengunduh Video TikTok',
+    'bento.title': 'Semua yang Anda dapatkan dengan',
+    'bento.highlight': 'pengunduh TikTok MusicallyDown',
     'bento.paragraph':
-      'MusicallyDown adalah alat praktis untuk menyimpan video TikTok publik sebagai MP4 jika format tersedia.',
+      'MusicallyDown adalah alat gratis untuk menyimpan video TikTok publik sebagai file MP4 dan mengekstrak audionya sebagai MP3, langsung dari browser Anda.',
     'bento.paragraph1':
-      'Alat ini gratis dan mudah digunakan: salin tautan, tempel, lalu simpan file. ',
+      'Salin tautan video di TikTok, tempel di atas, pilih format, lalu simpan file. Seluruh prosesnya hanya tiga langkah.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
     'bento.devices.desktop.title': 'Desktop',
     'faq.question1': 'Apakah MusicallyDown gratis?',
     'faq.answer1':
-      'Ya. Pengunduhan gratis, situs didukung iklan, dan Anda tidak perlu mendaftar atau memasang aplikasi.',
+      'Ya. Mengunduh gratis dan tidak perlu mendaftar atau memasang aplikasi. Situs ini didukung oleh iklan.',
     'faq.question2': 'Bagaimana cara mengunduh video TikTok tanpa watermark?',
     'faq.answer2':
-      'Salin tautan dari menu Bagikan TikTok, tempel di sini, tekan Unduh, lalu pilih opsi tanpa watermark jika tersedia.',
+      'Di TikTok, ketuk Bagikan, lalu Salin tautan. Tempel tautan di kolom pada bagian atas halaman ini, tekan Unduh, lalu pilih opsi MP4. Bila TikTok menyediakan versi bersih dari video itu, versi tersebut ditawarkan tanpa watermark. Tidak perlu akun atau aplikasi.',
     'faq.question3': 'Bagaimana cara menyimpan audio saja dari TikTok?',
     'faq.answer3': 'Unduhan khusus audio punya halamannya sendiri. Buka [konverter TikTok ke MP3](/tiktok-mp3), tempel tautan, lalu simpan suaranya.',
     'faq.question4': 'Bisakah saya menyimpan TikTok sebagai file MP4?',
     'faq.answer4':
-      'Bisa. Jika opsi video tersedia, Anda dapat menyimpannya sebagai MP4 yang kompatibel dengan banyak ponsel dan komputer.',
+      'Ya. Unduhan video disimpan sebagai file MP4 biasa yang dapat diputar di pemutar umum mana pun pada ponsel atau komputer Anda.',
     'faq.question5': 'Bisakah saya mengunduh TikTok Stories?',
     'faq.answer5':
       'Bisa, untuk story publik. Buka [pengunduh TikTok Stories](/download-tiktok-stories), tempel tautan story, lalu simpan.',
@@ -888,27 +872,19 @@ export const ui = {
     'faq.answer6': 'Tidak. MusicallyDown memproses tautan TikTok; layanan untuk YouTube terpisah.',
     'faq.question7': 'Mengapa tautan TikTok saya tidak berfungsi?',
     'faq.answer7':
-      'Video mungkin bersifat privat, telah dihapus, atau tautan berisi teks tambahan. Coba video publik dan salin tautannya saja.',
+      'Sebagian besar kegagalan berasal dari video privat atau yang sudah dihapus, atau tautan dengan teks tambahan di sekitarnya. Gunakan video publik, salin hanya tautannya, lalu coba lagi. Lihat juga [panduan pemecahan masalah](/blog/tiktok-video-not-downloading-fixes) kami.',
     'faq.question8': 'Apakah MusicallyDown aman digunakan?',
     'faq.answer8':
-      'Jangan bagikan kata sandi TikTok. Kirim hanya tautan publik yang ingin diproses dan hindari iklan atau situs eksternal yang mencurigakan.',
+      'MusicallyDown tidak pernah meminta kata sandi TikTok Anda atau mengharuskan Anda memasang apa pun. Anda hanya menempelkan tautan video publik. Jangan bagikan data login kepada pengunduh mana pun, dan hindari situs yang memaksa pemasangan aplikasi atau memunculkan pop-up. Baca [Kebijakan Privasi](/privacy) kami untuk melihat bagaimana data diperlakukan.',
     'faq.question9': 'Apakah saya perlu memasang aplikasi?',
     'faq.answer9': 'Tidak. Gunakan situs melalui browser yang kompatibel di ponsel atau komputer.',
     'faq.question10': 'Bisakah saya mengunduh semua video TikTok?',
     'faq.answer10':
-      'Tidak selalu. Video privat, dihapus, atau dibatasi mungkin tidak tersedia. Unduh konten milik Anda atau yang boleh Anda simpan.',
+      'Ya. MusicallyDown berfungsi di browser modern mana pun di iPhone, Android, dan PC, tanpa aplikasi. Lihat panduan untuk [iPhone](/download-tiktok-iphone) dan [Android](/download-tiktok-android).',
+    'faq.question11': 'Mengapa tidak ada opsi HD atau 4K untuk video saya?',
+    'faq.answer11': 'MusicallyDown hanya menampilkan format yang disediakan TikTok untuk video tertentu itu. Jika aslinya diunggah dalam kualitas standar, HD atau 4K tidak dapat dibuat darinya. Pilih opsi tertinggi yang ditampilkan.',
     'footer.copyright': 'MusicallyDown. Hak cipta dilindungi.',
     'footer.builtWith': 'Built with',
-    'contact.title': "Let's talk about your project",
-    'contact.description':
-      'Whether you need a custom implementation, have questions about our open-source offering, or just want to say hi, our team is ready to help.',
-    'contact.formTitle': 'Send us a message',
-    'contact.firstName': 'First name',
-    'contact.lastName': 'Last name',
-    'contact.email': 'Company email',
-    'contact.message': 'How can we help?',
-    'contact.submit': 'Send Message',
-    'contact.emailLabel': 'Email',
     'about.title': 'Tentang MusicallyDown – Pengunduh Video TikTok Gratis',
     'about.metaDescription': 'Pelajari apa itu MusicallyDown, cara kerja pengunduh TikTok gratis kami, bagaimana data Anda diperlakukan, dan bagaimana kami mendorong pengunduhan yang bertanggung jawab dan berizin.',
     'about.titleStart': 'Tentang ',
@@ -1101,38 +1077,38 @@ export const ui = {
     'highlights.item4.text': 'Salin, tempel, periksa',
     'how.description':
       'Unduh video TikTok dalam tiga langkah: tempel tautan, lalu pilih MP4 untuk menyimpan video, sesuai format yang tersedia.',
-    'features.eyebrow': 'Dirancang untuk alur kerja Anda',
-    'features.title': 'Pengunduh video TikTok yang praktis',
+    'features.eyebrow': 'Dibuat untuk menyimpan dengan cepat',
+    'features.title': 'Pengunduh TikTok yang memberi tahu apa yang bisa Anda harapkan',
     'features.description':
-      'Pilih opsi yang sesuai tanpa menganggap setiap video mendukung semua format atau resolusi.',
-    'features.item1.title': 'Pengunduh TikTok HD',
+      'Setiap hasil menampilkan persis apa yang tersedia untuk tautan Anda, sehingga Anda memilih format, bukan menebak.',
+    'features.item1.title': 'Opsi SD dan HD',
     'features.item1.text':
-      'Periksa resolusi yang tersedia untuk tautan. HD, 1080p, dan 4K tidak dijamin untuk setiap video.',
-    'features.item2.title': 'Pilihan video MP4',
+      'Setiap tautan mengembalikan resolusi yang disediakan TikTok untuk video itu. HD ditawarkan bila sumbernya memilikinya; 1080p dan 4K tidak dijamin.',
+    'features.item2.title': 'MP4 untuk perangkat apa pun',
     'features.item2.text':
-      'Jika tersedia, MP4 merupakan format yang didukung banyak ponsel, tablet, dan komputer.',
-    'features.item3.title': 'Audio jika tersedia',
+      'MP4 dapat diputar di hampir semua ponsel, tablet, dan komputer, sehingga Anda bisa menonton, menyunting, atau membagikannya tanpa perangkat lunak tambahan.',
+    'features.item3.title': 'Audio MP3 bila tersedia',
     'features.item3.text':
-      'Jika video menyediakan file audio terpisah, opsinya muncul di samping format video.',
-    'features.item4.title': 'Pilihan tanpa watermark',
+      'Hanya butuh suaranya? Bila video memiliki file audio terpisah, opsi MP3 muncul di samping format video, atau gunakan halaman khusus TikTok ke MP3.',
+    'features.item4.title': 'Salinan bersih tanpa watermark',
     'features.item4.text':
-      'Periksa apakah versi tanpa watermark tersedia. Ketersediaannya bergantung pada video dan layanan.',
-    'features.item5.title': 'Berfungsi di browser',
+      'Bila sumbernya menyediakan versi tanpa logo TikTok, Anda dapat memilihnya. Ketersediaannya berbeda-beda untuk tiap video.',
+    'features.item5.title': 'Berjalan di browser Anda',
     'features.item5.text':
-      'Buka situs melalui browser yang kompatibel di iPhone, Android, Windows, atau Mac.',
-    'features.item6.title': 'Tidak perlu kata sandi TikTok',
+      'Buka situs di Chrome, Safari, Firefox, atau Edge pada iPhone, Android, Windows, atau Mac. Tidak ada yang perlu dipasang.',
+    'features.item6.title': 'Tidak pernah meminta kata sandi',
     'features.item6.text':
-      'Jangan pernah membagikan kredensial TikTok kepada layanan pengunduh. Gunakan hanya tautan publik yang ingin diproses.',
+      'MusicallyDown hanya membutuhkan tautan video publik. Jangan bagikan login TikTok Anda kepada pengunduh mana pun.',
     'intro.paragraph1':
       'MusicallyDown adalah pengunduh video TikTok online untuk orang yang ingin menyimpan video tanpa langkah tambahan. Namanya merujuk pada aplikasi Musical.ly yang kemudian bergabung dengan TikTok; karena itu namanya masih terdengar akrab bagi banyak orang. Tempel tautan TikTok publik dan simpan file ke perangkat Anda.',
     'intro.paragraph2':
       'Halaman ini dibuat ringan agar cepat dimuat, bahkan dengan koneksi seluler yang lambat.',
-    'bento.quality.eyebrow': 'Ketahui apa yang bisa diharapkan dari MusicallyDown',
-    'bento.quality.title': 'Pengunduh TikTok HD: simpan video hingga 4K jika tersedia',
+    'bento.quality.eyebrow': 'Yang bisa diharapkan dari setiap unduhan',
+    'bento.quality.title': 'Simpan video TikTok dengan kualitas terbaik yang tersedia untuk setiap tautan',
     'bento.quality.p1':
-      'Kualitas bergantung pada video asli dan format yang dikembalikan pengunduh. Pilih resolusi hanya jika tersedia; alat pengunduh tidak dapat menciptakan detail yang tidak ada pada sumber.',
+      'Ketajaman video yang disimpan bergantung pada unggahan aslinya dan format yang disediakan TikTok untuk tautan itu. MusicallyDown menampilkan apa yang tersedia. Alat ini tidak dapat menambah detail yang tidak ada di sumbernya, jadi pilih opsi tertinggi yang ditampilkan.',
     'bento.quality.p2':
-      'Untuk file besar, gunakan koneksi stabil dan pastikan ruang penyimpanan cukup.',
+      'Untuk video HD yang panjang, gunakan koneksi yang stabil dan pastikan perangkat Anda memiliki ruang penyimpanan yang cukup sebelum mulai.',
     'bento.quality.cta': 'Periksa pilihan yang tersedia',
     'bento.quality.guide.label': 'Panduan resolusi',
     'bento.quality.guide.heading': 'Pilih yang tersedia',
@@ -1144,15 +1120,15 @@ export const ui = {
     'bento.quality.4k.note': 'Hanya jika tersedia',
     'bento.quality.disclaimer':
       'Panduan ilustratif saja—batang ini bukan hasil pengukuran atau jaminan ketersediaan.',
-    'bento.devices.eyebrow': 'Proses yang sama dan mudah',
-    'bento.devices.title': 'Gunakan MusicallyDown di ponsel atau komputer',
+    'bento.devices.eyebrow': 'Langkah yang sama di setiap perangkat',
+    'bento.devices.title': 'Gunakan MusicallyDown di iPhone, Android, atau desktop',
     'bento.devices.paragraph':
-      'Buka situs melalui browser yang kompatibel dan ikuti proses salin-tempel tautan.',
-    'bento.devices.iphone.desc': 'Periksa unduhan Safari atau aplikasi Files.',
-    'bento.devices.android.desc': 'Periksa daftar unduhan browser atau folder Downloads.',
-    'bento.devices.desktop.desc': 'Gunakan pengelola unduhan browser atau folder Downloads.',
+      'Prosesnya sama di mana pun: salin tautan di TikTok, tempel di sini, lalu simpan file. Hanya lokasi penyimpanan unduhan yang berbeda.',
+    'bento.devices.iphone.desc': 'Safari adalah pilihan paling sederhana. Temukan file di daftar unduhan Safari atau di aplikasi File.',
+    'bento.devices.android.desc': 'Gunakan Chrome atau browser apa pun. Temukan file di daftar unduhan browser atau folder Unduhan.',
+    'bento.devices.desktop.desc': 'Gunakan browser modern apa pun. Temukan file di pengelola unduhan atau folder Unduhan.',
     'faq.description':
-      'Jawaban singkat tentang mengunduh video TikTok, format yang didukung, serta cara mengatasi masalah umum.',
+      'Jawaban singkat tentang menyimpan video TikTok: cara kerja alat ini, format yang bisa diharapkan, dan cara mengatasi masalah umum.',
 
     'hero.subtitle': '',
   },
@@ -1161,9 +1137,9 @@ export const ui = {
     'lang.select': 'Chọn ngôn ngữ',
     'toc.title': 'Trên trang này',
     'footer.languages': 'Ngôn ngữ',
-    'site.title': 'MusicallyDown – Tải Video TikTok Không Logo',
+    'site.title': 'MusicallyDown: Tải video TikTok miễn phí không watermark',
     'site.description':
-      'Tải video TikTok công khai không watermark khi có tùy chọn. Lưu video MP4 miễn phí ngay trên trình duyệt, không cần cài ứng dụng.',
+      'Lưu video TikTok công khai dưới dạng MP4 hoặc MP3. Dán liên kết, chọn SD hoặc HD khi có và tải miễn phí trên iPhone, Android hoặc PC. Không cần ứng dụng.',
     'nav.home': 'Trang chủ',
     'nav.stories': 'Tải TikTok Stories',
     'nav.mp3': 'Tải TikTok sang MP3',
@@ -1173,12 +1149,12 @@ export const ui = {
     'nav.about': 'Giới thiệu',
     'nav.faq': 'Câu hỏi thường gặp',
     'hero.badge1': 'Không watermark',
-    'hero.badge2': 'Chất lượng HD',
-    'hero.badge3': 'Video MP4',
+    'hero.badge2': 'Tùy chọn SD & HD',
+    'hero.badge3': 'MP4 & MP3',
     'hero.badge4': 'Miễn phí, không đăng ký',
-    'hero.titleStart': 'Tải video TikTok',
-    'hero.titleHighlight': ' không logo',
-    'hero.description': 'Tải video TikTok không logo và lưu MP4 nếu có tùy chọn phù hợp.',
+    'hero.titleStart': 'Công cụ tải video TikTok miễn phí,',
+    'hero.titleHighlight': ' không watermark',
+    'hero.description': 'Dán liên kết TikTok và lưu video dưới dạng MP4, không có watermark khi có phiên bản sạch. Miễn phí, không cần ứng dụng và không cần đăng ký.',
     'section1.title': 'Tải video TikTok trực tuyến - ',
     'section1.highlight': 'Không watermark',
     'section1.paragraph':
@@ -1208,27 +1184,27 @@ export const ui = {
     lastUpdated: 'Cập nhật lần cuối',
 
     // Complete locale key coverage; untranslated legal-page strings use English fallback text.
-    'bento.title': 'Tất cả tiện ích từ MusicallyDown ',
-    'bento.highlight': 'Công cụ tải video TikTok',
+    'bento.title': 'Tất cả những gì bạn nhận được với',
+    'bento.highlight': 'công cụ tải TikTok MusicallyDown',
     'bento.paragraph':
-      'MusicallyDown là công cụ tiện lợi giúp lưu video TikTok công khai dưới dạng MP4 khi định dạng này được hỗ trợ.',
+      'MusicallyDown là công cụ miễn phí để lưu video TikTok công khai dưới dạng tệp MP4 và trích xuất âm thanh dưới dạng MP3, ngay trên trình duyệt của bạn.',
     'bento.paragraph1':
-      'Đây là công cụ miễn phí, dễ thao tác: sao chép liên kết, dán và lưu tệp.',
+      'Sao chép liên kết video trong TikTok, dán vào phía trên, chọn định dạng rồi lưu tệp. Toàn bộ quy trình chỉ có ba bước.',
     'bento.quality.4k': '4K',
     'bento.devices.iphone.title': 'iPhone',
     'bento.devices.android.title': 'Android',
     'bento.devices.desktop.title': 'Desktop',
     'faq.question1': 'MusicallyDown có miễn phí không?',
     'faq.answer1':
-      'Có. Công cụ miễn phí, trang web được hỗ trợ bởi quảng cáo và bạn không cần đăng ký hay cài ứng dụng.',
+      'Có. Tải xuống miễn phí và không cần đăng ký hay cài ứng dụng. Trang web được hỗ trợ bởi quảng cáo.',
     'faq.question2': 'Làm cách nào tải video TikTok không watermark?',
     'faq.answer2':
-      'Sao chép liên kết từ menu Chia sẻ của TikTok, dán vào đây, nhấn Tải xuống và chọn tùy chọn không watermark nếu có.',
+      'Trong TikTok, nhấn Chia sẻ, sau đó chọn Sao chép liên kết. Dán liên kết vào ô ở đầu trang này, nhấn Tải xuống và chọn tùy chọn MP4. Khi TikTok cung cấp phiên bản sạch của video đó, nó được đưa ra không có watermark. Không cần tài khoản hay ứng dụng.',
     'faq.question3': 'Làm cách nào lưu riêng âm thanh từ TikTok?',
     'faq.answer3': 'Tải riêng âm thanh có trang riêng. Mở [công cụ chuyển TikTok sang MP3](/tiktok-mp3), dán liên kết và lưu âm thanh.',
     'faq.question4': 'Tôi có thể lưu TikTok dưới dạng MP4 không?',
     'faq.answer4':
-      'Có. Nếu có tùy chọn video, bạn có thể lưu dưới dạng MP4 tương thích với nhiều điện thoại và máy tính.',
+      'Có. Video tải xuống được lưu dưới dạng tệp MP4 thông thường, phát được trên mọi trình phát phổ biến trên điện thoại hoặc máy tính của bạn.',
     'faq.question5': 'Tôi có thể tải TikTok Stories không?',
     'faq.answer5':
       'Có, với story công khai. Mở [công cụ tải TikTok Stories](/download-tiktok-stories), dán liên kết story và lưu lại.',
@@ -1237,28 +1213,20 @@ export const ui = {
       'Không. MusicallyDown xử lý liên kết TikTok; dịch vụ tải YouTube là dịch vụ riêng.',
     'faq.question7': 'Tại sao liên kết TikTok của tôi không hoạt động?',
     'faq.answer7':
-      'Video có thể ở chế độ riêng tư, đã bị xóa hoặc liên kết có thêm văn bản. Hãy thử video công khai và chỉ sao chép liên kết.',
+      'Phần lớn lỗi đến từ video riêng tư hoặc đã bị xóa, hoặc liên kết có văn bản thừa xung quanh. Hãy dùng video công khai, chỉ sao chép liên kết rồi thử lại. Xem thêm [hướng dẫn khắc phục sự cố](/blog/tiktok-video-not-downloading-fixes) của chúng tôi.',
     'faq.question8': 'MusicallyDown có an toàn không?',
     'faq.answer8':
-      'Không chia sẻ mật khẩu TikTok. Chỉ gửi liên kết công khai bạn muốn xử lý và tránh quảng cáo hoặc trang ngoài đáng ngờ.',
+      'MusicallyDown không bao giờ hỏi mật khẩu TikTok của bạn và không yêu cầu cài đặt gì. Bạn chỉ dán liên kết video công khai. Đừng chia sẻ thông tin đăng nhập với bất kỳ công cụ tải nào, và tránh các trang thúc ép cài ứng dụng hoặc bật cửa sổ quảng cáo. Hãy đọc [Chính sách quyền riêng tư](/privacy) của chúng tôi để biết dữ liệu được xử lý thế nào.',
     'faq.question9': 'Tôi có cần cài ứng dụng không?',
     'faq.answer9':
       'Không. Bạn có thể dùng trang web bằng trình duyệt tương thích trên điện thoại hoặc máy tính.',
     'faq.question10': 'Tôi có thể tải mọi video TikTok không?',
     'faq.answer10':
-      'Không phải lúc nào cũng được. Video riêng tư, đã xóa hoặc bị hạn chế có thể không khả dụng. Chỉ tải nội dung của bạn hoặc nội dung bạn được phép lưu.',
+      'Có. MusicallyDown hoạt động trên mọi trình duyệt hiện đại trên iPhone, Android và PC, không cần ứng dụng. Xem hướng dẫn cho [iPhone](/download-tiktok-iphone) và [Android](/download-tiktok-android).',
+    'faq.question11': 'Vì sao video của tôi không có tùy chọn HD hoặc 4K?',
+    'faq.answer11': 'MusicallyDown chỉ liệt kê các định dạng TikTok cung cấp cho video cụ thể đó. Nếu bản gốc được tải lên ở chất lượng tiêu chuẩn, không thể tạo ra HD hoặc 4K từ nó. Hãy chọn tùy chọn cao nhất được hiển thị.',
     'footer.copyright': 'MusicallyDown. Bảo lưu mọi quyền.',
     'footer.builtWith': 'Built with',
-    'contact.title': "Let's talk about your project",
-    'contact.description':
-      'Whether you need a custom implementation, have questions about our open-source offering, or just want to say hi, our team is ready to help.',
-    'contact.formTitle': 'Send us a message',
-    'contact.firstName': 'First name',
-    'contact.lastName': 'Last name',
-    'contact.email': 'Company email',
-    'contact.message': 'How can we help?',
-    'contact.submit': 'Send Message',
-    'contact.emailLabel': 'Email',
     'about.title': 'Giới thiệu MusicallyDown – Công cụ tải video TikTok miễn phí',
     'about.metaDescription': 'Tìm hiểu MusicallyDown là gì, công cụ tải TikTok miễn phí của chúng tôi hoạt động ra sao, chúng tôi xử lý dữ liệu của bạn thế nào và cách chúng tôi khuyến khích việc tải xuống có trách nhiệm, có sự cho phép.',
     'about.titleStart': 'Giới thiệu ',
@@ -1451,41 +1419,41 @@ export const ui = {
     'highlights.item4.text': 'Sao chép, dán, kiểm tra',
     'how.description':
       'Tải video TikTok qua ba bước: dán liên kết, chọn MP4 để lưu video, tùy theo định dạng có sẵn.',
-    'features.eyebrow': 'Phù hợp với quy trình của bạn',
-    'features.title': 'Công cụ tải video TikTok thiết thực',
+    'features.eyebrow': 'Được tạo ra để lưu nhanh',
+    'features.title': 'Công cụ tải TikTok cho bạn biết trước điều có thể mong đợi',
     'features.description':
-      'Chọn tùy chọn phù hợp mà không mặc định mọi video đều hỗ trợ tất cả định dạng hoặc độ phân giải.',
-    'features.item1.title': 'Tải TikTok HD',
+      'Mỗi kết quả hiển thị chính xác những gì có sẵn cho liên kết của bạn, để bạn chọn định dạng thay vì đoán mò.',
+    'features.item1.title': 'Tùy chọn SD và HD',
     'features.item1.text':
-      'Kiểm tra độ phân giải được trả về cho liên kết. HD, 1080p và 4K không được đảm bảo cho mọi video.',
-    'features.item2.title': 'Tùy chọn video MP4',
+      'Mỗi liên kết trả về các độ phân giải mà TikTok cung cấp cho video đó. HD được đưa ra khi nguồn có; 1080p và 4K không được đảm bảo.',
+    'features.item2.title': 'MP4 cho mọi thiết bị',
     'features.item2.text':
-      'Khi có sẵn, MP4 là định dạng tương thích với nhiều điện thoại, máy tính bảng và máy tính.',
-    'features.item3.title': 'Âm thanh khi có sẵn',
+      'MP4 phát được trên hầu hết điện thoại, máy tính bảng và máy tính, nên bạn có thể xem, chỉnh sửa hoặc chia sẻ tệp mà không cần phần mềm bổ sung.',
+    'features.item3.title': 'Âm thanh MP3 khi có',
     'features.item3.text':
-      'Nếu video có tệp âm thanh riêng, tùy chọn sẽ xuất hiện cạnh các định dạng video.',
-    'features.item4.title': 'Tùy chọn không watermark',
+      'Chỉ cần âm thanh? Khi video có tệp âm thanh riêng, tùy chọn MP3 xuất hiện cạnh các định dạng video, hoặc dùng trang TikTok sang MP3 riêng.',
+    'features.item4.title': 'Bản sạch, không watermark',
     'features.item4.text':
-      'Kiểm tra xem có phiên bản không watermark hay không. Tính khả dụng tùy thuộc video và dịch vụ.',
-    'features.item5.title': 'Hoạt động trên trình duyệt',
+      'Khi nguồn cung cấp phiên bản không có logo TikTok, bạn có thể chọn nó. Khả năng cung cấp khác nhau tùy từng video.',
+    'features.item5.title': 'Chạy ngay trên trình duyệt',
     'features.item5.text':
-      'Mở trang web bằng trình duyệt tương thích trên iPhone, Android, Windows hoặc Mac.',
-    'features.item6.title': 'Không cần mật khẩu TikTok',
+      'Mở trang bằng Chrome, Safari, Firefox hoặc Edge trên iPhone, Android, Windows hoặc Mac. Không cần cài đặt gì.',
+    'features.item6.title': 'Không bao giờ hỏi mật khẩu',
     'features.item6.text':
-      'Không chia sẻ thông tin đăng nhập TikTok với công cụ tải xuống. Chỉ gửi liên kết công khai mà bạn muốn xử lý.',
+      'MusicallyDown chỉ cần liên kết video công khai. Đừng chia sẻ thông tin đăng nhập TikTok của bạn với bất kỳ công cụ tải nào.',
     'intro.paragraph1':
       'MusicallyDown là công cụ tải video TikTok trực tuyến dành cho những người muốn lưu video mà không cần nhiều bước phụ. Tên gọi gợi nhớ ứng dụng Musical.ly, sau này sáp nhập vào TikTok; vì vậy cái tên này vẫn quen thuộc với nhiều người. Hãy dán liên kết TikTok công khai và lưu tệp vào thiết bị.',
     'intro.paragraph2':
       'Trang được thiết kế gọn nhẹ để tải nhanh ngay cả khi kết nối di động chậm.',
-    'bento.quality.eyebrow': 'Tìm hiểu những gì MusicallyDown cung cấp',
-    'bento.quality.title': 'Tải TikTok HD: lưu video lên đến 4K khi có sẵn',
+    'bento.quality.eyebrow': 'Những gì có thể mong đợi ở mỗi lượt tải',
+    'bento.quality.title': 'Lưu video TikTok với chất lượng tốt nhất có sẵn cho mỗi liên kết',
     'bento.quality.p1':
-      'Chất lượng phụ thuộc video gốc và định dạng mà công cụ trả về. Chỉ chọn độ phân giải khi tùy chọn đó xuất hiện; công cụ không thể tạo thêm chi tiết không có trong nguồn.',
+      'Độ sắc nét của video đã lưu phụ thuộc vào bản tải lên gốc và các định dạng TikTok cung cấp cho liên kết đó. MusicallyDown liệt kê những gì có sẵn. Công cụ không thể thêm chi tiết vốn không có trong nguồn, vì vậy hãy chọn tùy chọn cao nhất được hiển thị.',
     'bento.quality.p2':
-      'Với tệp lớn, hãy dùng kết nối ổn định và đảm bảo thiết bị còn đủ dung lượng trống.',
+      'Với video HD dài, hãy dùng kết nối ổn định và đảm bảo thiết bị còn đủ dung lượng trống trước khi bắt đầu.',
     'bento.quality.cta': 'Kiểm tra tùy chọn có sẵn',
     'bento.quality.guide.label': 'Hướng dẫn độ phân giải',
-    'bento.quality.guide.heading': 'Chọn tùy chọn có sẵn',
+    'bento.quality.guide.heading': 'Chọn những gì có sẵn',
     'bento.quality.guide.badge': 'Phụ thuộc nguồn',
     'bento.quality.sd': 'Độ phân giải tiêu chuẩn',
     'bento.quality.sd.note': 'Có thể khả dụng',
@@ -1494,17 +1462,17 @@ export const ui = {
     'bento.quality.4k.note': 'Chỉ khi có tùy chọn',
     'bento.quality.disclaimer':
       'Chỉ mang tính minh họa — các thanh này không thể hiện phép đo hoặc cam kết về tính khả dụng.',
-    'bento.devices.eyebrow': 'Quy trình quen thuộc',
-    'bento.devices.title': 'Dùng MusicallyDown trên điện thoại hoặc máy tính',
+    'bento.devices.eyebrow': 'Các bước giống nhau trên mọi thiết bị',
+    'bento.devices.title': 'Dùng MusicallyDown trên iPhone, Android hoặc máy tính',
     'bento.devices.paragraph':
-      'Mở trang web bằng trình duyệt tương thích và thực hiện các bước sao chép, dán liên kết.',
-    'bento.devices.iphone.desc': 'Kiểm tra mục tải xuống của Safari hoặc ứng dụng Tệp.',
+      'Quy trình giống nhau ở mọi nơi: sao chép liên kết trong TikTok, dán vào đây rồi lưu tệp. Chỉ có nơi lưu tệp tải về là khác nhau.',
+    'bento.devices.iphone.desc': 'Safari là lựa chọn đơn giản nhất. Tìm tệp trong danh sách tải xuống của Safari hoặc ứng dụng Tệp.',
     'bento.devices.android.desc':
-      'Kiểm tra danh sách tải xuống của trình duyệt hoặc thư mục Downloads.',
+      'Dùng Chrome hoặc bất kỳ trình duyệt nào. Tìm tệp trong danh sách tải xuống của trình duyệt hoặc thư mục Tải xuống.',
     'bento.devices.desktop.desc':
-      'Dùng trình quản lý tải xuống của trình duyệt hoặc thư mục Downloads.',
+      'Dùng bất kỳ trình duyệt hiện đại nào. Tìm tệp trong trình quản lý tải xuống hoặc thư mục Tải xuống.',
     'faq.description':
-      'Giải đáp nhanh về cách tải video TikTok, định dạng được hỗ trợ và cách khắc phục sự cố thường gặp.',
+      'Giải đáp nhanh về việc lưu video TikTok: công cụ hoạt động thế nào, nên mong đợi những định dạng nào và cách khắc phục sự cố thường gặp.',
 
     'hero.subtitle': '',
   },

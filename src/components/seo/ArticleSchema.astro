@@ -6,6 +6,7 @@
  */
 import { articleNode } from '../../lib/schema';
 import { getLangFromUrl } from '../../i18n/utils';
+import { pageOgImage } from '../../lib/og';
 
 interface Props {
   headline: string;
@@ -16,7 +17,7 @@ const { headline, description } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldown.se';
 const url = new URL(Astro.url.pathname, siteUrl).toString();
-const json = JSON.stringify(articleNode({ siteUrl, url, lang, headline, description })).replace(/</g, '\\u003c');
+const json = JSON.stringify(articleNode({ siteUrl, url, lang, headline, description, imageUrl: `${siteUrl}${pageOgImage(Astro.url.pathname).path}` })).replace(/</g, '\\u003c');
 ---
 
 <script type="application/ld+json" is:inline set:html={json}></script>

@@ -5,6 +5,7 @@ import { ENABLED_LOCALES, BANNER_COPY } from '../i18n/geo';
 import JsonLd from '../components/seo/JsonLd.astro';
 import { organizationNode } from '../lib/schema';
 import { SITE } from '../lib/site';
+import { pageOgImage } from '../lib/og';
 
 // Self-host Inter font for 100/100 PageSpeed Insights score
 import '@fontsource-variable/inter';
@@ -35,7 +36,7 @@ const detectedLang = getLangFromUrl(Astro.url);
 const {
   title,
   description,
-  image = SITE.ogImage.path,
+  image: imageProp,
   imageAlt,
   imageWidth,
   imageHeight,
@@ -53,6 +54,9 @@ const {
 const t = useTranslations(detectedLang);
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://musicaldown.se';
 const currentUrl = canonicalUrl ?? new URL(Astro.url.pathname, siteUrl).toString();
+// Page-specific card from /public/og/ (see scripts/generate-og.py) unless the page passes its own image.
+const autoOg = pageOgImage(Astro.url.pathname);
+const image = imageProp ?? autoOg.path;
 const ogImageUrl = new URL(image, siteUrl).toString();
 const siteName = SITE.name;
 // Don't append the brand when the title already contains it (any spelling).
@@ -60,11 +64,13 @@ const hasBrand = /musical(?:ly)?\s?down/i.test(title);
 const fullTitle = appendSiteName && !hasBrand ? `${title} | ${siteName}` : title;
 const alternateLocales = getAlternateLocales(Astro.url.pathname);
 
-const isDefaultImage = image === SITE.ogImage.path;
-const ogWidth = imageWidth ?? (isDefaultImage ? SITE.ogImage.width : undefined);
-const ogHeight = imageHeight ?? (isDefaultImage ? SITE.ogImage.height : undefined);
+const usingAutoImage = !imageProp;
+const isDefaultImage = usingAutoImage && !autoOg.generated;
+const ogWidth = imageWidth ?? (usingAutoImage ? autoOg.width : undefined);
+const ogHeight = imageHeight ?? (usingAutoImage ? autoOg.height : undefined);
 const ogImageAlt =
-  imageAlt ?? (isDefaultImage ? `${siteName}: free TikTok video & MP3 downloader` : `${siteName} – ${title}`);
+  imageAlt ??
+  (isDefaultImage ? `${siteName}: free TikTok video & MP3 downloader` : `${hasBrand ? title : `${title} | ${siteName}`}`);
 
 // Site-wide Organization schema (rendered once on every page except the home pages, which add it to their @graph)
 const organizationGraph = { nodes: [organizationNode({ siteUrl, description: t('site.description'), lang: detectedLang })] };

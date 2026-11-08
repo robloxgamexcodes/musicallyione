@@ -105,6 +105,8 @@ export function webPageNode(opts: {
   description: string;
   /** @id of the main entity on the page, e.g. the WebApplication node. */
   aboutId?: string;
+  /** Absolute URL of the page's social image; defaults to the site card. */
+  imageUrl?: string;
 }): Node {
   const { siteUrl, url, lang, name, description, aboutId } = opts;
   const node: Node = {
@@ -118,7 +120,7 @@ export function webPageNode(opts: {
     isPartOf: { '@id': `${homeUrl(siteUrl, lang)}#website` },
     publisher: { '@id': orgId(siteUrl) },
     isAccessibleForFree: true,
-    primaryImageOfPage: { '@type': 'ImageObject', url: `${siteUrl}${SITE.ogImage.path}` },
+    primaryImageOfPage: { '@type': 'ImageObject', url: opts.imageUrl ?? `${siteUrl}${SITE.ogImage.path}` },
   };
   if (aboutId) {
     node.about = { '@id': aboutId };
@@ -139,6 +141,8 @@ export function articleNode(opts: {
   lang: string;
   headline: string;
   description: string;
+  /** Absolute URL of the page's social image; defaults to the site card. */
+  imageUrl?: string;
 }): Node {
   const { siteUrl, url, lang, headline, description } = opts;
   const org = { '@type': 'Organization', '@id': orgId(siteUrl), name: SITE.name, url: `${siteUrl}/` };
@@ -151,7 +155,7 @@ export function articleNode(opts: {
     headline: headline.length > 110 ? `${headline.slice(0, 107).trimEnd()}...` : headline,
     description,
     inLanguage: lang,
-    image: [`${siteUrl}${SITE.ogImage.path}`],
+    image: [opts.imageUrl ?? `${siteUrl}${SITE.ogImage.path}`],
     datePublished: SITE_PUBLISHED,
     dateModified: SITE_LASTMOD,
     author: org,

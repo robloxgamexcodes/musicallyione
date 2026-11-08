@@ -28,3 +28,21 @@ Requires Node.js 22.12 or newer.
 ## License
 
 MIT, see [LICENSE](LICENSE). Built on the open-source Astro SEO Theme.
+
+## Social (Open Graph) images
+
+Every indexable page gets its own 1200x630 card in `public/og/`, generated from the page titles in the built HTML:
+
+```bash
+npm run build                    # builds .vercel/output/static
+python3 scripts/generate-og.py   # needs Python 3 + Pillow and the Inter font
+npm run build                    # `src/lib/og.ts` picks the images up
+```
+
+Re-run it after adding pages or changing titles. Pages without a card (legal pages, 404, the English home page) use `public/og-default.png`.
+
+## Crediting a real author on blog posts
+
+Posts are credited to the site (`src/content/authors/musicallydown.json`, `type: "organization"`). To credit a person, add
+`src/content/authors/<slug>.json` with `"type": "person"`, a real `name`, `role`, `bio`, optional `avatar` and `social` links,
+then set `author: '<slug>'` in the post frontmatter. The byline, author box and Person/BlogPosting JSON-LD update automatically.

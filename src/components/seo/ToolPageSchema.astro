@@ -13,6 +13,7 @@ import JsonLd from './JsonLd.astro';
 import { webApplicationNode, webPageNode } from '../../lib/schema';
 import { SITE } from '../../lib/site';
 import { getLangFromUrl } from '../../i18n/utils';
+import { pageOgImage } from '../../lib/og';
 
 interface Props {
   /** Page <title> text / meta description (same strings used for the meta tags). */
@@ -27,7 +28,7 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? SITE.url;
 const url = new URL(Astro.url.pathname, siteUrl).toString();
 
 const app = webApplicationNode({ siteUrl, lang, description, url, offer: false });
-const page = webPageNode({ siteUrl, url, lang, name, description, aboutId: app['@id'] as string });
+const page = webPageNode({ siteUrl, url, lang, name, description, aboutId: app['@id'] as string, imageUrl: `${siteUrl}${pageOgImage(Astro.url.pathname).path}` });
 ---
 
 <JsonLd type="Graph" data={{ nodes: [page, app] }} />

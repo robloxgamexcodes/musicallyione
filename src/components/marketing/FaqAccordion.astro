@@ -16,7 +16,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 // Build the list from ui.ts (faq.question1 ... faq.answer10)
-const FAQ_COUNT = 10;
+const FAQ_COUNT = 11;
 const translatedFaqs: FaqItem[] = Array.from({ length: FAQ_COUNT }, (_, i) => {
   const n = i + 1;
   return {

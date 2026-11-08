@@ -10,6 +10,7 @@ import { getLocalizedPath, useTranslations } from '../i18n/utils';
 import type { Lang } from '../i18n/ui';
 import { orgId } from '../lib/schema';
 import { SITE } from '../lib/site';
+import { pageOgImage } from '../lib/og';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -26,10 +27,12 @@ const authorIsOrg = !author || author.data.type === 'organization';
 const authorName = author ? author.data.name : SITE.name;
 const authorRole = author?.data.role;
 const blogLang = post.id.split('/')[0] as Lang;
+const authorSlug = post.data.author;
 const t = useTranslations(blogLang);
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? SITE.url;
 const articleUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const authorId = `${siteUrl}/#author-${authorSlug}`;
 
 // Formatter for dates (in the post's language)
 const dateFormatter = new Intl.DateTimeFormat(blogLang, {
@@ -58,12 +61,14 @@ const dateFormatter = new Intl.DateTimeFormat(blogLang, {
         description: description,
         url: articleUrl,
         datePublished: pubDate.toISOString(),
-        dateModified: updatedDate?.toISOString(),
-        image: heroImage ? new URL(heroImage.src, siteUrl).toString() : undefined,
+        dateModified: (updatedDate ?? pubDate).toISOString(),
+        image: heroImage
+          ? new URL(heroImage.src, siteUrl).toString()
+          : new URL(pageOgImage(Astro.url.pathname).path, siteUrl).toString(),
         inLanguage: blogLang,
         author: authorIsOrg
           ? { type: 'Organization', id: orgId(siteUrl), name: SITE.name, url: `${siteUrl}/` }
-          : { type: 'Person', name: authorName },
+          : { type: 'Person', id: authorId, name: authorName },
         publisher: {
           id: orgId(siteUrl),
           name: SITE.name,
@@ -75,6 +80,8 @@ const dateFormatter = new Intl.DateTimeFormat(blogLang, {
       <JsonLd
         type="Person"
         data={{
+          id: authorId,
+          worksFor: orgId(siteUrl),
           name: authorName,
           jobTitle: authorRole,
           description: author.data.bio,
@@ -127,7 +134,13 @@ const dateFormatter = new Intl.DateTimeFormat(blogLang, {
           />
         )}
         <div class="text-left">
-          <p class="font-semibold text-[var(--text-primary)]">{authorName}</p>
+          <p class="font-semibold text-[var(--text-primary)]">
+            {authorIsOrg ? (
+              <a href={getLocalizedPath(blogLang, '/about')} class="hover:underline">{authorName}</a>
+            ) : (
+              authorName
+            )}
+          </p>
           <p>
             <time datetime={pubDate.toISOString()}>{dateFormatter.format(pubDate)}</time>
             {updatedDate && (
