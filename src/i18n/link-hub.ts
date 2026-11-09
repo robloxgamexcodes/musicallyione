@@ -12,7 +12,9 @@ import type { Lang } from './ui';
 
 export type ToolKey =
   | 'home' | 'mp3' | 'stories' | 'hd' | 'nowm' | 'sound' | 'slideshow' | 'iphone' | 'android' | 'brand';
-export type PostKey = 'using' | 'fixes' | 'backup' | 'song' | 'quality' | 'private' | 'capcut';
+export type PostKey =
+  | 'using' | 'fixes' | 'backup' | 'song' | 'quality' | 'private' | 'capcut'
+  | 'doj' | 'upscrolled' | 'ads' | 'seal';
 export type HubKey = ToolKey | PostKey | 'blog';
 
 export const TOOL_PATHS: Record<ToolKey, string> = {
@@ -36,6 +38,10 @@ export const POST_SLUGS: Record<PostKey, string> = {
   quality: 'tiktok-video-quality-explained',
   private: 'private-tiktok-video-download',
   capcut: 'tiktok-video-to-capcut',
+  doj: 'doj-tiktok-federal-devices-ban-no-longer-applies',
+  upscrolled: 'upscrolled-downloads-surge-tiktok-us-takeover',
+  ads: 'using-tiktoks-2027-ad-strategy',
+  seal: 'seal-vs-ytdlnis-newpipe',
 };
 
 /** Intent slug (src/i18n/intent-pages.ts) for the tool keys that are intent pages. */
@@ -80,13 +86,18 @@ export const RELATED: Partial<Record<HubKey, { tools: ToolKey[]; guides: PostKey
   quality: { tools: ['home', 'hd', 'nowm', 'iphone', 'android'], guides: ['fixes', 'capcut', 'using'] },
   private: { tools: ['home', 'brand', 'iphone', 'android', 'mp3'], guides: ['fixes', 'backup', 'using'] },
   capcut: { tools: ['home', 'hd', 'iphone', 'android', 'mp3'], guides: ['quality', 'song', 'using'] },
+  // News-style posts: link to each other and to the main tools so none of them is an orphan.
+  doj: { tools: ['home', 'mp3', 'hd', 'nowm', 'brand'], guides: ['upscrolled', 'ads', 'using'] },
+  upscrolled: { tools: ['home', 'mp3', 'hd', 'nowm', 'brand'], guides: ['doj', 'ads', 'using'] },
+  ads: { tools: ['home', 'mp3', 'hd', 'nowm', 'brand'], guides: ['doj', 'upscrolled', 'using'] },
+  seal: { tools: ['home', 'iphone', 'android', 'hd', 'brand'], guides: ['fixes', 'using', 'quality'] },
   blog: { tools: ['home', 'mp3', 'stories', 'hd', 'nowm', 'brand'], guides: [] },
 };
 
 /** Homepage hub: every tool page and every guide. */
 export const HUB: { tools: ToolKey[]; guides: PostKey[] } = {
   tools: ['mp3', 'hd', 'nowm', 'sound', 'stories', 'slideshow', 'iphone', 'android', 'brand'],
-  guides: ['fixes', 'private', 'capcut', 'quality', 'song', 'backup', 'using'],
+  guides: ['fixes', 'private', 'capcut', 'quality', 'song', 'backup', 'using', 'doj', 'upscrolled', 'ads', 'seal'],
 };
 
 export const HUB_TEXT: Record<Lang, {

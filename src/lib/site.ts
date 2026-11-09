@@ -42,7 +42,7 @@ export const SITE = {
 export const MIN_POSTS_FOR_BLOG_INDEX = 5;
 
 /** Fallback <lastmod> (YYYY-MM-DD) for static pages when git history is unavailable (Vercel). Bump when page copy changes. */
-export const SITE_LASTMOD = '2026-11-08';
+export const SITE_LASTMOD = '2026-11-09';
 
 /** First-publish date (YYYY-MM-DD) of the guide / landing pages, used as Article.datePublished. Set it to the real launch date. */
 export const SITE_PUBLISHED = '2026-10-24';
