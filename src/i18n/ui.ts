@@ -116,7 +116,7 @@ export const ui = {
     'bento.title': 'Everything you get with',
     'bento.highlight': 'the MusicallyDown TikTok Downloader',
     'bento.paragraph':
-      'MusicallyDown is a free tool for saving public TikTok videos as MP4 files and extracting the audio as MP3, right from your browser.',
+      'MusicallyDown is a free TikTok downloader to save and download TikTok videos without watermark in HD quality and convert TikTok audio to MP3 directly from your browser.',
     'bento.paragraph1':
       'Copy the video link in TikTok, paste it above, choose a format and save the file. The whole process takes three steps.',
 
