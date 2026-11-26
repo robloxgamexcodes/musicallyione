@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['UpScrolled', 'TikTok', 'Alternativas a TikTok', 'Redes sociales', 'Skylight']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Cuando se cerró el acuerdo para la empresa conjunta estadounidense de TikTok, a finales de enero de 2026, muchos usuarios empezaron a preguntarse dónde más podían publicar y ver vídeos. Una pequeña aplicación se llevó buena parte de esa atención: **UpScrolled**. En pocos días llegó al segundo puesto de la categoría de redes sociales de la App Store, y sus servidores tuvieron problemas para aguantar la demanda.

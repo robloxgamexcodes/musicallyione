@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['TikTok', 'Departemen Kehakiman AS', 'Larangan TikTok', 'Perangkat Federal', 'TikTok USDS']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Pada Juli 2026, Departemen Kehakiman AS menyimpulkan bahwa undang-undang federal yang melarang TikTok di perangkat pemerintah tidak lagi berlaku untuk versi aplikasi yang tersedia di Amerika Serikat. Alasannya bertumpu pada satu fakta: operasi TikTok di AS kini dijalankan melalui usaha patungan, bukan di bawah kendali ByteDance.

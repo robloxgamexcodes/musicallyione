@@ -10,6 +10,8 @@ export const LABELS_VI: Record<IntentSlug, string> = {
   'download-tiktok-iphone': 'Tải TikTok trên iPhone',
   'download-tiktok-android': 'Tải TikTok trên Android',
   'musically-down': 'Hướng dẫn MusicallyDown',
+  'musicallydown-app': "Ứng dụng & APK MusicallyDown",
+  'supported-platforms': "Nền tảng được hỗ trợ",
 };
 
 const resp = callout(
@@ -154,6 +156,7 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
       intro: [
         'Âm thanh TikTok lan nhanh: một đoạn lồng tiếng, một bản remix hay một clip thịnh hành xuất hiện khắp nơi trong một tuần. Lưu âm thanh là việc khác với lưu video, và cần một công cụ trả về tệp audio sạch chứ không phải đoạn clip kèm hình.',
         'Công cụ tải âm thanh TikTok này đọc liên kết video công khai và, khi có audio, cho phép bạn chỉ lưu phần âm thanh. Dùng để giữ một đoạn tham khảo, nhận diện bài hát hoặc xây thư viện âm thanh của riêng bạn.',
+        "Trang này nói về chính âm thanh: âm thanh gốc hoặc bản nhạc được dùng trong video. Để chuyển cả video thành tệp MP3, hãy dùng [TikTok sang MP3](/tiktok-mp3). Để nhận biết bài hát, xem [cách tìm bài hát trong video TikTok](/blog/find-song-in-tiktok-video).",
       ],
       tocTitle: 'Trong hướng dẫn này',
       sections: [
@@ -465,6 +468,64 @@ export const PAGES_VI: Record<IntentSlug, IntentPage> = {
       finalText: 'Dán liên kết ở đầu trang và chọn trong các tùy chọn hiển thị.',
       ctaLabel: 'Dán liên kết TikTok',
       moreText: 'Mới đến đây? Hãy bắt đầu với [công cụ tải video TikTok](/).',
+    },
+  },
+  "musicallydown-app": {
+    crumb: LABELS_VI["musicallydown-app"],
+    content: {
+      metaTitle: "Ứng dụng MusicallyDown & APK: Dùng Bản Web",
+      metaDescription: "Không có APK hay ứng dụng MusicallyDown để cài. Dùng web miễn phí trên mọi trình duyệt và tránh APK giả. Các bước an toàn cho iPhone và Android.",
+      heroTitleStart: "Ứng dụng MusicallyDown hay APK?",
+      heroTitleHighlight: "Dùng bản web, không cần cài",
+      heroDescription: "MusicallyDown chạy ngay trên trình duyệt nên không cần cài gì. Dán liên kết TikTok công khai để thử.",
+      intro: ["Nhiều người tìm ứng dụng, APK hoặc bản Lite của MusicallyDown. Trên trang này MusicallyDown là một trang web: bạn mở bằng Safari, Chrome hoặc trình duyệt khác, dán liên kết TikTok công khai rồi lưu tệp. Chúng tôi không phát hành APK Android hay ứng dụng iOS.", "Điều này quan trọng vì các trang cung cấp tệp tên \"MusicallyDown APK\" không phải của chúng tôi. Trang này giải thích vì sao không cần cài đặt, rủi ro của APK không rõ nguồn gốc và cách tạo lối tắt an toàn."],
+      tocTitle: "Trong trang này",
+      sections: [
+        { id: "khong-co-app", title: "MusicallyDown có ứng dụng không?", blocks: [p("Không. Trang này không có APK chính thức, bản Lite hay ứng dụng \"One\". Công cụ tải chạy hoàn toàn trên trình duyệt, trên iPhone, Android, Windows và Mac, không cần tài khoản hay đăng nhập."), ul("Không có gì để cài hay cập nhật.", "Không xin quyền đặc biệt trên điện thoại.", "Cùng một trang dùng được trên mọi thiết bị.")] },
+        { id: "rui-ro", title: "Vì sao APK không rõ nguồn gốc rủi ro", blocks: [p("APK là tệp cài đặt. Nếu đến từ một trang web bất kỳ thay vì kho ứng dụng chính thức, rất khó biết nó thực sự làm gì."), ul("Có thể chứa mã độc, quảng cáo phiền hà hoặc gói đăng ký ẩn.", "Ứng dụng chỉnh sửa (\"mod\") thường xin quyền không cần thiết.", "Cài ngoài kho chính thức bỏ qua các bước kiểm tra an toàn của kho.", "Một số trang tải giả chỉ để hiển thị quảng cáo hoặc thu thập dữ liệu."), callout("**Đã cài tệp tên MusicallyDown APK?** Hãy gỡ trong phần cài đặt điện thoại, quét bằng Google Play Protect hoặc ứng dụng bảo mật đáng tin, và đổi mật khẩu bạn đã nhập trong thời gian đó.")] },
+        { id: "loi-tat", title: "Lối tắt như ứng dụng mà không cần APK", blocks: [p("Trình duyệt có thể ghim trang web lên màn hình chính. Nó mở như một ứng dụng nhưng vẫn chỉ là trang web."), steps(["Trên iPhone", "Mở trang bằng Safari, chạm Chia sẻ rồi chọn Thêm vào Màn hình chính."], ["Trên Android", "Mở trang bằng Chrome, chạm menu ba chấm rồi chọn Thêm vào màn hình chính."], ["Sau đó dùng", "Sao chép liên kết TikTok công khai, mở lối tắt, dán liên kết và tải."])] },
+      ],
+      faqTitle: "Câu hỏi về ứng dụng MusicallyDown",
+      faq: [
+        { question: "Có APK MusicallyDown chính thức không?", answer: "Không. Trang này chỉ tồn tại dưới dạng trang web." },
+        { question: "Có ứng dụng MusicallyDown Lite hay One không?", answer: "Không phải từ trang này. Hãy coi tệp có tên đó là chưa được xác minh." },
+        { question: "Dùng trên iPhone không cần ứng dụng được không?", answer: "Được. Dùng Safari. Xem [hướng dẫn iPhone](/download-tiktok-iphone)." },
+        { question: "Dùng trên Android không cần APK được không?", answer: "Được. Dùng Chrome. Xem [hướng dẫn Android](/download-tiktok-android)." },
+        { question: "Có lưu riêng âm thanh mà không cần ứng dụng được không?", answer: "Được. Dùng [TikTok sang MP3](/tiktok-mp3) ngay trên trình duyệt." },
+      ],
+      finalTitle: "Không cần cài đặt",
+      finalText: "Dán liên kết TikTok công khai ở đầu trang rồi chọn tệp bạn muốn.",
+      ctaLabel: "Dán liên kết TikTok",
+      moreText: "Mới đến? Bắt đầu với [công cụ tải video TikTok](/) hoặc [hướng dẫn thương hiệu](/musically-down).",
+    },
+  },
+  "supported-platforms": {
+    crumb: LABELS_VI["supported-platforms"],
+    content: {
+      metaTitle: "MusicallyDown: Hỗ Trợ Nền Tảng Nào (Chỉ TikTok)",
+      metaDescription: "MusicallyDown chỉ hoạt động với liên kết TikTok công khai. Không tải từ YouTube, Facebook, Instagram, Threads, Pinterest hay X. Xem cách thay thế.",
+      heroTitleStart: "MusicallyDown hỗ trợ nền tảng nào?",
+      heroTitleHighlight: "Chỉ TikTok",
+      heroDescription: "Dán liên kết TikTok công khai để lưu video, âm thanh hoặc ảnh. Liên kết từ trang khác không được hỗ trợ.",
+      intro: ["Nhiều người tìm MusicallyDown cùng với YouTube, Facebook, Instagram, Threads, Pinterest, X hoặc Canva. Để bạn khỏi mất công: MusicallyDown chỉ xử lý liên kết TikTok công khai.", "Trang này nêu rõ cái gì được hỗ trợ, cái gì không và nên làm gì nếu video bạn cần nằm ở nền tảng khác."],
+      tocTitle: "Trong trang này",
+      sections: [
+        { id: "ho-tro", title: "MusicallyDown hỗ trợ gì", blocks: [ul("Video TikTok công khai (MP4) và âm thanh của video ([MP3](/tiktok-mp3)).", "Bài đăng ảnh và [slideshow](/tiktok-slideshow-downloader) TikTok công khai.", "[Story TikTok](/download-tiktok-stories) công khai."), p("TikTok riêng tư, đã xóa hoặc bị hạn chế không thể tải.")] },
+        { id: "khong-ho-tro", title: "Không hỗ trợ gì", blocks: [ul("Liên kết YouTube, Facebook, Instagram, Threads, Pinterest, X (Twitter) và Canva.", "Mọi trang không phải TikTok."), p("Dán liên kết như vậy sẽ không trả về tệp nào. Các tìm kiếm đặt những tên đó cạnh MusicallyDown không mô tả tính năng của trang này.")] },
+        { id: "thay-the", title: "Nếu video nằm ở nền tảng khác", blocks: [ul("Dùng tùy chọn lưu, chia sẻ hoặc tải của chính nền tảng đó nếu có.", "Nếu là video của bạn, hãy xuất từ tài khoản hoặc ứng dụng chỉnh sửa của bạn.", "Nếu cùng clip đó cũng được đăng lên TikTok, hãy sao chép liên kết TikTok và dán vào đây.", "Xin tệp từ người sáng tạo khi bạn cần dùng lại."), callout("**Tải xuống có trách nhiệm.** Chỉ lưu video do bạn tạo hoặc được phép giữ, và tôn trọng quyền của người sáng tạo cũng như điều khoản của từng nền tảng.")] },
+      ],
+      faqTitle: "Câu hỏi về nền tảng được hỗ trợ",
+      faq: [
+        { question: "MusicallyDown có tải video YouTube không?", answer: "Không. Chỉ hoạt động với liên kết TikTok công khai." },
+        { question: "Dùng cho Instagram, Facebook hay Threads được không?", answer: "Không. Những liên kết đó không được hỗ trợ." },
+        { question: "Có hỗ trợ Pinterest, X hay Canva không?", answer: "Không." },
+        { question: "Tôi lưu được nội dung TikTok nào?", answer: "Video công khai, âm thanh video dạng MP3, bài đăng ảnh và story công khai." },
+        { question: "Bắt đầu từ đâu?", answer: "Dán liên kết TikTok công khai vào [công cụ tải video](/)." },
+      ],
+      finalTitle: "Chỉ liên kết TikTok",
+      finalText: "Dán liên kết TikTok công khai ở đầu trang để bắt đầu.",
+      ctaLabel: "Dán liên kết TikTok",
+      moreText: "Chỉ cần âm thanh? Thử [TikTok sang MP3](/tiktok-mp3).",
     },
   },
 };

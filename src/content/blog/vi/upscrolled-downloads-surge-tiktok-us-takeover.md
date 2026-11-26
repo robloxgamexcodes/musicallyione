@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['UpScrolled', 'TikTok', 'Ứng dụng thay thế TikTok', 'Mạng xã hội', 'Skylight']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Khi liên doanh TikTok tại Mỹ được hoàn tất vào cuối tháng 1 năm 2026, nhiều người dùng bắt đầu tìm xem còn nơi nào khác để đăng và xem video. Một ứng dụng nhỏ đã thu hút phần lớn sự chú ý đó: **UpScrolled**. Chỉ trong vài ngày, ứng dụng này đã lên vị trí thứ hai trong danh mục mạng xã hội của App Store, và máy chủ của họ phải vất vả để theo kịp lượng truy cập.

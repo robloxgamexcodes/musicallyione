@@ -29,6 +29,8 @@ export const INTENT_SLUGS = [
   'download-tiktok-iphone',
   'download-tiktok-android',
   'musically-down',
+  'musicallydown-app',
+  'supported-platforms',
 ] as const;
 export type IntentSlug = (typeof INTENT_SLUGS)[number];
 
@@ -41,6 +43,8 @@ export const INTENT_LABELS: Record<IntentSlug, string> = {
   'download-tiktok-iphone': 'Download TikTok on iPhone',
   'download-tiktok-android': 'Download TikTok on Android',
   'musically-down': 'MusicallyDown Guide',
+  'musicallydown-app': "MusicallyDown App / APK",
+  'supported-platforms': "Supported Platforms",
 };
 
 const responsible = callout(
@@ -211,6 +215,7 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
       intro: [
         'TikTok sounds travel fast: a voiceover, a remix or a trending clip appears everywhere for a week. Saving the sound itself is a different job from saving the video, and it needs a tool that hands you a clean audio file rather than a clip with picture attached.',
         'This TikTok sound downloader reads a public video link and, when audio is available, lets you save just the sound. Use it to keep a snippet for reference, identify a song, or build your own sound library.',
+        "This page is about the sound itself: the original sound or music track used in a video. To convert a whole video into an MP3 file, use [TikTok to MP3](/tiktok-mp3). To identify a song, see [how to find a song in a TikTok video](/blog/find-song-in-tiktok-video).",
       ],
       tocTitle: 'In this guide',
       sections: [
@@ -540,6 +545,64 @@ export const INTENT_PAGES: Record<IntentSlug, IntentPage> = {
       finalText: 'Paste a link at the top of the page and choose from the options shown.',
       ctaLabel: 'Paste a TikTok link',
       moreText: 'New here? Start with the [TikTok video downloader](/).',
+    },
+  },
+  "musicallydown-app": {
+    crumb: INTENT_LABELS["musicallydown-app"],
+    content: {
+      metaTitle: "MusicallyDown App or APK? Use the Website",
+      metaDescription: "There is no MusicallyDown APK or app to install. Use the free website in any browser and stay clear of fake APK files. Safe steps for iPhone and Android.",
+      heroTitleStart: "MusicallyDown App or APK?",
+      heroTitleHighlight: "Use the Website Instead",
+      heroDescription: "MusicallyDown works in your browser, so there is nothing to install. Paste a public TikTok link below to try it.",
+      intro: ["Many people search for a MusicallyDown app, APK or Lite version. On this site MusicallyDown is a website: you open it in Safari, Chrome or any other browser, paste a public TikTok link and save the file. We do not publish an Android APK or an iOS app.", "That matters because pages that offer a file called \"MusicallyDown APK\" are not from us. This page explains why an install is unnecessary, what the risks of unknown APK files are and how to get an app-like shortcut safely."],
+      tocTitle: "On this page",
+      sections: [
+        { id: "no-app", title: "Is there a MusicallyDown app?", blocks: [p("No. There is no official MusicallyDown APK, Lite or \"One\" app from this site. The downloader runs entirely in the browser on iPhone, Android, Windows and Mac, and it needs no account or login."), ul("Nothing to install, so nothing to update.", "No special permissions on your phone.", "The same page works on every device.")] },
+        { id: "risks", title: "Why unknown APK files are risky", blocks: [p("An APK is an installer. If it comes from a random website instead of an app store, you cannot easily check what it does."), ul("It can contain malware, adware or hidden subscriptions.", "Modified (\"mod\") apps often ask for permissions they do not need.", "Installing outside the official store skips the store's safety checks.", "Some fake download pages exist only to show ads or collect data."), callout("**Already installed a file called MusicallyDown APK?** Uninstall it from your phone settings, run a scan with Google Play Protect or a trusted security app, and change any passwords you typed while it was installed.")] },
+        { id: "shortcut", title: "Get an app-like shortcut without an APK", blocks: [p("Your browser can pin the website to the home screen. It opens like an app, but it is just the website."), steps(["On iPhone", "Open the site in Safari, tap Share and choose Add to Home Screen."], ["On Android", "Open the site in Chrome, tap the three-dot menu and choose Add to Home screen."], ["Then use it", "Copy a public TikTok link, open the shortcut, paste the link and download."])] },
+      ],
+      faqTitle: "MusicallyDown app FAQ",
+      faq: [
+        { question: "Is there an official MusicallyDown APK?", answer: "No. This site only exists as a website." },
+        { question: "Is there a MusicallyDown Lite or One app?", answer: "Not from this site. Treat files with those names as unverified." },
+        { question: "Does it work on iPhone without an app?", answer: "Yes. Use Safari. See the [iPhone guide](/download-tiktok-iphone)." },
+        { question: "Does it work on Android without an APK?", answer: "Yes. Use Chrome. See the [Android guide](/download-tiktok-android)." },
+        { question: "Can I save audio without an app?", answer: "Yes. Use [TikTok to MP3](/tiktok-mp3) in the browser." },
+      ],
+      finalTitle: "No Install Needed",
+      finalText: "Paste a public TikTok link at the top of this page and choose the file you want.",
+      ctaLabel: "Paste a TikTok link",
+      moreText: "New here? Start with the [TikTok video downloader](/) or the [brand guide](/musically-down).",
+    },
+  },
+  "supported-platforms": {
+    crumb: INTENT_LABELS["supported-platforms"],
+    content: {
+      metaTitle: "MusicallyDown Supported Sites: TikTok Only",
+      metaDescription: "MusicallyDown works with public TikTok links only. It does not download from YouTube, Facebook, Instagram, Threads, Pinterest or X. See what to use instead.",
+      heroTitleStart: "Which Sites Does MusicallyDown Support?",
+      heroTitleHighlight: "TikTok Only",
+      heroDescription: "Paste a public TikTok link to save the video, audio or photos. Links from other sites are not supported.",
+      intro: ["People often search for MusicallyDown together with YouTube, Facebook, Instagram, Threads, Pinterest, X or Canva. To save you a wasted click: MusicallyDown handles public TikTok links only.", "This page lists what is supported, what is not and what to do if the video you want lives on another platform."],
+      tocTitle: "On this page",
+      sections: [
+        { id: "supported", title: "What MusicallyDown supports", blocks: [ul("Public TikTok videos (MP4) and the video's sound ([MP3](/tiktok-mp3)).", "Public TikTok photo posts and [slideshows](/tiktok-slideshow-downloader).", "Public [TikTok Stories](/download-tiktok-stories)."), p("Private, deleted or restricted TikToks cannot be loaded.")] },
+        { id: "not-supported", title: "What it does not support", blocks: [ul("YouTube, Facebook, Instagram, Threads, Pinterest, X (Twitter) and Canva links.", "Any site that is not TikTok."), p("Pasting such a link will not return a file. Searches that put those names next to MusicallyDown do not describe features of this site.")] },
+        { id: "alternatives", title: "If the video is on another platform", blocks: [ul("Use that platform's own save, share or download option when it has one.", "If you made the video, export it from your own account or editing app.", "If the same clip was posted on TikTok, copy the TikTok link and paste it here.", "Ask the creator for the file when you need to reuse it."), callout("**Download responsibly.** Save only videos you created or have permission to keep, and respect the rights of the creator and each platform's terms.")] },
+      ],
+      faqTitle: "Supported platforms FAQ",
+      faq: [
+        { question: "Does MusicallyDown download YouTube videos?", answer: "No. It only works with public TikTok links." },
+        { question: "Can I use it for Instagram, Facebook or Threads?", answer: "No. Those links are not supported." },
+        { question: "Does it support Pinterest, X or Canva?", answer: "No." },
+        { question: "Which TikTok content can I save?", answer: "Public videos, the video sound as MP3, photo posts and public Stories." },
+        { question: "Where do I start?", answer: "Paste a public TikTok link into the [video downloader](/)." },
+      ],
+      finalTitle: "TikTok Links Only",
+      finalText: "Paste a public TikTok link at the top of the page to start.",
+      ctaLabel: "Paste a TikTok link",
+      moreText: "Need audio only? Try [TikTok to MP3](/tiktok-mp3).",
     },
   },
 };

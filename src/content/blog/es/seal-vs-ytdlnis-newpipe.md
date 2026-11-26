@@ -7,6 +7,7 @@ author: 'musicallydown'
 tags: ['Android', 'código abierto', 'descargador de vídeo', 'Seal', 'YTDLnis', 'NewPipe']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Ver vídeos en streaming resulta cómodo hasta que te quedas sin conexión, viajas o necesitas guardar una clase para verla sin internet. En Android existen herramientas gratuitas y de código abierto, pero funcionan de maneras distintas. Esta guía compara **Seal**, **YTDLnis** y **NewPipe** para ayudarte a elegir según tus necesidades.

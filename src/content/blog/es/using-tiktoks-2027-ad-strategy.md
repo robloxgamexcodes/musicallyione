@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['TikTok', 'Publicidad', 'IA agéntica', 'TikTok Shop', 'Marketing' ]
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 TikTok llegó a **Advertising Week New York 2026** con un mensaje claro para marcas y agencias: quiere una mayor parte de sus presupuestos publicitarios de 2027. Sus anuncios abarcaron compras impulsadas por IA, generación automatizada de leads y una red publicitaria que llega más allá de TikTok.

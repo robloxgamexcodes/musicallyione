@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['TikTok', 'Quảng cáo', 'AI tác tử', 'TikTok Shop', 'Tiếp thị' ]
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 TikTok đến **Advertising Week New York 2026** với thông điệp rõ ràng dành cho các thương hiệu và agency: TikTok muốn có phần lớn hơn trong ngân sách quảng cáo năm 2027 của họ. Các thông báo bao gồm mua sắm dựa trên AI, tạo khách hàng tiềm năng (lead) tự động và một mạng quảng cáo vươn ra ngoài chính TikTok.

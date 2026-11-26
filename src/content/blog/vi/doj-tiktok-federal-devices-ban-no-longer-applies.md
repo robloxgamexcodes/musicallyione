@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['TikTok', 'Bộ Tư pháp Mỹ', 'Lệnh cấm TikTok', 'Thiết bị liên bang', 'TikTok USDS']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Vào tháng 7 năm 2026, Bộ Tư pháp Mỹ kết luận rằng một đạo luật liên bang cấm TikTok trên thiết bị của chính phủ không còn áp dụng cho phiên bản ứng dụng đang có tại Hoa Kỳ. Lập luận dựa trên một thực tế: hoạt động của TikTok tại Mỹ hiện được vận hành qua một liên doanh, không còn nằm dưới sự kiểm soát của ByteDance.

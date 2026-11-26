@@ -10,6 +10,8 @@ export const LABELS_ID: Record<IntentSlug, string> = {
   'download-tiktok-iphone': 'Unduh TikTok di iPhone',
   'download-tiktok-android': 'Unduh TikTok di Android',
   'musically-down': 'Panduan MusicallyDown',
+  'musicallydown-app': "Aplikasi & APK MusicallyDown",
+  'supported-platforms': "Platform yang Didukung",
 };
 
 const resp = callout(
@@ -84,9 +86,9 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
   'tiktok-no-watermark': {
     crumb: LABELS_ID['tiktok-no-watermark'],
     content: {
-      metaTitle: 'Unduh TikTok Tanpa Watermark – Gratis | MusicallyDown',
+      metaTitle: 'Download TikTok Tanpa Watermark – Gratis | MusicallyDown',
       metaDescription:
-        'Simpan video TikTok publik tanpa logo bergerak jika versi bersihnya tersedia. Gratis, tanpa aplikasi, tanpa daftar.',
+        'Download video TikTok tanpa watermark (logo bergerak) jika versi bersihnya tersedia. Gratis, tanpa aplikasi, tanpa daftar, bisa di HP dan PC.',
       heroTitleStart: 'Unduh TikTok',
       heroTitleHighlight: 'Tanpa Watermark',
       heroDescription:
@@ -154,6 +156,7 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
       intro: [
         'Suara TikTok menyebar cepat: sulih suara, remix, atau klip yang sedang tren muncul di mana-mana selama seminggu. Menyimpan suaranya adalah pekerjaan yang berbeda dari menyimpan videonya, dan butuh alat yang memberi file audio bersih, bukan klip lengkap dengan gambar.',
         'Pengunduh suara TikTok ini membaca tautan video publik dan, jika audio tersedia, memungkinkan Anda menyimpan suaranya saja. Gunakan untuk menyimpan cuplikan sebagai referensi, mengenali sebuah lagu, atau membuat pustaka suara sendiri.',
+        "Halaman ini membahas suaranya saja: suara asli atau lagu yang dipakai dalam video. Untuk mengubah seluruh video menjadi file MP3, gunakan [TikTok ke MP3](/tiktok-mp3). Untuk mengenali lagu, lihat [cara menemukan lagu di video TikTok](/blog/find-song-in-tiktok-video).",
       ],
       tocTitle: 'Dalam panduan ini',
       sections: [
@@ -210,10 +213,10 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
   'tiktok-slideshow-downloader': {
     crumb: LABELS_ID['tiktok-slideshow-downloader'],
     content: {
-      metaTitle: 'Unduh Slideshow TikTok – Gratis | MusicallyDown',
+      metaTitle: 'Download Foto & Slideshow TikTok | MusicallyDown',
       metaDescription:
-        'Simpan slideshow foto dan carousel TikTok publik. Tempel tautan dan unduh gambar atau file slideshow jika tersedia. Gratis, tanpa daftar.',
-      heroTitleStart: 'Pengunduh Slideshow TikTok:',
+        'Download foto dan slideshow TikTok publik. Tempel tautan lalu simpan gambar atau file slideshow jika tersedia. Gratis, tanpa aplikasi, tanpa daftar.',
+      heroTitleStart: 'Download Foto & Slideshow TikTok:',
       heroTitleHighlight: 'Simpan Postingan Foto',
       heroDescription:
         'Tempel tautan postingan foto atau slideshow TikTok publik dan simpan gambarnya atau slideshow-nya jika tersedia. Gratis, tanpa pendaftaran.',
@@ -465,6 +468,64 @@ export const PAGES_ID: Record<IntentSlug, IntentPage> = {
       finalText: 'Tempel tautan di bagian atas halaman dan pilih dari opsi yang ditampilkan.',
       ctaLabel: 'Tempel tautan TikTok',
       moreText: 'Baru di sini? Mulai dengan [pengunduh video TikTok](/).',
+    },
+  },
+  "musicallydown-app": {
+    crumb: LABELS_ID["musicallydown-app"],
+    content: {
+      metaTitle: "Aplikasi MusicallyDown & APK: Pakai Versi Web",
+      metaDescription: "Tidak ada APK atau aplikasi MusicallyDown yang perlu dipasang. Pakai situs gratis di browser mana pun dan hindari APK palsu. Aman untuk iPhone dan Android.",
+      heroTitleStart: "Aplikasi MusicallyDown atau APK?",
+      heroTitleHighlight: "Pakai Versi Web, Tanpa Instal",
+      heroDescription: "MusicallyDown berjalan di browser, jadi tidak ada yang perlu dipasang. Tempel tautan TikTok publik untuk mencobanya.",
+      intro: ["Banyak orang mencari aplikasi MusicallyDown, APK, atau versi Lite. Di situs ini MusicallyDown adalah situs web: buka di Safari, Chrome, atau browser lain, tempel tautan TikTok publik, lalu simpan filenya. Kami tidak menerbitkan APK Android maupun aplikasi iOS.", "Ini penting karena halaman yang menawarkan file bernama \"MusicallyDown APK\" bukan dari kami. Halaman ini menjelaskan mengapa tidak perlu instal, apa risiko APK dari sumber tidak dikenal, dan cara membuat pintasan yang aman."],
+      tocTitle: "Di halaman ini",
+      sections: [
+        { id: "tanpa-aplikasi", title: "Apakah ada aplikasi MusicallyDown?", blocks: [p("Tidak. Situs ini tidak punya APK resmi, versi Lite, atau aplikasi \"One\". Pengunduhnya berjalan sepenuhnya di browser, di iPhone, Android, Windows, dan Mac, tanpa akun dan tanpa login."), ul("Tidak ada yang perlu dipasang atau diperbarui.", "Tidak meminta izin khusus di HP.", "Halaman yang sama berfungsi di semua perangkat.")] },
+        { id: "risiko", title: "Mengapa APK dari sumber tidak dikenal berisiko", blocks: [p("APK adalah file pemasang aplikasi. Jika berasal dari situs acak dan bukan toko aplikasi resmi, sulit memastikan apa yang sebenarnya dilakukannya."), ul("Bisa berisi malware, adware, atau langganan tersembunyi.", "Aplikasi modifikasi (\"mod\") sering meminta izin yang tidak diperlukan.", "Memasang di luar toko resmi melewati pemeriksaan keamanan toko.", "Sebagian halaman unduhan palsu hanya ada untuk menampilkan iklan atau mengumpulkan data."), callout("**Sudah terlanjur memasang file bernama MusicallyDown APK?** Hapus lewat pengaturan HP, pindai dengan Google Play Protect atau aplikasi keamanan tepercaya, dan ganti kata sandi yang Anda ketik selama aplikasi itu terpasang.")] },
+        { id: "pintasan", title: "Pintasan seperti aplikasi tanpa APK", blocks: [p("Browser bisa menyematkan situs ke layar utama. Ikonnya terbuka seperti aplikasi, tetapi tetap hanya situs web."), steps(["Di iPhone", "Buka situs di Safari, ketuk Bagikan, lalu pilih Tambah ke Layar Utama."], ["Di Android", "Buka situs di Chrome, ketuk menu tiga titik, lalu pilih Tambahkan ke layar utama."], ["Lalu gunakan", "Salin tautan TikTok publik, buka pintasan, tempel tautan, dan download."])] },
+      ],
+      faqTitle: "FAQ aplikasi MusicallyDown",
+      faq: [
+        { question: "Apakah ada APK MusicallyDown resmi?", answer: "Tidak. Situs ini hanya ada sebagai situs web." },
+        { question: "Apakah ada aplikasi MusicallyDown Lite atau One?", answer: "Tidak dari situs ini. Anggap file dengan nama itu belum terverifikasi." },
+        { question: "Apakah bisa di iPhone tanpa aplikasi?", answer: "Bisa. Pakai Safari. Lihat [panduan iPhone](/download-tiktok-iphone)." },
+        { question: "Apakah bisa di Android tanpa APK?", answer: "Bisa. Pakai Chrome. Lihat [panduan Android](/download-tiktok-android)." },
+        { question: "Bisakah menyimpan audio saja tanpa aplikasi?", answer: "Bisa. Pakai [TikTok ke MP3](/tiktok-mp3) di browser." },
+      ],
+      finalTitle: "Tidak Perlu Instal",
+      finalText: "Tempel tautan TikTok publik di bagian atas halaman lalu pilih file yang Anda mau.",
+      ctaLabel: "Tempel tautan TikTok",
+      moreText: "Baru di sini? Mulai dengan [pengunduh video TikTok](/) atau [panduan merek](/musically-down).",
+    },
+  },
+  "supported-platforms": {
+    crumb: LABELS_ID["supported-platforms"],
+    content: {
+      metaTitle: "MusicallyDown: Platform yang Didukung (Hanya TikTok)",
+      metaDescription: "MusicallyDown hanya berfungsi untuk tautan TikTok publik. Tidak mengunduh dari YouTube, Facebook, Instagram, Threads, Pinterest, atau X. Lihat alternatifnya.",
+      heroTitleStart: "Platform Apa yang Didukung MusicallyDown?",
+      heroTitleHighlight: "Hanya TikTok",
+      heroDescription: "Tempel tautan TikTok publik untuk menyimpan video, audio, atau foto. Tautan dari situs lain tidak didukung.",
+      intro: ["Banyak orang mencari MusicallyDown bersama YouTube, Facebook, Instagram, Threads, Pinterest, X, atau Canva. Agar Anda tidak buang waktu: MusicallyDown hanya menangani tautan TikTok publik.", "Halaman ini menjelaskan apa yang didukung, apa yang tidak, dan apa yang bisa dilakukan jika video yang Anda cari ada di platform lain."],
+      tocTitle: "Di halaman ini",
+      sections: [
+        { id: "didukung", title: "Yang didukung MusicallyDown", blocks: [ul("Video TikTok publik (MP4) dan suara video ([MP3](/tiktok-mp3)).", "Postingan foto dan [slideshow](/tiktok-slideshow-downloader) TikTok publik.", "[Story TikTok](/download-tiktok-stories) publik."), p("TikTok privat, yang dihapus, atau yang dibatasi tidak dapat dimuat.")] },
+        { id: "tidak-didukung", title: "Yang tidak didukung", blocks: [ul("Tautan YouTube, Facebook, Instagram, Threads, Pinterest, X (Twitter), dan Canva.", "Situs apa pun selain TikTok."), p("Menempel tautan seperti itu tidak akan menghasilkan file. Pencarian yang menaruh nama-nama itu di samping MusicallyDown tidak menggambarkan fitur situs ini.")] },
+        { id: "alternatif", title: "Jika videonya ada di platform lain", blocks: [ul("Gunakan opsi simpan, bagikan, atau unduh bawaan platform itu jika ada.", "Jika Anda pembuat videonya, ekspor dari akun atau aplikasi edit Anda sendiri.", "Jika klip yang sama juga diunggah ke TikTok, salin tautan TikTok dan tempel di sini.", "Minta file kepada kreator jika Anda perlu memakainya ulang."), callout("**Unduh dengan bertanggung jawab.** Simpan hanya video yang Anda buat atau yang Anda punya izin untuk menyimpannya, serta hormati hak kreator dan ketentuan tiap platform.")] },
+      ],
+      faqTitle: "FAQ platform yang didukung",
+      faq: [
+        { question: "Apakah MusicallyDown bisa download video YouTube?", answer: "Tidak. Hanya berfungsi untuk tautan TikTok publik." },
+        { question: "Apakah bisa untuk Instagram, Facebook, atau Threads?", answer: "Tidak. Tautan itu tidak didukung." },
+        { question: "Apakah mendukung Pinterest, X, atau Canva?", answer: "Tidak." },
+        { question: "Konten TikTok apa yang bisa disimpan?", answer: "Video publik, suara video sebagai MP3, postingan foto, dan story publik." },
+        { question: "Mulai dari mana?", answer: "Tempel tautan TikTok publik di [pengunduh video](/)." },
+      ],
+      finalTitle: "Hanya Tautan TikTok",
+      finalText: "Tempel tautan TikTok publik di bagian atas halaman untuk memulai.",
+      ctaLabel: "Tempel tautan TikTok",
+      moreText: "Butuh audio saja? Coba [TikTok ke MP3](/tiktok-mp3).",
     },
   },
 };

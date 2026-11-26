@@ -11,7 +11,7 @@
 import type { Lang } from './ui';
 
 export type ToolKey =
-  | 'home' | 'mp3' | 'stories' | 'hd' | 'nowm' | 'sound' | 'slideshow' | 'iphone' | 'android' | 'brand';
+  | 'home' | 'mp3' | 'stories' | 'hd' | 'nowm' | 'sound' | 'slideshow' | 'iphone' | 'android' | 'brand' | 'app' | 'platforms';
 export type PostKey =
   | 'using' | 'fixes' | 'backup' | 'song' | 'quality' | 'private' | 'capcut'
   | 'doj' | 'upscrolled' | 'ads' | 'seal';
@@ -28,6 +28,8 @@ export const TOOL_PATHS: Record<ToolKey, string> = {
   iphone: '/download-tiktok-iphone',
   android: '/download-tiktok-android',
   brand: '/musically-down',
+  app: '/musicallydown-app',
+  platforms: '/supported-platforms',
 };
 
 export const POST_SLUGS: Record<PostKey, string> = {
@@ -53,6 +55,8 @@ export const TOOL_INTENT_SLUG = {
   iphone: 'download-tiktok-iphone',
   android: 'download-tiktok-android',
   brand: 'musically-down',
+  app: 'musicallydown-app',
+  platforms: 'supported-platforms',
 } as const;
 
 /** Path (without language prefix, without trailing slash) -> key. */
@@ -70,16 +74,18 @@ export const pathForKey = (k: HubKey): string =>
 
 /** Related links shown at the bottom of each page: [tools, guides]. */
 export const RELATED: Partial<Record<HubKey, { tools: ToolKey[]; guides: PostKey[] }>> = {
-  brand: { tools: ['home', 'mp3', 'hd', 'nowm', 'iphone', 'android'], guides: ['using', 'fixes', 'private'] },
+  brand: { tools: ['home', 'mp3', 'hd', 'nowm', 'sound', 'slideshow', 'stories', 'iphone', 'android', 'app', 'platforms'], guides: ['using', 'fixes', 'private'] },
+  app: { tools: ['home', 'iphone', 'android', 'mp3', 'platforms', 'brand'], guides: ['using', 'fixes'] },
+  platforms: { tools: ['home', 'mp3', 'slideshow', 'stories', 'app', 'brand'], guides: ['using', 'private'] },
   mp3: { tools: ['home', 'sound', 'hd', 'nowm', 'brand'], guides: ['song', 'capcut', 'using'] },
   stories: { tools: ['home', 'nowm', 'hd', 'slideshow', 'mp3'], guides: ['backup', 'fixes', 'private'] },
   hd: { tools: ['home', 'nowm', 'iphone', 'android', 'brand'], guides: ['quality', 'capcut', 'fixes'] },
   nowm: { tools: ['home', 'hd', 'sound', 'slideshow', 'brand'], guides: ['quality', 'capcut', 'using'] },
   sound: { tools: ['home', 'mp3', 'hd', 'slideshow', 'brand'], guides: ['song', 'backup'] },
   slideshow: { tools: ['home', 'stories', 'nowm', 'sound', 'brand'], guides: ['backup', 'using'] },
-  iphone: { tools: ['home', 'android', 'hd', 'mp3', 'brand'], guides: ['fixes', 'capcut', 'private'] },
-  android: { tools: ['home', 'iphone', 'hd', 'mp3', 'brand'], guides: ['fixes', 'capcut', 'private'] },
-  using: { tools: ['home', 'brand', 'mp3', 'nowm', 'iphone', 'android'], guides: ['fixes', 'quality', 'song', 'backup', 'private', 'capcut'] },
+  iphone: { tools: ['home', 'android', 'hd', 'mp3', 'app', 'brand'], guides: ['fixes', 'capcut', 'private'] },
+  android: { tools: ['home', 'iphone', 'hd', 'mp3', 'app', 'brand'], guides: ['fixes', 'capcut', 'private'] },
+  using: { tools: ['home', 'brand', 'mp3', 'nowm', 'iphone', 'android', 'app', 'platforms'], guides: ['fixes', 'quality', 'song', 'backup', 'private', 'capcut'] },
   fixes: { tools: ['home', 'iphone', 'android', 'hd', 'brand'], guides: ['using', 'private', 'quality'] },
   backup: { tools: ['home', 'stories', 'hd', 'slideshow', 'mp3'], guides: ['using', 'quality', 'private'] },
   song: { tools: ['home', 'mp3', 'sound', 'brand'], guides: ['using', 'capcut', 'fixes'] },
@@ -96,7 +102,7 @@ export const RELATED: Partial<Record<HubKey, { tools: ToolKey[]; guides: PostKey
 
 /** Homepage hub: every tool page and every guide. */
 export const HUB: { tools: ToolKey[]; guides: PostKey[] } = {
-  tools: ['mp3', 'hd', 'nowm', 'sound', 'stories', 'slideshow', 'iphone', 'android', 'brand'],
+  tools: ['mp3', 'hd', 'nowm', 'sound', 'stories', 'slideshow', 'iphone', 'android', 'app', 'platforms', 'brand'],
   guides: ['fixes', 'private', 'capcut', 'quality', 'song', 'backup', 'using', 'doj', 'upscrolled', 'ads', 'seal'],
 };
 

@@ -7,6 +7,7 @@ author: 'musicallydown'
 tags: ['Android', 'open-source', 'pengunduh video', 'Seal', 'YTDLnis', 'NewPipe']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Streaming memang praktis, sampai koneksi terputus, Anda sedang bepergian, atau perlu menyimpan materi kuliah untuk ditonton secara offline. Ada beberapa alat gratis dan open-source untuk Android, tetapi cara kerjanya berbeda. Panduan ini membandingkan **Seal**, **YTDLnis**, dan **NewPipe** agar Anda dapat memilih sesuai kebutuhan.

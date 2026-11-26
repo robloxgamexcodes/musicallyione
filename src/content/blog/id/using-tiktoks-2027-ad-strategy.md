@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['TikTok', 'Periklanan', 'AI Agentik', 'TikTok Shop', 'Pemasaran' ]
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 TikTok hadir di **Advertising Week New York 2026** dengan pesan yang jelas bagi merek dan agensi: TikTok ingin mendapatkan porsi lebih besar dari anggaran iklan mereka pada 2027. Pengumumannya mencakup belanja berbasis AI, pembuatan lead otomatis, dan jaringan iklan yang menjangkau di luar TikTok sendiri.

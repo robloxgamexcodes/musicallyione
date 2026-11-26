@@ -7,6 +7,7 @@ author: 'musicallydown'
 tags: ['Android', 'mã nguồn mở', 'trình tải video', 'Seal', 'YTDLnis', 'NewPipe']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Xem video trực tuyến rất tiện, cho đến khi bạn mất kết nối, đi du lịch hoặc cần lưu bài giảng để xem ngoại tuyến. Android có một số công cụ miễn phí, mã nguồn mở, nhưng cách hoạt động của chúng khác nhau. Bài viết này so sánh **Seal**, **YTDLnis** và **NewPipe** để bạn chọn ứng dụng phù hợp với nhu cầu.

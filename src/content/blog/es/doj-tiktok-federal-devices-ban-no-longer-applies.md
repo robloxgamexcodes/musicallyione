@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['TikTok', 'Departamento de Justicia', 'Prohibición de TikTok', 'Dispositivos federales', 'TikTok USDS']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 En julio de 2026, el Departamento de Justicia de EE. UU. concluyó que una ley federal que prohíbe TikTok en los dispositivos del gobierno ya no se aplica a la versión de la aplicación disponible en Estados Unidos. El razonamiento se apoya en un hecho: las operaciones estadounidenses de TikTok funcionan ahora a través de una empresa conjunta, y no bajo el control de ByteDance.

@@ -6,6 +6,7 @@ author: 'musicallydown'
 tags: ['UpScrolled', 'TikTok', 'Alternatif TikTok', 'Media Sosial', 'Skylight']
 draft: false
 ogType: 'article'
+noindex: true
 ---
 
 Ketika usaha patungan TikTok di Amerika Serikat rampung pada akhir Januari 2026, banyak pengguna mulai bertanya ke mana lagi mereka bisa mengunggah dan menonton video. Satu aplikasi kecil mendapat sebagian besar perhatian itu: **UpScrolled**. Dalam beberapa hari, aplikasi ini naik ke peringkat kedua kategori jejaring sosial di App Store, dan servernya kewalahan menghadapi lonjakan pengguna.

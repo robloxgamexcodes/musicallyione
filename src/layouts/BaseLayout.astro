@@ -76,7 +76,9 @@ const ogImageAlt =
 // Site-wide Organization schema (rendered once on every page except the home pages, which add it to their @graph)
 const organizationGraph = { nodes: [organizationNode({ siteUrl, description: t('site.description'), lang: detectedLang })] };
 
-// "Switch to Español?" banner (English home page only). Suggests, never redirects.
+// "Switch to Español / Bahasa Indonesia / Tiếng Việt?" banner on English pages that have a translation. Suggests, never redirects.
+// Map language -> URL of THIS page in that language, so the banner links to the matching page (not always the home page).
+const bannerTargets = Object.fromEntries(alternateLocales.map(({ lang: l, href }) => [l, href]));
 const bannerCopy = Object.fromEntries(
   Object.entries(BANNER_COPY).filter(([l]) => (ENABLED_LOCALES as readonly string[]).includes(l))
 );
@@ -160,13 +162,13 @@ const bannerCopy = Object.fromEntries(
         }
       })();
     </script>
-    <!-- Language suggestion (English home page only). Never redirects: if /api/geo suggests another
-         enabled language, a dismissible "Switch to Español?" banner is shown. Skips crawlers.
+    <!-- Language suggestion (English pages that have a translation). Never redirects: if /api/geo suggests another
+         enabled language, a dismissible "Switch to ...?" banner links to the same page in that language. Skips crawlers.
          Test with /?geo=ID  /?geo=VN  /?geo=ES -->
-    <script is:inline define:vars={{ copy: bannerCopy }}>
+    <script is:inline define:vars={{ copy: bannerCopy, targets: bannerTargets, pageLang: detectedLang, isNoindex: noindex }}>
       (function () {
         try {
-          if (location.pathname !== '/') return;
+          if (pageLang !== 'en' || isNoindex) return;
           if (/bot|crawl|spider|slurp|bingpreview|facebookexternalhit|embedly|lighthouse|pagespeed|headless|preview/i.test(navigator.userAgent || '')) return;
           var cookie = function (name) {
             var m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]+)'));
@@ -178,7 +180,7 @@ const bannerCopy = Object.fromEntries(
           if (!override && cookie('user-locale') === 'en') return;
           var show = function (l) {
             var c = copy[l];
-            if (!c || l === 'en') return;
+            if (!c || l === 'en' || !targets[l]) return;
             var init = function () {
               var box = document.getElementById('lang-banner');
               if (!box) return;
@@ -187,7 +189,7 @@ const bannerCopy = Object.fromEntries(
               box.querySelector('[data-q]').textContent = c.question;
               var a = box.querySelector('[data-go]');
               a.textContent = c.action;
-              a.setAttribute('href', '/' + l + '/');
+              a.setAttribute('href', targets[l]);
               a.setAttribute('hreflang', l);
               a.addEventListener('click', function () {
                 document.cookie = 'user-locale=' + l + '; path=/; max-age=31536000; SameSite=Lax';
