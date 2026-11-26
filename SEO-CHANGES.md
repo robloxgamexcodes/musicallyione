@@ -66,3 +66,20 @@ Brand is "MusicallyDown" everywhere visible; the domain stays `musicaldown.se`. 
 - Older localized `using-musicallydown` posts now link to localized About, Blog, Contact, Stories (and Privacy/Terms in id/vi).
 - Two new posts in en/es/id/vi, chosen from Search Console modifiers: `private-tiktok-video-download` ("private") and `tiktok-video-to-capcut` ("capcut mp4"). Added to LOCALE_PAGES, the link map and the OG cards (75 cards now).
 - Five shortened titles restored (es/id/vi) so every <title> is at most 60 characters.
+
+
+---
+
+## Round 6 (25 Nov 2026): indexing + content-gap fixes
+
+From the GSC indexing report (94 indexed / 18 not indexed, data to 16 Nov) and the first-month performance export.
+
+- **Localized news posts**: the es / id / vi copies of the four news-style posts (DOJ ban, UpScrolled, 2027 ad strategy, Seal vs YTDLnis) are `noindex` (frontmatter), absent from the sitemap and no longer listed in hreflang (`NEWS_POST_SLUGS` in `src/i18n/utils.ts`). English versions stay indexed. No redirects were added (a 301 to an unrelated page risks soft-404s). To undo: remove `noindex: true` from those 12 files and the constant.
+- **New pages (en / es / id / vi)**: `/musicallydown-app/` (no APK / app; fake-APK risks; home-screen shortcut) and `/supported-platforms/` (TikTok only; what to do for YouTube, Facebook, Instagram, Threads, Pinterest, X, Canva links). Built as intent pages, so they get FAQ schema, breadcrumbs, link cards, sitemap and hreflang automatically. es / id / vi text still needs a native-speaker read.
+- **Internal links**: brand guide and tool pages now link to sound, slideshow, stories, app and platforms pages (`src/i18n/link-hub.ts`); the homepage hub and footer list the new pages.
+- **/es/download-tiktok-stories/** rewritten from scratch in Spanish (new structure, use-cases, FAQ) instead of a translation of the English page (it was "crawled, not indexed").
+- **/tiktok-mp3/** (all languages): new section "MP3, MP4 or the original sound" that separates it from `/tiktok-sound-downloader/`, which also got a clarifying paragraph with a link back.
+- **Indonesian titles**: slideshow page now "Download Foto & Slideshow TikTok"; no-watermark page "Download TikTok Tanpa Watermark" (matches the words Indonesian searchers use).
+- **Language banner** (`BaseLayout.astro`): now shows on every English page that has a translation and links to the same page in the suggested language (was home page only). Suggests only; never redirects.
+- **Sitemap check**: 106 URLs, all https, no query-string URLs. `?ref=` variants stay canonicalised to the clean URL.
+- Footer badge block: reviewed only, not changed (owner decision pending).
