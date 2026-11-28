@@ -83,3 +83,7 @@ From the GSC indexing report (94 indexed / 18 not indexed, data to 16 Nov) and t
 - **Language banner** (`BaseLayout.astro`): now shows on every English page that has a translation and links to the same page in the suggested language (was home page only). Suggests only; never redirects.
 - **Sitemap check**: 106 URLs, all https, no query-string URLs. `?ref=` variants stay canonicalised to the clean URL.
 - Footer badge block: reviewed only, not changed (owner decision pending).
+
+### Round 6b (26 Nov 2026): language review of the new pages
+
+es / id / vi text of `/musicallydown-app/`, `/supported-platforms/` and the Spanish stories page was reviewed against the vocabulary the site already uses and corrected (grammar, ponsel/HP, "panduan MusicallyDown", Vietnamese connector, etc.). Spanish tool pages standardised on "vídeo". Open questions for a native reviewer are in `language_review_es_id_vi.xlsx`.
