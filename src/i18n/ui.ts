@@ -1808,7 +1808,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
       'Pega el enlace de una historia pública, mírala en el navegador y descárgala sin marca de agua. Sin app, sin registro y gratis.',
     byline: '25 nov 2026 · @Baloch · Última actualización: 25 nov 2026',
     intro: [
-      'Las historias de TikTok duran 24 horas. Si es la oferta del día de una tienda, el aviso de un evento o un mensaje que quieres conservar, mañana ya no estará. Esta página te deja guardar una historia pública en el móvil o el ordenador antes de que caduque.',
+      'Las historias de TikTok duran 24 horas. Si es la oferta del día de una tienda, el aviso de un evento o un mensaje que quieres conservar, mañana ya no estará. Esta página te deja guardar una historia pública en el móvil o en el PC antes de que caduque.',
       'Funciona con enlaces públicos y desde cualquier navegador. No necesitas instalar nada ni crear una cuenta, y no tienes que dar contraseñas.',
     ],
     tocTitle: 'En esta guía',
@@ -1835,7 +1835,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
           steps(
             [
               'Copia el enlace desde TikTok.',
-              'Abre la historia, toca Compartir y elige Copiar enlace. Si usas el ordenador, copia la dirección de la barra del navegador.',
+              'Abre la historia, toca Compartir y elige Copiar enlace. Si usas un PC o un Mac, copia la dirección de la barra del navegador.',
             ],
             [
               'Pégalo en el cuadro de arriba.',
@@ -1843,7 +1843,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
             ],
             [
               'Elige el archivo y guárdalo.',
-              'En el iPhone el archivo va a la app Archivos; en Android, a la carpeta Descargas; en el ordenador, a la carpeta de descargas del navegador.',
+              'En el iPhone el archivo va a la app Archivos; en Android, a la carpeta Descargas; en Windows o Mac, a la carpeta de descargas del navegador.',
             ]
           ),
         ],
@@ -1862,7 +1862,7 @@ export const STORIES_PAGE: Record<Lang, StoriesPageContent> = {
       },
       {
         id: 'privacidad',
-        title: 'Verlas sin iniciar sesión',
+        title: 'Ver historias sin iniciar sesión',
         blocks: [
           p(
             'Al abrir una historia desde esta página no hace falta tener TikTok instalado ni iniciar sesión, y tampoco tienes que dar ningún dato de tu cuenta. Aun así, la historia sigue siendo contenido de otra persona: úsala con respeto.'
